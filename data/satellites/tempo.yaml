@@ -1,0 +1,11 @@
+id: tempo
+name: TEMPO
+full_name: 'Tropospheric Emissions: Monitoring of Pollution'
+agencies:
+- NASA
+- Smithsonian Astrophysical Observatory
+launch_date: '2023-04-07'
+status: operational
+orbit: geostationary
+url: https://tempo.si.edu/
+notes: Hosted on the Intelsat 40e commercial satellite; covers North America.

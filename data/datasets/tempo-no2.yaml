@@ -1,0 +1,7 @@
+id: tempo-no2
+name: TEMPO NO2
+satellites:
+- tempo
+provider: ASDC (NASA Langley)
+aliases:
+- TEMPO NO2

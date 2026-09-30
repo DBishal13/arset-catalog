@@ -1,0 +1,11 @@
+id: grace-fo
+name: GRACE-FO
+full_name: Gravity Recovery and Climate Experiment Follow-On
+agencies:
+- NASA
+- GFZ
+launch_date: '2018-05-22'
+status: operational
+orbit: non-sun-synchronous
+aliases:
+- GRACE Follow-On

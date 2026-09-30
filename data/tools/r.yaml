@@ -1,0 +1,7 @@
+id: r
+name: R
+kind: language
+open_source: true
+aliases:
+- RStudio
+url: https://www.r-project.org/

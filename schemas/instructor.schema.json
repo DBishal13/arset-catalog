@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Instructor",
+  "type": "object",
+  "required": ["id", "name", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name": { "type": "string" },
+    "status": { "enum": ["draft", "reviewed"] },
+    "title": { "type": "string", "description": "Role as listed on the most recent training page." },
+    "affiliation": { "type": "string" },
+    "expertise": { "type": "array", "items": { "type": "string" } },
+    "links": { "type": "array", "items": { "type": "string", "format": "uri" } },
+    "notes": { "type": "string" }
+  }
+}

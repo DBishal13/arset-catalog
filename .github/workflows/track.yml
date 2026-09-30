@@ -1,0 +1,33 @@
+name: Track ARSET
+
+on:
+  schedule:
+    - cron: "0 14 * * 1,4"  # Mondays and Thursdays, 14:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt pytest
+      - run: python -m pytest -q tests
+      - run: python -m arset track
+      - run: python -m arset validate
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: tracker/updates
+          title: "Tracker: new ARSET content"
+          commit-message: "Tracker: new ARSET content"
+          body-path: inbox/REPORT.md
+          add-paths: |
+            data/**
+            inbox/**
+            state/**

@@ -1,0 +1,5 @@
+id: qgis
+name: QGIS
+kind: desktop
+open_source: true
+url: https://qgis.org/

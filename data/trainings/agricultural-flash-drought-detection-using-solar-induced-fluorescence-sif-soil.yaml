@@ -1,0 +1,117 @@
+id: agricultural-flash-drought-detection-using-solar-induced-fluorescence-sif-soil
+title: Agricultural Flash Drought Detection using Solar-Induced Fluorescence (SIF) and Soil Moisture Data
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/agricultural-flash-drought-detection-using-solar-induced-fluorescence-sif-soil
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2026-09-24'
+end_date: '2026-09-29'
+published: '2026-08-12'
+last_updated: '2026-09-30'
+summary: This ARSET training shows users how to detect and monitor flash droughts using OCO-2 Solar-Induced
+  Fluorescence (SIF) and SMAP soil moisture satellite observations.
+description: 'Flash droughts are rapidly developing drought events that severely affect vegetation health,
+  resulting in reduced crop yields and increased wildfire risk. Unlike long-term droughts, which develop
+  gradually and can persist for multiple years, flash droughts emerge over a period of weeks and occur
+  on subseasonal to seasonal timescale. Timely detection is essential for effective monitoring and response.
+
+
+  This intermediate training focuses on the use of solar-induced fluorescence (SIF) observations from
+  satellites to detect the early vegetation stress associated with flash droughts and to assess their
+  impacts on natural and managed ecosystems. Participants will learn how SIF measurements from the Orbiting
+  Carbon Observatory-2 (OCO-2) provide insights on changes in photosynthetic activity, enabling the early
+  detection of vegetation stress before visible changes occur.
+
+
+  Because vegetation responses are closely linked to water availability, the training also incorporates
+  soil moisture observations from the Soil Moisture Active Passive (SMAP) mission. This additional dataset
+  helps characterize land surface moisture conditions to improve flash drought detection.
+
+
+  Together, SIF and soil moisture observations provide a powerful framework for monitoring the onset and
+  evolution of flash droughts, and they can offer skillful predictions of flash drought with multiple
+  weeks of lead time compared to conventional meteorological and hydrological drought indicators.
+
+
+  The methodology will be demonstrated through recent historic examples of flash droughts, while highlighting
+  how the methodology can be adapted for flash drought monitoring across global regions.'
+objectives:
+- Identify the causes, risks, and consequences of flash droughts as compared to slowly-evolving droughts.
+- Recognize how SIF data can be used for the detection and prediction of flash drought events.
+- Compare the advantages and limitations of SIF, soil moisture, and meteorological data to detect the
+  onset of flash drought.
+- Synthesize Solar-Induced Fluorescence Rapid Change Index (SIF-RCI) time series data for a selected region
+  using a provided Jupyter Notebook.
+- Retrieve and manipulate SMAP Soil Moisture (SM) and land process model-based Soil Water Deficit Index
+  (SWDI) time series, and compare with SIF-RCI time series data using a provided Jupyter Notebook.
+- Compare the implications of different methods for flagging and identifying flash droughts in real-world
+  scenarios.
+audience:
+- National and international water resources managers at local, state, and federal levels.
+- Public and private water utilities, natural resources conservation organizations, and fisheries and
+  aquaculture organizations.
+- Academic faculty and students.
+prerequisites:
+- fundamentals-remote-sensing
+- use-solar-induced-fluorescence-lidar-assess-vegetation-change-vulnerability
+- solar-induced-fluorescence-sif-observations-assessing-vegetation-changes-related
+applications:
+- agriculture
+- drought
+- ecological-conservation
+- water-resources
+- wildland-fires
+satellites:
+- oco-2
+- smap
+datasets:
+- oco-2-sif-lite
+tools:
+- jupyter
+instructors:
+- erika-podest
+- nick-parazoo
+- jackie-ryan
+sessions:
+- part: 1
+  title: Introduction to Flash Drought Monitoring using SIF and Soil Moisture
+  date: '2026-09-24'
+  agenda:
+  - Part 1 Introduction
+  - Intro to Flash Drought Monitoring using Satellite Data and Derived Products
+  - Deriving Flash Drought Indicators from SIF and SM
+  - Part 1 Summary
+  - Q&A Session
+  videos:
+  - youtube: ZMQZBUs6n0g
+    title: 'NASA ARSET: Introduction to Flash Drought Monitoring using SIF and Soil Moisture, Part 1/2'
+    channel: NASA Video
+  - youtube: FQZgIbWOoiE
+    title: Using QGIS to look at SIF data
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-09/arset-2026-sif-part1.pdf
+- part: 2
+  title: Flash Drought Detection and Prediction
+  date: '2026-09-29'
+  agenda:
+  - Part 2 Introduction
+  - Flash Drought Detection and Prediction
+  - How to Detect Flash Drought
+  - Part 2 Summary
+  - Q&A Session
+  videos:
+  - youtube: 6nlZeWZgHXs
+    title: 'NASA ARSET: Flash Drought Detection and Prediction, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-09/arset-2026-sif-part2.pdf
+  - type: homework
+    title: Homework
+    url: https://forms.gle/5rixYxa8n39mcwFo6

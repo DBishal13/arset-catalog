@@ -1,0 +1,14 @@
+id: sentinel-1
+name: Sentinel-1
+agencies:
+- ESA
+- European Commission
+launch_date: '2014-04-03'
+status: operational
+orbit: sun-synchronous
+instruments:
+- name: C-SAR
+  type: C-band synthetic aperture radar
+aliases:
+- Sentinel-1
+- Sentinel 1

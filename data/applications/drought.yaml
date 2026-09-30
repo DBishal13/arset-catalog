@@ -1,0 +1,8 @@
+id: drought
+name: Drought
+description: Drought detection and monitoring, including flash drought.
+parent: water-resources
+aliases:
+- drought
+- droughts
+- flash drought

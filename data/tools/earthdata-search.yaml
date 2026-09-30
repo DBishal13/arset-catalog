@@ -1,0 +1,5 @@
+id: earthdata-search
+name: Earthdata Search
+kind: web
+open_source: true
+url: https://search.earthdata.nasa.gov/

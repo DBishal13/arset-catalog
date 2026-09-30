@@ -1,0 +1,35 @@
+id: developing-sustainable-earth-science-applications
+title: Developing Sustainable Earth Science Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/developing-sustainable-earth-science-applications
+level: introductory
+format: online-self-paced
+languages:
+- en
+published: '2024-01-01'
+last_updated: '2026-03-11'
+summary: This ARSET training helps scientists and partners increase the usability and relevance of their
+  Earth science-based products, datasets, and tools.
+description: 'This Applied Remote Sensing Training Program (ARSET) training will help scientists and partners
+  working on Earth science-based applications increase the usability and relevance of their products,
+  datasets, and tools — described here as “applications.” Based on the NASA Earth Science Applications
+  Guidebook, the training uses a narrative approach to introduce the Applications Pathway and non-science
+  success factors necessary to building sustainable Earth Science applications, including project management
+  and team collaboration, partner engagement, communications, and monitoring and evaluation. Participants
+  will improve their ability to build applications that improve people’s lives and advance solutions to
+  climate change, health, food insecurity, and other pressing challenges.
+
+
+  This training offers a flexible learning experience, allowing participants to choose to explore the
+  Applications Pathway through any of the three storylines that are most relevant to them: the early career
+  scientist, the partner new to remote sensing, and the experienced researcher.
+
+
+  Note: If you do not already have an account for the ARSET learning management system, you will be prompted
+  to create an account before you can enroll yourself in this training.'
+audience:
+- 'Ana’s story: early career scientists.'
+- 'Kyle’s story: partners new to remote sensing.'
+- 'Dinesh’s story: experienced researchers new to building applications.'
+applications:
+- climate-resilience

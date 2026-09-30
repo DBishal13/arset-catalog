@@ -1,0 +1,9 @@
+id: gpm-imerg
+name: GPM IMERG precipitation
+satellites:
+- gpm
+provider: GES DISC
+variables:
+- precipitation
+aliases:
+- IMERG

@@ -1,0 +1,19 @@
+id: suomi-npp
+name: Suomi NPP
+full_name: Suomi National Polar-orbiting Partnership
+agencies:
+- NASA
+- NOAA
+launch_date: '2011-10-28'
+status: operational
+orbit: sun-synchronous
+instruments:
+- name: VIIRS
+- name: OMPS
+- name: CrIS
+- name: ATMS
+- name: CERES
+aliases:
+- Suomi NPP
+- S-NPP
+- SNPP

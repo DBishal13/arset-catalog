@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ARSET training",
+  "type": "object",
+  "required": ["id", "title", "status", "source_url"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "$ref": "#/$defs/id", "description": "Earthdata URL slug; also the file name." },
+    "title": { "type": "string", "minLength": 3 },
+    "status": {
+      "enum": ["draft", "reviewed"],
+      "description": "draft = machine-generated, needs a human pass; reviewed = checked by a person."
+    },
+    "source_url": { "type": "string", "format": "uri" },
+    "level": { "enum": ["fundamentals", "introductory", "intermediate", "advanced"] },
+    "format": { "enum": ["online-instructor-led", "online-self-paced", "in-person", "other"] },
+    "languages": { "type": "array", "items": { "$ref": "#/$defs/lang" }, "uniqueItems": true },
+    "start_date": { "type": "string", "format": "date" },
+    "end_date": { "type": "string", "format": "date" },
+    "published": { "type": "string", "format": "date" },
+    "last_updated": { "type": "string", "format": "date" },
+    "summary": { "type": "string" },
+    "description": { "type": "string" },
+    "objectives": { "type": "array", "items": { "type": "string" } },
+    "audience": { "type": "array", "items": { "type": "string" } },
+    "prerequisites": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/id" },
+      "description": "Ids of other trainings."
+    },
+    "applications": { "$ref": "#/$defs/refs" },
+    "satellites": { "$ref": "#/$defs/refs" },
+    "datasets": { "$ref": "#/$defs/refs" },
+    "tools": { "$ref": "#/$defs/refs" },
+    "instructors": { "$ref": "#/$defs/refs" },
+    "tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "sessions": { "type": "array", "items": { "$ref": "#/$defs/session" } },
+    "videos": { "type": "array", "items": { "$ref": "#/$defs/video" } },
+    "materials": { "type": "array", "items": { "$ref": "#/$defs/material" } },
+    "notes": { "type": "string" }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "refs": { "type": "array", "items": { "$ref": "#/$defs/id" }, "uniqueItems": true },
+    "lang": { "type": "string", "pattern": "^[a-z]{2}$" },
+    "session": {
+      "type": "object",
+      "required": ["part", "title"],
+      "additionalProperties": false,
+      "properties": {
+        "part": { "type": "integer", "minimum": 1 },
+        "title": { "type": "string" },
+        "date": { "type": "string", "format": "date" },
+        "agenda": { "type": "array", "items": { "type": "string" } },
+        "videos": { "type": "array", "items": { "$ref": "#/$defs/video" } },
+        "materials": { "type": "array", "items": { "$ref": "#/$defs/material" } }
+      }
+    },
+    "video": {
+      "type": "object",
+      "required": ["youtube"],
+      "additionalProperties": false,
+      "properties": {
+        "youtube": { "type": "string", "pattern": "^[A-Za-z0-9_-]{11}$" },
+        "title": { "type": "string" },
+        "language": { "$ref": "#/$defs/lang" },
+        "channel": { "type": "string" }
+      }
+    },
+    "material": {
+      "type": "object",
+      "required": ["type", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "enum": ["slides", "homework", "exercise", "notebook", "transcript", "qa", "data", "other"] },
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "language": { "$ref": "#/$defs/lang" }
+      }
+    }
+  }
+}

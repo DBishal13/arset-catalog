@@ -1,0 +1,15 @@
+id: nisar
+name: NISAR
+full_name: NASA-ISRO Synthetic Aperture Radar
+agencies:
+- NASA
+- ISRO
+launch_date: '2025-07-30'
+status: operational
+orbit: sun-synchronous
+instruments:
+- name: L-SAR
+  type: L-band SAR
+- name: S-SAR
+  type: S-band SAR
+url: https://nisar.jpl.nasa.gov/

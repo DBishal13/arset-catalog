@@ -1,0 +1,19 @@
+id: goes-r-series
+name: GOES-R Series
+full_name: Geostationary Operational Environmental Satellites - R Series (GOES-16/17/18/19)
+agencies:
+- NOAA
+- NASA
+launch_date: '2016-11-19'
+status: operational
+orbit: geostationary
+instruments:
+- name: ABI
+- name: GLM
+aliases:
+- GOES
+- GOES-16
+- GOES-17
+- GOES-18
+- GOES-19
+- GOES-R

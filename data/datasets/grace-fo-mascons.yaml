@@ -1,0 +1,10 @@
+id: grace-fo-mascons
+name: GRACE/GRACE-FO mascon terrestrial water storage
+satellites:
+- grace
+- grace-fo
+provider: PO.DAAC
+aliases:
+- terrestrial water storage
+- mascon
+- mascons

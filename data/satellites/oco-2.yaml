@@ -1,0 +1,9 @@
+id: oco-2
+name: OCO-2
+full_name: Orbiting Carbon Observatory-2
+agencies:
+- NASA
+launch_date: '2014-07-02'
+status: operational
+orbit: sun-synchronous
+url: https://ocov2.jpl.nasa.gov/

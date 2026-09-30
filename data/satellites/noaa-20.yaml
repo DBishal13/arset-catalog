@@ -1,0 +1,18 @@
+id: noaa-20
+name: NOAA-20
+full_name: NOAA-20 (JPSS-1)
+agencies:
+- NOAA
+- NASA
+launch_date: '2017-11-18'
+status: operational
+orbit: sun-synchronous
+instruments:
+- name: VIIRS
+- name: OMPS
+- name: CrIS
+- name: ATMS
+- name: CERES
+aliases:
+- NOAA-20
+- JPSS-1

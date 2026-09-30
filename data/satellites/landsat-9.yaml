@@ -1,0 +1,16 @@
+id: landsat-9
+name: Landsat 9
+agencies:
+- NASA
+- USGS
+launch_date: '2021-09-27'
+status: operational
+orbit: sun-synchronous
+instruments:
+- name: OLI-2
+- name: TIRS-2
+aliases:
+- Landsat 9
+- Landsat-9
+- Landsat
+url: https://landsat.gsfc.nasa.gov/satellites/landsat-9/

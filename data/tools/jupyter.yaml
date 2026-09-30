@@ -1,0 +1,8 @@
+id: jupyter
+name: Jupyter
+kind: notebook
+open_source: true
+aliases:
+- Jupyter Notebook
+- JupyterLab
+url: https://jupyter.org/

@@ -1,0 +1,8 @@
+id: google-earth-engine
+name: Google Earth Engine
+kind: cloud-platform
+open_source: false
+aliases:
+- Earth Engine
+- GEE
+url: https://earthengine.google.com/

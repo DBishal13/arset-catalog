@@ -1,0 +1,130 @@
+"""python -m arset <command>"""
+from __future__ import annotations
+
+import argparse
+import sys
+from collections import Counter
+
+from . import catalog, ingest, scrape
+from .catalog import iter_videos
+
+
+def cmd_validate(args) -> int:
+    errors, warnings = catalog.validate(catalog.load())
+    for w in warnings:
+        print(f"warning: {w}")
+    for e in errors:
+        print(f"error:   {e}")
+    print(f"{len(errors)} error(s), {len(warnings)} warning(s)")
+    return 1 if errors else 0
+
+
+def cmd_build(args) -> int:
+    cat = catalog.load()
+    errors, _ = catalog.validate(cat)
+    if errors:
+        print("Catalog has errors; run `python -m arset validate`.")
+        return 1
+    from .build import build
+    for path in build(cat):
+        print(f"wrote {path.relative_to(catalog.ROOT)}")
+    return 0
+
+
+def cmd_serve(args) -> int:
+    status = cmd_build(args)
+    if status:
+        return status
+    import functools
+    import http.server
+    from .build import BUILD
+
+    handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(BUILD / "site"))
+    with http.server.ThreadingHTTPServer(("127.0.0.1", args.port), handler) as server:
+        print(f"Serving the site at http://127.0.0.1:{args.port}/  (Ctrl+C to stop)")
+        try:
+            server.serve_forever()
+        except KeyboardInterrupt:
+            pass
+    return 0
+
+
+def cmd_track(args) -> int:
+    from .track import run
+    report = run(catalog.load(), refresh_all=args.all, dry_run=args.dry_run)
+    print(report.markdown())
+    if not args.dry_run:
+        print("(also written to inbox/REPORT.md)")
+    return 0
+
+
+def cmd_add(args) -> int:
+    cat = catalog.load()
+    status = 0
+    for url in args.urls:
+        slug = scrape.training_slug(url)
+        if not slug:
+            print(f"skip: {url} is not an Earthdata /learn/trainings/ page")
+            status = 1
+            continue
+        record, people, is_arset = ingest.scrape_training(cat, scrape.training_url(slug))
+        if not is_arset and not args.force:
+            print(f"skip: {slug} does not look like an ARSET training (use --force)")
+            status = 1
+            continue
+        if slug in cat["training"]:
+            changes = ingest.merge(cat["training"][slug], record)
+            cat.save("training", cat["training"][slug])
+            print(f"updated {slug}: " + ("; ".join(changes) or "no changes"))
+        else:
+            ingest.enrich_videos(record)
+            created = ingest.ensure_instructors(cat, people)
+            print(f"added {catalog.record_path('training', slug).relative_to(catalog.ROOT)}")
+            for id_ in created:
+                print(f"  + instructor {id_}")
+            cat.save("training", record)
+    return status
+
+
+def cmd_stats(args) -> int:
+    cat = catalog.load()
+    trainings = cat["training"].values()
+    print("records:")
+    for kind, folder in catalog.KINDS.items():
+        print(f"  {folder:<13} {len(cat[kind])}")
+    print(f"videos:        {sum(1 for t in trainings for _ in iter_videos(t))}")
+    print("trainings by status:", dict(Counter(t.get("status") for t in trainings)))
+    print("trainings by level: ", dict(Counter(t.get("level", "?") for t in trainings)))
+    for field in ("applications", "satellites"):
+        top = Counter(r for t in trainings for r in t.get(field) or []).most_common(8)
+        print(f"top {field}:", ", ".join(f"{k} ({n})" for k, n in top) or "-")
+    return 0
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(prog="python -m arset", description="ARSET training catalog tools")
+    sub = parser.add_subparsers(dest="command", required=True)
+
+    sub.add_parser("validate", help="check every record against its schema and references").set_defaults(fn=cmd_validate)
+    sub.add_parser("build", help="compile build/catalog.json, build/arset.sqlite and build/site/").set_defaults(fn=cmd_build)
+    p = sub.add_parser("serve", help="build, then serve the site on localhost")
+    p.add_argument("--port", type=int, default=8000)
+    p.set_defaults(fn=cmd_serve)
+    sub.add_parser("stats", help="summarize the catalog").set_defaults(fn=cmd_stats)
+
+    p = sub.add_parser("track", help="look for new trainings, recordings and materials")
+    p.add_argument("--all", action="store_true", help="re-scrape every known training, not just recent ones")
+    p.add_argument("--dry-run", action="store_true", help="report only; write nothing")
+    p.set_defaults(fn=cmd_track)
+
+    p = sub.add_parser("add", help="add (or update) trainings from Earthdata page URLs")
+    p.add_argument("urls", nargs="+")
+    p.add_argument("--force", action="store_true", help="add even if the page is not marked as ARSET")
+    p.set_defaults(fn=cmd_add)
+
+    args = parser.parse_args(argv)
+    return args.fn(args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,0 +1,8 @@
+id: esa-snap
+name: ESA SNAP
+kind: desktop
+open_source: true
+aliases:
+- SNAP
+- Sentinel Application Platform
+url: https://step.esa.int/main/download/snap-download/

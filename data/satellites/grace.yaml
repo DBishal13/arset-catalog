@@ -1,0 +1,10 @@
+id: grace
+name: GRACE
+full_name: Gravity Recovery and Climate Experiment
+agencies:
+- NASA
+- DLR
+launch_date: '2002-03-17'
+status: inactive
+orbit: non-sun-synchronous
+notes: Mission ended in 2017; continued by GRACE-FO.

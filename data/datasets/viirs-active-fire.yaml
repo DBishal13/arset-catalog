@@ -1,0 +1,7 @@
+id: viirs-active-fire
+name: VIIRS 375 m active fire
+short_name: VNP14IMG
+satellites:
+- suomi-npp
+provider: LAADS DAAC / FIRMS
+resolution: 375 m

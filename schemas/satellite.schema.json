@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Satellite / platform",
+  "type": "object",
+  "required": ["id", "name"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name": { "type": "string" },
+    "full_name": { "type": "string" },
+    "agencies": { "type": "array", "items": { "type": "string" } },
+    "launch_date": { "type": "string", "format": "date", "description": "First launch, for a series or constellation." },
+    "status": { "enum": ["operational", "inactive", "planned"] },
+    "orbit": { "enum": ["sun-synchronous", "geostationary", "non-sun-synchronous", "iss"] },
+    "instruments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "full_name": { "type": "string" },
+          "type": { "type": "string" }
+        }
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Text that should tag a training with this satellite. Instrument names are included automatically."
+    },
+    "url": { "type": "string", "format": "uri" },
+    "notes": { "type": "string" }
+  }
+}

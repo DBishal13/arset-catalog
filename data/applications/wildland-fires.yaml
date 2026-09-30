@@ -1,0 +1,10 @@
+id: wildland-fires
+name: Wildland Fires
+description: Active fire detection, burned area, fire risk and smoke.
+aliases:
+- wildfire
+- wildfires
+- wildland fire
+- burned area
+- burn severity
+- active fire

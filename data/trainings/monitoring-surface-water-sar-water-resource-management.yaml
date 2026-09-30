@@ -1,0 +1,75 @@
+id: monitoring-surface-water-sar-water-resource-management
+title: Monitoring Surface Water with SAR for Water Resource Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-surface-water-sar-water-resource-management
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2026-10-20'
+end_date: '2026-10-27'
+published: '2026-08-25'
+last_updated: '2026-08-25'
+summary: This ARSET training demonstrates the use of NISAR SAR data and OPERA surface water products to
+  detect, map, and monitor surface water.
+description: 'Monitoring surface water is critical for supporting agriculture, sustaining ecosystem health,
+  and managing water resources. The recent availability of Synthetic Aperture Radar (SAR) data from the
+  NASA-ISRO Synthetic Aperture Radar (NISAR) mission provides users with high-resolution, consistent observations
+  of Earth''s surface every 12 days. These observations are particularly valuable in tropical and flood-prone
+  regions, where frequent cloud cover and varying illumination often limit the effectiveness of optical
+  remote sensing.
+
+
+  Complementing these observations, NASA''s Observational Products for End-Users from Remote Sensing Analysis
+  (OPERA) project is producing global, analysis-ready surface water products that provide readily accessible
+  information for researchers, resource managers, and decision-makers.
+
+
+  This intermediate-level training will introduce participants to complementary approaches for monitoring
+  surface water using NISAR and OPERA. Participants will learn how to use NISAR SAR amplitude data to
+  generate their own flood maps by identifying open water and inundated vegetation, as well as how to
+  use the analysis-ready OPERA Surface Water Extent product for monitoring surface water and to support
+  water management activities. The training will highlight the strengths, limitations, and appropriate
+  applications of each approach.
+
+
+  The training will cover the fundamental principles of how radar detects surface inundation, the characteristics
+  of NISAR and OPERA datasets, and considerations for selecting and interpreting these data for different
+  applications. Through hands-on demonstrations, participants will learn how to access, visualize, and
+  analyze NISAR and OPERA data using open-source software, gaining practical experience with workflows
+  for surface water monitoring and water resource management.'
+objectives:
+- Differentiate radar backscatter characteristics in order to identify open water and inundated vegetation.
+- Generate a flood map from NISAR SAR amplitude data using open-source software.
+- Compare the workflows for deriving a flood map from NISAR observations and using the analysis-ready
+  OPERA Surface Water Extent product.
+- Evaluate when it is more appropriate to generate a flood map from NISAR observations versus using the
+  OPERA Surface Water Extent product.
+- Access, visualize, and interpret OPERA Surface Water Extent products for flood and surface water monitoring
+  applications.
+audience:
+- Water resource managers, flood managers, and disaster response managers from federal, state, and local
+  government agencies, NGOs, and private sector organizations.
+- Students and academics who are interested in radar remote sensing for water resources applications.
+prerequisites:
+- introduction-synthetic-aperture-radar
+applications:
+- agriculture
+- disasters
+- ecological-conservation
+- water-resources
+satellites:
+- nisar
+datasets:
+- opera-dswx
+instructors:
+- erika-podest
+- renato-prata-de-moraes-frasson
+sessions:
+- part: 1
+  title: Flood Mapping with NISAR
+  date: '2026-10-20'
+- part: 2
+  title: Water Surface Extent from OPERA
+  date: '2026-10-27'

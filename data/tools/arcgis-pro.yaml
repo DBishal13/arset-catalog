@@ -1,0 +1,7 @@
+id: arcgis-pro
+name: ArcGIS Pro
+kind: desktop
+open_source: false
+aliases:
+- ArcGIS
+url: https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview

@@ -1,0 +1,13 @@
+id: gpm
+name: GPM
+full_name: Global Precipitation Measurement Core Observatory
+agencies:
+- NASA
+- JAXA
+launch_date: '2014-02-27'
+status: operational
+orbit: non-sun-synchronous
+instruments:
+- name: GMI
+- name: DPR
+url: https://gpm.nasa.gov/

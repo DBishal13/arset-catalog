@@ -1,0 +1,13 @@
+id: sentinel-2
+name: Sentinel-2
+agencies:
+- ESA
+- European Commission
+launch_date: '2015-06-23'
+status: operational
+orbit: sun-synchronous
+instruments:
+- name: MSI
+aliases:
+- Sentinel-2
+- Sentinel 2

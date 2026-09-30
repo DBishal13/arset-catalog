@@ -1,0 +1,12 @@
+id: hls
+name: Harmonized Landsat and Sentinel-2 (HLS)
+satellites:
+- landsat-8
+- landsat-9
+- sentinel-2
+provider: LP DAAC
+resolution: 30 m
+aliases:
+- HLS
+- Harmonized Landsat Sentinel-2
+- Harmonized Landsat and Sentinel-2

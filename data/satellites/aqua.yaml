@@ -1,0 +1,13 @@
+id: aqua
+name: Aqua
+agencies:
+- NASA
+launch_date: '2002-05-04'
+status: operational
+orbit: sun-synchronous
+instruments:
+- name: MODIS
+- name: AIRS
+- name: AMSU-A
+- name: CERES
+url: https://aqua.nasa.gov/

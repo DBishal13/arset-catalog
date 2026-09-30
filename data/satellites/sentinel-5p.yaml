@@ -1,0 +1,14 @@
+id: sentinel-5p
+name: Sentinel-5P
+full_name: Sentinel-5 Precursor
+agencies:
+- ESA
+launch_date: '2017-10-13'
+status: operational
+orbit: sun-synchronous
+instruments:
+- name: TROPOMI
+aliases:
+- Sentinel-5P
+- Sentinel 5P
+- S5P

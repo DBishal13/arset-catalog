@@ -1,0 +1,10 @@
+id: icesat-2
+name: ICESat-2
+full_name: Ice, Cloud and land Elevation Satellite-2
+agencies:
+- NASA
+launch_date: '2018-09-15'
+status: operational
+orbit: non-sun-synchronous
+instruments:
+- name: ATLAS

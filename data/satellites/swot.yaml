@@ -1,0 +1,11 @@
+id: swot
+name: SWOT
+full_name: Surface Water and Ocean Topography
+agencies:
+- NASA
+- CNES
+launch_date: '2022-12-16'
+status: operational
+orbit: non-sun-synchronous
+instruments:
+- name: KaRIn

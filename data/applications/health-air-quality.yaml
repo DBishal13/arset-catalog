@@ -1,0 +1,10 @@
+id: health-air-quality
+name: Health & Air Quality
+description: Air pollution (aerosols, NO2, ozone, PM2.5), heat and environmental health.
+aliases:
+- air quality
+- aerosol
+- aerosols
+- PM2.5
+- pollution
+- public health

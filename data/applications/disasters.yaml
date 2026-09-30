@@ -1,0 +1,13 @@
+id: disasters
+name: Disasters
+description: Floods, landslides, earthquakes, hurricanes and other hazards, before, during and after events.
+aliases:
+- disaster
+- disasters
+- flood
+- floods
+- flooding
+- landslide
+- landslides
+- hurricane
+- earthquake

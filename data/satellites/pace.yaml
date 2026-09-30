@@ -1,0 +1,13 @@
+id: pace
+name: PACE
+full_name: Plankton, Aerosol, Cloud, ocean Ecosystem
+agencies:
+- NASA
+launch_date: '2024-02-08'
+status: operational
+orbit: sun-synchronous
+instruments:
+- name: OCI
+- name: HARP2
+- name: SPEXone
+url: https://pace.gsfc.nasa.gov/

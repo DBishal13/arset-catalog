@@ -1,0 +1,23 @@
+# Where `python -m arset track` looks for new ARSET content.
+
+# Pages that link to current/upcoming trainings. Every /learn/trainings/<slug>
+# link found here is checked; pages that are not ARSET trainings are skipped.
+listing_pages:
+  - https://www.earthdata.nasa.gov/data/projects/arset/learn
+  - https://www.earthdata.nasa.gov/learn/trainings
+
+# YouTube channels whose RSS feed (latest ~15 uploads) is checked.
+# Since ~2023 ARSET recordings are published on "NASA Video" with titles
+# starting "NASA ARSET: ..."; the older "NASA ARSET" channel is kept for history.
+youtube_channels:
+  NASA Video: UC_aP7p621ATY_yAa8jMqUVA
+  NASA ARSET: UCZ6A_a-De9lSBVuBEbcilaw
+  NASA Earthdata: UCrZ-Cgk3DfiLPfHEReLzCfg
+
+# Only videos whose title contains one of these (case-insensitive) are tracked.
+youtube_title_keywords:
+  - ARSET
+
+# Known trainings are re-scraped for new recordings/materials until this many
+# days after their end date (recordings and homework appear after sessions).
+refresh_days_after_end: 45

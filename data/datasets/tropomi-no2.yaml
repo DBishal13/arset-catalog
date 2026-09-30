@@ -1,0 +1,7 @@
+id: tropomi-no2
+name: Sentinel-5P TROPOMI tropospheric NO2
+satellites:
+- sentinel-5p
+provider: GES DISC
+aliases:
+- TROPOMI NO2

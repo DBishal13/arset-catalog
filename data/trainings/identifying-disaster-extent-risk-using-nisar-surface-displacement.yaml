@@ -1,0 +1,82 @@
+id: identifying-disaster-extent-risk-using-nisar-surface-displacement
+title: Identifying Disaster Extent and Risk Using NISAR Surface Displacement
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/identifying-disaster-extent-risk-using-nisar-surface-displacement
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2026-11-12'
+end_date: '2026-11-19'
+published: '2026-09-17'
+last_updated: '2026-09-17'
+summary: This ARSET training focuses on the use of InSAR data from NISAR and surface displacement products
+  from OPERA to monitor ground movements.
+description: 'Small changes in Earth’s surface can serve as early indicators of potential natural hazards.
+  For example, subtle ground movements may signal areas at risk of landslides, volcanic activity, or earthquakes.
+  Additionally, measuring the extent of surface displacement after an earthquake can help assess both
+  the magnitude of the event and the areas affected, including regions that may have been damaged or destroyed.
+
+
+  These measurements are made possible through Interferometric Synthetic Aperture Radar (InSAR), which
+  is a technique that NASA/ISRO (Indian Space Research Organization) Synthetic Aperture Radar (NISAR)
+  is specifically designed to support. In addition, displacement products based on InSAR are being developed
+  and made available through NASA’s Observational Products for End-Users from Remote Sensing Analysis
+  (OPERA) project.
+
+
+  This intermediate, two-part training will focus on the use of InSAR data from NISAR and surface displacement
+  products from OPERA to monitor ground movements and assess areas at risk of landslides, earthquakes,
+  and other natural hazards. The training will also include demonstrations on how to use these data products
+  to evaluate regions that may have been damaged by seismic events.'
+objectives:
+- Identify the core capabilities and mechanisms of InSAR that make it uniquely suited for measuring surface
+  displacement compared to other remote sensing methods.
+- Recognize the common limitations, uncertainties, and potential sources of error associated with L-band
+  InSAR.
+- Select the most appropriate NISAR or OPERA surface displacement product to monitor ground movement in
+  order to assess a specific natural hazard scenario (e.g., landslide, earthquake, or volcanic activity).
+- Apply a workflow to access, visualize, and process time-series NISAR surface displacement products for
+  disaster assessment related to earthquakes, landslides, and volcanoes.
+- Interpret NISAR time-series surface displacement data products to determine the extent and magnitude
+  of ground movement related to earthquakes, volcanoes, and natural hazards.
+- Access and analyze OPERA surface displacement products for earthquakes, volcanoes, and natural hazards.
+audience:
+- Disaster response managers from federal, state, and local government agencies, NGOs, and from private
+  sector organizations, both domestically and internationally.
+- Students and academics who are interested in radar remote sensing for disaster extent and risk.
+prerequisites:
+- fundamentals-remote-sensing-0
+- introduction-synthetic-aperture-radar-sar-its-applications
+applications:
+- disasters
+satellites:
+- nisar
+instructors:
+- erika-podest
+- eric-fielding
+sessions:
+- part: 1
+  title: NISAR for Deformation Mapping in Support of Disaster Response
+  date: '2026-11-12'
+  agenda:
+  - Part 1 Introduction
+  - 'Section 1: Why Measure Surface Displacement'
+  - 'Section 2: Measuring Surface Displacement with InSAR'
+  - 'Section 3: NISAR Capabilities for Surface Displacement'
+  - 'Section 4: NISAR Products for Surface Displacement'
+  - 'Section 5: Surface Displacement Applications'
+  - 'Section 6: Demonstration: Accessing and Using NISAR Surface Displacement Products'
+  - Part 1 Summary
+  - Q&A
+- part: 2
+  title: Monitoring Surface Deformation with OPERA Displacement Products
+  date: '2026-11-19'
+  agenda:
+  - Part 2 Introduction
+  - 'Section 1: Relevant Applications to Surface Displacement'
+  - 'Section 2: Introduction to the OPERA Surface Displacement Product'
+  - 'Section 3: Understanding the OPERA Surface Displacement Product'
+  - 'Section 4: Demonstration: Accessing and Using OPERA Surface Displacement Products'
+  - Part 2 Summary
+  - Q&A

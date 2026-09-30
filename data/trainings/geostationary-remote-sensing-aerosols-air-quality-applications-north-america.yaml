@@ -1,0 +1,81 @@
+id: geostationary-remote-sensing-aerosols-air-quality-applications-north-america
+title: Geostationary Remote Sensing of Aerosols for Air Quality Applications in North America
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/geostationary-remote-sensing-aerosols-air-quality-applications-north-america
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2026-10-13'
+end_date: '2026-10-15'
+published: '2026-08-19'
+last_updated: '2026-08-24'
+summary: This ARSET training provides an overview of TEMPO aerosol products for air quality applications
+  using NOAA's AerosolWatch website.
+description: 'The Tropospheric Emissions: Monitoring of Pollution (TEMPO) mission is the first NASA instrument
+  to continuously measure daytime air pollution over North America, from the Atlantic Ocean to the Pacific
+  and from Central Canada to Mexico City, using hyperspectral imagery. Together with the Advanced Baseline
+  Imager (ABI) on the Geostationary Operational Environmental Satellite–R Series (GOES-R)—which provides
+  visible to infrared multispectral information every 1-10 minutes—these geostationary sensors form a
+  powerful constellation for understanding diurnal changes in aerosols, their sources, their movement
+  over North America, and their impacts on air quality.
+
+
+  TEMPO’s UV-visible observations make possible new geostationary aerosol products, including Aerosol
+  Layer Height (ALH), UV Absorbing Aerosol Index (AAI), and hourly surface estimated PM2.5 concentration.
+  In addition, the synergy between TEMPO and ABI enhances the existing geostationary Aerosol Optical Depth
+  (AOD) and Aerosol Detection Smoke/Dust mask products.
+
+
+  This training will provide an overview of TEMPO capabilities and available NOAA aerosol products generated
+  using synergistic TEMPO and ABI observations. Instructors will demonstrate how to access near real-time
+  and archived TEMPO aerosol products imagery on the NOAA AerosolWatch website.
+
+
+  This training includes hands-on exercises that walk participants through accessing TEMPO aerosol products
+  imagery on AerosolWatch, while also demonstrating how to interpret these observations to assess the
+  scope of smoke and blowing dust aerosol hazards and their potential impacts on air quality.'
+objectives:
+- Describe the capabilities of the TEMPO instrument and its advantages and disadvantages compared to ABI
+  on the GOES-R satellites.
+- Identify available TEMPO aerosol data products and recognize their characteristics, benefits, and limitations.
+- Use the AerosolWatch website to visualize near real-time and archived hourly TEMPO aerosol product imagery.
+- Interpret TEMPO aerosol imagery on AerosolWatch to analyze smoke and blowing dust events and anticipate
+  their air quality impacts.
+audience:
+- North American air quality managers & forecasters within the TEMPO field of regard
+- Aerosol, atmospheric composition, and air quality research scientists
+prerequisites:
+- fundamentals-remote-sensing-0
+applications:
+- health-air-quality
+satellites:
+- goes-r-series
+- tempo
+datasets:
+- modis-maiac-aod
+instructors:
+- caterina-mogno
+- amy-huff
+sessions:
+- part: 1
+  title: NOAA’s TEMPO Aerosol Products for Hourly Aerosol Monitoring over North America
+  date: '2026-10-13'
+  agenda:
+  - About ARSET
+  - Introduction
+  - Geostationary instruments overview
+  - TEMPO aerosol products
+  - Summary
+  - Q&A session
+- part: 2
+  title: Analyzing TEMPO Aerosol Products Imagery for Smoke and Dust Case Study Events using NOAA’s AerosolWatch
+  date: '2026-10-15'
+  agenda:
+  - Introduction
+  - 'Case study 1: smoke event'
+  - Case study 1 exercise with AerosolWatch
+  - 'Case study 2: dust storm event'
+  - Case study 2 exercise with AerosolWatch
+  - Summary
+  - Q&A session

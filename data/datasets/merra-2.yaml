@@ -1,0 +1,6 @@
+id: merra-2
+name: MERRA-2 reanalysis
+provider: GES DISC
+aliases:
+- MERRA2
+notes: Model reanalysis that assimilates satellite observations; not tied to one satellite.

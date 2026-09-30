@@ -1,0 +1,16 @@
+id: landsat-8
+name: Landsat 8
+agencies:
+- NASA
+- USGS
+launch_date: '2013-02-11'
+status: operational
+orbit: sun-synchronous
+instruments:
+- name: OLI
+- name: TIRS
+aliases:
+- Landsat 8
+- Landsat-8
+- Landsat
+url: https://landsat.gsfc.nasa.gov/satellites/landsat-8/

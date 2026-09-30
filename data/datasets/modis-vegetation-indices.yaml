@@ -1,0 +1,13 @@
+id: modis-vegetation-indices
+name: MODIS vegetation indices (NDVI/EVI) 16-day 250 m
+short_name: MOD13Q1
+satellites:
+- terra
+provider: LP DAAC
+variables:
+- NDVI
+- EVI
+resolution: 250 m
+aliases:
+- NDVI
+- EVI

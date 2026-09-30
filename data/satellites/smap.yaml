@@ -1,0 +1,13 @@
+id: smap
+name: SMAP
+full_name: Soil Moisture Active Passive
+agencies:
+- NASA
+launch_date: '2015-01-31'
+status: operational
+orbit: sun-synchronous
+instruments:
+- name: SMAP radiometer
+  type: L-band radiometer
+url: https://smap.jpl.nasa.gov/
+notes: The L-band radar stopped working in July 2015; the radiometer continues.

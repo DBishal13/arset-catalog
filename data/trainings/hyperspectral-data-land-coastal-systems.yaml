@@ -1,0 +1,44 @@
+id: hyperspectral-data-land-coastal-systems
+title: Hyperspectral Data for Land and Coastal Systems
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/hyperspectral-data-land-coastal-systems
+level: introductory
+format: online-self-paced
+languages:
+- en
+published: '2021-01-19'
+last_updated: '2026-04-02'
+summary: This ARSET training introduces the use of hyperspectral data to understand critical components
+  of ecosystem dynamics in land and coastal systems.
+description: 'High spectral resolution, or hyperspectral, data improves our ability to characterize vegetation
+  types and biogeochemical processes across the land and oceans. Such data enables us to identify chemical,
+  physiological, and morphological traits of plants, minerals, and microorganisms, and allows decision-makers
+  to better understand critical components of ecosystem dynamics. Hyperspectral data can inform work related
+  to invasive species, forest health, phytoplankton functional types, wetland and shallow benthic community
+  mapping, harmful algal bloom (HAB) detection, and ocean dynamics.
+
+
+  In 2021, NASA''s Applied Remote Sensing Training (ARSET) program hosted a training that introduced the
+  basics of hyperspectral remote sensing and its potential applications for land and ocean systems. Due
+  to the popularity of the training, ARSET has made the original instructor-led materials available as
+  a self-paced course with the opportunity for participants to earn a certificate of completion.
+
+
+  Note: If you do not already have an account for the ARSET learning management system, you will be prompted
+  to create a free account before you can take this training.'
+objectives:
+- Identify characteristics of hyperspectral data, including benefits and limitations for land and coastal
+  systems;
+- Recall various satellite and airborne-based hyperspectral imagers;
+- Relate past hyperspectral campaigns to future missions;
+- Access hyperspectral data from multiple platforms;
+- Illustrate uses of hyperspectral data for land assessments, such as invasive species management, agricultural
+  management, wildfire impacts, forest decline, and pest infestation;
+- Illustrate uses of hyperspectral data for coastal and ocean applications, such as coral reef assessments,
+  mapping submerged aquatic vegetation, and identifying marine debris.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- agriculture
+- ecological-conservation
+- wildland-fires

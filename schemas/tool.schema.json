@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tool / software",
+  "type": "object",
+  "required": ["id", "name"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name": { "type": "string" },
+    "kind": { "enum": ["desktop", "web", "cloud-platform", "language", "library", "notebook"] },
+    "open_source": { "type": "boolean" },
+    "description": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "url": { "type": "string", "format": "uri" },
+    "notes": { "type": "string" }
+  }
+}

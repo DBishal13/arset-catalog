@@ -1,0 +1,13 @@
+id: iss
+name: ISS
+full_name: International Space Station
+agencies:
+- NASA
+launch_date: '1998-11-20'
+status: operational
+orbit: iss
+instruments:
+- name: ECOSTRESS
+- name: GEDI
+- name: EMIT
+notes: Platform for Earth-observing instruments; tagging matches the instrument names.

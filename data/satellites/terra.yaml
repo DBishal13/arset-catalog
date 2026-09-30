@@ -1,0 +1,14 @@
+id: terra
+name: Terra
+agencies:
+- NASA
+launch_date: '1999-12-18'
+status: operational
+orbit: sun-synchronous
+instruments:
+- name: MODIS
+- name: ASTER
+- name: MISR
+- name: CERES
+- name: MOPITT
+url: https://terra.nasa.gov/

@@ -1,0 +1,7 @@
+id: worldview
+name: NASA Worldview
+kind: web
+open_source: true
+aliases:
+- Worldview
+url: https://worldview.earthdata.nasa.gov/
