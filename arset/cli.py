@@ -55,7 +55,9 @@ def cmd_track(args) -> int:
     print(report.markdown())
     if not args.dry_run:
         print("(also written to inbox/REPORT.md)")
-    return 0
+    # Fail when errors are all there is to show, so CI flags it instead of opening an empty PR.
+    found = report.new_trainings or report.updated or report.new_videos
+    return 1 if report.errors and not found else 0
 
 
 def cmd_add(args) -> int:
