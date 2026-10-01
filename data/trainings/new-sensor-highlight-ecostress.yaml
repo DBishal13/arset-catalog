@@ -38,8 +38,8 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- agriculture
 - ecological-conservation
+- health-air-quality
 - wildland-fires
 satellites:
 - iss

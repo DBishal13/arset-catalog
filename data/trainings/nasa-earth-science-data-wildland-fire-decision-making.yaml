@@ -28,7 +28,6 @@ description: 'Wildland fires pose a serious threat to human health and property.
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- water-resources
 - wildland-fires
 satellites:
 - aqua

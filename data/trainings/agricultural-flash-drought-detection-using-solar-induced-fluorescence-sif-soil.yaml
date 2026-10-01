@@ -60,9 +60,7 @@ prerequisites:
 applications:
 - agriculture
 - drought
-- ecological-conservation
 - water-resources
-- wildland-fires
 satellites:
 - oco-2
 - smap

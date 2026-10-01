@@ -33,9 +33,8 @@ description: 'Waterborne diseases such as cholera, diarrhea, hepatitis A, typhoi
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- agriculture
-- disasters
-- ecological-conservation
+- health-air-quality
+- water-resources
 sessions:
 - part: 1
   title: Overview of Monitoring Waterborne Diseases using Remote Sensing Observations

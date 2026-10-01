@@ -62,10 +62,7 @@ audience:
 prerequisites:
 - groundwater-monitoring-using-observations-from-nasas-gravity-recovery-climate
 applications:
-- agriculture
-- climate-resilience
 - disasters
-- drought
 - water-resources
 satellites:
 - grace

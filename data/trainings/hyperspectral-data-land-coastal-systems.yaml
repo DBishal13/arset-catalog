@@ -42,9 +42,7 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- agriculture
 - ecological-conservation
-- wildland-fires
 videos:
 - youtube: L4sGAgQB0a4
   title: 'NASA ARSET: Hyperspectral Data for Coastal and Ocean Systems, Part 3/3'

@@ -45,9 +45,6 @@ prerequisites:
 - fundamentals-remote-sensing
 - arset-satellite-observations-tools-fire-risk-detection-analysis
 applications:
-- climate-resilience
-- ecological-conservation
-- water-resources
 - wildland-fires
 tools:
 - google-earth-engine

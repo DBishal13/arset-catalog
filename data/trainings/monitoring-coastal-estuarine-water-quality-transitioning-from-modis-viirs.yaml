@@ -51,6 +51,7 @@ prerequisites:
 - processing-satellite-imagery-monitoring-water-quality
 applications:
 - ecological-conservation
+- water-resources
 satellites:
 - aqua
 - noaa-20

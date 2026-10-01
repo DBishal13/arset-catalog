@@ -42,10 +42,7 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- agriculture
 - climate-resilience
-- disasters
-- drought
 - water-resources
 satellites:
 - grace

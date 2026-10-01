@@ -12,7 +12,7 @@ from requests.utils import requote_uri
 from .catalog import slugify
 
 BASE = "https://www.earthdata.nasa.gov"
-USER_AGENT = "Mozilla/5.0 (compatible; arset-catalog/0.1)"
+USER_AGENT = "Mozilla/5.0 (compatible; eo-training-atlas/0.1; personal non-commercial index)"
 
 TRAINING_PATH = re.compile(r"^/learn/trainings/([a-z0-9-]+)/?$")  # English pages only
 YOUTUBE_ID = re.compile(

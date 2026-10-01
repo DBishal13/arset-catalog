@@ -39,9 +39,7 @@ prerequisites:
 - introduction-synthetic-aperture-radar
 - radar-remote-sensing-land-water-disaster-applications
 applications:
-- agriculture
 - disasters
-- ecological-conservation
 sessions:
 - part: 1
   title: Part 1

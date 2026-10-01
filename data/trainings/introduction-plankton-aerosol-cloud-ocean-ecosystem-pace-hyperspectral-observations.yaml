@@ -38,6 +38,7 @@ prerequisites:
 applications:
 - ecological-conservation
 - health-air-quality
+- water-resources
 satellites:
 - aqua
 - landsat-8

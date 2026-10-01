@@ -63,7 +63,6 @@ prerequisites:
 - introduction-synthetic-aperture-radar
 applications:
 - agriculture
-- ecological-conservation
 satellites:
 - sentinel-1
 - sentinel-2

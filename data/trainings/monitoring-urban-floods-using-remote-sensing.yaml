@@ -37,7 +37,6 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - disasters
-- water-resources
 satellites:
 - aqua
 - terra

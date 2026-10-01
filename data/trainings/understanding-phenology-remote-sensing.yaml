@@ -35,9 +35,7 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- drought
 - ecological-conservation
-- wildland-fires
 satellites:
 - aqua
 - noaa-20

@@ -31,7 +31,7 @@ prerequisites:
 - fundamentals-remote-sensing
 - processing-satellite-imagery-monitoring-water-quality
 applications:
-- ecological-conservation
+- water-resources
 sessions:
 - part: 1
   title: Water Quality in the Coastal Zone

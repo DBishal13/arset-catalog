@@ -3,14 +3,23 @@
 Each record's name and `aliases` (plus instrument names for satellites) are
 matched as whole words. Aliases written in capitals ("SAR", "GPM") are matched
 case-sensitively so they do not hit ordinary words.
+
+Mentions are weighted by where they appear (title > summary > the rest).
+Satellites, datasets and tools have specific names, so one mention anywhere
+is enough. Application areas are matched on common words ("forest",
+"climate"), so they need more weight and only the strongest few are kept.
 """
 from __future__ import annotations
 
 import re
+from functools import lru_cache
 
 from .catalog import Catalog
 
 FIELD_KIND = {"satellites": "satellite", "datasets": "dataset", "tools": "tool", "applications": "application"}
+WEIGHTS = {"title": 3, "summary": 2, "body": 1}
+MIN_SCORE = {"applications": 3}  # others: 1
+MAX_TAGS = {"applications": 3}
 
 
 def _terms(kind: str, rec: dict) -> list[str]:
@@ -22,28 +31,35 @@ def _terms(kind: str, rec: dict) -> list[str]:
     return [t for t in terms if t and len(t) >= 3]
 
 
+@lru_cache(maxsize=None)
 def _pattern(term: str) -> re.Pattern:
     flags = re.IGNORECASE if any(c.islower() for c in term) else 0
     return re.compile(rf"(?<![A-Za-z0-9]){re.escape(term)}(?![A-Za-z0-9])", flags)
 
 
-def training_text(t: dict) -> str:
-    parts = [t.get("title", ""), t.get("summary", ""), t.get("description", "")]
-    parts += t.get("objectives") or []
+def training_text(t: dict) -> dict[str, str]:
+    """The training's text split by where it appears, for weighting."""
+    body = [t.get("description", "")] + list(t.get("objectives") or [])
     for s in t.get("sessions") or []:
-        parts.append(s.get("title", ""))
-        parts += s.get("agenda") or []
-        parts += [m.get("title", "") for m in s.get("materials") or []]
-    return "\n".join(p for p in parts if p)
+        body.append(s.get("title", ""))
+        body += s.get("agenda") or []
+        body += [m.get("title", "") for m in s.get("materials") or []]
+    return {"title": t.get("title", ""), "summary": t.get("summary", ""), "body": "\n".join(p for p in body if p)}
 
 
-def suggest(cat: Catalog, text: str) -> dict[str, list[str]]:
+def suggest(cat: Catalog, text: dict[str, str] | str) -> dict[str, list[str]]:
+    if isinstance(text, str):
+        text = {"body": text}
     out: dict[str, list[str]] = {}
     for field, kind in FIELD_KIND.items():
-        hits = [
-            id_ for id_, rec in sorted(cat[kind].items())
-            if any(_pattern(term).search(text) for term in _terms(kind, rec))
-        ]
-        if hits:
-            out[field] = hits
+        scores = {}
+        for id_, rec in cat[kind].items():
+            terms = _terms(kind, rec)
+            score = sum(w * sum(1 for term in terms if _pattern(term).search(text.get(part, "")))
+                        for part, w in WEIGHTS.items())
+            if score >= MIN_SCORE.get(field, 1):
+                scores[id_] = score
+        ranked = sorted(scores, key=lambda i: (-scores[i], i))[: MAX_TAGS.get(field)]
+        if ranked:
+            out[field] = sorted(ranked)
     return out

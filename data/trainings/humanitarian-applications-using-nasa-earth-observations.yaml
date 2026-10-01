@@ -49,10 +49,7 @@ prerequisites:
 - fundamentals-remote-sensing-0
 - introduction-synthetic-aperture-radar
 applications:
-- agriculture
-- climate-resilience
 - disasters
-- ecological-conservation
 tools:
 - google-earth-engine
 sessions:

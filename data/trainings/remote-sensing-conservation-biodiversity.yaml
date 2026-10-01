@@ -33,7 +33,6 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - ecological-conservation
-- wildland-fires
 sessions:
 - part: 1
   title: Remote Sensing for Conservation

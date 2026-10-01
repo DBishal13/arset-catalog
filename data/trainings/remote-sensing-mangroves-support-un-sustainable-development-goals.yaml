@@ -47,7 +47,6 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - climate-resilience
-- disasters
 - ecological-conservation
 tools:
 - google-earth-engine

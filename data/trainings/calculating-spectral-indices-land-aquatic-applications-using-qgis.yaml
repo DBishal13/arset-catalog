@@ -32,10 +32,6 @@ description: 'This training will provide an overview of spectral indices for lan
 prerequisites:
 - fundamentals-remote-sensing
 - spectral-indices-land-aquatic-applications
-applications:
-- agriculture
-- disasters
-- ecological-conservation
 datasets:
 - modis-vegetation-indices
 tools:

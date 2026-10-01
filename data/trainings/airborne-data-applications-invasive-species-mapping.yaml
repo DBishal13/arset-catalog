@@ -54,7 +54,6 @@ prerequisites:
 - invasive-species-monitoring-remote-sensing
 - hyperspectral-data-land-coastal-systems
 applications:
-- climate-resilience
 - ecological-conservation
 tools:
 - jupyter

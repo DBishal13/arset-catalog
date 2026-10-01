@@ -35,9 +35,7 @@ prerequisites:
 - fundamentals-remote-sensing
 - mapping-monitoring-lakes-reservoirs-satellite-observations
 applications:
-- agriculture
 - disasters
-- ecological-conservation
 - water-resources
 satellites:
 - swot

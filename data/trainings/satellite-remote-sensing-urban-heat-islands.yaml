@@ -43,7 +43,6 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - climate-resilience
-- ecological-conservation
 - health-air-quality
 satellites:
 - goes-r-series

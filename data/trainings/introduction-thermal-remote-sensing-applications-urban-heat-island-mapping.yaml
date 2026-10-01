@@ -58,9 +58,8 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing-0
 applications:
-- agriculture
-- climate-resilience
 - ecological-conservation
+- health-air-quality
 satellites:
 - iss
 tools:

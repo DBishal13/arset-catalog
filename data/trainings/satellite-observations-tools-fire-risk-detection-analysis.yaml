@@ -44,12 +44,6 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- agriculture
-- climate-resilience
-- disasters
-- drought
-- ecological-conservation
-- health-air-quality
 - water-resources
 - wildland-fires
 tools:

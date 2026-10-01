@@ -1,6 +1,8 @@
-# ARSET catalog
+# EO Training Atlas
 
-A structured, version-controlled catalog of NASA's [Applied Remote Sensing Training (ARSET)](https://www.earthdata.nasa.gov/data/projects/arset) program: its trainings, sessions, recordings, materials, instructors, satellites, datasets, tools and application areas. A tracker picks up new trainings and recordings automatically. A build step compiles everything into JSON and SQLite that apps can use.
+A personal, non-commercial index of NASA's [Applied Remote Sensing Training (ARSET)](https://www.earthdata.nasa.gov/data/projects/arset) program: its trainings, sessions, recordings, materials, instructors, satellites, datasets, tools and application areas. A tracker picks up new trainings and recordings automatically. A build step compiles everything into JSON, SQLite and a static website.
+
+> **Independent project.** EO Training Atlas is not affiliated with or endorsed by NASA or the ARSET program. Trainings, recordings and materials belong to their authors. The site links to them on NASA Earthdata and YouTube rather than hosting them. Long text from the training pages (descriptions, objectives, audience) is kept in the local catalog for search and analysis but is not republished on the website.
 
 ## Layout
 
@@ -56,6 +58,8 @@ pip install -r requirements.txt
 | `python -m arset build` | Writes `build/catalog.json`, `build/arset.sqlite` and the website in `build/site/`. |
 | `python -m arset serve` | Builds, then serves the site at http://127.0.0.1:8000/. |
 | `python -m arset stats` | Prints counts and the most-used satellites and applications. |
+| `python -m arset review` | Lists draft trainings with their tags. Add `--mark <id> ...` to mark trainings or instructors as reviewed. |
+| `python -m arset retag` | Re-runs auto-tagging on draft trainings, for example after adding aliases. |
 | `python -m pytest tests` | Runs the tests. |
 
 ## Website
@@ -83,7 +87,21 @@ The catalog is embedded in `build/site/data.js`. You can also open `build/site/i
 
 New records have `status: draft`. When you review one, fix the tags and set `status: reviewed`. After that, the tracker only adds new sessions, videos and materials to it, so tags you removed stay removed.
 
-The GitHub Action in `.github/workflows/track.yml` runs the tracker twice a week and opens a pull request with the report as its description.
+### Running the tracker on a schedule
+
+Earthdata returns 403 to GitHub-hosted runners, so the tracker runs on a local Windows PC instead. To register the scheduled task, run once:
+
+```
+powershell -ExecutionPolicy Bypass -File scripts\install-task.ps1
+```
+
+It runs `scripts/track-and-pr.ps1` every Monday and Thursday at 09:00 while you're logged on, or as soon as possible afterwards if the PC was off. When the tracker finds new trainings, recordings or materials, the script commits them to a `tracker/<date>` branch, pushes it, and opens a pull request with `inbox/REPORT.md` as the description. It skips the run if the working tree has uncommitted changes. It logs to `build/logs/track-task.log`. To test without changing anything, run `scripts\track-and-pr.ps1 -DryRun`.
+
+`.github/workflows/checks.yml` runs the tests, validation and a build on every push and pull request, so each tracker PR is checked before you merge it.
+
+### Reviewing drafts
+
+`python -m arset review` lists drafts with their tags. Fix any wrong tags in `data/trainings/<id>.yaml`, then run `python -m arset review --mark <id>`. Application tags need several mentions, with the title weighted most, and at most three are kept per training. If an obvious area is missing, add the missing word to that application's `aliases` and run `python -m arset retag`.
 
 ## Backfilling older trainings
 

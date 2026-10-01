@@ -29,8 +29,6 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - drought
-- ecological-conservation
-- water-resources
 satellites:
 - aqua
 - terra

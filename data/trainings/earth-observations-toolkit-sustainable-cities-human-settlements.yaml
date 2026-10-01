@@ -61,8 +61,6 @@ prerequisites:
 applications:
 - climate-resilience
 - disasters
-- ecological-conservation
-- health-air-quality
 sessions:
 - part: 1
   title: Introduction to the EO Toolkit for Sustainable Cities and Human Settlements

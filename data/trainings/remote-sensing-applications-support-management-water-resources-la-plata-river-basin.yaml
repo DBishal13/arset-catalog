@@ -48,8 +48,6 @@ objectives:
 - Apply remote sensing data (e.g., soil moisture, evapotranspiration, water quality) to hydrologic models
 - Analyze remote sensing-derived water quality parameters to create a Freshwater Health Index.
 applications:
-- climate-resilience
-- disasters
 - drought
 - ecological-conservation
 - water-resources

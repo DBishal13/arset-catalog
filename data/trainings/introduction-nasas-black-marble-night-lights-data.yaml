@@ -46,9 +46,7 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- disasters
-- health-air-quality
-- water-resources
+- climate-resilience
 satellites:
 - noaa-20
 - suomi-npp

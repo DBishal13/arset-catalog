@@ -203,7 +203,7 @@
     if (!ids || !ids.length) return "";
     return `<div class="chips">${ids.map((id) => `<a class="chip" href="${href(kind, id)}">${icon(iconName)}${esc(nameOf(KINDS[kind], id))}</a>`).join("")}</div>`;
   }
-  function setTitle(text) { document.title = text ? `${text} · ARSET Catalog` : "ARSET Catalog — every NASA ARSET training in one place"; }
+  function setTitle(text) { document.title = text ? `${text} · EO Training Atlas` : "EO Training Atlas — an independent guide to Earth-observation trainings"; }
   function notFound(what) {
     setTitle("Not found");
     app.innerHTML = `<div class="wrap page"><div class="empty"><h2>Lost in orbit</h2><p>${esc(what || "That page")} isn't in the catalog.</p>
@@ -318,9 +318,9 @@
         <canvas aria-hidden="true"></canvas>
         <div class="wrap hero-inner">
           <div>
-            <div class="eyebrow">NASA Applied Remote Sensing Training</div>
-            <h1>Every ARSET training,<br><span class="grad-text">in one place.</span></h1>
-            <p class="lead">Recordings, slides, homework, instructors and the satellites behind them, organized so you can find the right training and learn to use Earth observations.</p>
+            <div class="eyebrow">An independent guide · not affiliated with NASA</div>
+            <h1>Find the right<br><span class="grad-text">Earth-observation training.</span></h1>
+            <p class="lead">An index of NASA ARSET's free trainings, with every recording, slide deck and homework link, organized by topic, satellite and dataset. Registration and full details stay on NASA Earthdata.</p>
             <form class="hero-search" id="hero-search" role="search">
               ${icon("search")}
               <input name="q" type="search" placeholder="Try &ldquo;flood mapping&rdquo;, &ldquo;SMAP&rdquo; or an instructor…" aria-label="Search trainings">
@@ -495,9 +495,9 @@
     const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d+/, "");
     const events = (t.sessions || []).filter((s) => s.date).map((s) => [`part${s.part}`, s.date, `ARSET: ${t.title} (Part ${s.part})`, s.title]);
     if (!events.length && t.start_date) events.push(["all", t.start_date, `ARSET: ${t.title}`, t.summary || ""]);
-    const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//ARSET Catalog//EN", "CALSCALE:GREGORIAN"];
+    const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//EO Training Atlas//EN", "CALSCALE:GREGORIAN"];
     for (const [key, date, summary, desc] of events) {
-      lines.push("BEGIN:VEVENT", `UID:${t.id}-${key}@arset-catalog`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${day(date)}`,
+      lines.push("BEGIN:VEVENT", `UID:${t.id}-${key}@eo-training-atlas`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${day(date)}`,
         `DTEND;VALUE=DATE:${next(date)}`, `SUMMARY:${escI(summary)}`, `DESCRIPTION:${escI(`${desc}\nTimes and registration: ${t.source_url}`)}`,
         `URL:${t.source_url}`, "END:VEVENT");
     }
@@ -578,9 +578,12 @@
       <div class="wrap detail">
         <article class="prose">
           ${sessions || extra ? `<h2 style="margin-top:0">Sessions</h2><div class="sessions">${sessions}${extra}</div>` : ""}
-          ${t.description ? `<h2>About this training</h2>${t.description.split(/\n\s*\n/).map((p) => `<p>${esc(p)}</p>`).join("")}` : ""}
-          ${(t.objectives || []).length ? `<h2>What you'll learn</h2><ol class="objectives">${t.objectives.map((o) => `<li>${esc(o)}</li>`).join("")}</ol>` : ""}
-          ${(t.audience || []).length ? `<h2>Who it's for</h2><ul>${t.audience.map((o) => `<li>${esc(o)}</li>`).join("")}</ul>` : ""}
+          <div class="panel source-card">
+            <div><h4>Full details on NASA Earthdata</h4>
+              <p>The complete description, learning objectives, target audience, schedule, registration and certificate
+                requirements are on the official training page.</p></div>
+            <a class="btn" href="${esc(safeUrl(t.source_url))}" target="_blank" rel="noopener">${icon("external")}Open the training page</a>
+          </div>
           ${t.notes ? `<h2>Notes</h2><p>${esc(t.notes)}</p>` : ""}
         </article>
         <aside class="side">
@@ -909,8 +912,10 @@
       `<a href="${url || `#/${key}`}"${key === active ? ' class="active" aria-current="page"' : ""}>${label}${key === "review" && pending ? `<span class="count">${pending}</span>` : ""}</a>`).join("");
   }
   document.getElementById("footer").innerHTML = `<div class="wrap">
-    <span>Built ${esc(fmtDate(C.generated))} from NASA Earthdata training pages and YouTube · ${plural(C.trainings.length, "training")} · ${plural(allVideos.length, "recording")}</span>
-    <span>Independent project, not an official NASA site. Training content © its authors.</span></div>`;
+    <span><b>EO Training Atlas</b> is an independent, non-commercial project. It is not affiliated with or endorsed by NASA or the ARSET program.
+      Trainings, recordings and materials belong to their authors and are linked from
+      <a href="https://www.earthdata.nasa.gov/data/projects/arset" target="_blank" rel="noopener">NASA Earthdata</a> and YouTube, not hosted here.</span>
+    <span>Index built ${esc(fmtDate(C.generated))} · ${plural(C.trainings.length, "training")} · ${plural(allVideos.length, "recording")}</span></div>`;
 
   function router() {
     const raw = location.hash.replace(/^#\/?/, "");

@@ -28,7 +28,6 @@ prerequisites:
 - measuring-atmospheric-carbon-dioxide-from-space-support-climate-related-studies
 applications:
 - climate-resilience
-- drought
 satellites:
 - oco-2
 tools:

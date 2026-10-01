@@ -37,7 +37,6 @@ prerequisites:
 - mapping-crops-biophysical-characteristics-polarimetric-sar-optical-remote-sensing
 applications:
 - agriculture
-- ecological-conservation
 satellites:
 - sentinel-1
 - sentinel-2

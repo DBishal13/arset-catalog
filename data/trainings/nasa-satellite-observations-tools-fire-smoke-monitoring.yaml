@@ -37,7 +37,6 @@ objectives:
   Management System (FIRMS);
 - Generate and interpret data visualizations of satellite-based observations for fire and smoke monitoring.
 applications:
-- health-air-quality
 - wildland-fires
 satellites:
 - tempo

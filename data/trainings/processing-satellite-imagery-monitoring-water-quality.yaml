@@ -33,7 +33,7 @@ audience:
 prerequisites:
 - introduction-remote-sensing-harmful-algal-blooms
 applications:
-- health-air-quality
+- water-resources
 satellites:
 - aqua
 - landsat-8

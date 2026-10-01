@@ -39,7 +39,6 @@ prerequisites:
 - humanitarian-applications-using-nasa-earth-observations
 applications:
 - agriculture
-- climate-resilience
 - disasters
 - drought
 tools:

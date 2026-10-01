@@ -27,6 +27,8 @@ audience:
   on research.
 prerequisites:
 - fundamentals-remote-sensing-0
+applications:
+- ecological-conservation
 satellites:
 - aqua
 - landsat-8

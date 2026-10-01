@@ -24,7 +24,6 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - disasters
-- wildland-fires
 sessions:
 - part: 1
   title: Monitoring Volcanoes, Earthquakes, and Tsunamis Using NASA Remote Sensing and Models

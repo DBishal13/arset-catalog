@@ -20,9 +20,6 @@ objectives:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- agriculture
-- disasters
-- drought
 - water-resources
 satellites:
 - aqua

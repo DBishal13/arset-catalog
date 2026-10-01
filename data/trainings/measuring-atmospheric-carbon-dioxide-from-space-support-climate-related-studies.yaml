@@ -34,7 +34,6 @@ prerequisites:
 - fundamentals-remote-sensing-0
 applications:
 - climate-resilience
-- health-air-quality
 satellites:
 - oco-2
 tools:

@@ -85,6 +85,56 @@ def cmd_add(args) -> int:
     return status
 
 
+def cmd_retag(args) -> int:
+    """Re-run auto-tagging on draft trainings (reviewed ones keep their tags)."""
+    from . import tagging
+    cat = catalog.load()
+    changed = 0
+    for t in cat["training"].values():
+        if t.get("status") != "draft" and not args.all:
+            continue
+        new = tagging.suggest(cat, tagging.training_text(t))
+        before = {f: t.get(f) for f in tagging.FIELD_KIND}
+        for field in tagging.FIELD_KIND:
+            if new.get(field):
+                t[field] = new[field]
+            else:
+                t.pop(field, None)
+        if before != {f: t.get(f) for f in tagging.FIELD_KIND}:
+            cat.save("training", ingest._ordered(t))
+            changed += 1
+    print(f"retagged {changed} training(s)")
+    return 0
+
+
+def cmd_review(args) -> int:
+    cat = catalog.load()
+    if args.mark:
+        status = 0
+        for id_ in args.mark:
+            kind = next((k for k in ("training", "instructor") if id_ in cat[k]), None)
+            if kind is None:
+                print(f"unknown id: {id_}")
+                status = 1
+                continue
+            cat[kind][id_]["status"] = "reviewed"
+            cat.save(kind, cat[kind][id_])
+            print(f"reviewed: {kind} {id_}")
+        return status
+
+    drafts = sorted((t for t in cat["training"].values() if t.get("status") == "draft"),
+                    key=lambda t: t.get("start_date") or "", reverse=True)
+    for t in drafts[: args.limit]:
+        print(f"\n{t['id']}\n  {t['title']} ({t.get('start_date', 'self-paced')})")
+        for field in ("applications", "satellites", "datasets", "tools", "instructors"):
+            print(f"  {field:<13} {', '.join(t.get(field) or []) or '-'}")
+    left = len(drafts) - args.limit
+    people = sum(1 for p in cat["instructor"].values() if p.get("status") == "draft")
+    print(f"\n{len(drafts)} draft trainings{f' ({left} more not shown)' if left > 0 else ''}, {people} draft instructors.")
+    print("Edit data/trainings/<id>.yaml, then: python -m arset review --mark <id> [<id> ...]")
+    return 0
+
+
 def cmd_backfill(args) -> int:
     from .backfill import crawl
     cat = catalog.load()
@@ -124,6 +174,15 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--all", action="store_true", help="re-scrape every known training, not just recent ones")
     p.add_argument("--dry-run", action="store_true", help="report only; write nothing")
     p.set_defaults(fn=cmd_track)
+
+    p = sub.add_parser("retag", help="re-run auto-tagging on draft trainings")
+    p.add_argument("--all", action="store_true", help="also retag reviewed trainings (overwrites their tags)")
+    p.set_defaults(fn=cmd_retag)
+
+    p = sub.add_parser("review", help="list draft records, or mark them reviewed")
+    p.add_argument("--mark", nargs="+", metavar="ID", help="training or instructor ids to mark as reviewed")
+    p.add_argument("--limit", type=int, default=20, help="how many drafts to list")
+    p.set_defaults(fn=cmd_review)
 
     p = sub.add_parser("backfill", help="crawl older trainings via links between training pages (and YouTube)")
     p.add_argument("seeds", nargs="*", help="extra training URLs or slugs to start from")

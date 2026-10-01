@@ -36,7 +36,6 @@ audience:
 prerequisites:
 - introduction-synthetic-aperture-radar
 applications:
-- agriculture
 - disasters
 - ecological-conservation
 sessions:

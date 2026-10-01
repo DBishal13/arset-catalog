@@ -40,8 +40,6 @@ audience:
   Landsat, Sentinel-2, etc.).
 prerequisites:
 - fundamentals-remote-sensing-0
-applications:
-- ecological-conservation
 satellites:
 - aqua
 - terra

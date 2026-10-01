@@ -32,9 +32,6 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- agriculture
-- disasters
-- ecological-conservation
 - water-resources
 satellites:
 - gpm

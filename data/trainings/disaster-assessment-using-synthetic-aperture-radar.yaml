@@ -38,7 +38,6 @@ prerequisites:
 - sar-disasters-hydrological-applications
 applications:
 - disasters
-- water-resources
 satellites:
 - sentinel-1
 tools:

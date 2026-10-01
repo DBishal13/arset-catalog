@@ -61,7 +61,7 @@ prerequisites:
 - monitoring-water-quality-inland-lakes-using-remote-sensing
 applications:
 - ecological-conservation
-- health-air-quality
+- water-resources
 satellites:
 - landsat-8
 - landsat-9

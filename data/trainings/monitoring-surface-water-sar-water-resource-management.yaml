@@ -55,9 +55,6 @@ audience:
 prerequisites:
 - introduction-synthetic-aperture-radar
 applications:
-- agriculture
-- disasters
-- ecological-conservation
 - water-resources
 satellites:
 - nisar

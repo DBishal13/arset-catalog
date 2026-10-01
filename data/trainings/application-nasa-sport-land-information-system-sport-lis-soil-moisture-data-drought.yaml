@@ -62,7 +62,6 @@ objectives:
 - Configure LIS output file for viewing within a Geographic Information Systems (GIS)-based display tool
   and for tailored output products and graphics.
 applications:
-- climate-resilience
 - drought
 - water-resources
 satellites:

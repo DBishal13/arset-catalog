@@ -33,7 +33,6 @@ prerequisites:
 - hyperspectral-data-land-coastal-systems
 applications:
 - ecological-conservation
-- health-air-quality
 satellites:
 - iss
 - pace

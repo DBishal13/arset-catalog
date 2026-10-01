@@ -31,7 +31,6 @@ prerequisites:
 applications:
 - agriculture
 - disasters
-- water-resources
 satellites:
 - sentinel-1
 tools:

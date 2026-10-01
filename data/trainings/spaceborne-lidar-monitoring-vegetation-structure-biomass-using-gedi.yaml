@@ -48,7 +48,6 @@ prerequisites:
 - use-solar-induced-fluorescence-lidar-assess-vegetation-change-vulnerability
 - biodiversity-applications-airborne-imaging-systems
 applications:
-- climate-resilience
 - ecological-conservation
 satellites:
 - iss

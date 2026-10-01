@@ -38,7 +38,6 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - ecological-conservation
-- wildland-fires
 satellites:
 - landsat-8
 - landsat-9

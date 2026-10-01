@@ -25,6 +25,7 @@ objectives:
 - Calculate and analyze vegetation indices within GIS software using analysis ready optical imagery.
 applications:
 - agriculture
+- ecological-conservation
 tools:
 - appeears
 - earthdata-search

@@ -24,6 +24,8 @@ description: This advanced-level training led by NASA's Applied Remote Sensing T
 prerequisites:
 - fundamentals-remote-sensing
 - integrating-remote-sensing-water-quality-monitoring-program
+applications:
+- water-resources
 satellites:
 - landsat-8
 - landsat-9

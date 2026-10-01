@@ -39,9 +39,6 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- disasters
-- drought
-- ecological-conservation
 - water-resources
 satellites:
 - aqua

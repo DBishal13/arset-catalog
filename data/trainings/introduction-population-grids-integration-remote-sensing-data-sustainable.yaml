@@ -54,6 +54,7 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
+- climate-resilience
 - disasters
 sessions:
 - part: 1

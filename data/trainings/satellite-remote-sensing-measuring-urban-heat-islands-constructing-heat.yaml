@@ -48,8 +48,6 @@ prerequisites:
 - fundamentals-remote-sensing
 - satellite-remote-sensing-urban-heat-islands
 applications:
-- climate-resilience
-- ecological-conservation
 - health-air-quality
 satellites:
 - aqua

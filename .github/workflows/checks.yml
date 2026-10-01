@@ -1,0 +1,26 @@
+# The tracker itself runs on a local PC (scripts/track-and-pr.ps1, scheduled by
+# scripts/install-task.ps1) because Earthdata returns 403 to GitHub-hosted runners.
+# This workflow checks every push and tracker pull request instead.
+name: Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt pytest
+      - run: python -m pytest -q tests
+      - run: python -m arset validate
+      - run: python -m arset build

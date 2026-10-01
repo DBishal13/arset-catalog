@@ -32,8 +32,6 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- disasters
-- drought
 - water-resources
 sessions:
 - part: 1

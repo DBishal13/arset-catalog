@@ -48,13 +48,7 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- agriculture
 - climate-resilience
-- disasters
-- drought
-- ecological-conservation
-- water-resources
-- wildland-fires
 sessions:
 - part: 1
   title: Climate Change Monitoring & Impacts Using Remote Sensing and Modeled Data

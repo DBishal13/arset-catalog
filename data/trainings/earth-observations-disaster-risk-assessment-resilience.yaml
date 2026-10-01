@@ -46,7 +46,6 @@ prerequisites:
 applications:
 - climate-resilience
 - disasters
-- wildland-fires
 sessions:
 - part: 1
   title: NASA Remote Sensing and Socioeconomic Data for Disaster Risk Assessment

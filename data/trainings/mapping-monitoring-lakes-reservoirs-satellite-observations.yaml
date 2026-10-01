@@ -36,8 +36,6 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing-0
 applications:
-- climate-resilience
-- ecological-conservation
 - water-resources
 satellites:
 - icesat-2

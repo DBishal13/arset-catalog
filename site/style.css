@@ -92,8 +92,8 @@ main { outline: none; min-height: 60vh; }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--text); font-family: var(--display); font-weight: 700; font-size: 1.12rem; white-space: nowrap; }
 .brand:hover { text-decoration: none; }
 .brand svg { width: 28px; height: 28px; }
-.brand-planet { fill: var(--accent); stroke: none; }
-.brand-ring { stroke: var(--accent-2); stroke-width: 2; }
+.brand-map { stroke: var(--accent); stroke-width: 2.2; fill: var(--accent-soft); }
+.brand-fold { stroke: var(--accent-2); stroke-width: 2.2; }
 .brand b { font-weight: 500; color: var(--muted); margin-left: 5px; }
 #nav { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; flex: 1; min-width: 0; }
 #nav::-webkit-scrollbar { display: none; }
@@ -348,6 +348,11 @@ a.chip:hover { border-color: var(--c, var(--accent)); color: var(--text); text-d
 .objectives li::before { content: counter(obj); counter-increment: obj; position: absolute; left: 12px; top: 12px; width: 22px; height: 22px; border-radius: 50%;
   display: grid; place-items: center; font-size: .74rem; font-weight: 700; background: var(--accent-soft); color: var(--accent); }
 .objectives { counter-reset: obj; }
+
+.source-card { display: flex; gap: 20px; align-items: center; justify-content: space-between; flex-wrap: wrap; margin-top: 34px;
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border)); background: linear-gradient(135deg, var(--accent-soft), transparent 70%), var(--surface); }
+.source-card > div { flex: 1 1 320px; }
+.source-card p { margin: 0; color: var(--text-2); font-size: .92rem; }
 
 /* sessions timeline */
 .sessions { position: relative; display: flex; flex-direction: column; gap: 18px; padding-left: 34px; }

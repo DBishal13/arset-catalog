@@ -26,8 +26,8 @@ prerequisites:
 - arset-satellite-observations-tools-fire-risk-detection-analysis
 - using-google-earth-engine-land-monitoring-applications
 applications:
-- drought
-- ecological-conservation
+- health-air-quality
+- water-resources
 - wildland-fires
 tools:
 - google-earth-engine

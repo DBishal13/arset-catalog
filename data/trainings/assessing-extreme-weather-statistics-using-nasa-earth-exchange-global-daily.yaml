@@ -49,10 +49,7 @@ prerequisites:
 - drought-monitoring-prediction-projection-using-nasa-earth-system-data
 - selecting-climate-change-projection-sets-mitigation-adaptation-risk-management
 applications:
-- climate-resilience
-- drought
 - water-resources
-- wildland-fires
 tools:
 - google-earth-engine
 - jupyter

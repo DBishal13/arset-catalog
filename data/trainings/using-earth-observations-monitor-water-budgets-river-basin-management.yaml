@@ -27,7 +27,6 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- ecological-conservation
 - water-resources
 sessions:
 - part: 1

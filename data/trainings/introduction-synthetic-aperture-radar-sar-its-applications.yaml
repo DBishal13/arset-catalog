@@ -47,9 +47,6 @@ audience:
   government, and non-governmental organizations.
 prerequisites:
 - fundamentals-remote-sensing-0
-applications:
-- disasters
-- water-resources
 satellites:
 - nisar
 instructors:

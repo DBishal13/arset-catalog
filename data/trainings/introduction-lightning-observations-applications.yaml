@@ -28,9 +28,7 @@ description: 'It is well-documented that there are approximately 24,000 worldwid
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- climate-resilience
 - disasters
-- wildland-fires
 satellites:
 - goes-r-series
 instructors:

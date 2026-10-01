@@ -49,8 +49,6 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- climate-resilience
-- drought
 - ecological-conservation
 satellites:
 - landsat-8

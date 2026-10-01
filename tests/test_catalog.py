@@ -19,12 +19,30 @@ def test_unknown_reference_is_an_error():
 
 def test_tagging_uses_aliases_and_instruments():
     cat = catalog.load()
-    hits = tagging.suggest(cat, "Mapping floods with Sentinel-1 and MODIS in QGIS")
+    hits = tagging.suggest(cat, {"title": "Mapping floods with Sentinel-1 and MODIS in QGIS"})
     assert {"sentinel-1", "terra", "aqua"} <= set(hits["satellites"])
     assert hits["tools"] == ["qgis"]
     assert "disasters" in hits["applications"]
     # capitalised aliases are case-sensitive: "sar" in a word must not match anything
     assert tagging.suggest(cat, "the tsar of gee whiz") == {}
+
+
+def test_application_tags_need_weight():
+    cat = catalog.load()
+    # one passing mention deep in the text is not enough for an application area...
+    assert "applications" not in tagging.suggest(cat, {"body": "The forest is nice."})
+    # ...but the title is, and at most three areas are kept
+    many = {"title": "Floods, crops, wildfires, air quality and forests", "summary": "", "body": ""}
+    assert len(tagging.suggest(cat, many)["applications"]) == 3
+
+
+def test_site_data_omits_copied_text():
+    from arset.build import SITE_OMIT, site_data
+    data = {"trainings": [{"id": "t", "title": "T", "summary": "s", "description": "d", "objectives": ["o"], "audience": ["a"]}]}
+    out = site_data(data)
+    assert not any(k in out["trainings"][0] for k in SITE_OMIT)
+    assert out["trainings"][0]["summary"] == "s"
+    assert data["trainings"][0]["description"] == "d"  # the local catalog keeps it
 
 
 def test_match_session_by_title_and_part():

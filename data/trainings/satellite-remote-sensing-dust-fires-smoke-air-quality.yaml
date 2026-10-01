@@ -31,8 +31,8 @@ objectives:
 prerequisites:
 - introduction-satellite-remote-sensing-air-quality-applications
 applications:
-- ecological-conservation
 - health-air-quality
+- wildland-fires
 satellites:
 - aqua
 - goes-r-series

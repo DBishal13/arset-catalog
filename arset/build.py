@@ -49,6 +49,16 @@ def to_json(cat: Catalog, today: dt.date) -> dict:
     return out
 
 
+# Long text copied from the training pages stays in the local catalog (for search and
+# analysis) but is not republished on the public site, which links to the source instead.
+SITE_OMIT = ("description", "objectives", "audience")
+
+
+def site_data(data: dict) -> dict:
+    trainings = [{k: v for k, v in t.items() if k not in SITE_OMIT} for t in data["trainings"]]
+    return data | {"trainings": trainings}
+
+
 def to_site(catalog_json: str, dest: Path) -> None:
     """Copy site/ and embed the catalog as data.js so index.html also works from file://."""
     shutil.rmtree(dest, ignore_errors=True)
@@ -134,5 +144,5 @@ def build(cat: Catalog) -> list[Path]:
     json_path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     to_sqlite(cat, db_path, today)
     # "</" is escaped so text in the data can never close the <script> element
-    to_site(json.dumps(data, ensure_ascii=False).replace("</", "<\\/"), BUILD / "site")
+    to_site(json.dumps(site_data(data), ensure_ascii=False).replace("</", "<\\/"), BUILD / "site")
     return [json_path, db_path, BUILD / "site" / "index.html"]

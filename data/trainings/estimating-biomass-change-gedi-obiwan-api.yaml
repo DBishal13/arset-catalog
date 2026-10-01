@@ -55,7 +55,6 @@ prerequisites:
 - fundamentals-remote-sensing
 - spaceborne-lidar-monitoring-vegetation-structure-biomass-using-gedi
 applications:
-- climate-resilience
 - ecological-conservation
 satellites:
 - iss

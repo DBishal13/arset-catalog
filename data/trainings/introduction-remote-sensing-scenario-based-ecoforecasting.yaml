@@ -33,7 +33,6 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing
 applications:
-- climate-resilience
 - ecological-conservation
 satellites:
 - aqua

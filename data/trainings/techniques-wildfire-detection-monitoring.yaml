@@ -26,7 +26,6 @@ audience:
 prerequisites:
 - fundamentals-remote-sensing-0
 applications:
-- drought
 - wildland-fires
 tools:
 - qgis

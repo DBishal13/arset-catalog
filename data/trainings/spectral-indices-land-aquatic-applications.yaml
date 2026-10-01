@@ -37,8 +37,6 @@ description: 'This training, offered by NASA''s Applied Remote Sensing Training 
   land and aquatic environments.'
 prerequisites:
 - fundamentals-remote-sensing-0
-applications:
-- ecological-conservation
 satellites:
 - aqua
 - landsat-8

@@ -45,11 +45,7 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - agriculture
-- climate-resilience
-- disasters
 - drought
-- ecological-conservation
-- water-resources
 tools:
 - google-earth-engine
 - qgis

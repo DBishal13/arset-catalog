@@ -40,7 +40,6 @@ prerequisites:
 - mapping-monitoring-lakes-reservoirs-satellite-observations
 applications:
 - ecological-conservation
-- water-resources
 satellites:
 - icesat-2
 tools:

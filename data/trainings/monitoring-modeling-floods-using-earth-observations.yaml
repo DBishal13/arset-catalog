@@ -39,8 +39,6 @@ prerequisites:
 - satellite-remote-sensing-flood-monitoring-management
 applications:
 - disasters
-- ecological-conservation
-- water-resources
 instructors:
 - amita-mehta
 - sean-mccartney

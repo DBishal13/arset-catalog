@@ -33,7 +33,6 @@ prerequisites:
 - satellite-remote-sensing-flood-monitoring-management
 applications:
 - disasters
-- water-resources
 sessions:
 - part: 1
   title: An Overview of Tropical Storms and Their Impacts

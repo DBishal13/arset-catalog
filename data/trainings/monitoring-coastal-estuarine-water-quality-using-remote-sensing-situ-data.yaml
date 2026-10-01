@@ -42,6 +42,7 @@ prerequisites:
 - monitoring-coastal-estuarine-water-quality-transitioning-from-modis-viirs
 applications:
 - ecological-conservation
+- water-resources
 satellites:
 - aqua
 - noaa-20
