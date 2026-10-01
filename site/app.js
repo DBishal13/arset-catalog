@@ -71,6 +71,9 @@
     flame: '<path d="M12 21a6 6 0 0 0 6-6c0-4-3-6-4-10-2 2-3 4-3 6-1-1-2-2-2-4-2 2-3 5-3 8a6 6 0 0 0 6 6z"/>',
     thermo: '<path d="M10 14.5V5a2 2 0 1 1 4 0v9.5a4 4 0 1 1-4 0z"/><path d="M12 9v7"/>',
     waves: '<path d="M2 8c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2M2 13c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2M2 18c2.5 0 2.5-2 5-2s2.5 2 5 2 2.5-2 5-2 2.5 2 5 2"/>',
+    chat: '<path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/>',
+    x: '<path d="M6 6l12 12M18 6 6 18"/>',
+    send: '<path d="M4 12 20 4l-6 16-3-7z"/><path d="m11 13 9-9"/>',
   };
   const icon = (name, cls = "") => `<svg viewBox="0 0 24 24" aria-hidden="true"${cls ? ` class="${cls}"` : ""}>${ICONS[name] || ICONS.globe}</svg>`;
 
@@ -980,6 +983,103 @@
     renderNav(active);
     window.scrollTo(0, 0);
   }
+  // ================= chat (only when served by `python -m arset serve`) =================
+  /** Minimal, safe markdown for answers: escape first, then links, bold, code, lists, paragraphs. */
+  function markdown(text) {
+    const inline = (s) => esc(s)
+      .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_, label, url) => `<a href="${url}" target="_blank" rel="noopener">${label}</a>`)
+      .replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>")
+      .replace(/`([^`]+)`/g, "<code>$1</code>");
+    let html = "", list = null;
+    const close = () => { if (list) { html += `</${list}>`; list = null; } };
+    for (const line of String(text).split("\n")) {
+      const bullet = line.match(/^\s*[*-]\s+(.*)/), num = line.match(/^\s*\d+[.)]\s+(.*)/);
+      if (bullet || num) {
+        const tag = bullet ? "ul" : "ol";
+        if (list !== tag) { close(); html += `<${tag}>`; list = tag; }
+        html += `<li>${inline((bullet || num)[1])}</li>`;
+      } else if (!line.trim()) {
+        close();
+      } else {
+        close();
+        const h = line.match(/^#{1,4}\s+(.*)/);
+        html += h ? `<p><b>${inline(h[1])}</b></p>` : `<p>${inline(line)}</p>`;
+      }
+    }
+    close();
+    return html;
+  }
+
+  async function initChat() {
+    try {
+      const r = await fetch("api/health", { cache: "no-store" });
+      if (!r.ok || !(await r.json()).chat) return;
+    } catch (e) { return; }  // static hosting (GitHub Pages, file://): no chat
+
+    const SUGGESTIONS = ["How do I open SMAP soil moisture in QGIS?", "Which domains use GPM data the most?",
+      "Where can I download MODIS NDVI for my region?", "What did instructors say about cloud cover in Sentinel-2?"];
+    const box = document.createElement("div");
+    box.className = "chat";
+    box.innerHTML = `
+      <button type="button" class="chat-fab" aria-expanded="false" aria-controls="chat-panel">${icon("chat")}<span>Ask the Atlas</span></button>
+      <section class="chat-panel" id="chat-panel" role="dialog" aria-label="Ask the Atlas" hidden>
+        <header class="chat-head"><div><b>Ask the Atlas</b><span>Answers from ARSET slides, Q&amp;A and trainings, with links</span></div>
+          <button type="button" class="icon-btn" data-chat-close aria-label="Close chat">${icon("x")}</button></header>
+        <div class="chat-log" aria-live="polite">
+          <div class="msg bot"><p>Ask anything about the trainings: where a method is explained, what instructors answered,
+            which data is used for what, or where to download a dataset.</p>
+            <div class="suggest">${SUGGESTIONS.map((s) => `<button type="button" class="pill">${esc(s)}</button>`).join("")}</div></div>
+        </div>
+        <form class="chat-form"><textarea rows="1" placeholder="Ask a question…" aria-label="Your question"></textarea>
+          <button type="submit" class="btn primary" aria-label="Send">${icon("send")}</button></form>
+      </section>`;
+    document.body.appendChild(box);
+    const fab = box.querySelector(".chat-fab"), panel = box.querySelector(".chat-panel");
+    const log = box.querySelector(".chat-log"), form = box.querySelector("form"), input = box.querySelector("textarea");
+    let session = null, busy = false;
+
+    const toggle = (open) => {
+      panel.hidden = !open;
+      fab.setAttribute("aria-expanded", String(open));
+      if (open) input.focus();
+    };
+    fab.addEventListener("click", () => toggle(panel.hidden));
+    box.querySelector("[data-chat-close]").addEventListener("click", () => toggle(false));
+
+    const add = (cls, html) => {
+      const el = document.createElement("div");
+      el.className = `msg ${cls}`;
+      el.innerHTML = html;
+      log.appendChild(el);
+      log.scrollTop = log.scrollHeight;
+      return el;
+    };
+    async function send(question) {
+      if (busy || !question.trim()) return;
+      busy = true;
+      add("me", `<p>${esc(question)}</p>`);
+      const pending = add("bot pending", "<p>Searching the archive…</p>");
+      try {
+        const r = await fetch("api/ask", { method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question, session }) });
+        const data = await r.json();
+        if (!r.ok) throw new Error(data.error || `HTTP ${r.status}`);
+        session = data.session;
+        pending.className = "msg bot";
+        pending.innerHTML = markdown(data.answer);
+      } catch (e) {
+        pending.className = "msg bot error";
+        pending.innerHTML = `<p>Sorry, that failed: ${esc(e.message)}</p>`;
+      }
+      log.scrollTop = log.scrollHeight;
+      busy = false;
+    }
+    form.addEventListener("submit", (e) => { e.preventDefault(); const q = input.value; input.value = ""; send(q); });
+    input.addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); form.requestSubmit(); } });
+    log.addEventListener("click", (e) => { const s = e.target.closest(".suggest .pill"); if (s) send(s.textContent); });
+  }
+
   window.addEventListener("hashchange", router);
   router();
+  initChat();
 })();

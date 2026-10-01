@@ -35,17 +35,9 @@ def cmd_serve(args) -> int:
     status = cmd_build(args)
     if status:
         return status
-    import functools
-    import http.server
     from .build import BUILD
-
-    handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(BUILD / "site"))
-    with http.server.ThreadingHTTPServer(("127.0.0.1", args.port), handler) as server:
-        print(f"Serving the site at http://127.0.0.1:{args.port}/  (Ctrl+C to stop)")
-        try:
-            server.serve_forever()
-        except KeyboardInterrupt:
-            pass
+    from .server import serve
+    serve(str(BUILD / "site"), args.port)
     return 0
 
 

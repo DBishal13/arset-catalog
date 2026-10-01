@@ -101,7 +101,10 @@ python -m arset rag build        # split into ~37,000 pieces and index them (~40
 python -m arset rag eval         # check search quality on eval/questions.yaml
 python -m arset rag search "open SMAP in QGIS"   # search without a model
 python -m arset chat             # needs GOOGLE_API_KEY in .env
+python -m arset serve            # the website with an "Ask the Atlas" chat panel, at http://127.0.0.1:8000/
 ```
+
+The chat panel appears only when the site runs through `python -m arset serve`, which adds a small local API (`/api/ask`, bound to 127.0.0.1). The published GitHub Pages site has no API, so it shows no chat. Conversations stay in memory and are lost when the server stops.
 
 - **Search** combines meaning-based search (Chroma with a small on-device embedding model) and keyword search (SQLite FTS5), so both "soil water content" and exact codes like `SPL3SMP` work. Results can be filtered by material type, level and year. Slides are split one piece per page, and Q&A transcripts one piece per question-and-answer pair.
 - **The agent** (`arset/agent.py`) uses Gemini through LangChain and has five tools: search the materials, get a training, filter trainings, count trainings by domain/satellite/dataset/year, and get a dataset's download links. Get a free key at [aistudio.google.com/apikey](https://aistudio.google.com/apikey) and put `GOOGLE_API_KEY=…` in `.env`, which is git-ignored. Set `ARSET_LLM_MODEL` to use a different Gemini model.

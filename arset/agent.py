@@ -32,14 +32,16 @@ must not invent trainings, URLs, page numbers or quotes.
 - For "how do I / where is / what did they say about" questions, call search_materials. Search again \
 with different wording or filters if the first results are off-topic.
 - For questions about one training (sessions, recordings, slides, instructors), call get_training.
-- For lists ("trainings on SAR since 2022", "intermediate air quality trainings"), call find_trainings.
+- For lists ("trainings on SAR since 2022", "intermediate air quality trainings"), call find_trainings \
+and also search_materials with kind="catalog", because tags are auto-generated and miss some trainings; \
+merge the two.
 - For counts and comparisons across the archive ("which domains use GPM", "how has SAR coverage \
 changed"), call catalog_stats. Say that tags are auto-generated, so counts are approximate.
 - For "where do I download / get" a dataset, call dataset_access and give the Earthdata Search link \
 first, mention the free Earthdata Login, and suggest AppEEARS or Giovanni to avoid large downloads.
 
-Cite every claim with a markdown link to its source, using the url a tool returned, written like \
-[Training title, Part 2 slides p.14](url). Prefer the most recent training unless asked otherwise, \
+Cite every claim with a markdown link to its source: use the tool's cite_as text as the link text \
+and its url as the target, e.g. [Training title (2022), Part 2 Q&A p.4](url). Prefer the most recent training unless asked otherwise, \
 and say which year a training is from. If the tools return nothing relevant, say the archive doesn't \
 seem to cover it rather than guessing. Keep answers short and practical: a few sentences or a short \
 list, with the links."""
@@ -56,6 +58,21 @@ def _year(t: dict) -> str:
 
 def _page_url(url: str, page: int | None) -> str:
     return f"{url}#page={page}" if page and url.lower().split("?")[0].endswith(".pdf") else url
+
+
+SOURCE_LABEL = {"slides": "slides", "transcript": "Q&A", "qa": "Q&A", "exercise": "exercise",
+                "homework": "homework", "notebook": "notebook", "data": "data"}
+
+
+def _cite(c: dict) -> str:
+    """Ready-made citation text, so the model doesn't have to guess what kind of source it is."""
+    year = f" ({c['start_date'][:4]})" if c.get("start_date") else ""
+    if c["kind"] == "catalog":
+        return f"{c['training_title']}{year}, training page"
+    kind = "Q&A" if c["kind"] == "qa" else SOURCE_LABEL.get(c["material_type"] or "", "document")
+    part = f", Part {c['part']}" if c.get("part") else ""
+    page = f" p.{c['page']}" if c.get("page") else ""
+    return f"{c['training_title']}{year}{part} {kind}{page}"
 
 
 @tool
@@ -77,9 +94,8 @@ def search_materials(query: str, kind: str | None = None, material_type: str | N
     for hit in search(query, k=8, **filters):
         c = hit.chunk
         out.append({
-            "training_id": c["training_id"], "training": c["training_title"], "year": (c["start_date"] or "")[:4],
-            "part": c["part"], "source": c["material_title"] or c["material_type"] or "training page",
-            "page": c["page"], "url": _page_url(c["url"], c["page"]), "excerpt": c["text"][:900],
+            "cite_as": _cite(c), "url": _page_url(c["url"], c["page"]),
+            "training_id": c["training_id"], "year": (c["start_date"] or "")[:4], "excerpt": c["text"][:900],
         })
     return out
 
@@ -109,6 +125,16 @@ def get_training(training_id: str) -> dict:
     }
 
 
+def _unknown_ids(**given) -> dict | None:
+    """If the model passed an id that isn't in the catalog, say so and list the valid ones."""
+    cat = _cat()
+    for kind, value in given.items():
+        if value and value not in cat[kind]:
+            return {"error": f"unknown {kind} id {value!r}. Valid {kind} ids: {', '.join(sorted(cat[kind]))}. "
+                             f"For broad topics such as 'radar' or 'flood', use the text filter or search_materials."}
+    return None
+
+
 def _matches(t: dict, application, satellite, dataset, tool_name, level, year_from, year_to, text) -> bool:
     year = (t.get("start_date") or "")[:4]
     checks = [
@@ -136,6 +162,9 @@ def find_trainings(application: str | None = None, satellite: str | None = None,
     year_from/year_to: training start year range.
     text: words that must appear in the title, summary or description.
     """
+    unknown = _unknown_ids(application=application, satellite=satellite, dataset=dataset, tool=tool_name)
+    if unknown:
+        return unknown
     found = [t for t in _cat()["training"].values()
              if _matches(t, application, satellite, dataset, tool_name, level, year_from, year_to, text)]
     found.sort(key=lambda t: t.get("start_date") or "", reverse=True)
@@ -154,6 +183,9 @@ def catalog_stats(group_by: str, application: str | None = None, satellite: str 
     lists every valid id for that group. Example: which application domains use GPM data ->
     group_by="application", satellite="gpm". Tags are auto-generated, so counts are approximate."""
     cat = _cat()
+    unknown = _unknown_ids(application=application, satellite=satellite, dataset=dataset, tool=tool_name)
+    if unknown:
+        return unknown
     found = [t for t in cat["training"].values()
              if _matches(t, application, satellite, dataset, tool_name, level, year_from, year_to, None)]
     counts: Counter = Counter()
