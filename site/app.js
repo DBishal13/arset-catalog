@@ -734,7 +734,8 @@
     app.innerHTML = `<div class="wrap">
       <div class="ehero"${st ? ` style="--c:${st.c}"` : ""}>
         <div>
-          <nav class="crumbs" aria-label="Breadcrumb"><a href="#/">Home</a>/<a href="#/${KINDS[kind]}">${esc(cfg.label)}</a></nav>
+          <nav class="crumbs" aria-label="Breadcrumb"><a href="#/">Home</a>/${kind === "instructor"
+            ? '<a href="#/trainings">Trainings</a>' : `<a href="#/${KINDS[kind]}">${esc(cfg.label)}</a>`}</nav>
           <div class="eyebrow">${esc(cfg.eyebrow)}</div>
           <h1 style="margin:8px 0 10px">${esc(r.name)}</h1>
           ${cfg.sub(r) ? `<p class="lead muted" style="font-size:1.05rem;max-width:44em">${esc(cfg.sub(r))}</p>` : ""}
@@ -899,7 +900,7 @@
   paintTheme();
 
   // ================= shell =================
-  const NAV = [["home", "Home", "#/"], ["trainings", "Trainings"], ["instructors", "Instructors"], ["satellites", "Satellites"],
+  const NAV = [["home", "Home", "#/"], ["trainings", "Trainings"], ["satellites", "Satellites"],
     ["datasets", "Datasets"], ["tools", "Tools"], ["applications", "Applications"], ["review", "Review"]];
   function renderNav(active) {
     const d = drafts();
@@ -922,7 +923,7 @@
     else if (kind === "trainings") renderTrainings(Object.fromEntries(new URLSearchParams(qs)));
     else if (kind === "training") { active = "trainings"; renderTraining(id); }
     else if (kind === "review") renderReview();
-    else if (ENTITY[kind]) { active = KINDS[kind]; renderEntity(kind, id); }
+    else if (ENTITY[kind]) { active = kind === "instructor" ? "trainings" : KINDS[kind]; renderEntity(kind, id); }
     else {
       const single = Object.keys(KINDS).find((k) => KINDS[k] === kind);
       if (single && ENTITY[single]) renderEntityList(single); else notFound();
