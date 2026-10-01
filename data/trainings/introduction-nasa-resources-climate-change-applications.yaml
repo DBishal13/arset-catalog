@@ -49,6 +49,16 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - climate-resilience
+satellites:
+- aqua
+- grace
+- iss
+- landsat-8
+- landsat-9
+- terra
+datasets:
+- gpm-imerg
+- merra-2
 sessions:
 - part: 1
   title: Climate Change Monitoring & Impacts Using Remote Sensing and Modeled Data

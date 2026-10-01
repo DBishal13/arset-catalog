@@ -1,6 +1,10 @@
 id: merra-2
 name: MERRA-2 reanalysis
+cmr_short_names:
+- M2T1NXSLV
+- M2T1NXAER
 provider: GES DISC
 aliases:
 - MERRA2
+- MERRA-2
 notes: Model reanalysis that assimilates satellite observations; not tied to one satellite.

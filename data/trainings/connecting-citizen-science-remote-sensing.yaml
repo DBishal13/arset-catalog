@@ -53,6 +53,11 @@ applications:
 satellites:
 - landsat-8
 - landsat-9
+datasets:
+- modis-land-cover
+tools:
+- appeears
+- google-earth-engine
 instructors:
 - juan-l-torres-perez
 - amber-mccullum

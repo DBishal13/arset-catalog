@@ -45,10 +45,18 @@ applications:
 - climate-resilience
 - health-air-quality
 satellites:
+- aqua
 - goes-r-series
+- iss
 - landsat-8
 - landsat-9
+- noaa-20
+- sentinel-2
+- suomi-npp
+- terra
 tools:
+- appeears
+- arcgis-pro
 - google-earth-engine
 instructors:
 - sean-mccartney

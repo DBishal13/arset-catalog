@@ -29,9 +29,13 @@ prerequisites:
 applications:
 - climate-resilience
 satellites:
+- iss
 - oco-2
 tools:
+- google-earth-engine
 - jupyter
+- python
+- worldview
 instructors:
 - erika-podest
 - vivienne-payne

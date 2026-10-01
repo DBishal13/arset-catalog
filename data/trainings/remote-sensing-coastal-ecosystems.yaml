@@ -45,6 +45,12 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - ecological-conservation
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- suomi-npp
+- terra
 sessions:
 - part: 1
   title: Overview of Coastal Ecosystems and Remote Sensing

@@ -42,6 +42,13 @@ audience:
 applications:
 - climate-resilience
 - ecological-conservation
+satellites:
+- landsat-8
+- landsat-9
+tools:
+- esa-snap
+- google-earth-engine
+- qgis
 sessions:
 - part: 1
   title: Introduction to Mapping, GIS, and Drones

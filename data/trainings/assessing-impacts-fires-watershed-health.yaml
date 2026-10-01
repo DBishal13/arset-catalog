@@ -29,8 +29,24 @@ applications:
 - health-air-quality
 - water-resources
 - wildland-fires
+satellites:
+- aqua
+- gpm
+- landsat-8
+- landsat-9
+- noaa-20
+- sentinel-2
+- suomi-npp
+- terra
+datasets:
+- gpm-imerg
+- merra-2
+- modis-vegetation-indices
 tools:
+- arcgis-pro
 - google-earth-engine
+- python
+- qgis
 instructors:
 - sean-mccartney
 - amita-mehta

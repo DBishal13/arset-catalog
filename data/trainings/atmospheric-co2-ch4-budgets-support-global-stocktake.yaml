@@ -50,6 +50,9 @@ prerequisites:
 - introduction-nasa-resources-climate-change-applications
 applications:
 - climate-resilience
+satellites:
+- oco-2
+- sentinel-5p
 instructors:
 - dan-cusworth
 sessions:

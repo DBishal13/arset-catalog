@@ -49,6 +49,15 @@ prerequisites:
 - fundamentals-remote-sensing-0
 satellites:
 - nisar
+- sentinel-1
+- sentinel-2
+datasets:
+- opera-dswx
+tools:
+- esa-snap
+- google-earth-engine
+- jupyter
+- python
 instructors:
 - erika-podest
 - eric-fielding

@@ -38,7 +38,13 @@ applications:
 - disasters
 satellites:
 - aqua
+- gpm
+- landsat-8
+- landsat-9
+- sentinel-1
 - terra
+datasets:
+- gpm-imerg
 sessions:
 - part: 1
   title: The Global Disaster Alert and Coordination System

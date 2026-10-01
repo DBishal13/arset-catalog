@@ -33,6 +33,12 @@ prerequisites:
 - fundamentals-satellite-remote-sensing-health-monitoring
 applications:
 - health-air-quality
+satellites:
+- aqua
+- terra
+tools:
+- arcgis-pro
+- google-earth-engine
 sessions:
 - part: 1
   title: How Can Health Professionals Use NASA Data? Acquiring and Using Environmental Data for Health

@@ -52,8 +52,6 @@ applications:
 satellites:
 - goes-r-series
 - tempo
-datasets:
-- modis-maiac-aod
 instructors:
 - caterina-mogno
 - amy-huff

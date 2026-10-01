@@ -48,8 +48,13 @@ prerequisites:
 applications:
 - climate-resilience
 - ecological-conservation
+satellites:
+- landsat-8
+- landsat-9
 tools:
 - google-earth-engine
+- python
+- qgis
 sessions:
 - part: 1
   title: Introduction to SDG 6.6 and Remote Sensing Techniques for Mangroves

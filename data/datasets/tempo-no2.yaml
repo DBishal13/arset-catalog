@@ -1,7 +1,11 @@
 id: tempo-no2
 name: TEMPO NO2
+cmr_short_names:
+- TEMPO_NO2_L3
+- TEMPO_NO2_L2
 satellites:
 - tempo
 provider: ASDC (NASA Langley)
 aliases:
 - TEMPO NO2
+- TEMPO nitrogen dioxide

@@ -50,9 +50,28 @@ applications:
 - drought
 - water-resources
 satellites:
+- aqua
+- gpm
+- iss
 - landsat-8
 - landsat-9
+- noaa-20
+- sentinel-1
+- sentinel-2
 - smap
+- suomi-npp
+- terra
+datasets:
+- gpm-imerg
+- hls
+- modis-vegetation-indices
+- smap-l3-soil-moisture
+tools:
+- esa-snap
+- giovanni
+- google-earth-engine
+- python
+- qgis
 sessions:
 - part: 1
   title: Overview of Agricultural Remote Sensing

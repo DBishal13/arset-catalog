@@ -52,6 +52,11 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - disasters
+satellites:
+- sentinel-1
+tools:
+- arcgis-pro
+- google-earth-engine
 sessions:
 - part: 1
   title: Development of Regional Exposure Data With Earth Observations

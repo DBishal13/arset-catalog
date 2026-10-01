@@ -53,12 +53,15 @@ applications:
 - drought
 - ecological-conservation
 satellites:
+- iss
 - oco-2
+- sentinel-5p
 datasets:
-- modis-vegetation-indices
+- grace-fo-mascons
 - oco-2-sif-lite
 tools:
 - jupyter
+- python
 instructors:
 - nick-parazoo
 - jacqueline-ryan

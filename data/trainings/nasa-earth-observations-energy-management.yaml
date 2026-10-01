@@ -46,6 +46,27 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - climate-resilience
+satellites:
+- aqua
+- grace
+- iss
+- landsat-8
+- landsat-9
+- noaa-20
+- suomi-npp
+- terra
+datasets:
+- gpm-imerg
+- merra-2
+- opera-dswx
+tools:
+- arcgis-pro
+- giovanni
+- google-earth-engine
+- jupyter
+- python
+- qgis
+- worldview
 sessions:
 - part: 1
   title: Introduction to Earth Observations (EOs) for Energy Management

@@ -42,7 +42,9 @@ applications:
 - ecological-conservation
 satellites:
 - icesat-2
+- sentinel-2
 tools:
+- earthdata-search
 - python
 - qgis
 sessions:

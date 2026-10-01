@@ -28,6 +28,15 @@ audience:
   general public.
 applications:
 - health-air-quality
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- noaa-20
+- suomi-npp
+- terra
+datasets:
+- modis-vegetation-indices
 instructors:
 - pawan-gupta
 - maury-estes

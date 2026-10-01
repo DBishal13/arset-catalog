@@ -52,6 +52,8 @@ applications:
 - disasters
 satellites:
 - nisar
+datasets:
+- opera-disp
 instructors:
 - erika-podest
 - eric-fielding

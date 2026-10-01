@@ -89,11 +89,14 @@ def cmd_retag(args) -> int:
     """Re-run auto-tagging on draft trainings (reviewed ones keep their tags)."""
     from . import tagging
     cat = catalog.load()
+    materials = tagging.materials_text_by_training()
+    if materials:
+        print(f"using extracted material text for {len(materials)} trainings")
     changed = 0
     for t in cat["training"].values():
         if t.get("status") != "draft" and not args.all:
             continue
-        new = tagging.suggest(cat, tagging.training_text(t))
+        new = tagging.suggest(cat, tagging.training_text(t) | {"materials": materials.get(t["id"], "")})
         before = {f: t.get(f) for f in tagging.FIELD_KIND}
         for field in tagging.FIELD_KIND:
             if new.get(field):
@@ -132,6 +135,57 @@ def cmd_review(args) -> int:
     people = sum(1 for p in cat["instructor"].values() if p.get("status") == "draft")
     print(f"\n{len(drafts)} draft trainings{f' ({left} more not shown)' if left > 0 else ''}, {people} draft instructors.")
     print("Edit data/trainings/<id>.yaml, then: python -m arset review --mark <id> [<id> ...]")
+    return 0
+
+
+def cmd_rag(args) -> int:
+    cat = catalog.load()
+    if args.rag_command == "collect":
+        from .rag.collect import collect
+        collect(cat, limit=args.limit)
+    elif args.rag_command == "build":
+        from .rag.index import build
+        print(f"indexed {build(cat)} chunks into corpus/")
+    elif args.rag_command == "eval":
+        from .rag.evaluate import evaluate
+        evaluate(k=args.k, verbose=args.verbose)
+    elif args.rag_command == "search":
+        from .rag.index import search
+        filters = {k: getattr(args, k) for k in ("kind", "material_type", "level", "since_year")}
+        for i, hit in enumerate(search(args.query, k=args.k, **filters), 1):
+            c = hit.chunk
+            where = f"Part {c['part']}, " if c["part"] else ""
+            what = f"{c['material_title'] or c['material_type']}, p.{c['page']}" if c["kind"] != "catalog" else "training page"
+            print(f"\n{i}. [{c['kind']} via {hit.via}] {c['training_title']} ({(c['start_date'] or '')[:4]})")
+            print(f"   {where}{what}  {c['url']}")
+            print(f"   {c['text'][:260]}")
+    return 0
+
+
+def cmd_datasets(args) -> int:
+    from .datasets import ACCESS_FILE, refresh
+    found = refresh(catalog.load())
+    print(f"\nwrote {ACCESS_FILE.relative_to(catalog.ROOT)} ({len(found)} datasets with download links)")
+    return 0
+
+
+def cmd_ask(args) -> int:
+    from .agent import ask
+    answer, _ = ask(args.question)
+    print(answer)
+    return 0
+
+
+def cmd_chat(args) -> int:
+    from .agent import MODEL, ask
+    print(f"EO Training Atlas chat ({MODEL}). Ask about ARSET trainings; empty line or Ctrl+C to quit.")
+    history: list = []
+    try:
+        while question := input("\nyou> ").strip():
+            answer, history = ask(question, history)
+            print(f"\n{answer}")
+    except (KeyboardInterrupt, EOFError):
+        pass
     return 0
 
 
@@ -174,6 +228,31 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--all", action="store_true", help="re-scrape every known training, not just recent ones")
     p.add_argument("--dry-run", action="store_true", help="report only; write nothing")
     p.set_defaults(fn=cmd_track)
+
+    p = sub.add_parser("rag", help="build and query the local search index over training materials")
+    rag = p.add_subparsers(dest="rag_command", required=True)
+    q = rag.add_parser("collect", help="download PDF materials and extract their text into corpus/")
+    q.add_argument("--limit", type=int, help="only fetch this many (for testing)")
+    rag.add_parser("build", help="split the catalog and extracted materials into chunks and index them")
+    q = rag.add_parser("eval", help="score retrieval against eval/questions.yaml")
+    q.add_argument("-k", type=int, default=5)
+    q.add_argument("-v", "--verbose", action="store_true")
+    q = rag.add_parser("search", help="search the index")
+    q.add_argument("query")
+    q.add_argument("-k", type=int, default=8, help="number of results")
+    q.add_argument("--kind", choices=["catalog", "qa", "page"])
+    q.add_argument("--material-type", dest="material_type", help="slides, transcript, homework, exercise, ...")
+    q.add_argument("--level", choices=["fundamentals", "introductory", "intermediate", "advanced"])
+    q.add_argument("--since-year", dest="since_year", type=int)
+    p.set_defaults(fn=cmd_rag)
+
+    sub.add_parser("datasets", help="look up download links for every dataset in NASA's CMR catalog").set_defaults(
+        fn=cmd_datasets)
+
+    p = sub.add_parser("ask", help="ask the chatbot one question")
+    p.add_argument("question")
+    p.set_defaults(fn=cmd_ask)
+    sub.add_parser("chat", help="chat with the bot in the terminal").set_defaults(fn=cmd_chat)
 
     p = sub.add_parser("retag", help="re-run auto-tagging on draft trainings")
     p.add_argument("--all", action="store_true", help="also retag reviewed trainings (overwrites their tags)")

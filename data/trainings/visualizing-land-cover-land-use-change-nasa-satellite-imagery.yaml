@@ -48,7 +48,11 @@ satellites:
 datasets:
 - hls
 tools:
+- arcgis-pro
 - earthdata-search
+- google-earth-engine
+- python
+- qgis
 - r
 sessions:
 - part: 1

@@ -71,11 +71,15 @@ satellites:
 - sentinel-1
 datasets:
 - grace-fo-mascons
+- hls
 - opera-disp
 tools:
 - earthdata-search
 - giovanni
+- google-earth-engine
 - jupyter
+- python
+- qgis
 instructors:
 - amita-mehta
 - matthew-rodell

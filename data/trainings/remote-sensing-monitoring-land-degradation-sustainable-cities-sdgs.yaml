@@ -56,8 +56,13 @@ prerequisites:
 applications:
 - climate-resilience
 - ecological-conservation
+satellites:
+- landsat-8
+- landsat-9
 tools:
+- google-earth-engine
 - qgis
+- worldview
 sessions:
 - part: 1
   title: Part 1

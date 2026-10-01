@@ -43,12 +43,17 @@ satellites:
 - aqua
 - landsat-8
 - landsat-9
+- noaa-20
 - pace
 - sentinel-2
+- suomi-npp
 - terra
 tools:
+- earthdata-search
+- google-earth-engine
 - jupyter
 - python
+- worldview
 instructors:
 - amita-mehta
 - antonio-mannino

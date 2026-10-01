@@ -39,6 +39,11 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - water-resources
+satellites:
+- terra
+tools:
+- appeears
+- qgis
 sessions:
 - part: 1
   title: River Basin Delineation Based on NASA Digital Elevation Data

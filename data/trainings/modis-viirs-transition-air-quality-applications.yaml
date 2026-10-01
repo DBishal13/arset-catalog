@@ -41,6 +41,7 @@ satellites:
 datasets:
 - modis-maiac-aod
 tools:
+- jupyter
 - python
 sessions:
 - part: 1

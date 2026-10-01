@@ -697,7 +697,8 @@
     const cfg = ENTITY[kind];
     const extra = kind === "satellite"
       ? `<div class="badges">${r.launch_date ? `<span class="badge">${esc(r.launch_date.slice(0, 4))}</span>` : ""}${r.orbit ? `<span class="badge">${esc(ORBIT_LABEL[r.orbit] || r.orbit)}</span>` : ""}${r.status === "inactive" ? '<span class="badge">Retired</span>' : ""}</div>`
-      : "";
+      : kind === "dataset" && (r.access || []).length
+        ? `<div class="badges"><span class="badge live-ish">${icon("download")} Download links</span></div>` : "";
     return `<a class="ecard reveal" href="${href(kind, r.id)}"><div class="row"><span class="icon">${icon(cfg.icon)}</span>
       <div style="min-width:0"><h3>${esc(r.name)}</h3><p class="sub">${esc(cfg.sub(r))}</p></div></div>${extra}${draft}${foot}</a>`;
   }
@@ -710,6 +711,48 @@
       <div class="page-head"><div class="eyebrow">Catalog</div><h1>${esc(cfg.label)}</h1><p>${esc(cfg.intro)} ${plural(rows.length, cfg.eyebrow.toLowerCase())} in the catalog.</p></div>
       ${kind === "satellite" ? fleetTimeline() : ""}
       <div class="grid sm">${rows.map((r) => entityCard(kind, r)).join("")}</div></div>`;
+  }
+
+  const ACCESS_GROUPS = [
+    ["Download", [["earthdata_search", "Download in Earthdata Search", "download"],
+      ["access_tool", "Subset & download (archive's tool)", "filter"], ["browse_files", "Browse all files", "database"]]],
+    ["Explore without downloading", [["appeears", "Extract your area with AppEEARS", "globe"],
+      ["giovanni", "Plot and map it in Giovanni", "layers"], ["worldview", "View it in Worldview", "globe"]]],
+    ["Documentation", [["user_guide", "User guide", "notebook"], ["atbd", "Algorithm document (ATBD)", "slides"],
+      ["landing_page", "Dataset home page", "external"]]],
+  ];
+
+  function accessSection(r) {
+    const cols = r.access || [];
+    const samples = [];
+    for (const t of C.trainings.filter((t) => (t.datasets || []).includes(r.id))) {
+      for (const s of [...(t.sessions || []), { materials: t.materials || [] }]) {
+        for (const m of s.materials || []) if (m.type === "data") samples.push({ m, t, part: s.part });
+      }
+    }
+    if (!cols.length && !samples.length) return "";
+    const card = (c) => `<div class="panel access-card">
+      <div class="access-head"><div><h3>${esc(c.title || c.short_name)}</h3>
+        <div class="metaline"><span><code>${esc(c.short_name)}</code></span><span>version ${esc(c.version || "?")}</span>
+          ${c.doi ? `<a href="https://doi.org/${esc(c.doi)}" target="_blank" rel="noopener">doi:${esc(c.doi)}</a>` : ""}</div></div>
+        ${c.links.earthdata_search ? `<a class="btn primary" href="${esc(safeUrl(c.links.earthdata_search))}" target="_blank" rel="noopener">${icon("download")}Get the files</a>` : ""}</div>
+      ${ACCESS_GROUPS.map(([label, items]) => {
+        const present = items.filter(([key]) => c.links[key]);
+        return present.length ? `<div class="link-group"><h5>${esc(label)}</h5><div class="materials">${present.map(([key, text, ic]) =>
+          `<a class="material" href="${esc(safeUrl(c.links[key]))}" target="_blank" rel="noopener"><span class="mi">${icon(ic)}</span><span>${esc(text)}</span></a>`).join("")}</div></div>` : "";
+      }).join("")}
+    </div>`;
+    return `<section class="section" style="padding-top:28px">
+      <div class="section-head"><div><div class="eyebrow">Get the data</div><h2>Download or explore ${esc(r.name)}</h2></div></div>
+      ${cols.length ? `<p class="login-note">${icon("user")}<span>Downloading from NASA archives needs a free <b>Earthdata Login</b>.
+        <a href="${esc(C.earthdata_signup || "https://urs.earthdata.nasa.gov/users/new")}" target="_blank" rel="noopener">Create one</a>,
+        then choose your area and dates in Earthdata Search before downloading. These files can be large.</span></p>
+        <div class="access-grid">${cols.map(card).join("")}</div>` : ""}
+      ${samples.length ? `<div class="panel" style="margin-top:18px"><h4>Sample data from trainings</h4>
+        <p class="small muted" style="margin:0 0 6px">Small, ready-made files used in hands-on exercises. Often the quickest way to start.</p>
+        <div class="materials">${samples.map(({ m, t, part }) => `<a class="material" href="${esc(safeUrl(m.url))}" target="_blank" rel="noopener">
+          <span class="mi">${icon("database")}</span><span><small>${esc(t.title.slice(0, 48))}${t.title.length > 48 ? "…" : ""}${part ? ` · Part ${part}` : ""}</small>${esc(m.title || "Sample data")}</span></a>`).join("")}</div></div>` : ""}
+    </section>`;
   }
 
   function renderEntity(kind, id) {
@@ -752,6 +795,7 @@
           ${r.notes ? `<p class="small muted" style="margin:12px 0 0">${esc(r.notes)}</p>` : ""}
           ${links.map((u) => `<p class="small" style="margin:12px 0 0"><a href="${esc(safeUrl(u))}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\//, ""))} ↗</a></p>`).join("")}</div>` : ""}
         ${related}</div>` : ""}
+      ${kind === "dataset" ? accessSection(r) : ""}
       ${vids.length ? `<section class="section" style="padding-top:28px"><div class="section-head"><h2>Recordings</h2></div><div class="rail">${vids.map(videoCard).join("")}</div></section>` : ""}
       <section class="section" style="padding-top:28px"><div class="section-head"><h2>Trainings</h2></div>
         ${trainings.length ? `<div class="grid">${trainings.map(trainingCard).join("")}</div>` : '<div class="empty">No trainings reference this yet.</div>'}</section>

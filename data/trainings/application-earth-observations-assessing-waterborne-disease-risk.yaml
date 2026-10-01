@@ -35,6 +35,18 @@ prerequisites:
 applications:
 - health-air-quality
 - water-resources
+satellites:
+- gpm
+- landsat-8
+- pace
+- sentinel-1
+- sentinel-2
+datasets:
+- gpm-imerg
+- merra-2
+tools:
+- earthdata-search
+- worldview
 sessions:
 - part: 1
   title: Overview of Monitoring Waterborne Diseases using Remote Sensing Observations

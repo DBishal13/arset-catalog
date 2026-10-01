@@ -1,5 +1,8 @@
 id: gpm-imerg
 name: GPM IMERG precipitation
+cmr_short_names:
+- GPM_3IMERGDF
+- GPM_3IMERGHH
 satellites:
 - gpm
 provider: GES DISC
@@ -7,3 +10,5 @@ variables:
 - precipitation
 aliases:
 - IMERG
+- GPM IMERG
+- Integrated Multi-satellitE Retrievals for GPM

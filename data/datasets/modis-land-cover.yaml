@@ -1,8 +1,13 @@
 id: modis-land-cover
 name: MODIS land cover type yearly 500 m
+cmr_short_names:
+- MCD12Q1
 short_name: MCD12Q1
 satellites:
 - terra
 - aqua
 provider: LP DAAC
 resolution: 500 m
+aliases:
+- MODIS land cover
+- MCD12

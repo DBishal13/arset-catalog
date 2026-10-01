@@ -24,6 +24,18 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - disasters
+satellites:
+- aqua
+- gpm
+- landsat-8
+- noaa-20
+- suomi-npp
+- terra
+datasets:
+- gpm-imerg
+- viirs-active-fire
+tools:
+- worldview
 sessions:
 - part: 1
   title: Monitoring Volcanoes, Earthquakes, and Tsunamis Using NASA Remote Sensing and Models

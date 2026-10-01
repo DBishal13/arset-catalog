@@ -50,10 +50,21 @@ applications:
 - health-air-quality
 - wildland-fires
 satellites:
+- aqua
+- landsat-8
+- landsat-9
 - noaa-20
+- sentinel-2
 - suomi-npp
+- terra
+datasets:
+- hls
+- viirs-active-fire
 tools:
+- arcgis-pro
+- google-earth-engine
 - jupyter
+- worldview
 sessions:
 - part: 1
   title: Post-Fire Imagery and Smoke Monitoring

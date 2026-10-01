@@ -33,6 +33,18 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - water-resources
+satellites:
+- aqua
+- gpm
+- terra
+datasets:
+- gpm-imerg
+- merra-2
+- modis-land-cover
+tools:
+- google-earth-engine
+- panoply
+- python
 sessions:
 - part: 1
   title: Introduction to the VIC Hydrological Model

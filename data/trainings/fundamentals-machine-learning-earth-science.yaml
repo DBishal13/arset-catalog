@@ -42,9 +42,11 @@ prerequisites:
 - fundamentals-remote-sensing-0
 satellites:
 - aqua
+- sentinel-2
 - terra
 tools:
 - jupyter
+- python
 instructors:
 - jordan-a-caraballo-vega
 - caleb-spradlin

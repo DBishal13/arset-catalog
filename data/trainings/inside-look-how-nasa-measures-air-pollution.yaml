@@ -31,6 +31,18 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - health-air-quality
+satellites:
+- aqua
+- noaa-20
+- sentinel-5p
+- suomi-npp
+- terra
+datasets:
+- modis-maiac-aod
+tools:
+- giovanni
+- python
+- worldview
 sessions:
 - part: 1
   title: Nitrogen Dioxide (NO 2)

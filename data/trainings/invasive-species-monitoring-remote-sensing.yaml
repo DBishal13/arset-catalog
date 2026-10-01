@@ -48,8 +48,12 @@ satellites:
 - landsat-8
 - landsat-9
 - noaa-20
+- sentinel-2
 - suomi-npp
 - terra
+tools:
+- appeears
+- python
 instructors:
 - sativa-cruz
 - juan-l-torres-perez

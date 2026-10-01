@@ -66,6 +66,7 @@ satellites:
 - smap
 datasets:
 - oco-2-sif-lite
+- smap-l3-soil-moisture
 tools:
 - jupyter
 instructors:

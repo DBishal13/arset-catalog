@@ -33,6 +33,22 @@ prerequisites:
 - satellite-remote-sensing-flood-monitoring-management
 applications:
 - disasters
+satellites:
+- aqua
+- gpm
+- landsat-8
+- landsat-9
+- noaa-20
+- sentinel-1
+- suomi-npp
+- terra
+datasets:
+- gpm-imerg
+tools:
+- giovanni
+- panoply
+- python
+- worldview
 sessions:
 - part: 1
   title: An Overview of Tropical Storms and Their Impacts

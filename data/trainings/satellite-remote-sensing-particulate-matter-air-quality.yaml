@@ -34,8 +34,6 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - health-air-quality
-datasets:
-- modis-maiac-aod
 sessions:
 - part: 1
   title: Overview and Intro to Remote Sensing of Aerosols

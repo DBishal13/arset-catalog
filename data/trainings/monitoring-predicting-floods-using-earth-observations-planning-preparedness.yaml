@@ -44,9 +44,23 @@ prerequisites:
 applications:
 - disasters
 - water-resources
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- nisar
+- noaa-20
+- sentinel-1
+- sentinel-2
+- suomi-npp
+- terra
 datasets:
+- hls
 - opera-dswx
 tools:
+- google-earth-engine
+- python
+- qgis
 - worldview
 instructors:
 - amita-mehta

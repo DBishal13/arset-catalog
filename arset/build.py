@@ -32,7 +32,9 @@ def to_json(cat: Catalog, today: dt.date) -> dict:
             for ref in t.get(field) or []:
                 backrefs[kind].setdefault(ref, []).append(tid)
 
-    out: dict = {"generated": today.isoformat()}
+    from .datasets import EARTHDATA_SIGNUP, load_access
+    access = load_access()
+    out: dict = {"generated": today.isoformat(), "earthdata_signup": EARTHDATA_SIGNUP}
     for kind, folder in KINDS.items():
         rows = []
         for id_, rec in sorted(cat[kind].items()):
@@ -42,6 +44,8 @@ def to_json(cat: Catalog, today: dt.date) -> dict:
                 row["video_count"] = sum(1 for _ in iter_videos(rec))
             else:
                 row["trainings"] = backrefs[kind].get(id_, [])
+                if kind == "dataset":
+                    row["access"] = access.get(id_, [])
             rows.append(row)
         out[folder] = rows
     out["counts"] = {folder: len(out[folder]) for folder in KINDS.values()}

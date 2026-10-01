@@ -57,6 +57,7 @@ satellites:
 tools:
 - google-earth-engine
 - jupyter
+- qgis
 sessions:
 - part: 1
   title: Land Surface Temperature-Based Surface Urban Heat Island Mapping

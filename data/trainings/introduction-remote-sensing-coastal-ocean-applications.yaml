@@ -33,9 +33,14 @@ applications:
 - ecological-conservation
 satellites:
 - aqua
+- landsat-8
+- landsat-9
 - noaa-20
 - suomi-npp
 - terra
+tools:
+- giovanni
+- worldview
 sessions:
 - part: 1
   title: Overview of Satellite Remote Sensing of Aquatic Environments

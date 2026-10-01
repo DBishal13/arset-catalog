@@ -1,7 +1,10 @@
 id: tropomi-no2
 name: Sentinel-5P TROPOMI tropospheric NO2
+cmr_short_names:
+- S5P_L2__NO2____HiR
 satellites:
 - sentinel-5p
 provider: GES DISC
 aliases:
 - TROPOMI NO2
+- TROPOMI nitrogen dioxide

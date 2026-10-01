@@ -46,6 +46,18 @@ prerequisites:
 applications:
 - climate-resilience
 - disasters
+satellites:
+- aqua
+- gpm
+- terra
+datasets:
+- gpm-imerg
+- merra-2
+tools:
+- arcgis-pro
+- giovanni
+- google-earth-engine
+- qgis
 sessions:
 - part: 1
   title: NASA Remote Sensing and Socioeconomic Data for Disaster Risk Assessment

@@ -25,8 +25,16 @@ satellites:
 - aqua
 - gpm
 - grace
+- landsat-8
+- landsat-9
 - smap
 - terra
+datasets:
+- gpm-imerg
+- grace-fo-mascons
+tools:
+- giovanni
+- worldview
 instructors:
 - brian-f-thomas
 sessions:

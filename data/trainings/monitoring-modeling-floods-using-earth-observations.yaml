@@ -39,6 +39,18 @@ prerequisites:
 - satellite-remote-sensing-flood-monitoring-management
 applications:
 - disasters
+satellites:
+- aqua
+- sentinel-1
+- terra
+datasets:
+- grace-fo-mascons
+- merra-2
+tools:
+- arcgis-pro
+- esa-snap
+- google-earth-engine
+- worldview
 instructors:
 - amita-mehta
 - sean-mccartney

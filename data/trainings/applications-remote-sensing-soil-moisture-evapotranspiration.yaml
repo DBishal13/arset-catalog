@@ -41,13 +41,20 @@ applications:
 - water-resources
 satellites:
 - aqua
+- goes-r-series
 - landsat-8
 - landsat-9
 - smap
 - terra
+datasets:
+- smap-l3-soil-moisture
 tools:
+- earthdata-search
+- giovanni
 - google-earth-engine
+- python
 - qgis
+- worldview
 instructors:
 - vanessa-escobar
 - amy-fitzgerrell

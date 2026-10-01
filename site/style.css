@@ -354,6 +354,19 @@ a.chip:hover { border-color: var(--c, var(--accent)); color: var(--text); text-d
 .source-card > div { flex: 1 1 320px; }
 .source-card p { margin: 0; color: var(--text-2); font-size: .92rem; }
 
+/* dataset access */
+.login-note { display: flex; gap: 12px; align-items: flex-start; padding: 12px 16px; margin: 0 0 18px; border-radius: 12px;
+  background: var(--warn-soft); color: var(--text-2); font-size: .9rem; }
+.login-note svg { width: 18px; height: 18px; color: var(--warn); margin-top: 2px; }
+.access-grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); }
+.access-card { display: flex; flex-direction: column; gap: 14px; }
+.access-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; flex-wrap: wrap; }
+.access-head h3 { margin: 0 0 6px; font-size: 1rem; line-height: 1.35; }
+.link-group h5 { margin: 0; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.link-group .materials { margin-top: 8px; }
+.badge.live-ish { background: var(--accent-soft); color: var(--accent); }
+.badge.live-ish svg { width: 12px; height: 12px; }
+
 /* sessions timeline */
 .sessions { position: relative; display: flex; flex-direction: column; gap: 18px; padding-left: 34px; }
 .sessions::before { content: ""; position: absolute; left: 13px; top: 8px; bottom: 8px; width: 2px; background: linear-gradient(var(--accent), var(--accent-2), transparent); opacity: .45; }

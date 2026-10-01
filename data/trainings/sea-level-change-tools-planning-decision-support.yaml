@@ -27,6 +27,10 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - climate-resilience
+datasets:
+- grace-fo-mascons
+tools:
+- google-earth-engine
 instructors:
 - sean-mccartney
 - angelica-rodriguez

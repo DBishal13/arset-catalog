@@ -30,6 +30,19 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - disasters
+satellites:
+- aqua
+- gpm
+- sentinel-1
+- smap
+- terra
+datasets:
+- gpm-imerg
+- smap-l3-soil-moisture
+tools:
+- giovanni
+- google-earth-engine
+- qgis
 sessions:
 - part: 1
   title: Tropical Storms

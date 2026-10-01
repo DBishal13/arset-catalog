@@ -55,9 +55,15 @@ prerequisites:
 applications:
 - ecological-conservation
 satellites:
+- landsat-8
+- landsat-9
 - nisar
+- sentinel-1
+- smap
 tools:
+- esa-snap
 - google-earth-engine
+- qgis
 sessions:
 - part: 1
   title: Time Series Analysis of Forest Change

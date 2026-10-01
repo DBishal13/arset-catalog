@@ -32,11 +32,22 @@ prerequisites:
 - introduction-access-global-air-quality-forecasting-data-tools
 applications:
 - health-air-quality
+satellites:
+- aqua
+- noaa-20
+- sentinel-5p
+- suomi-npp
+- terra
 datasets:
 - merra-2
 tools:
+- arcgis-pro
+- giovanni
+- google-earth-engine
 - jupyter
+- panoply
 - python
+- worldview
 sessions:
 - part: 1
   title: Review of NASA Air Quality Forecasts and Reanalysis

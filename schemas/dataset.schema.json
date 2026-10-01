@@ -8,6 +8,12 @@
     "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
     "name": { "type": "string" },
     "short_name": { "type": "string", "description": "CMR / DAAC short name, when known." },
+    "cmr_short_names": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true,
+      "description": "NASA CMR collection short names, main one first. `python -m arset datasets` looks these up for download links."
+    },
     "satellites": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
     "provider": { "type": "string", "description": "DAAC or archive that distributes it." },
     "variables": { "type": "array", "items": { "type": "string" } },

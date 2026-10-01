@@ -1,0 +1,9 @@
+# Extra dependencies for the local search index and chatbot (python -m arset rag / ask).
+# Kept separate so the tracker, site build and CI stay light.
+-r requirements.txt
+pymupdf>=1.24        # PDF text extraction (AGPL; fine for this personal, non-distributed use)
+chromadb>=1.0        # local vector index, with a small on-device embedding model
+langgraph>=0.2
+langchain-core>=0.3
+langchain-google-genai>=2.0
+python-dotenv>=1.0

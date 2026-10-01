@@ -51,8 +51,30 @@ prerequisites:
 applications:
 - disasters
 - water-resources
+satellites:
+- aqua
+- gpm
+- landsat-8
+- landsat-9
+- nisar
+- noaa-20
+- sentinel-1
+- sentinel-2
+- smap
+- suomi-npp
+- swot
+- terra
+datasets:
+- gpm-imerg
+- hls
+- merra-2
+- opera-dswx
+- smap-l3-soil-moisture
 tools:
+- earthdata-search
 - google-earth-engine
+- python
+- worldview
 sessions:
 - part: 1
   title: Data Requirements for Reservoir Management

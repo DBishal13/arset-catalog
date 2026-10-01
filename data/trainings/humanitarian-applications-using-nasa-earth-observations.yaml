@@ -50,8 +50,18 @@ prerequisites:
 - introduction-synthetic-aperture-radar
 applications:
 - disasters
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- sentinel-1
+- sentinel-2
+- terra
 tools:
 - google-earth-engine
+- jupyter
+- python
+- qgis
 sessions:
 - part: 1
   title: Monitoring Urban Damage With Multi-Sensor Satellite Imagery

@@ -39,8 +39,17 @@ applications:
 - health-air-quality
 - wildland-fires
 satellites:
+- aqua
+- noaa-20
+- pace
+- sentinel-5p
+- suomi-npp
 - tempo
+- terra
+datasets:
+- tempo-no2
 tools:
+- google-earth-engine
 - worldview
 sessions:
 - part: 1

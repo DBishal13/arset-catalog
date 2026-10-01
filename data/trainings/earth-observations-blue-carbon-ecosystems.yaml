@@ -32,8 +32,13 @@ prerequisites:
 applications:
 - climate-resilience
 - ecological-conservation
+satellites:
+- landsat-8
+- landsat-9
+- sentinel-2
 tools:
 - google-earth-engine
+- worldview
 instructors:
 - lola-fatoyinbo
 - adia-bey

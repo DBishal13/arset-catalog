@@ -1,5 +1,7 @@
 id: grace-fo-mascons
 name: GRACE/GRACE-FO mascon terrestrial water storage
+cmr_short_names:
+- TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06.3_V4
 satellites:
 - grace
 - grace-fo
@@ -8,3 +10,6 @@ aliases:
 - terrestrial water storage
 - mascon
 - mascons
+- GRACE mascon
+- GRACE mascons
+- TWS

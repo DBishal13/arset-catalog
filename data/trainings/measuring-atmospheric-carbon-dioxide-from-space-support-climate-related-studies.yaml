@@ -38,6 +38,7 @@ satellites:
 - oco-2
 tools:
 - jupyter
+- worldview
 instructors:
 - karen-yuen
 - abhishek-chatterjee

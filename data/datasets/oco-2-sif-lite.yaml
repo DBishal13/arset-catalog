@@ -1,5 +1,7 @@
 id: oco-2-sif-lite
 name: OCO-2 solar-induced fluorescence (SIF) Lite
+cmr_short_names:
+- OCO2_L2_Lite_SIF
 short_name: OCO2_L2_Lite_SIF
 satellites:
 - oco-2
@@ -7,6 +9,4 @@ provider: GES DISC
 variables:
 - solar-induced fluorescence
 aliases:
-- solar-induced fluorescence
-- solar induced fluorescence
-- SIF
+- OCO-2 SIF

@@ -46,8 +46,20 @@ prerequisites:
 applications:
 - agriculture
 - drought
+satellites:
+- aqua
+- gpm
+- grace
+- landsat-8
+- landsat-9
+- sentinel-2
+- suomi-npp
+- terra
+datasets:
+- gpm-imerg
 tools:
 - google-earth-engine
+- jupyter
 - qgis
 instructors:
 - amita-mehta

@@ -40,6 +40,13 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - ecological-conservation
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- terra
+tools:
+- google-earth-engine
 sessions:
 - part: 1
   title: Review of Aquatic Remote Sensing and Freshwater Habitats

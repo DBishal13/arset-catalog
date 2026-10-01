@@ -39,6 +39,14 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - ecological-conservation
+satellites:
+- landsat-8
+- landsat-9
+datasets:
+- modis-land-cover
+tools:
+- google-earth-engine
+- r
 sessions:
 - part: 1
   title: Overview of SDMs

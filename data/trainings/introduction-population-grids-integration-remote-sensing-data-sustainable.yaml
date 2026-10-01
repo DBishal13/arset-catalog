@@ -56,6 +56,14 @@ prerequisites:
 applications:
 - climate-resilience
 - disasters
+satellites:
+- landsat-8
+- landsat-9
+tools:
+- arcgis-pro
+- google-earth-engine
+- python
+- qgis
 sessions:
 - part: 1
   title: Introduction to Population Grids and Their Uses

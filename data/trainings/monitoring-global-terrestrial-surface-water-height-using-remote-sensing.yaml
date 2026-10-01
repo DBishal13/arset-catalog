@@ -39,6 +39,10 @@ applications:
 - water-resources
 satellites:
 - swot
+datasets:
+- opera-dswx
+tools:
+- google-earth-engine
 sessions:
 - part: 1
   title: Overview of Remote Sensing Observations for Monitoring Global Terrestrial Surface Water in Large

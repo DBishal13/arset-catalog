@@ -36,6 +36,7 @@ prerequisites:
 applications:
 - ecological-conservation
 tools:
+- python
 - r
 sessions:
 - part: 1

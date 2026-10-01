@@ -42,7 +42,18 @@ applications:
 - water-resources
 satellites:
 - aqua
+- landsat-8
+- landsat-9
+- noaa-20
+- suomi-npp
 - terra
+tools:
+- appeears
+- arcgis-pro
+- earthdata-search
+- python
+- qgis
+- worldview
 sessions:
 - part: 1
   title: Overview of NASA Snow and Ice Data Products

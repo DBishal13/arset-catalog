@@ -1,8 +1,12 @@
 id: opera-disp
 name: OPERA Surface Displacement (DISP)
+cmr_short_names:
+- OPERA_L3_DISP-S1_V1
 satellites:
 - sentinel-1
 provider: ASF DAAC
 aliases:
 - OPERA-DISP
 - OPERA DISP
+- OPERA surface displacement
+- OPERA displacement

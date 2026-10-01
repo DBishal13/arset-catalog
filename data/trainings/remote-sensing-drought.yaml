@@ -31,9 +31,19 @@ applications:
 - drought
 satellites:
 - aqua
+- gpm
+- landsat-8
+- landsat-9
+- smap
 - terra
 datasets:
+- gpm-imerg
 - modis-vegetation-indices
+tools:
+- earthdata-search
+- giovanni
+- qgis
+- worldview
 sessions:
 - part: 1
   title: Remote Sensing-Based Drought Monitoring

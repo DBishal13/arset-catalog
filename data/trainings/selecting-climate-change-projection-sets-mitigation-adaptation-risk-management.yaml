@@ -36,6 +36,9 @@ prerequisites:
 - introduction-nasa-resources-climate-change-applications
 applications:
 - climate-resilience
+datasets:
+- gpm-imerg
+- merra-2
 sessions:
 - part: 1
   title: What Makes Projection Sets Different?

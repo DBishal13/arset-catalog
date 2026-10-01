@@ -26,6 +26,16 @@ audience:
   in remote sensing training who wish to learn more about training best practices.
 prerequisites:
 - fundamentals-remote-sensing
+satellites:
+- aqua
+- gpm
+- landsat-8
+- landsat-9
+- terra
+datasets:
+- modis-vegetation-indices
+tools:
+- giovanni
 sessions:
 - part: 1
   title: Overview

@@ -46,7 +46,29 @@ prerequisites:
 applications:
 - water-resources
 - wildland-fires
+satellites:
+- aqua
+- goes-r-series
+- gpm
+- iss
+- landsat-8
+- landsat-9
+- noaa-20
+- sentinel-1
+- sentinel-2
+- suomi-npp
+- terra
+datasets:
+- gpm-imerg
+- merra-2
+- modis-land-cover
+- modis-maiac-aod
+- modis-vegetation-indices
+- viirs-active-fire
 tools:
+- arcgis-pro
+- giovanni
+- google-earth-engine
 - worldview
 sessions:
 - part: 1

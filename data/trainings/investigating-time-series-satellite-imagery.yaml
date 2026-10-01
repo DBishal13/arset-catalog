@@ -51,9 +51,13 @@ satellites:
 - landsat-8
 - landsat-9
 - terra
+datasets:
+- modis-land-cover
+- modis-vegetation-indices
 tools:
 - appeears
 - google-earth-engine
+- python
 sessions:
 - part: 1
   title: Introduction to Time Series Analysis and AppEEARS

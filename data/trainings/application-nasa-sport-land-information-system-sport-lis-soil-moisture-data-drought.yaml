@@ -65,10 +65,15 @@ applications:
 - drought
 - water-resources
 satellites:
+- aqua
+- grace
 - noaa-20
+- smap
 - suomi-npp
+- terra
 tools:
 - jupyter
+- python
 - qgis
 instructors:
 - christopher-hain

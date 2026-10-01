@@ -60,6 +60,8 @@ satellites:
 - iss
 - landsat-8
 - landsat-9
+tools:
+- google-earth-engine
 sessions:
 - part: 1
   title: Estimating Biomass using GEDI

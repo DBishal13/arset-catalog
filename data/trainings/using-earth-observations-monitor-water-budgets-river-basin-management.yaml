@@ -28,6 +28,24 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - water-resources
+satellites:
+- aqua
+- gpm
+- grace
+- grace-fo
+- landsat-8
+- landsat-9
+- sentinel-1
+- smap
+- terra
+datasets:
+- gpm-imerg
+- modis-vegetation-indices
+tools:
+- appeears
+- giovanni
+- google-earth-engine
+- qgis
 sessions:
 - part: 1
   title: Overview of Remote Sensing Data for River Basin Monitoring

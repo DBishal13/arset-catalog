@@ -35,8 +35,15 @@ prerequisites:
 applications:
 - disasters
 - water-resources
+satellites:
+- nisar
+- sentinel-1
+- sentinel-2
+datasets:
+- opera-dswx
 tools:
 - esa-snap
+- jupyter
 instructors:
 - malin-johansson
 - erika-podest

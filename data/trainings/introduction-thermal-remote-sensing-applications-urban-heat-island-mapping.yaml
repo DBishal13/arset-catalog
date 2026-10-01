@@ -61,10 +61,16 @@ applications:
 - ecological-conservation
 - health-air-quality
 satellites:
+- aqua
 - iss
+- landsat-8
+- landsat-9
+- sentinel-2
+- terra
 tools:
 - appeears
 - google-earth-engine
+- python
 - qgis
 instructors:
 - savannah-cooley

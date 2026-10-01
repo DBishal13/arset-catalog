@@ -41,7 +41,15 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - disasters
+satellites:
+- gpm
+- grace
+- sentinel-1
+datasets:
+- gpm-imerg
+- merra-2
 tools:
+- giovanni
 - google-earth-engine
 instructors:
 - erika-podest

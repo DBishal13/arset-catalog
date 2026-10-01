@@ -43,10 +43,18 @@ applications:
 - water-resources
 satellites:
 - aqua
+- gpm
 - grace
+- grace-fo
+- landsat-8
 - terra
 datasets:
 - gpm-imerg
+- grace-fo-mascons
+tools:
+- giovanni
+- google-earth-engine
+- qgis
 sessions:
 - part: 1
   title: Review and Access of Earth Observations and Earth System-Modeled Data for River Basin Monitoring

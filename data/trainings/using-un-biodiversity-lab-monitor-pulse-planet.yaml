@@ -68,6 +68,15 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - ecological-conservation
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- noaa-20
+- suomi-npp
+- terra
+tools:
+- google-earth-engine
 sessions:
 - part: 1
   title: Using UN Biodiversity Lab to Support Country-Led Action on Biodiversity and Sustainable Development

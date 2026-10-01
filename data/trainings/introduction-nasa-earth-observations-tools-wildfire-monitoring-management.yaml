@@ -34,7 +34,20 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - wildland-fires
+satellites:
+- aqua
+- goes-r-series
+- landsat-8
+- landsat-9
+- noaa-20
+- sentinel-2
+- suomi-npp
+- terra
+datasets:
+- hls
+- viirs-active-fire
 tools:
+- arcgis-pro
 - qgis
 instructors:
 - melanie-follette-cook

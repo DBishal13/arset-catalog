@@ -29,6 +29,13 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - health-air-quality
+satellites:
+- aqua
+- noaa-20
+- suomi-npp
+- terra
+tools:
+- worldview
 sessions:
 - part: 1
   title: Overview of Webinar Series, ARSET, and an Introduction to Satellite Remote Sensing

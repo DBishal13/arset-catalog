@@ -1,0 +1,102 @@
+# Retrieval test set: real-style questions and the trainings that answer them.
+# A question passes if any expected training appears in the top results.
+# Run with: python -m arset rag eval
+#
+# Keep questions phrased the way a user would ask, not copied from titles,
+# and list every training that is a correct answer.
+
+- q: How can I map flooded areas when it's cloudy?
+  expect: [nasa-remote-sensing-flood-monitoring-management, radar-remote-sensing-land-water-disaster-applications,
+           sar-disasters-hydrological-applications, satellite-remote-sensing-flood-monitoring-management,
+           monitoring-surface-water-sar-water-resource-management, disaster-assessment-using-synthetic-aperture-radar,
+           sar-detecting-monitoring-floods-sea-ice-subsidence-from-groundwater-extraction, monitoring-urban-floods-using-remote-sensing]
+
+- q: Which training teaches how to detect flash droughts early?
+  expect: [agricultural-flash-drought-detection-using-solar-induced-fluorescence-sif-soil]
+
+- q: How do I use GRACE data to track groundwater depletion?
+  expect: [groundwater-monitoring-using-observations-from-nasas-gravity-recovery-climate, monitoring-groundwater-changes-water-resources-management]
+
+- q: What satellite data can show nitrogen dioxide pollution in cities?
+  expect: [high-resolution-no2-monitoring-from-space-tropomi, satellite-remote-sensing-air-quality, inside-look-how-nasa-measures-air-pollution,
+           geostationary-remote-sensing-trace-gases-air-quality-applications-north-america, introduction-satellite-remote-sensing-air-quality-applications,
+           nasa-satellite-observations-tools-air-quality-management, high-temporal-resolution-air-quality-observations-from-space]
+
+- q: How do I compute NDVI from satellite images?
+  expect: [creating-using-normalized-difference-vegetation-index-ndvi-from-satellite-imagery, spectral-indices-land-aquatic-applications,
+           calculating-spectral-indices-land-aquatic-applications-using-qgis]
+
+- q: Is there a training on mapping urban heat islands with thermal data?
+  expect: [satellite-remote-sensing-urban-heat-islands, satellite-remote-sensing-measuring-urban-heat-islands-constructing-heat,
+           introduction-thermal-remote-sensing-applications-urban-heat-island-mapping]
+
+- q: How can satellites help detect harmful algal blooms in lakes?
+  expect: [introduction-remote-sensing-harmful-algal-blooms, monitoring-water-quality-inland-lakes-using-remote-sensing,
+           processing-satellite-imagery-monitoring-water-quality, integrating-remote-sensing-water-quality-monitoring-program,
+           monitoring-water-quality-lakes-coastal-regions-using-stream]
+
+- q: Where can I learn to estimate forest biomass with GEDI lidar?
+  expect: [spaceborne-lidar-monitoring-vegetation-structure-biomass-using-gedi, estimating-biomass-change-gedi-obiwan-api,
+           use-solar-induced-fluorescence-lidar-assess-vegetation-change-vulnerability]
+
+- q: How do I classify crops using radar and optical imagery?
+  expect: [agricultural-crop-classification-synthetic-aperture-radar-optical-remote-sensing,
+           mapping-crops-biophysical-characteristics-polarimetric-sar-optical-remote-sensing,
+           crop-mapping-using-synthetic-aperture-radar-sar-optical-remote-sensing]
+
+- q: What is the difference between MODIS and VIIRS for air quality work?
+  expect: [modis-viirs-transition-air-quality-applications, monitoring-coastal-estuarine-water-quality-transitioning-from-modis-viirs]
+
+- q: How do I check the accuracy of a land cover map?
+  expect: [accuracy-assessment-land-cover-classification, land-cover-classification-satellite-imagery, change-detection-land-cover-mapping]
+
+- q: Can night lights data show power outages after a disaster?
+  expect: [introduction-nasas-black-marble-night-lights-data, nasa-earth-observations-energy-management]
+
+- q: How do I measure methane leaks from space?
+  expect: [methane-observations-large-emission-event-detection-monitoring, atmospheric-co2-ch4-budgets-support-global-stocktake]
+
+- q: Which trainings use Google Earth Engine for land monitoring?
+  expect: [using-google-earth-engine-land-monitoring-applications, species-distribution-modeling-google-earth-engine,
+           investigating-time-series-satellite-imagery]
+
+- q: How can remote sensing assess landslide risk?
+  expect: [landslide-monitoring-risk-assessment-using-nasa-earth-system-data, earth-observations-disaster-risk-assessment-resilience]
+
+- q: How do I get IMERG rainfall data and use it for extreme wet and dry periods?
+  expect: [applications-gpm-imerg-reanalysis-assessing-extreme-dry-wet-periods, introduction-global-precipitation-measurement-gpm-data-applications]
+
+- q: How can satellite data support mosquito-borne or waterborne disease risk mapping?
+  expect: [application-earth-observations-assessing-waterborne-disease-risk, remote-sensing-climate-sensitive-infectious-diseases,
+           methods-using-nasa-remote-sensing-health-applications, fundamentals-satellite-remote-sensing-health-monitoring]
+
+- q: Is there anything on using satellites for insurance or finance decisions?
+  expect: [earth-observations-support-insurance-finance-sector-decision-making]
+
+- q: How do I measure mangrove extent and blue carbon?
+  expect: [remote-sensing-mangroves-support-un-sustainable-development-goals, earth-observations-blue-carbon-ecosystems,
+           remote-sensing-coastal-ecosystems]
+
+- q: How do I track snow cover and snow water for water supply?
+  expect: [introduction-nasa-snow-ice-data-products-applications-water-resources-management,
+           introduction-to-nasa-snow-and-ice-data-products-and-applications-for-water]
+
+- q: Can I open SMAP soil moisture data in QGIS?
+  expect: [applications-remote-sensing-soil-moisture-evapotranspiration, agricultural-flash-drought-detection-using-solar-induced-fluorescence-sif-soil,
+           application-nasa-sport-land-information-system-sport-lis-soil-moisture-data-drought, remote-sensing-drought,
+           drought-monitoring-prediction-projection-using-nasa-earth-system-data]
+
+- q: How is evapotranspiration data used to manage irrigation?
+  expect: [applications-remote-sensing-based-evapotranspiration-data-products-agricultural, applications-remote-sensing-soil-moisture-evapotranspiration]
+
+- q: What tools show active fires and smoke in near real time?
+  expect: [advanced-nasa-earth-observations-tools-active-fire-smoke-post-fire-monitoring, nasa-satellite-observations-tools-fire-smoke-monitoring,
+           introduction-nasa-earth-observations-tools-wildfire-monitoring-management, techniques-wildfire-detection-monitoring,
+           satellite-observations-tools-fire-risk-detection-analysis, arset-satellite-observations-tools-fire-risk-detection-analysis,
+           satellite-remote-sensing-dust-fires-smoke-air-quality, introduction-remote-sensing-wildfire-applications]
+
+- q: How do I get started with machine learning on satellite imagery?
+  expect: [fundamentals-machine-learning-earth-science, large-scale-applications-machine-learning-using-remote-sensing-building-agriculture]
+
+- q: How can I measure river and lake water heights from space?
+  expect: [monitoring-global-terrestrial-surface-water-height-using-remote-sensing, mapping-monitoring-lakes-reservoirs-satellite-observations]

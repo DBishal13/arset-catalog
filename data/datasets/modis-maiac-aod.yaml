@@ -1,5 +1,7 @@
 id: modis-maiac-aod
 name: MODIS MAIAC aerosol optical depth daily 1 km
+cmr_short_names:
+- MCD19A2
 short_name: MCD19A2
 satellites:
 - terra
@@ -8,5 +10,4 @@ provider: LP DAAC
 resolution: 1 km
 aliases:
 - MAIAC
-- aerosol optical depth
-- AOD
+- MODIS AOD

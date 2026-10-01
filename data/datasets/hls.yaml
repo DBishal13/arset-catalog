@@ -1,5 +1,8 @@
 id: hls
 name: Harmonized Landsat and Sentinel-2 (HLS)
+cmr_short_names:
+- HLSL30
+- HLSS30
 satellites:
 - landsat-8
 - landsat-9

@@ -43,6 +43,7 @@ applications:
 - wildland-fires
 satellites:
 - iss
+- landsat-8
 tools:
 - appeears
 sessions:

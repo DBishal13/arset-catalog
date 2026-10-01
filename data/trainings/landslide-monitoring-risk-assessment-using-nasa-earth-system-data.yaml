@@ -33,6 +33,11 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - disasters
+satellites:
+- landsat-8
+- landsat-9
+- sentinel-1
+- sentinel-2
 sessions:
 - part: 1
   title: Remote Sensing for Landslide Science and Disaster Planning

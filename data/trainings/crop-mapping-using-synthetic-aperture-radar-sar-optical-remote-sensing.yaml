@@ -38,12 +38,18 @@ prerequisites:
 applications:
 - agriculture
 satellites:
+- landsat-8
+- landsat-9
 - sentinel-1
 - sentinel-2
+datasets:
+- hls
 tools:
 - esa-snap
+- google-earth-engine
 - jupyter
 - python
+- qgis
 instructors:
 - armando-marino
 - sean-mccartney

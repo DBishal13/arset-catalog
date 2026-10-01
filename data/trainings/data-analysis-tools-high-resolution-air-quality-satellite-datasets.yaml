@@ -31,10 +31,16 @@ applications:
 - health-air-quality
 satellites:
 - aqua
+- goes-r-series
+- noaa-20
+- sentinel-5p
+- suomi-npp
 - terra
 datasets:
 - modis-maiac-aod
 tools:
+- giovanni
+- panoply
 - python
 sessions:
 - part: 1

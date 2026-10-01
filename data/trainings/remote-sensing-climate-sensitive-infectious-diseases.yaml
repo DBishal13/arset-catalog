@@ -44,6 +44,19 @@ prerequisites:
 applications:
 - climate-resilience
 - health-air-quality
+satellites:
+- aqua
+- gpm
+- landsat-8
+- landsat-9
+- noaa-20
+- suomi-npp
+- terra
+datasets:
+- gpm-imerg
+tools:
+- google-earth-engine
+- python
 instructors:
 - tatiana-loboda
 - michael-wimberly

@@ -62,6 +62,17 @@ prerequisites:
 applications:
 - climate-resilience
 - ecological-conservation
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- noaa-20
+- sentinel-2
+- suomi-npp
+- terra
+tools:
+- qgis
+- worldview
 sessions:
 - part: 1
   title: Introduction to Spatial Data and Policies for Biodiversity

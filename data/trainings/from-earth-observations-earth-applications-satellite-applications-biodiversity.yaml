@@ -33,6 +33,8 @@ applications:
 - ecological-conservation
 satellites:
 - aqua
+- landsat-8
+- landsat-9
 - terra
 datasets:
 - modis-vegetation-indices

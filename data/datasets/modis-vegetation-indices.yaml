@@ -1,5 +1,7 @@
 id: modis-vegetation-indices
 name: MODIS vegetation indices (NDVI/EVI) 16-day 250 m
+cmr_short_names:
+- MOD13Q1
 short_name: MOD13Q1
 satellites:
 - terra
@@ -9,5 +11,7 @@ variables:
 - EVI
 resolution: 250 m
 aliases:
-- NDVI
-- EVI
+- MODIS NDVI
+- MODIS EVI
+- MOD13
+- MYD13

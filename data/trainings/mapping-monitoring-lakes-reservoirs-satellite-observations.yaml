@@ -38,9 +38,21 @@ prerequisites:
 applications:
 - water-resources
 satellites:
+- aqua
 - icesat-2
+- landsat-8
+- landsat-9
+- sentinel-1
+- sentinel-2
+- swot
+- terra
+datasets:
+- opera-dswx
 tools:
+- appeears
 - google-earth-engine
+- panoply
+- python
 sessions:
 - part: 1
   title: Overview of Remote Sensing Observations for Monitoring Water Extent, Water Level Height, and

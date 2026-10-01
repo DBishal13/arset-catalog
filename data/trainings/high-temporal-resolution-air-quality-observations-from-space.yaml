@@ -27,6 +27,14 @@ audience:
   Asia-Pacific, and Africa.
 applications:
 - health-air-quality
+satellites:
+- aqua
+- goes-r-series
+- noaa-20
+- suomi-npp
+- terra
+datasets:
+- modis-maiac-aod
 instructors:
 - pawan-gupta
 - amy-k-huff

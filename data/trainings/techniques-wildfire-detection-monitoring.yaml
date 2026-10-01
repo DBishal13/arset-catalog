@@ -27,8 +27,17 @@ prerequisites:
 - fundamentals-remote-sensing-0
 applications:
 - wildland-fires
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- noaa-20
+- suomi-npp
+- terra
 tools:
+- python
 - qgis
+- worldview
 sessions:
 - part: 1
   title: Part 1

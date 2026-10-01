@@ -53,8 +53,12 @@ prerequisites:
 - visualizing-land-cover-land-use-change-nasa-satellite-imagery
 applications:
 - ecological-conservation
+satellites:
+- landsat-8
+- landsat-9
 tools:
 - google-earth-engine
+- python
 instructors:
 - jared-stabach
 - grant-connette

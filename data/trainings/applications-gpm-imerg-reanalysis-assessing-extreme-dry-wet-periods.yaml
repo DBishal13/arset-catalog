@@ -54,6 +54,12 @@ satellites:
 - gpm
 datasets:
 - gpm-imerg
+tools:
+- giovanni
+- google-earth-engine
+- panoply
+- python
+- qgis
 sessions:
 - part: 1
   title: Calculation of Precipitation Statistics Using IMERG

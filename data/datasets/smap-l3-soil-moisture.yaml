@@ -1,8 +1,15 @@
 id: smap-l3-soil-moisture
 name: SMAP L3 radiometer global daily soil moisture
+cmr_short_names:
+- SPL3SMP
 short_name: SPL3SMP
 satellites:
 - smap
 provider: NSIDC DAAC
 variables:
 - soil moisture
+aliases:
+- SMAP soil moisture
+- SMAP L3
+- SMAP Level 3
+- SMAP Level-3

@@ -41,13 +41,18 @@ satellites:
 - aqua
 - landsat-8
 - landsat-9
+- noaa-20
 - sentinel-2
+- suomi-npp
 - terra
 datasets:
 - hls
 - modis-vegetation-indices
 tools:
+- arcgis-pro
+- earthdata-search
 - google-earth-engine
+- worldview
 instructors:
 - britnay-beaudry
 - sativa-cruz

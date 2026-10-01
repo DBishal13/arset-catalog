@@ -32,6 +32,16 @@ audience:
   for coastal and ocean applications.
 applications:
 - water-resources
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- noaa-20
+- sentinel-2
+- suomi-npp
+- terra
+tools:
+- giovanni
 instructors:
 - clarissa-anderson
 - wilson-salls

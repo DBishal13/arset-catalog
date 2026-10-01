@@ -35,7 +35,13 @@ prerequisites:
 applications:
 - agriculture
 satellites:
+- landsat-8
+- sentinel-1
 - sentinel-2
+- terra
+tools:
+- jupyter
+- python
 instructors:
 - sean-mccartney
 - john-just

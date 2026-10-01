@@ -42,6 +42,8 @@ satellites:
 - landsat-8
 - landsat-9
 tools:
+- appeears
+- arcgis-pro
 - qgis
 sessions:
 - part: 1

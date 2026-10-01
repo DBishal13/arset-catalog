@@ -29,6 +29,11 @@ prerequisites:
 - land-cover-classification-satellite-imagery
 applications:
 - ecological-conservation
+satellites:
+- landsat-8
+- landsat-9
+tools:
+- arcgis-pro
 sessions:
 - part: 1
   title: Introduction to Accuracy Assessments

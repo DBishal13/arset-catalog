@@ -54,9 +54,14 @@ applications:
 - water-resources
 satellites:
 - aqua
+- landsat-8
+- landsat-9
 - noaa-20
 - suomi-npp
 - terra
+tools:
+- google-earth-engine
+- python
 sessions:
 - part: 1
   title: Overview of Remote Sensing Observations for Water Quality Monitoring in Estuaries

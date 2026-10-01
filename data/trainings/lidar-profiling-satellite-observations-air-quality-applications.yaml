@@ -30,6 +30,9 @@ applications:
 - health-air-quality
 satellites:
 - icesat-2
+- iss
+tools:
+- google-earth-engine
 sessions:
 - part: 1
   title: Introduction to Lidar Measurements and Missions

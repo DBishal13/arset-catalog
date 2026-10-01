@@ -39,7 +39,19 @@ applications:
 - disasters
 satellites:
 - aqua
+- gpm
+- landsat-8
+- landsat-9
+- noaa-20
+- sentinel-1
+- smap
+- suomi-npp
 - terra
+datasets:
+- gpm-imerg
+tools:
+- giovanni
+- qgis
 sessions:
 - part: 1
   title: Overview of Urban Flooding

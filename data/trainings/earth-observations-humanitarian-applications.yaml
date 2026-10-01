@@ -41,8 +41,15 @@ applications:
 - agriculture
 - disasters
 - drought
+satellites:
+- aqua
+- landsat-8
+- sentinel-2
+- terra
 tools:
 - google-earth-engine
+- jupyter
+- python
 - qgis
 instructors:
 - sean-mccartney

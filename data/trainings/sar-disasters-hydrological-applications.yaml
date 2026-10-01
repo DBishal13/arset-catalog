@@ -31,8 +31,10 @@ prerequisites:
 applications:
 - disasters
 satellites:
+- landsat-8
 - sentinel-1
 tools:
+- esa-snap
 - google-earth-engine
 sessions:
 - part: 1

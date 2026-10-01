@@ -35,7 +35,11 @@ applications:
 - ecological-conservation
 satellites:
 - iss
+- landsat-8
+- landsat-9
 - pace
+tools:
+- google-earth-engine
 sessions:
 - part: 1
   title: Part 1

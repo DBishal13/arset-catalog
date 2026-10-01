@@ -58,6 +58,8 @@ pip install -r requirements.txt
 | `python -m arset build` | Writes `build/catalog.json`, `build/arset.sqlite` and the website in `build/site/`. |
 | `python -m arset serve` | Builds, then serves the site at http://127.0.0.1:8000/. |
 | `python -m arset stats` | Prints counts and the most-used satellites and applications. |
+| `python -m arset datasets` | Looks up each dataset's latest collections in NASA's CMR catalog and saves download and exploration links to `state/dataset_access.json`. |
+| `python -m arset chat` / `ask "…"` | Chats with the assistant in the terminal. See [Chatbot](#chatbot). |
 | `python -m arset review` | Lists draft trainings with their tags. Add `--mark <id> ...` to mark trainings or instructors as reviewed. |
 | `python -m arset retag` | Re-runs auto-tagging on draft trainings, for example after adding aliases. |
 | `python -m pytest tests` | Runs the tests. |
@@ -77,6 +79,34 @@ pip install -r requirements.txt
 The catalog is embedded in `build/site/data.js`. You can also open `build/site/index.html` directly by double-clicking it, but YouTube may refuse to play embedded videos on a `file://` page, so use `serve` if you want the players.
 
 `.github/workflows/pages.yml` publishes the site to GitHub Pages on every push to `main`. To turn it on, go to Settings → Pages → Source and choose "GitHub Actions".
+
+### Getting the data
+
+Each dataset page has a **Get the data** section for the latest version of each collection, built from NASA's public CMR catalog by `python -m arset datasets`. It links to:
+- Earthdata Search, for the files;
+- the archive's own subsetting tool;
+- AppEEARS, Giovanni and Worldview, for exploring without downloading;
+- the user guide and DOI.
+
+It also lists any sample data used in trainings that use the dataset. Downloading from NASA archives needs a free [Earthdata Login](https://urs.earthdata.nasa.gov/users/new). Product codes live in each dataset's `cmr_short_names`.
+
+## Chatbot
+
+A local assistant answers questions from the trainings, slides and Q&A transcripts, with links to the exact page. It runs on your machine. Only the question and the retrieved excerpts are sent to the language model.
+
+```
+pip install -r requirements-rag.txt
+python -m arset rag collect      # download the PDFs, keep their text in corpus/ (~1,000 files, ~30 min)
+python -m arset rag build        # split into ~37,000 pieces and index them (~40 min on a laptop CPU)
+python -m arset rag eval         # check search quality on eval/questions.yaml
+python -m arset rag search "open SMAP in QGIS"   # search without a model
+python -m arset chat             # needs GOOGLE_API_KEY in .env
+```
+
+- **Search** combines meaning-based search (Chroma with a small on-device embedding model) and keyword search (SQLite FTS5), so both "soil water content" and exact codes like `SPL3SMP` work. Results can be filtered by material type, level and year. Slides are split one piece per page, and Q&A transcripts one piece per question-and-answer pair.
+- **The agent** (`arset/agent.py`) uses Gemini through LangChain and has five tools: search the materials, get a training, filter trainings, count trainings by domain/satellite/dataset/year, and get a dataset's download links. Get a free key at [aistudio.google.com/apikey](https://aistudio.google.com/apikey) and put `GOOGLE_API_KEY=…` in `.env`, which is git-ignored. Set `ARSET_LLM_MODEL` to use a different Gemini model.
+- `corpus/` (the text and the index) is git-ignored. The materials belong to their authors and are kept only as a local search index.
+- Once the corpus exists, `python -m arset retag` also uses the material text: a satellite, dataset or tool mentioned often enough in a training's slides gets tagged.
 
 ## How new content is found
 

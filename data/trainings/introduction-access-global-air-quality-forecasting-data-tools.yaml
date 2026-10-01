@@ -27,7 +27,11 @@ prerequisites:
 - arset-satellite-observations-tools-fire-risk-detection-analysis
 applications:
 - health-air-quality
+datasets:
+- merra-2
 tools:
+- google-earth-engine
+- jupyter
 - panoply
 instructors:
 - pawan-gupta

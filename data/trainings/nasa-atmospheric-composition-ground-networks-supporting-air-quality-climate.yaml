@@ -43,6 +43,14 @@ prerequisites:
 applications:
 - climate-resilience
 - health-air-quality
+satellites:
+- noaa-20
+- suomi-npp
+- tempo
+datasets:
+- modis-maiac-aod
+tools:
+- python
 sessions:
 - part: 1
   title: Introduction to the Aerosol Robotic Network (AERONET)

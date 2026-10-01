@@ -40,6 +40,7 @@ applications:
 - disasters
 satellites:
 - sentinel-1
+- sentinel-2
 tools:
 - esa-snap
 - google-earth-engine

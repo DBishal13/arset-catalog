@@ -43,6 +43,21 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - ecological-conservation
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- noaa-20
+- sentinel-2
+- suomi-npp
+- terra
+datasets:
+- modis-land-cover
+- modis-vegetation-indices
+tools:
+- appeears
+- earthdata-search
+- google-earth-engine
 sessions:
 - part: 1
   title: August 23, 2022

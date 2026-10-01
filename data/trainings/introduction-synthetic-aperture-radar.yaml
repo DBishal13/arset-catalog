@@ -38,6 +38,8 @@ audience:
   land cover land use change studies, or surface deformation.
 prerequisites:
 - fundamentals-remote-sensing
+satellites:
+- sentinel-1
 sessions:
 - part: 1
   title: The Basics of SAR

@@ -38,6 +38,8 @@ satellites:
 datasets:
 - tropomi-no2
 tools:
+- arcgis-pro
+- panoply
 - python
 sessions:
 - part: 1

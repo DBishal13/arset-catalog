@@ -40,6 +40,12 @@ prerequisites:
 - radar-remote-sensing-land-water-disaster-applications
 applications:
 - disasters
+satellites:
+- nisar
+- sentinel-1
+tools:
+- google-earth-engine
+- jupyter
 sessions:
 - part: 1
   title: Part 1

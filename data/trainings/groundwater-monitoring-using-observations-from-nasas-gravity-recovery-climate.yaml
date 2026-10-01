@@ -49,6 +49,8 @@ satellites:
 - grace-fo
 datasets:
 - grace-fo-mascons
+tools:
+- giovanni
 sessions:
 - part: 1
   title: Part 1

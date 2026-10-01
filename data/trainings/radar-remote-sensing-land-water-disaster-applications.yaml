@@ -38,6 +38,11 @@ prerequisites:
 applications:
 - disasters
 - ecological-conservation
+satellites:
+- sentinel-1
+tools:
+- esa-snap
+- qgis
 sessions:
 - part: 1
   title: Part 1

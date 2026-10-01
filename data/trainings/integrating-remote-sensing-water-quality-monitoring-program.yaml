@@ -32,6 +32,16 @@ prerequisites:
 - processing-satellite-imagery-monitoring-water-quality
 applications:
 - water-resources
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- sentinel-2
+- suomi-npp
+- terra
+tools:
+- arcgis-pro
+- qgis
 sessions:
 - part: 1
   title: Water Quality in the Coastal Zone

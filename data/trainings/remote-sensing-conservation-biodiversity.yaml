@@ -33,6 +33,13 @@ prerequisites:
 - fundamentals-remote-sensing
 applications:
 - ecological-conservation
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- terra
+datasets:
+- viirs-active-fire
 sessions:
 - part: 1
   title: Remote Sensing for Conservation

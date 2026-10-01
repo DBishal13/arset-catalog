@@ -64,6 +64,8 @@ satellites:
 - landsat-8
 - landsat-9
 tools:
+- appeears
+- google-earth-engine
 - qgis
 instructors:
 - amita-mehta

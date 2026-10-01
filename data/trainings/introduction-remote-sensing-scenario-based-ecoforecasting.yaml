@@ -36,13 +36,19 @@ applications:
 - ecological-conservation
 satellites:
 - aqua
+- landsat-8
+- landsat-9
 - noaa-20
 - suomi-npp
 - terra
 datasets:
+- modis-land-cover
 - modis-vegetation-indices
 tools:
 - appeears
+- arcgis-pro
+- earthdata-search
+- qgis
 sessions:
 - part: 1
   title: Overview of Ecological Forecasting

@@ -1,5 +1,8 @@
 id: opera-dswx
 name: OPERA Dynamic Surface Water Extent (DSWx)
+cmr_short_names:
+- OPERA_L3_DSWX-HLS_V1
+- OPERA_L3_DSWX-S1_V1
 satellites:
 - landsat-8
 - landsat-9
@@ -9,3 +12,5 @@ provider: PO.DAAC
 aliases:
 - DSWx
 - Surface Water Extent
+- OPERA DSWx
+- Dynamic Surface Water Extent

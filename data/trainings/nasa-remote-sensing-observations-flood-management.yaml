@@ -26,7 +26,14 @@ applications:
 satellites:
 - aqua
 - gpm
+- grace
+- landsat-8
+- landsat-9
 - terra
+datasets:
+- gpm-imerg
+tools:
+- giovanni
 sessions:
 - part: 1
   title: NASA Remote Sensing Data for Flood Management and an Intro to Flood Monitoring Tools

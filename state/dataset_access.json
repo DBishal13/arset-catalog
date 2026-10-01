@@ -1,0 +1,290 @@
+{
+ "gpm-imerg": [
+  {
+   "concept_id": "C2723754864-GES_DISC",
+   "doi": "10.5067/GPM/IMERGDF/DAY/07",
+   "links": {
+    "atbd": "https://arthurhou.pps.eosdis.nasa.gov/Documents/IMERG_V07_ATBD_final.pdf",
+    "browse_files": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C2723754864-GES_DISC/temporal",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C2723754864-GES_DISC",
+    "giovanni": "https://giovanni.gsfc.nasa.gov/#dataKeyword=IMERGDF",
+    "landing_page": "https://disc.gsfc.nasa.gov/datacollection/GPM_3IMERGDF_07.html",
+    "user_guide": "https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L3/doc/README.GPM.pdf"
+   },
+   "short_name": "GPM_3IMERGDF",
+   "title": "GPM IMERG Final Precipitation L3 1 day 0.1 degree x 0.1 degree V07 (GPM_3IMERGDF)",
+   "version": "07"
+  },
+  {
+   "concept_id": "C2723754847-GES_DISC",
+   "doi": "10.5067/GPM/IMERG/3B-HH/07",
+   "links": {
+    "atbd": "https://arthurhou.pps.eosdis.nasa.gov/Documents/IMERG_V07_ATBD_final.pdf",
+    "browse_files": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C2723754847-GES_DISC/temporal",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C2723754847-GES_DISC",
+    "giovanni": "https://giovanni.gsfc.nasa.gov/#dataKeyword=IMERGHH",
+    "landing_page": "https://disc.gsfc.nasa.gov/datacollection/GPM_3IMERGHH_07.html",
+    "user_guide": "https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L3/doc/README.GPM.pdf",
+    "worldview": "https://worldview.earthdata.nasa.gov/?z=4&ics=true&ici=5&icd=30&l=Reference_Labels_15m(hidden),Reference_Features_15m(hidden),Coastlines_15m,IMERG_Precipitation_Rate,IMERG_Precipitation_Rate_30min,OCI_PACE_True_Color(hidden),VIIRS_NOAA21_CorrectedReflectance_TrueColor(hidden),VIIRS_NOAA20_CorrectedReflectance_TrueColor(hidden),VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden),MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=true&t=2026-03-16-T17%3A17%3A59Z"
+   },
+   "short_name": "GPM_3IMERGHH",
+   "title": "GPM IMERG Final Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V07 (GPM_3IMERGHH)",
+   "version": "07"
+  }
+ ],
+ "grace-fo-mascons": [
+  {
+   "concept_id": "C3195527175-POCLOUD",
+   "doi": "10.5067/TEMSC-3JC634",
+   "links": {
+    "access_tool": "https://github.com/podaac/data-subscriber",
+    "browse_files": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C3195527175-POCLOUD",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C3195527175-POCLOUD"
+   },
+   "short_name": "TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06.3_V4",
+   "title": "JPL GRACE and GRACE-FO Mascon Ocean, Ice, and Hydrology Equivalent Water Height Coastal Resolution Improvement (CRI) Filtered Release 06.3 Version 04",
+   "version": "RL06.3Mv04"
+  }
+ ],
+ "hls": [
+  {
+   "concept_id": "C2021957657-LPCLOUD",
+   "doi": "10.5067/HLS/HLSL30.002",
+   "links": {
+    "appeears": "https://appeears.earthdatacloud.nasa.gov/",
+    "atbd": "https://lpdaac.usgs.gov/documents/769/HLS_ATBD_V15_provisional.pdf",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C2021957657-LPCLOUD",
+    "landing_page": "https://doi.org/10.5067/HLS/HLSL30.002",
+    "user_guide": "https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf"
+   },
+   "short_name": "HLSL30",
+   "title": "HLS Landsat Operational Land Imager Surface Reflectance and TOA Brightness Daily Global 30m v2.0",
+   "version": "2.0"
+  },
+  {
+   "concept_id": "C2021957295-LPCLOUD",
+   "doi": "10.5067/HLS/HLSS30.002",
+   "links": {
+    "appeears": "https://appeears.earthdatacloud.nasa.gov/",
+    "atbd": "https://lpdaac.usgs.gov/documents/769/HLS_ATBD_V15_provisional.pdf",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C2021957295-LPCLOUD",
+    "landing_page": "https://doi.org/10.5067/HLS/HLSS30.002",
+    "user_guide": "https://lpdaac.usgs.gov/documents/1698/HLS_User_Guide_V2.pdf"
+   },
+   "short_name": "HLSS30",
+   "title": "HLS Sentinel-2 Multi-spectral Instrument Surface Reflectance Daily Global 30m v2.0",
+   "version": "2.0"
+  }
+ ],
+ "merra-2": [
+  {
+   "concept_id": "C1276812863-GES_DISC",
+   "doi": "10.5067/VJAFPLI1CSIV",
+   "links": {
+    "browse_files": "https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C1276812863-GES_DISC",
+    "giovanni": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=M2T1NXSLV",
+    "landing_page": "https://disc.gsfc.nasa.gov/datacollection/M2T1NXSLV_5.12.4.html",
+    "user_guide": "https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/doc/MERRA2.README.pdf"
+   },
+   "short_name": "M2T1NXSLV",
+   "title": "MERRA-2 tavg1_2d_slv_Nx: 2d,1-Hourly,Time-Averaged,Single-Level,Assimilation,Single-Level Diagnostics 0.625 x 0.5 degree V5.12.4 (M2T1NXSLV) ",
+   "version": "5.12.4"
+  },
+  {
+   "concept_id": "C1276812830-GES_DISC",
+   "doi": "10.5067/KLICLTZ8EM9D",
+   "links": {
+    "browse_files": "https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2/M2T1NXAER.5.12.4/",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C1276812830-GES_DISC",
+    "giovanni": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=M2T1NXAER",
+    "landing_page": "https://disc.gsfc.nasa.gov/datacollection/M2T1NXAER_5.12.4.html",
+    "user_guide": "https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2/M2T1NXAER.5.12.4/doc/MERRA2.README.pdf"
+   },
+   "short_name": "M2T1NXAER",
+   "title": "MERRA-2 tavg1_2d_aer_Nx: 2d,1-Hourly,Time-averaged,Single-Level,Assimilation,Aerosol Diagnostics 0.625 x 0.5 degree V5.12.4 (M2T1NXAER) ",
+   "version": "5.12.4"
+  }
+ ],
+ "modis-land-cover": [
+  {
+   "concept_id": "C2484079608-LPCLOUD",
+   "doi": "10.5067/MODIS/MCD12Q1.061",
+   "links": {
+    "appeears": "https://appeears.earthdatacloud.nasa.gov/",
+    "atbd": "https://lpdaac.usgs.gov/documents/86/MCD12_ATBD.pdf",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C2484079608-LPCLOUD",
+    "landing_page": "https://doi.org/10.5067/MODIS/MCD12Q1.061",
+    "user_guide": "https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf"
+   },
+   "short_name": "MCD12Q1",
+   "title": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061",
+   "version": "061"
+  }
+ ],
+ "modis-maiac-aod": [
+  {
+   "concept_id": "C2324689816-LPCLOUD",
+   "doi": "10.5067/MODIS/MCD19A2.061",
+   "links": {
+    "atbd": "https://lpdaac.usgs.gov/documents/111/MCD19_ATBD.pdf",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C2324689816-LPCLOUD",
+    "landing_page": "https://doi.org/10.5067/MODIS/MCD19A2.061",
+    "user_guide": "https://lpdaac.usgs.gov/documents/1500/MCD19_User_Guide_V61.pdf"
+   },
+   "short_name": "MCD19A2",
+   "title": "MODIS/Terra+Aqua Land Aerosol Optical Depth Daily L2G Global 1km SIN Grid V061",
+   "version": "061"
+  }
+ ],
+ "modis-vegetation-indices": [
+  {
+   "concept_id": "C1748066515-LPCLOUD",
+   "doi": "10.5067/MODIS/MOD13Q1.061",
+   "links": {
+    "appeears": "https://appeears.earthdatacloud.nasa.gov/",
+    "atbd": "https://lpdaac.usgs.gov/documents/104/MOD13_ATBD.pdf",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C1748066515-LPCLOUD",
+    "landing_page": "https://doi.org/10.5067/MODIS/MOD13Q1.061",
+    "user_guide": "https://lpdaac.usgs.gov/documents/621/MOD13_User_Guide_V61.pdf"
+   },
+   "short_name": "MOD13Q1",
+   "title": "MODIS/Terra Vegetation Indices 16-Day L3 Global 250m SIN Grid V061",
+   "version": "061"
+  }
+ ],
+ "oco-2-sif-lite": [
+  {
+   "concept_id": "C2248652649-GES_DISC",
+   "doi": "10.5067/OTRE7KQS8AU8",
+   "links": {
+    "atbd": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OCO/OCO_L2_ATBD.pdf",
+    "browse_files": "https://oco2.gesdisc.eosdis.nasa.gov/data/OCO2_DATA/OCO2_L2_Lite_SIF.11r/",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C2248652649-GES_DISC",
+    "landing_page": "https://disc.gsfc.nasa.gov/datacollection/OCO2_L2_Lite_SIF_11r.html",
+    "user_guide": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/OCO/README.OCO2.pdf"
+   },
+   "short_name": "OCO2_L2_Lite_SIF",
+   "title": "OCO-2 Level 2 bias-corrected solar-induced fluorescence and other select fields from the IMAP-DOAS algorithm aggregated as daily files, Retrospective processing V11r (OCO2_L2_Lite_SIF) ",
+   "version": "11r"
+  }
+ ],
+ "opera-disp": [
+  {
+   "concept_id": "C3294057315-ASF",
+   "doi": "10.5067/SNWG/OPL3DISPS1-V1",
+   "links": {
+    "atbd": "https://cumulus.asf.earthdatacloud.nasa.gov/PUBLIC/DATA/OPERA/OPERA_DISP-S1_ATBD_D-108765_Rev_A_v1.0.0_Final.pdf",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C3294057315-ASF"
+   },
+   "short_name": "OPERA_L3_DISP-S1_V1",
+   "title": "OPERA Surface Displacement from Sentinel-1 validated product (Version 1)",
+   "version": "1"
+  }
+ ],
+ "opera-dswx": [
+  {
+   "concept_id": "C2617126679-POCLOUD",
+   "doi": "10.5067/OPDSW-PL3V1",
+   "links": {
+    "access_tool": "https://github.com/podaac/data-subscriber",
+    "atbd": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-docs/web-misc/opera/atbd/DSWx-HLS_ATBD_V1_4_DAAC_Distribution.pdf",
+    "browse_files": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C2617126679-POCLOUD",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C2617126679-POCLOUD",
+    "worldview": "https://go.nasa.gov/3KBfGGs"
+   },
+   "short_name": "OPERA_L3_DSWX-HLS_V1",
+   "title": "OPERA Dynamic Surface Water Extent from Harmonized Landsat Sentinel-2 product (Version 1)",
+   "version": "1.0"
+  },
+  {
+   "concept_id": "C2949811996-POCLOUD",
+   "doi": "10.5067/OPDSWS1-L3V1",
+   "links": {
+    "atbd": "https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-docs/web-misc/opera/atbd/D-108763_Rev_A_OPERA_DSWx_S1_NI_ATBD_20240530_SIGNED.pdf",
+    "browse_files": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C2949811996-POCLOUD",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C2949811996-POCLOUD"
+   },
+   "short_name": "OPERA_L3_DSWX-S1_V1",
+   "title": "OPERA Dynamic Surface Water Extent from Sentinel-1 (Version 1)",
+   "version": "1.0"
+  }
+ ],
+ "smap-l3-soil-moisture": [
+  {
+   "concept_id": "C2938664585-NSIDC_CPRD",
+   "doi": "10.5067/4XXOGX0OOW1S",
+   "links": {
+    "access_tool": "https://nsidc.org/data/data-access-tool/SPL3SMP/versions/9/",
+    "appeears": "https://appeears.earthdatacloud.nasa.gov/",
+    "atbd": "https://nsidc.org/sites/default/files/l2_sm_p_atbd_rev_g_final_oct2021_0.pdf",
+    "browse_files": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C2938664585-NSIDC_CPRD",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C2938664585-NSIDC_CPRD",
+    "landing_page": "https://doi.org/10.5067/4XXOGX0OOW1S",
+    "user_guide": "https://nsidc.org/sites/default/files/documents/user-guide/spl3smp-v009-userguide.pdf",
+    "worldview": "https://worldview.earthdata.nasa.gov/?v=-193,-69,134,83&l=SMAP_L3_Passive_Brightness_Temp_V,SMAP_L3_Passive_Day_Soil_Moisture,SMAP_L3_Passive_Night_Soil_Moisture,SMAP_L3_Passive_Brightness_Temp_H,Coastlines_15m,MODIS_Terra_CorrectedReflectance_TrueColor&t=2015-03-31"
+   },
+   "short_name": "SPL3SMP",
+   "title": "SMAP L3 Radiometer Global Daily 36 km EASE-Grid Soil Moisture V009",
+   "version": "009"
+  }
+ ],
+ "tempo-no2": [
+  {
+   "concept_id": "C3685896708-LARC_CLOUD",
+   "doi": "10.5067/IS-40e/TEMPO/NO2_L3.004",
+   "links": {
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C3685896708-LARC_CLOUD",
+    "landing_page": "https://doi.org/10.5067/IS-40e/TEMPO/NO2_L3.004",
+    "user_guide": "https://asdc.larc.nasa.gov/documents/tempo/guide/TEMPO_Level-2-3_trace_gas_clouds_user_guide_V2.1.pdf"
+   },
+   "short_name": "TEMPO_NO2_L3",
+   "title": "TEMPO gridded NO2 tropospheric and stratospheric columns V04  (PROVISIONAL)",
+   "version": "V04"
+  },
+  {
+   "concept_id": "C3685896872-LARC_CLOUD",
+   "doi": "10.5067/IS-40e/TEMPO/NO2_L2.004",
+   "links": {
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C3685896872-LARC_CLOUD",
+    "landing_page": "https://doi.org/10.5067/IS-40e/TEMPO/NO2_L2.004",
+    "user_guide": "https://asdc.larc.nasa.gov/documents/tempo/guide/TEMPO_Level-2-3_trace_gas_clouds_user_guide_V2.1.pdf"
+   },
+   "short_name": "TEMPO_NO2_L2",
+   "title": "TEMPO NO2 tropospheric and stratospheric columns V04 (PROVISIONAL)",
+   "version": "V04"
+  }
+ ],
+ "tropomi-no2": [
+  {
+   "concept_id": "C2089270961-GES_DISC",
+   "doi": "10.5270/S5P-9bnp8q8",
+   "links": {
+    "atbd": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/S5P/S5P-KNMI-L2-0005-RP-Sentinel-5P-TROPOMI-ATBD-NO2-data-products-2024-2.8.0.pdf",
+    "browse_files": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C2089270961-GES_DISC",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C2089270961-GES_DISC",
+    "landing_page": "https://disc.gsfc.nasa.gov/datacollection/S5P_L2__NO2____HiR_2.html",
+    "user_guide": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/S5P/S5P-MPC-KNMI-PRF-NO2-Sentinel-5P-Nitrogen-Dioxide-Level-2-Product-Readme-File-2025-2.8.pdf",
+    "worldview": "https://worldview.earthdata.nasa.gov/?l=Reference_Labels_15m(hidden),Reference_Features_15m(hidden),Coastlines_15m,TROPOMI_L2_Nitrogen_Dioxide_Tropospheric_Column,TROPOMI_L2_Sulfur_Dioxide_Total_Vertical_Column,AIRS_L3_Carbon_Monoxide_500hPa_Volume_Mixing_Ratio_Daily_Day,OCI_PACE_True_Color(hidden),VIIRS_NOAA21_CorrectedReflectance_TrueColor(hidden),VIIRS_NOAA20_CorrectedReflectance_TrueColor(hidden),VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden),MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=true&t=2026-02-25-T18%3A24%3A48Z"
+   },
+   "short_name": "S5P_L2__NO2____HiR",
+   "title": "Sentinel-5P TROPOMI Tropospheric NO2 1-Orbit L2 5.5km x 3.5km V2 (S5P_L2__NO2____HiR) ",
+   "version": "2"
+  }
+ ],
+ "viirs-active-fire": [
+  {
+   "concept_id": "C2734202914-LPCLOUD",
+   "doi": "10.5067/VIIRS/VNP14IMG.002",
+   "links": {
+    "atbd": "https://lpdaac.usgs.gov/documents/133/VNP14_ATBD.pdf",
+    "earthdata_search": "https://search.earthdata.nasa.gov/search/granules?p=C2734202914-LPCLOUD",
+    "landing_page": "https://doi.org/10.5067/VIIRS/VNP14IMG.002",
+    "user_guide": "https://lpdaac.usgs.gov/documents/427/VNP14_User_Guide_V1.pdf"
+   },
+   "short_name": "VNP14IMG",
+   "title": "VIIRS/NPP Active Fires 6-Min L2 Swath 375m V002",
+   "version": "002"
+  }
+ ]
+}

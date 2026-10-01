@@ -50,11 +50,14 @@ prerequisites:
 applications:
 - ecological-conservation
 satellites:
+- icesat-2
 - iss
 - landsat-8
 - landsat-9
 tools:
+- earthdata-search
 - google-earth-engine
+- python
 sessions:
 - part: 1
   title: Introduction to Full-Waveform Lidar
