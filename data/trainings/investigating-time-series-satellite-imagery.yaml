@@ -1,0 +1,113 @@
+id: investigating-time-series-satellite-imagery
+title: Investigating Time Series of Satellite Imagery
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/investigating-time-series-satellite-imagery
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2019-04-15'
+end_date: '2019-04-17'
+published: '2019-04-15'
+last_updated: '2026-01-29'
+summary: This ARSET training introduces the ecological applications of time series analysis.
+description: 'The evaluation of satellite imagery over time can be used to identify trends and changes
+  in an area. This type of time series analysis can be used to assess forest disturbance, land cover changes,
+  vegetation health, and agricultural monitoring and expansion. NASA Earth observations can provide long-term
+  records from Landsat and frequent imagery from sensors including Moderate Resolution Imaging Spectroradiometer
+  (MODIS).
+
+
+  This training led by NASA''s Applied Remote Sensing Training program (ARSET) focuses on two tools, Application
+  for Extracting and Exploring Analysis Ready Samples (AppEEARS) from NASA''s Land Processes Distributed
+  Active Archive Center (LP DAAC), and LandTrendr via Google Earth Engine (GEE). AppEEARS enables users
+  to integrate point or polygon ground-based data with satellite imagery.
+
+
+  The GEE implementation of LandTrendr enables users to analyze land cover dynamics, including short-term
+  disturbances and long-term trends. Both sessions feature a lecture followed by time for hands-on exercises
+  and questions.'
+objectives:
+- Become familiar with time series analysis techniques
+- Understand how to evaluate time series of MODIS and Landsat data
+- Learn how to integrate point data with satellite imagery using the AppEEARS web-based interface
+- 'Learn the basics of the GEE implementation of LandTrendr including: Generating annual land surface
+  reflectance images Plotting a time series of land surface reflectance Creating a map of change detection,
+  magnitude of change, duration of change event, and pre-change spectral values'
+- Generating annual land surface reflectance images
+- Plotting a time series of land surface reflectance
+- Creating a map of change detection, magnitude of change, duration of change event, and pre-change spectral
+  values
+audience:
+- This training is for advanced users of remote sensing data within local, regional, state, federal, and
+  non-governmental organizations involved in land management and conservation efforts.
+prerequisites:
+- fundamentals-remote-sensing
+- land-cover-classification-satellite-imagery
+applications:
+- agriculture
+- ecological-conservation
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- terra
+tools:
+- appeears
+- google-earth-engine
+sessions:
+- part: 1
+  title: Introduction to Time Series Analysis and AppEEARS
+  date: '2019-04-15'
+  videos:
+  - youtube: KJTyMDyvBik
+    title: 'NASA ARSET: Introduction to Time Series Analysis & AppEEARS , Session 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/TS_Session1_final.pdf?VersionId=lZ17aReveKKc_rIXJiY_VJYMFWUAybCc
+  - type: exercise
+    title: 'Part 1 Exercise: AppEEARS'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/TimeSeries_Session1_Exercise_Final.pdf?VersionId=rE7fXp8bobULKj4zL1mAX8mx6hiBSjU.
+  - type: data
+    title: AppEEARS Data
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/AppEEARS%20Data.zip?VersionId=GH5tmxzr5CuDldzuefHqvzCUU8vI25jB
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/TimeSeriesQ&A%20Doc%20Session%201.pdf?VersionId=Tmh68cezbvsMdswQidtGY3bqD9RzLm9E
+  - type: other
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/TS_Session1_span_final.pdf?VersionId=YUFvDzJ.ilIkwXzKLrcMAIQ3_HLclsF0
+  - type: exercise
+    title: 'Ejercicio de Parte 1: AppEEARS'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/TimeSeries_Session1_Exercise_Final_esp.pdf?VersionId=Mh5XGUWLsqa_M_xpvmF2TApMNhOAqedN
+- part: 2
+  title: LandTrendr Overview and Applications
+  date: '2019-04-17'
+  videos:
+  - youtube: 5BZvjVUfBG0
+    title: 'NASA ARSET: LandTrendr Overview & Applications, Session 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/TS_Session2_final.pdf?VersionId=IsucgYrx2TG3GUF1.n13C2WjFRxT9YOs
+  - type: exercise
+    title: 'Part 2 Exercise: LandTrendr'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/TimeSeries_Session2_Exercise_Final.pdf?VersionId=VzI1dF2DTn.R85E3.jpVE6f_dFXatvgF
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Q&A%20Doc%20Session%202.pdf?VersionId=5S2AoqEdE5_9E7.nDJwZz.DVEc3FfrvA
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfFwSAyGQiNFnZkb7nc-n0za9RO4TA-AnUoTmnOLOE2kNbexQ/viewform
+  - type: other
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/TS_Session2_span_final.pdf?VersionId=_qMbUJ.hKRaGwN_gXdKroSf8ixTAhfhI
+  - type: exercise
+    title: 'Ejercicio de Parte 2: LandTrendr'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/TimeSeries_Session2_Exercise_span_Final.pdf?VersionId=yVsE_SpqBqHdpsROFKQxN_1XVj7gb3GC
+  - type: other
+    title: Tarea
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfFf7x3uBDxS7H26xjd6bTpHrmFLMUqWp73K2QBbeTXL8YSvQ/viewform

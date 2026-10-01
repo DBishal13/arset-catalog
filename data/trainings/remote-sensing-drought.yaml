@@ -1,0 +1,115 @@
+id: remote-sensing-drought
+title: Remote Sensing of Drought
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/remote-sensing-drought
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2017-07-12'
+end_date: '2017-07-19'
+published: '2017-07-12'
+last_updated: '2026-02-11'
+summary: This ARSET training provides an overview of drought classification and web-based tools for drought
+  monitoring and visualization.
+description: Prolonged drought can result in economic, environmental, and health-related impacts. In this
+  training, participants can learn how to monitor drought conditions and assess impacts on the ecosystem
+  using precipitation, soil moisture, and vegetation data. The training provides an overview of drought
+  classification, as well as an introduction to web-based tools for drought monitoring and visualization.
+objectives:
+- Understand how remote sensing can be used for drought monitoring
+- Acquire remotely-sensed imagery and products for drought
+- Analyze drought data and calculate anomalies within a geospatial software
+audience:
+- This training is for regional, state, federal, and international organizations interested in using remote
+  sensing to monitor drought. Professional organizations in the public and private sectors engaged in
+  environmental management and monitoring will be given preference over organizations focused primarily
+  on research.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- drought
+- ecological-conservation
+- water-resources
+satellites:
+- aqua
+- terra
+datasets:
+- modis-vegetation-indices
+sessions:
+- part: 1
+  title: Remote Sensing-Based Drought Monitoring
+  date: '2017-07-12'
+  videos:
+  - youtube: ro2UBNgjOh4
+    title: 'NASA ARSET: Remote Sensing-Based Drought Monitoring, Session 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Drought_Part1.pdf?VersionId=LwXv0h7ByzeHbsmQ0JmfpIDsCRh7Ioct
+  - type: exercise
+    title: 'Part 1a Exercise: Precipitation Data'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Drought_Exercise1a.pdf?VersionId=qjq_cCP.y56lxNUjEXdajgiw2xHIfMGP
+  - type: exercise
+    title: 'Part 1b Exercise: MODIS NDVI'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Drought_Exercise1b_0.pdf?VersionId=loxjSdWjnOvQNxMLhE_FstaLhTOVZBJn
+  - type: data
+    title: Shapefile of California
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Shapefile%20of%20CA.zip?VersionId=jEk9uvKJvZPaoBdub8aN5duwxsptq.9Q
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Drought_Part1_Spanish.pdf?VersionId=fFVFGAM31tKFuzvjtJiyzNnNPQNE1AX6
+  - type: exercise
+    title: 'Ejercicio de la Parte 1a: Precipitation Data'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Drought_Exercise1a_Spanish.pdf?VersionId=Vi2bfhmkrH1Va3ZP7u19sXgZOHTn8JmT
+  - type: exercise
+    title: 'Ejercicio de la Parte 1b: MODIS NDVI'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Drought_Exercise1b_Spanish.pdf?VersionId=McWaawFo7hzEsDtwurBWa3AgrcKPArbd
+- part: 2
+  title: Drought Monitoring Analysis and Application
+  date: '2017-07-19'
+  videos:
+  - youtube: o-NBWXiyC3k
+    title: 'NASA ARSET: Drought Monitoring Analysis and Application, Session 2/2'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: soil moisture
+    url: https://www.earthdata.nasa.gov/topics/land-surface/soil-moisture-water-content
+  - type: other
+    title: ground water
+    url: https://www.earthdata.nasa.gov/topics/terrestrial-hydrosphere/ground-water
+  - type: other
+    title: NDVI
+    url: https://www.earthdata.nasa.gov/topics/land-surface/normalized-difference-vegetation-index-ndvi
+  - type: other
+    title: ET
+    url: https://www.earthdata.nasa.gov/topics/atmosphere/evapotranspiration
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Drought_Part2.pdf?VersionId=Xi3AXtcwRl2BfT6BqoPnQhCKxF4G4Kvp
+  - type: exercise
+    title: 'Part 2 Exercise: Identifying Drought Using Precipitation and Vegetation'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Drought_Exercise2.pdf?VersionId=N_A2o6FjzssHMP9Eb4cYrpfBt7lj22bw
+  - type: data
+    title: Data from Week 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Data%20from%20Week1.zip?VersionId=Ju0N3_GILzV8KRsTyst.VyYY5ff6OwEU
+  - type: homework
+    title: Homework Instructions
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Drought_HW_Instructions.pdf?VersionId=s_jPvwJKFn4spivSXwh3aepU20NiJk11
+  - type: homework
+    title: Homework Assignment
+    url: https://goo.gl/forms/XsZpgn7E5Xbpk8pT2
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Drought_Part2_Spanish.pdf?VersionId=W3NIRBCWpVFKWgVIjJDdBwQtRG70e0_3
+  - type: exercise
+    title: Ejercicio de la Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Drought_Exercise2_Spanish.pdf?VersionId=EYwIx1.eGrAG3cgoqhYuDFRIrHjF.6Rl
+  - type: other
+    title: Tarea Instrucciones
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Drought_HW_Instructions_Spanish.pdf?VersionId=8y1SsuVzoOu6t7qCeT6zXoKMsnP0F93h
+  - type: other
+    title: Tarea
+    url: https://goo.gl/forms/jc1XcBYKRPBW3Mdt1

@@ -1,6 +1,106 @@
 {
   "pages": {
+    "accessing-analyzing-air-quality-data-from-geostationary-satellites": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "accuracy-assessment-land-cover-classification": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "advanced-nasa-earth-observations-tools-active-fire-smoke-post-fire-monitoring": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "agricultural-crop-classification-synthetic-aperture-radar-optical-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
     "agricultural-flash-drought-detection-using-solar-induced-fluorescence-sif-soil": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "airborne-data-applications-invasive-species-mapping": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "application-earth-observations-assessing-waterborne-disease-risk": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "application-nasa-sport-land-information-system-sport-lis-soil-moisture-data-drought": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "applications-carbon-dioxide-measurements-climate-related-studies": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "applications-gpm-imerg-reanalysis-assessing-extreme-dry-wet-periods": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "applications-remote-sensing-based-evapotranspiration-data-products-agricultural": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "applications-remote-sensing-soil-moisture-evapotranspiration": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "applications-satellite-observations-air-quality-health-exposure": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "arset-satellite-observations-tools-fire-risk-detection-analysis": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "assessing-extreme-weather-statistics-using-nasa-earth-exchange-global-daily": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "assessing-impacts-fires-watershed-health": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "atmospheric-co2-ch4-budgets-support-global-stocktake": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "biodiversity-applications-airborne-imaging-systems": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "building-climate-risk-assessments-from-local-vulnerability-exposure": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "calculating-spectral-indices-land-aquatic-applications-using-qgis": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "change-detection-land-cover-mapping": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "climate-change-monitoring-impacts-assessment-using-nasa-earth-observations": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "connecting-citizen-science-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "creating-using-normalized-difference-vegetation-index-ndvi-from-satellite-imagery": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "crop-mapping-using-synthetic-aperture-radar-sar-optical-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "data-analysis-tools-high-resolution-air-quality-satellite-datasets": {
       "arset": true,
       "last_checked": "2026-09-30"
     },
@@ -8,11 +108,103 @@
       "arset": true,
       "last_checked": "2026-09-30"
     },
+    "disaster-assessment-using-synthetic-aperture-radar": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "drought-monitoring-prediction-projection-using-nasa-earth-system-data": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "earth-observations-blue-carbon-ecosystems": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "earth-observations-disaster-risk-assessment-resilience": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "earth-observations-humanitarian-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "earth-observations-indigenous-led-land-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "earth-observations-monitoring-un-sustainable-development-goals": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "earth-observations-support-insurance-finance-sector-decision-making": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "earth-observations-toolkit-sustainable-cities-human-settlements": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "enabling-earth-observations-land-applications-nasas-applied-remote-sensing-training": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "estimating-biomass-change-gedi-obiwan-api": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "evaluating-ecosystem-services-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "forest-mapping-monitoring-sar-data": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "from-earth-observations-earth-applications-satellite-applications-biodiversity": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "fundamentals-machine-learning-earth-science": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
     "fundamentals-remote-sensing": {
       "arset": true,
       "last_checked": "2026-09-30"
     },
+    "fundamentals-remote-sensing-0": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "fundamentals-satellite-remote-sensing-health-monitoring": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
     "geostationary-remote-sensing-aerosols-air-quality-applications-north-america": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "geostationary-remote-sensing-trace-gases-air-quality-applications-north-america": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "groundwater-monitoring-using-observations-from-nasas-gravity-recovery-climate": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "harnessing-nisar-next-generation-radar-observations-earth-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "high-resolution-no2-monitoring-from-space-tropomi": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "high-temporal-resolution-air-quality-observations-from-space": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "humanitarian-applications-using-nasa-earth-observations": {
       "arset": true,
       "last_checked": "2026-09-30"
     },
@@ -24,7 +216,463 @@
       "arset": true,
       "last_checked": "2026-09-30"
     },
+    "inside-look-how-nasa-measures-air-pollution": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "integrating-remote-sensing-water-quality-monitoring-program": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-access-global-air-quality-forecasting-data-tools": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-geostationary-satellite-observations-air-quality-applications-western": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-global-precipitation-measurement-gpm-data-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-integration-animal-tracking-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-lightning-observations-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-nasa-earth-observations-tools-wildfire-monitoring-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-nasa-resources-climate-change-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-nasa-snow-ice-data-products-applications-water-resources-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-nasas-black-marble-night-lights-data": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-plankton-aerosol-cloud-ocean-ecosystem-pace-hyperspectral-observations": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-population-grids-integration-remote-sensing-data-sustainable": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-remote-sensing-coastal-ocean-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-remote-sensing-conservation-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-remote-sensing-harmful-algal-blooms": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-remote-sensing-scenario-based-ecoforecasting": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-remote-sensing-wildfire-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-satellite-remote-sensing-air-quality-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-synthetic-aperture-radar": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-synthetic-aperture-radar-sar-its-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-thermal-remote-sensing-applications-urban-heat-island-mapping": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-thermal-remote-sensing-training-plan": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-to-nasa-snow-and-ice-data-products-and-applications-for-water": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "introduction-using-vic-hydrologic-model-nasa-earth-observations": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "invasive-species-monitoring-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "investigating-time-series-satellite-imagery": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "land-cover-classification-satellite-imagery": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "landslide-monitoring-risk-assessment-using-nasa-earth-system-data": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "large-scale-applications-machine-learning-using-remote-sensing-building-agriculture": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "lidar-profiling-satellite-observations-air-quality-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "mapping-crops-biophysical-characteristics-polarimetric-sar-optical-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "mapping-monitoring-lakes-reservoirs-satellite-observations": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "measuring-atmospheric-carbon-dioxide-from-space-support-climate-related-studies": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "methane-observations-large-emission-event-detection-monitoring": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "methods-using-nasa-remote-sensing-health-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "modis-viirs-transition-air-quality-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-aquatic-vegetation-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-coastal-estuarine-water-quality-transitioning-from-modis-viirs": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-coastal-estuarine-water-quality-using-remote-sensing-situ-data": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-global-terrestrial-surface-water-height-using-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-groundwater-changes-water-resources-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-modeling-floods-using-earth-observations": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-predicting-floods-using-earth-observations-planning-preparedness": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-prediction-floods-using-earth-observations-planning-preparedness": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
     "monitoring-surface-water-sar-water-resource-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-tropical-storms-emergency-preparedness": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-urban-floods-using-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-water-quality-aquaculture-using-nasa-remote-sensing-observations": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-water-quality-inland-lakes-using-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "monitoring-water-quality-lakes-coastal-regions-using-stream": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "nasa-air-quality-focused-remote-sensing-epa-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "nasa-arset-national-association-conservation-districts-workshop-series": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "nasa-atmospheric-composition-ground-networks-supporting-air-quality-climate": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "nasa-earth-observations-energy-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "nasa-earth-observations-reservoir-water-utility-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "nasa-earth-science-data-wildland-fire-decision-making": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "nasa-remote-sensing-flood-monitoring-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "nasa-remote-sensing-observations-flood-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "nasa-satellite-laser-altimetry-coastal-near-shore-bathymetry": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "nasa-satellite-laser-altimetry-coastal-near-shore-bathymetry-0": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "nasa-satellite-observations-tools-air-quality-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "nasa-satellite-observations-tools-fire-smoke-monitoring": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "new-sensor-highlight-ecostress": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "overview-global-disaster-alert-coordination-system-gdacs": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "processing-satellite-imagery-monitoring-water-quality": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "qa-session-radar-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "radar-remote-sensing-land-water-disaster-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "remote-sensing-applications-support-management-water-resources-la-plata-river-basin": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "remote-sensing-climate-sensitive-infectious-diseases": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "remote-sensing-coastal-ecosystems": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "remote-sensing-conservation-biodiversity": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "remote-sensing-disasters-scenarios": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "remote-sensing-drought": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "remote-sensing-forest-cover-change-assessment-carbon-monitoring": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "remote-sensing-freshwater-habitats": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "remote-sensing-land-indicators-sustainable-development-goal-15": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "remote-sensing-mangroves-support-un-sustainable-development-goals": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "remote-sensing-monitoring-land-degradation-sustainable-cities-sdgs": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "remote-sensing-training-methods-best-practices": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "river-basin-delineation-based-nasa-digital-elevation-data": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "sar-detecting-monitoring-floods-sea-ice-subsidence-from-groundwater-extraction": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "sar-disasters-hydrological-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "sar-landcover-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "satellite-observations-analyzing-natural-hazards-small-island-nations": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "satellite-observations-tools-fire-risk-detection-analysis": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "satellite-remote-sensing-agricultural-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "satellite-remote-sensing-air-quality": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "satellite-remote-sensing-dust-fires-smoke-air-quality": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "satellite-remote-sensing-flood-monitoring-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "satellite-remote-sensing-measuring-urban-heat-islands-constructing-heat": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "satellite-remote-sensing-particulate-matter-air-quality": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "satellite-remote-sensing-urban-heat-islands": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "sea-level-change-tools-planning-decision-support": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "selecting-climate-change-projection-sets-mitigation-adaptation-risk-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "solar-induced-fluorescence-sif-observations-assessing-vegetation-changes-related": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "spaceborne-lidar-monitoring-vegetation-structure-biomass-using-gedi": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "species-distribution-modeling-google-earth-engine": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "species-distribution-modeling-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "spectral-indices-land-aquatic-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "techniques-wildfire-detection-monitoring": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "tools-analyzing-nasa-air-quality-model-output": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "transforming-earth-observation-data-building-infrastructure-data-sets-disaster-risk": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "understanding-phenology-remote-sensing": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "use-solar-induced-fluorescence-lidar-assess-vegetation-change-vulnerability": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "using-earth-observations-monitor-water-budgets-river-basin-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "using-earth-observations-monitor-water-budgets-river-basin-management-ii": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "using-earth-observations-pre-post-fire-monitoring": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "using-google-earth-engine-land-monitoring-applications": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "using-nasa-remote-sensing-disaster-management": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "using-un-biodiversity-lab-monitor-pulse-planet": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "using-un-biodiversity-lab-support-national-conservation-sustainable-development": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "visualizing-land-cover-land-use-change-nasa-satellite-imagery": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "water-resource-management-using-nasa-earth-science-data": {
+      "arset": true,
+      "last_checked": "2026-09-30"
+    },
+    "worldview-water-quality-applications-coastal-regions": {
       "arset": true,
       "last_checked": "2026-09-30"
     }

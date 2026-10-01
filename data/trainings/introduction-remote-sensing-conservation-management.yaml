@@ -1,0 +1,66 @@
+id: introduction-remote-sensing-conservation-management
+title: Introduction to Remote Sensing for Conservation Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-remote-sensing-conservation-management
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2015-05-05'
+end_date: '2015-06-02'
+published: '2015-05-05'
+last_updated: '2026-02-27'
+summary: This ARSET training focuses on regional and global observation resources for conservation management.
+description: This training series focuses on regional and global observation resources for conservation
+  management. It provides a basic overview of remote sensing, tools for accessing and visualizing relevant
+  NASA Earth science data, and case study applications for utilizing these tools for conservation management.
+objectives:
+- Provide an overview of remote sensing, details on how to access and visualize relevant NASA Earth science
+  data, and how to use these data for conservation and biodiversity issues.
+- Assist non-governmental agencies (NGOs) and land management professionals in decision-making through
+  the use of NASA data, relevant tools, and assessment methods.
+audience:
+- The target audience for this series are NGOs (national and international) focused on conservation and
+  biodiversity issues.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+sessions:
+- part: 1
+  title: Overview of Remote Sensing
+  date: '2015-05-05'
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/conservationpart1.pdf?VersionId=M0BTsBeInVr3Zr3DkO10TaMhEUUQzrP6
+- part: 2
+  title: Platforms and Sensors for Conservation
+  date: '2015-05-12'
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/conservationpart2.pdf?VersionId=E16ulxy1fiH0xSUc_y6Nr3NBMez6D_ZB
+  - type: homework
+    title: Part 2 Homework
+    url: https://docs.google.com/forms/d/1SurtHu_5RAo4IMtbqJ9McVp0qjlD2nyP9JUyj6XKlIs/viewform
+- part: 3
+  title: Habitat Monitoring
+  date: '2015-05-19'
+- part: 4
+  title: Animal Movement
+  date: '2015-05-26'
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/conservationpart4.pdf?VersionId=IIAozVuDk8kPR8sig54PMJ4CCqBhCcLq
+  - type: homework
+    title: Part 4 Homework
+    url: https://docs.google.com/forms/d/1d61wrGYb1eCUVlhGnMvogp2M0F1jDaBQztduaRKYGnU/viewform
+- part: 5
+  title: 'Near Real-Time Data, Featuring Guest Speaker: Karyn Tabor'
+  date: '2015-06-02'
+  materials:
+  - type: slides
+    title: Part 5 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/conservationpart5.pdf?VersionId=z8wHkBXi70ZkRy.wkNtyqYC0vpjnFB5M

@@ -1,0 +1,96 @@
+id: high-resolution-no2-monitoring-from-space-tropomi
+title: High Resolution NO2 Monitoring From Space with TROPOMI
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/high-resolution-no2-monitoring-from-space-tropomi
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2019-05-28'
+end_date: '2019-06-03'
+published: '2019-05-28'
+last_updated: '2026-02-02'
+summary: This ARSET training covers how to access and analyze TROPOMI data as well as its applications.
+description: 'Nitrogen dioxide (NO 2) is unhealthy to breathe and is a necessary ingredient for the formation
+  of unhealthy levels of surface ozone. NASA Aura''s Ozone Monitoring Instrument (OMI) instrument has
+  been monitoring NO 2 data since 2004 and has been used in a variety of health and air quality applications.
+  The Tropospheric Monitoring Instrument (TROPOMI) instrument aboard Sentinel-5P, launched in 2017, represents
+  a significant improvement in spatial resolution over OMI. It will be better-suited for many applications
+  currently using OMI data, including monitoring air pollution.
+
+
+  In this advanced training led by NASA''s Applied Remote Sensing Training Program (ARSET), attendees
+  learned how to access and analyze TROPOMI data and about its applications.'
+objectives:
+- Understand the available data products
+- Access and download TROPOMI data
+- Analyze the data using Python tools
+audience:
+- This webinar is intended for end-users who are already familiar with satellite observation capabilities
+  and have used online image archives or analysis tools at basic to intermediate levels for air quality
+  applications, such as emissions estimation using satellite observations.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- health-air-quality
+satellites:
+- sentinel-5p
+datasets:
+- tropomi-no2
+tools:
+- python
+sessions:
+- part: 1
+  title: Remote Sensing of NO 2 with OMI
+  date: '2019-05-28'
+  videos:
+  - youtube: rvSjD-vGI4k
+    title: 'NASA ARSET: Remote Sensing of NO2 with OMI, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/NO2_Session_1_final.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/Q&A%20Doc%20Session%201.pdf
+- part: 2
+  title: Introducing TROPOMI - High Resolution NO 2 Observations from Space
+  date: '2019-05-30'
+  videos:
+  - youtube: -yOInEUJTYM
+    title: 'NASA ARSET: Introducing TROPOMI - High Resolution NO2 Observations from Space, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/NO2session2-final.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/NO2Q&A%20Doc%20Session%202.pdf
+- part: 3
+  title: Python Tools for Analyzing NO 2
+  date: '2019-06-03'
+  videos:
+  - youtube: MxBg5ZMH2nM
+    title: 'NASA ARSET: Python Tools for Analyzing NO2, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/NO2session3_final.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/Q&A%20Doc%20Session%203.pdf
+  - type: data
+    title: OMI Python Code & Data
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/OMI%20Python%20Code%20&%20Data.zip
+  - type: data
+    title: TROPOMI Python Codes & Data (Aerosol Index, CH4, CO2)
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/TROPOMI%20Python%20Codes%20&%20Data%20(Aerosol%20Index,%20CH4,%20CO2).zip
+  - type: data
+    title: TROPOMI NO2 Data
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/TROPOMI%20NO2%20Data.zip
+  - type: data
+    title: Python Test Code
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/Python%20Test%20Code.zip

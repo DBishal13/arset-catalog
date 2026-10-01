@@ -1,6 +1,7 @@
 """YouTube lookups that need no API key: channel RSS feeds and oEmbed."""
 from __future__ import annotations
 
+import json
 import re
 import xml.etree.ElementTree as ET
 
@@ -46,6 +47,25 @@ def oembed(video_id: str) -> dict | None:
         return None
     data = resp.json()
     return {"title": data.get("title"), "channel": data.get("author_name")}
+
+
+DESCRIPTION = re.compile(r'"shortDescription":("(?:[^"\\]|\\.)*")')
+
+
+def session() -> requests.Session:
+    s = requests.Session()
+    s.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128 Safari/537.36",
+                      "Accept-Language": "en-US,en;q=0.9"})
+    s.cookies.set("SOCS", "CAI", domain=".youtube.com")  # skip the EU consent interstitial
+    return s
+
+
+def description(video_id: str, s: requests.Session | None = None) -> str | None:
+    """A video's description text from its watch page, or None if the page has none (private/removed)."""
+    resp = (s or session()).get(watch_url(video_id), timeout=30)
+    resp.raise_for_status()
+    m = DESCRIPTION.search(resp.text)
+    return json.loads(m.group(1)) if m else None
 
 
 def guess_language(title: str) -> str | None:

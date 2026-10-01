@@ -1,0 +1,116 @@
+id: processing-satellite-imagery-monitoring-water-quality
+title: Processing Satellite Imagery for Monitoring Water Quality
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/processing-satellite-imagery-monitoring-water-quality
+level: advanced
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2018-09-05'
+end_date: '2018-09-19'
+published: '2018-09-05'
+last_updated: '2026-01-15'
+summary: This ARSET training covers how to perform advanced image processing of satellite data and use
+  satellites to track indicators of harmful algal blooms.
+description: 'Polluted water influences all aspects of life, including people, animals, and the environment.
+  NASA satellite observations provide near real-time information about water quality, and this freely-available
+  data can help decision makers in their work. Satellite data can have applications for managing drinking
+  water, public health, and fisheries.
+
+
+  This Applied Remote Sensing Training program (ARSET) training helps attendees perform advanced image
+  processing of satellite data and learn about using satellites to track indicators of harmful algal blooms.
+  This includes monitoring water temperature and chlorophyll-a concentrations. Attendees can also use
+  this information for reporting around United Nations Sustainable Development Goal (SDG) 6.'
+objectives:
+- Access Moderate Resolution Imaging Spectroradiometer (MODIS), Landsat 7 and Landsat 8 data
+- Perform image processing of MODIS and Landsat data
+- Monitor water temperature and chlorophyll-a concentrations as harmful algal bloom indicators
+audience:
+- This training is focused at water resource managers, water intake managers, and fishery and aquaculture
+  managers and farmers.
+prerequisites:
+- introduction-remote-sensing-harmful-algal-blooms
+applications:
+- health-air-quality
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- terra
+tools:
+- giovanni
+sessions:
+- part: 1
+  title: NASA Remote Sensing for Monitoring Harmful Algal Blooms
+  date: '2018-09-05'
+  videos:
+  - youtube: BNcJuB-TRuU
+    title: 'NASA ARSET: NASA Remote Sensing for Monitoring Harmful Algal Blooms, Session 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/arset-WaterQuality2018-part1-slides.pdf?VersionId=V.xi.EVhOWqsRzIfxfxI5UNhNJW.XzPJ
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/arset-WaterQuality2018-part1-qa.pdf?VersionId=cOMg3VVakhM5Nh21G0XwkgXvFMgymqir
+  - type: exercise
+    title: 'Part 1 Exercise: Giovanni'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/arset-WaterQuality2018-part1-exercise-Giovanni.pdf?VersionId=9kVK6gPY2l1yRpkUifn2_O3jbZ9o9zI2
+  - type: exercise
+    title: 'Part 1 Exercise: Ocean Color'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/arset-WaterQuality2018-part1-exercise-OceanColor.pdf?VersionId=PJteCgbtmP8VBYYJ3zwcAE8TwfGemfZm
+  - type: homework
+    title: Part 1 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfS_bfZnjf9co27ybcnYRHu4FOipeFiK9rGkbYAhIfO2BnNNw/viewform?usp=sf_link
+- part: 2
+  title: Introduction to Image Processing & Data Access
+  date: '2018-09-12'
+  videos:
+  - youtube: T1wLWzpgOVI
+    title: 'NASA ARSET: Introduction to Image Processing & Data Access, Session 2/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: SeaDAS
+    url: https://www.earthdata.nasa.gov/data/tools/seadas
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/arset-WaterQuality2018-part2-slides.pdf?VersionId=jzYd5TZAp0BmdMdxgWCkn3EMTVPN089M
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/arset-WaterQuality2018-part2-qa.pdf?VersionId=Cz413v6arIxX7m22hdHKYsmiQ7JPlP99
+  - type: other
+    title: Download and Install SeaDAS
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/arset-WaterQuality2018-part2-SeaDAS.pdf?VersionId=Anta9yCIP8dhEU92PDJAbkn0WgaULqr6
+  - type: exercise
+    title: 'Part 2 Exercise: SeaDAS'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/arset-WaterQuality2018-part2-exercise.pdf?VersionId=0ldVg_OvSHr5unnlq.ICHs.Z4J8j4DDC
+  - type: homework
+    title: Part 2 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdUU3h_HPzuORdXSCEP0q6qxxTNcNksb_i4gWBoYT9yrP9Tkw/viewform?usp=sf_link
+- part: 3
+  title: Image Processing Hands-On Exercise
+  date: '2018-09-19'
+  videos:
+  - youtube: YD-CHY0s5pU
+    title: 'NASA ARSET: Image Processing Hands-On Exercise, Session 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/arset-WaterQuality2018-part3-slides.pdf?VersionId=Ew2LK_EOFNCSVFmDomcvYh5he.Qf3ejF
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/arset-WaterQuality2018-part3-qa.pdf?VersionId=A9avofhbb0iyE3CnnvpkDAxqWYPfq_uY
+  - type: exercise
+    title: 'Part 3 Exercise: Convert Landsat 8 (OLI) L-1 Data'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/arset-WaterQuality2018-part3-exercise1.pdf?VersionId=zhkSSsqI8IMpkSOxu5bk2quUaSKnVgL6
+  - type: exercise
+    title: 'Part 3 Exercise: Calibration of Algorithm'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/arset-WaterQuality2018-part3-exercise2.pdf?VersionId=H7xf3BA5_iZ3lk6FP4JUqaOdUBvyXMcW
+  - type: other
+    title: 'Part 3 Data: Landsat Data'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/arset-WaterQuality2018-part3-data.gz

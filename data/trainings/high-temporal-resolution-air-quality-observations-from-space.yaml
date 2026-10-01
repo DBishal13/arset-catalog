@@ -1,0 +1,93 @@
+id: high-temporal-resolution-air-quality-observations-from-space
+title: High Temporal Resolution Air Quality Observations from Space
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/high-temporal-resolution-air-quality-observations-from-space
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2018-09-04'
+end_date: '2018-09-25'
+published: '2018-09-04'
+last_updated: '2026-02-22'
+summary: This ARSET training introduces satellites with a high temporal resolution for air quality applications.
+description: For certain applications some satellites take too long to revisit the same spot. Some satellites
+  are capable of consistent monitoring of the same area. This training series, led by NASA's Applied Remote
+  Sensing Training (ARSET) program, covers satellites with a high temporal resolution for air quality
+  applications. Participants can learn about new and upcoming geostationary satellites, what data is available,
+  and how to access them. The training covers satellites over the Americas, Asia, and Africa, and feature
+  speakers from the National Oceanic and Atmospheric Administration (NOAA), Yonsei University, and the
+  Indian Institute of Remote Sensing.
+objectives:
+- Understand the difference between polar orbiting and geostationary satellites
+- Recognize current and upcoming geostationary satellites
+- Access air quality datasets.
+audience:
+- This training is designed for local, state and federal environmental monitoring agencies in the Americas,
+  Asia-Pacific, and Africa.
+applications:
+- health-air-quality
+instructors:
+- pawan-gupta
+- amy-k-huff
+- myungje-choi
+- prakash-chauhan
+sessions:
+- part: 1
+  title: Part 1
+  date: '2018-09-04'
+  videos:
+  - youtube: BlMnNNcCmrw
+    title: 'NASA ARSET: Introduction to Geostationary Satellite Remote Sensing of Air Quality, Session
+      1/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-HighResolutionAQ2018-part1-slides.pdf?VersionId=niGekj.ndnjGqiMyqwS94uFnQLrgHLwz
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-HighResolutionAQ2018-part1-qa.pdf?VersionId=WZQV9a5Z6gDMVy4llzLib9nAN2fjL_vK
+- part: 2
+  title: Part 2
+  date: '2018-09-11'
+  videos:
+  - youtube: XGN_uFU1Vtw
+    title: 'NASA ARSET: Aerosol Observations from GOES-R Series Geostationary Satellites, Session 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-HighResolutionAQ2018-part2-slides.pdf?VersionId=JQ_ADMmARdVmIdvtFMA8VoNMWONcQgY2
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-HighResolutionAQ2018-part2-qa.pdf?VersionId=qUcgsgeTGQU4LILYW0uLBJpol96YsTaM
+- part: 3
+  title: Part 3
+  date: '2018-09-18'
+  videos:
+  - youtube: rH3oCnsDDCM
+    title: 'NASA ARSET: Aerosol Observations from the HIMAWARI, GOCI, and GEMS Satellites Over Asia, Session
+      3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-HighResolutionAQ2018-part3-slides.pdf?VersionId=jXwyxtEpGV1_KmcZNGEKpQCHCpz0LU_i
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-HighResolutionAQ2018-part3-qa.pdf?VersionId=iotFuxQy6ZCQCqd0tyI32DR0LX6a3AXq
+- part: 4
+  title: Part 4
+  date: '2018-09-25'
+  videos:
+  - youtube: j41xwb9Y_o8
+    title: 'NASA ARSET: INSAT Aerosol Observations over Asia and Africa, Session 4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-HighResolutionAQ2018-part4-slides.pdf?VersionId=r15jFwz07PfYsTvXII9zP0LVtvJPFVcC
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-HighResolutionAQ2018-part4-qa.pdf?VersionId=PgR6h9P8E2igd5kPiXNTJRnY3cMCZsnr

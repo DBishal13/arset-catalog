@@ -1,0 +1,110 @@
+id: introduction-nasa-snow-ice-data-products-applications-water-resources-management
+title: Introduction to NASA Snow and Ice Data Products and Applications for Water Resources Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-nasa-snow-ice-data-products-applications-water-resources-management
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2025-07-24'
+end_date: '2025-08-07'
+published: '2025-07-24'
+last_updated: '2025-08-21'
+summary: This collaborative training between ARSET, NASA's NSIDC, and NASA's WWAO introduces NASA's snow
+  and ice data products and snow water equivalence data.
+description: 'Frozen water on or below the earth''s surface, known as the cryosphere, is a vital component
+  of the Earth system and includes snow, glaciers, ice sheets, sea ice, and permafrost. Approximately
+  75% of the Earth''s total freshwater is stored in glaciers, ice sheets, and permafrost (USGS). In many
+  regions, snowmelt also serves as a major source of freshwater.
+
+
+  Snow and ice play a crucial role by influencing albedo (the fraction of sunlight reflected back into
+  space) which affects the Earth''s energy balance and temperature. Snow cover also significantly influences
+  weather patterns, ecosystems, transportation, recreational activities, and infrastructure (Why Snow
+  Matters - NSIDC). Mountain snowpack can lead to avalanches, and the timing and volume of melt can trigger
+  flooding in snow-fed rivers. Conversely, reduced snowpack can result in snow droughts, impacting water
+  availability.
+
+
+  NASA provides regional and global snow and ice data products based on remote sensing observations. Additionally,
+  NASA Earth system models can diagnose snowfall during winter and estimate snow water equivalent—a key
+  parameter for assessing freshwater resources. This collaborative training between ARSET, NASA''s National
+  Snow and Ice Data Center (NSIDC), and NASA''s Western Water Actions Office (WWAO), introduces NASA''s
+  snow and ice data products and snow water equivalence data, with a particular focus on snow data application
+  to monitoring and forecasting snow-fed river flow and water availability.'
+audience:
+- Regional, state, and federal water resources managers, river network and disasters managers, fish and
+  wildlife managers.
+- Academic students and faculty.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+- drought
+- ecological-conservation
+- water-resources
+satellites:
+- aqua
+- terra
+sessions:
+- part: 1
+  title: Overview of NASA Snow and Ice Data Products
+  agenda:
+  - Recognize the impacts of snow and ice parameters to water resources applications.
+  - Identify NASA snow and ice data products and their applications for water resource management and
+    disaster monitoring.
+  - Identify snow and ice data parameters and their characteristics.
+  - Explore examples of applications of snow and ice data for water resource management.
+  videos:
+  - youtube: IqiYndJxyrg
+    title: 'NASA ARSET: Overview of NASA Snow and Ice Data Products, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/Snow_Ice_Part1_Final2.pdf?VersionId=hX7NXSFPqEnLG6uC9EieVJU7fzBr_Aqs
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/Snow%20&%20Ice%20Q&A%20Part%201.pdf?VersionId=Pe8.U6FjOEL7Lr39VrK2s6TyGQ21Y3sZ
+- part: 2
+  title: Access, Analysis, and Visualization of NASA Snow and Ice Data Products
+  agenda:
+  - Search and access NASA snow and ice data products.
+  - Recognize ways to analyze and visualize snow and ice data products.
+  - Compare coincident snow data across in-situ, airborne, and satellite platforms from NASA's SnowEx,
+    ASO, and MODIS data sets.
+  videos:
+  - youtube: K8sDFnp5bZI
+    title: Access, Analysis, and Visualization of NASA Snow and Ice Data Products, Part 2/3
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/Snow_Ice_Part2_Final3.pdf?VersionId=wq.6pblO7drELjzpHJd7MpOzdiiofcsx
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/Snow%20&%20Ice%20Q&A%20Part%202.pdf?VersionId=J2p3DkWoBaK9cO7wmpU51Idiw0znk9GY
+- part: 3
+  title: Monitoring Mountain Snowpack and Prediction of Water Availability in the Western US for Water
+    Resources Applications
+  agenda:
+  - Recognize the importance of water resources and impact of snow data in the Western US.
+  - Identify methods to monitor and visualize snow cover, snow albedo, snow darkening, and snow cover
+    duration in the Western US.
+  - Recognize how the snow data are utilized in water resources management and forecasting snow-fed river
+    flow with case studies in the Western US.
+  videos:
+  - youtube: MhU1e5PqS2M
+    title: 'NASA ARSET: Monitoring Snowpack and Prediction of Water Availability in the Western US, Part
+      3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/Snow_Ice_Part3_Final.pdf?VersionId=PcHtRXkZB9dBiJvXFdM7NQA0wMMI.NG0
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/Snow%20&%20Ice%20Q&A%20Part%203.pdf?VersionId=8XaIwpWo211uGzgXBOrJ4Q1U4S7lZWUM
+  - type: homework
+    title: Homework
+    url: https://forms.gle/Jf42x8xb3i94uWHy6

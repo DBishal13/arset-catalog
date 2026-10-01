@@ -1,0 +1,41 @@
+id: nasa-earth-science-data-wildland-fire-decision-making
+title: NASA Earth Science Data for Wildland Fire Decision Making
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/nasa-earth-science-data-wildland-fire-decision-making
+level: intermediate
+format: in-person
+languages:
+- en
+start_date: '2017-04-03'
+end_date: '2017-04-03'
+published: '2026-03-02'
+last_updated: '2026-05-19'
+summary: This ARSET training covers remotely sensed data relevant to wildland fire management as well
+  as online tools such as Worldview and FIRMS.
+description: 'Wildland fires pose a serious threat to human health and property. During this in-person
+  training led by NASA''s Applied Remote Sensing Training program (ARSET), participants learned how to
+  use NASA Earth observations to evaluate potential fire risk, monitor fire behavior in near real-time,
+  and assess post-fire effects. Held in conjunction with the Opportunities to Apply Remote Sensing in
+  Boreal/Arctic Wildfire Management and Science Workshop, this training includes lectures and hands-on
+  exercises.
+
+
+  Instructors from ARSET and the Short-term Prediction Research and Transition Center (SPoRT) cover remotely
+  sensed data relevant to wildland fire management, including measurements from Landsat, the Moderate
+  Resolution Imaging Spectroradiometer (MODIS), GOES, and NASA’s Soil Moisture Active Passive (SMAP) mission
+  as well as online tools such as NASA Worldview and the Fire Information and Resources Management System
+  (FIRMS).'
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- water-resources
+- wildland-fires
+satellites:
+- aqua
+- goes-r-series
+- landsat-8
+- landsat-9
+- smap
+- terra
+tools:
+- worldview

@@ -1,0 +1,113 @@
+id: evaluating-ecosystem-services-remote-sensing
+title: Evaluating Ecosystem Services With Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/evaluating-ecosystem-services-remote-sensing
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2022-08-23'
+end_date: '2022-08-30'
+published: '2022-08-23'
+last_updated: '2026-02-11'
+summary: This ARSET training outlines the basics of ecosystem services and natural capital accounting.
+description: 'Healthy ecosystems provide essential pieces of daily life for humans such as clean water,
+  food, medicines, carbon sequestration, protection against extreme weather, and much more. Natural capital
+  accounting recognizes that these assets must be maintained, managed, and measured for critical decision-making
+  activities. NASA data can be used to accurately map ecosystems to support effective planning and sustainable
+  decision-making.
+
+
+  This training, led by NASA''s Applied Remote Sensing Training (ARSET) program, outlines the basics of
+  ecosystem services and natural capital accounting. It also provides an overview of how Earth Observations
+  (EO) can be used to support global frameworks and initiatives such as standards set by the United Nation’s
+  System of Environmental Economic Accounting (UN-SEEA). Participants receive information on techniques
+  and tools for using EO in natural capital accounting such as the use of land cover mapping, time series
+  analysis, and modeling efforts conducted with the Natural Capital Project via the Integrated Valuation
+  of Ecosystem Services and Tradeoffs (InVEST) software, the Artificial Intelligence for Environment and
+  Sustainability (ARIES) project, and more. Case-study examples are provided to highlight locally specific
+  efforts such as valuation of native pollinators, urban ecosystem accounts, valuation of coastal resilience
+  and coral reef habitats, and forest conservation and carbon sequestration.'
+objectives:
+- Summarize primary concepts of ecosystem services and natural capital accounting
+- Recall global frameworks and initiatives for ecosystem assessments
+- Outline the role of NASA Earth Observations (EO) in conducting ecosystem assessments
+- Identify natural capital accounting models that incorporate EO
+- Discover case study examples of the use of EO for ecosystem assessments
+audience:
+- This webinar series is intended for local, regional, state, federal, and non-governmental organizations
+  involved in land and coastal ecosystems management and natural capital accounting. Applied scientists
+  and geographic information systems (GIS) professionals interested in learning how to use NASA EO data
+  for ecosystem assessments and accounting are encouraged to participate.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- ecological-conservation
+sessions:
+- part: 1
+  title: August 23, 2022
+  agenda:
+  - Overview of Ecosystem Services
+  - Ecosystem Accounting
+  - Global Frameworks and Initiatives for Assessing Value in Ecosystems
+  - Earth Observations and data products for ecosystem assessments
+  - Q&A
+  videos:
+  - youtube: DZfvTNYyzX8
+    title: Evaluating Ecosystem Services with Remote Sensing, Part 1/3
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-EcoServices2022-part1-slides.pdf?VersionId=sOxXek.RHP8Th1lS473ehDBwo8ej7oi7
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-EcoServices2022-part1-qa.pdf?VersionId=T9QTbaahlnwTjbdwFv4pCNXMVCh210p9
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-EcoServices2022-part1-slides-esp.pdf?VersionId=PKKEIIvf2GRSTp26uj2hd9AU6.BGHxf4
+- part: 2
+  title: August 25, 2022
+  agenda:
+  - Remote sensing techniques for ecosystem assessments
+  - The Natural Capital Project and InVEST
+  - ARIES
+  - Q&A
+  videos:
+  - youtube: V0axHKpyYrw
+    title: 'Evaluating Ecosystem Services with Remote Sensing: August 25, 2022, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-EcoServices2022-part2-slides.pdf?VersionId=MR.pK47sGzqpg2d5s5t8O5O2wPOBXpiP
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-EcoServices2022-part2-qa.pdf?VersionId=K7BnAs6e_IDdAUfQYkzFOF6SsOLHWRy3
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-EcoServices2022-part2-slides-esp.pdf?VersionId=OVCgp1hFmttKEkI5Uj2y9ORrMpEK7wVC
+- part: 3
+  title: August 30, 2022
+  agenda:
+  - Gaborone Declaration for Sustainability in Africa, Ecosystem Valuation and Natural Capital
+  - Earth Observation for Ecosystem Accounting (EO4EA) Initiative Projects
+  - Wealth Accounting and the Valuation of Ecosystem Services (WAVES) projects
+  - Valuing the Role of U.S. Coral Reefs in Coastal Hazard Risk Reduction
+  - Piloting urban ecosystem accounting for the United States
+  - Q&A
+  videos:
+  - youtube: DZw0V7wxIQA
+    title: 'Evaluating Ecosystem Services with Remote Sensing: August 30, 2022, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-EcoServices2022-part3-slides.pdf?VersionId=ytIz63iMGtQloynpuAXulD73_rY.p8Ef
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-EcoServices2022-part3-qa.pdf?VersionId=8PfjISRHhf6tY43ZPEXkYYQffQLGfH0W
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-EcoServices2022-part3-slides-esp.pdf?VersionId=X8egxXio94cV0sw.62e2S5FsVrhW9.Ox

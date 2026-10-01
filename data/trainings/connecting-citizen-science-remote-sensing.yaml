@@ -1,0 +1,120 @@
+id: connecting-citizen-science-remote-sensing
+title: Connecting Citizen Science With Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/connecting-citizen-science-remote-sensing
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2023-01-24'
+end_date: '2023-01-31'
+published: '2023-01-24'
+last_updated: '2026-09-21'
+summary: This ARSET training provides an overview of citizen science efforts that use Earth Observations
+  and how to engage community to achieve project goals.
+description: 'Citizen science projects provide the opportunity for community member volunteers to monitor
+  Earth. These projects have dramatically increased in the last decade and can provide great benefits
+  to projects that combine Earth observations with ground-based information in the fields of climate change,
+  sustainable development, ecosystem monitoring and characterization, drought, and land cover or land-use
+  change.
+
+
+  This training, led by NASA''s Applied Remote Sensing Training (ARSET) program, provides attendees an
+  overview of citizen science efforts that use Earth observations, and how to engage with community members
+  in a supportive and meaningful manner to achieve project goals. Attendees are also provided with case-study
+  examples of successful citizen science projects, with some examples from NASA supported projects and
+  activities.
+
+
+  We highlight projects such as NeMO-Net, a global coral reef classification with 2D and 3D images application
+  combined with machine learning; Floating Forests, a Giant Kelp monitoring platform where participants
+  can classify kelp in Landsat images; Snapshot Wisconsin, a project that uses images of wildlife from
+  trail cameras to assist with habitat mapping; and Soundscapes to Landscapes, where bird diversity in
+  California is monitored by identifying specific species through sound recordings.
+
+
+  We also highlight the Global Learning and Observations to Benefit the Environment (GLOBE) Program, an
+  international science and education program, and GLOBE Observer, a citizen science app that allows volunteers
+  in GLOBE countries to take observations and contribute to the community.'
+objectives:
+- Summarize applications of Earth Observations for citizen science
+- Outline key aspects of citizen science projects including community engagement, quality assurance of
+  data collection, cataloging and summarizing data, and effective communication of project results
+- Discover case study examples of the use of Earth observations for NASA Applied Sciences projects.
+audience:
+- This training is designed for local, regional, state, federal, and non-governmental organizations involved
+  in land management, conservation, biodiversity, and forest monitoring. Educators and scientists interested
+  in involvement with citizen science would also be interested in this training topic.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- drought
+- ecological-conservation
+satellites:
+- landsat-8
+- landsat-9
+instructors:
+- juan-l-torres-perez
+- amber-mccullum
+- britnay-beaudry
+sessions:
+- part: 1
+  title: Overview of Citizen Science
+  agenda:
+  - Overview of Citizen Science
+  - Motivations, Ethics, and Policies
+  - Data Management
+  - Tools and Platforms
+  - Overview of NASA's Citizen Science Program
+  videos:
+  - youtube: vfT4VG7x0AY
+    title: 'NASA ARSET: Overview of Citizen Science, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CitizenScience2023-part1-slides.pdf?VersionId=69FeDSMiMOQ5cJ6vUxsAPGa_vwdzXE1o
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CitizenScience2023-part1-qa.pdf?VersionId=bM9dFDU4y0uoLtwlv_XLmr4CD3tuKU_m
+- part: 2
+  title: NASA’s Citizen Science for Earth Systems Program
+  agenda:
+  - Floating Forests
+  - FjordPhyto
+  - Lake Observations by Citizen Scientists and Satellites (LOCSS)
+  - NeMO-Net
+  videos:
+  - youtube: 4tAmf3dBUxU
+    title: 'NASA ARSET: NASA’s Citizen Science for Earth Systems Program, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CitizenScience2023-part2-slides.pdf?VersionId=tbJt3qzNp5HsYa5NM4NttSyH2Vat2UlF
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CitizenScience2023-part2-qa.pdf?VersionId=MOpDmOSlV.nPSGN4e7kx8buG6eqyDKrC
+- part: 3
+  title: Citizen Science at NASA With Land Applications
+  agenda:
+  - Snapshot Wisconsin
+  - Soundscapes to Landscapes
+  - Citizen Science Supporting Community Health and Sustainability
+  - Fresh Eyes on Ice and Arctic and Earth SIGNs
+  videos:
+  - youtube: 1zrpkH7s18I
+    title: 'NASA ARSET: Citizen Science at NASA with Land Applications, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CitizenScience2023-part3-slides.pdf?VersionId=YvJua4FPigK0wmxqDBNjvNwlbz2ZTUPK
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CitizenScience2023-part3-qa.pdf?VersionId=vVUlbnQeHmOInaKS_gbbybmYeOBcLADW
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-09/ARSET-CitizenScience2023-HomeworkPDF.pdf

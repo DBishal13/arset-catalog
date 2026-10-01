@@ -1,0 +1,67 @@
+id: new-sensor-highlight-ecostress
+title: 'New Sensor Highlight: ECOSTRESS'
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/new-sensor-highlight-ecostress
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2019-11-20'
+end_date: '2019-11-20'
+published: '2019-11-20'
+last_updated: '2026-02-25'
+summary: This ARSET training introduces the applications of ECOSTRESS for crop health, volcanoes, urban
+  heat, wildland fires, coastal systems, and much more.
+description: 'Join us for the Applied Remote Sensing Training (ARSET) program''s first lightning-style
+  training designed to support the high demand and interest from the applications community in new NASA
+  Earth observing technologies that can be used to support resource management. This webinar focuses on
+  a NASA instrument that was launched and installed on the International Space Station (ISS) in Summer
+  2018: the ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS).
+
+
+  Designed to study terrestrial ecosystems and plant water stress from the ISS, ECOSTRESS can also be
+  used to better understand crop health, volcanoes, urban heat, wildland fires, coastal systems, and much
+  more.
+
+
+  The primary science and applications mission of ECOSTRESS is to address three critical questions around
+  vegetation health and agriculture:'
+objectives:
+- What parameters are monitored by ECOSTRESS
+- How ECOSTRESS measurements are taken, including the spatial and temporal resolution of the data
+- How to access and download ECOSTRESS data via NASA's Land Processes Distributed Active Archive Center
+  (LP DAAC)
+- Case study examples demonstrating the use of ECOSTRESS for land management applications
+audience:
+- This training is designed for local, regional, state, federal, and non-governmental organizations involved
+  in land management, drought monitoring, and agricultural applications.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- agriculture
+- ecological-conservation
+- wildland-fires
+satellites:
+- iss
+tools:
+- appeears
+sessions:
+- part: 1
+  title: ECOSTRESS
+  agenda:
+  - Introduction to ECOSTRESS
+  - Data format, details, variables (resolution, etc.)
+  - ECOSTRESS case study examples
+  - 'Demonstration: ECOSTRESS data access via LPDAAC and AppEEARS'
+  - Question & Answer Session
+  videos:
+  - youtube: pw4XRDK-gTw
+    title: 'NASA ARSET: New Sensor Highlight: ECOSTRESS, Part 1/1'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-ecostress2019-part1-slides.pdf?VersionId=GgtSyY1aveCL_53TuGPbDByfhx4c0PeP
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-ecostress2019-part1-qa.pdf?VersionId=hfC.aHdaIvUdpmkZwZn8GBBrThQSELwf

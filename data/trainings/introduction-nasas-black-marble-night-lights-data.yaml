@@ -1,0 +1,58 @@
+id: introduction-nasas-black-marble-night-lights-data
+title: Introduction to NASA's "Black Marble" Night Lights Data
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-nasas-black-marble-night-lights-data
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2020-12-03'
+end_date: '2020-12-03'
+published: '2020-12-03'
+last_updated: '2026-07-23'
+summary: This ARSET training focuses on building the skills needed to acquire and understand Black Marble
+  data and choose the appropriate nighttime lights product.
+description: 'At night, satellite images of Earth capture a uniquely human signal — artificial lighting.
+  Remotely-sensed lights at night provide a new data source for improving our understanding of interactions
+  between human systems and the environment. NASA has developed the Black Marble, a daily calibrated,
+  corrected, and validated product suite, so night light data can be used effectively for scientific observations.
+
+
+  Black Marble is playing a vital role in research on light pollution, illegal fishing, fires, disaster
+  impacts and recovery, and human settlements and associated energy infrastructures. The data (originally
+  retrieved from the Visible Infrared Imaging Radiometer Suite (VIIRS) day night band sensor) has been
+  corrected by multiple novel algorithms, providing high-quality, cloud-free, atmospheric-, terrain-,
+  vegetation-, snow-, lunar-, and stray light-corrected nighttime radiances.
+
+
+  This webinar led by NASA''s Applied Remote Sensing Training program (ARSET) focuses on building the
+  skills needed to choose the appropriate nighttime lights product, acquire and understand Black Marble
+  data, and how to use the data in analyses for tracking urbanization, electrification, and disaster monitoring.
+
+
+  This work was partially supported by the GEO Human Planet Project #16-GEO16-0055.'
+objectives:
+- Understand the new capabilities of NASA’s Black Marble product suite and which product categories (VNP46A1
+  vs. VNP46A2) to use for different science applications
+- Learn the basics of how to acquire information in Black Marble nighttime lights data
+- Interpret Black Marble science data sets (SDS), quality flags, and create time-series analyses
+- Apply products in topics relevant to the UN Sustainable Development Goals (SDGs), e.g. tracking urbanization,
+  disaster recovery, and electrification
+audience:
+- 'Local, regional, state, federal, and international organizations interested in global Earth system
+  science and applications to topics relevant to the SDGs: tracking urbanization, disaster monitoring,
+  and electrification.'
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+- health-air-quality
+- water-resources
+satellites:
+- noaa-20
+- suomi-npp
+videos:
+- youtube: KSxlhBLOAc4
+  title: 'NASA ARSET: Black Marble Background, Use, and Applications, Part 1/1'
+  channel: NASA Video

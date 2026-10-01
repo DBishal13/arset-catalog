@@ -1,0 +1,112 @@
+id: introduction-nasa-earth-observations-tools-wildfire-monitoring-management
+title: Introduction to NASA Earth Observations and Tools for Wildfire Monitoring and Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-nasa-earth-observations-tools-wildfire-monitoring-management
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2025-04-16'
+end_date: '2025-04-30'
+published: '2025-04-16'
+last_updated: '2026-06-17'
+summary: This ARSET training familiarizes participants with the various modules available in FIRMS and
+  explores the range of data and information available.
+description: 'Wildland fire managers, scientists, and the public benefit from timely and easy-to-access
+  information about current fire activity to assess potential risks and to support fire suppression activities.
+  NASA provides multiple sources of time-sensitive satellite imagery and derived data products within
+  the Fire Information for Resource Management System (FIRMS).
+
+
+  FIRMS is a web-based application with a dynamic mapping interface to visualize current and historical
+  satellite imagery, active fire detections/hot spots, and related science data products to identify the
+  location, extent, and intensity of wildland fire activity and to chronicle its effects. The application
+  also provides multiple tools for users to access and ingest data as downloadable GIS datasets and map
+  services for use in applications.
+
+
+  This three-part ARSET training will familiarize participants with the various modules available in FIRMS,
+  explore the range of data and information available as well as the characteristics of satellite-based
+  active fire detection, and provide hands-on experience that participants can apply to query, access,
+  and visualize the data in GIS and other applications.'
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- wildland-fires
+tools:
+- qgis
+instructors:
+- melanie-follette-cook
+- jenny-hewson
+- diane-davies
+- otmar-olsina
+- dylan-mendes
+- asen-radov
+sessions:
+- part: 1
+  title: Introduction to Satellite-Based Active Fire Detection using FIRMS
+  agenda:
+  - Satellite-based detection of fires
+  - FIRMS navigation and modes
+  - Strengths and limitations of different satellite-based active fire detection data products
+  videos:
+  - youtube: 2Us91BGL3Q4
+    title: 'NASA ARSET: Introduction to Satellite-Based Active Fire Detection using FIRMS, Part 1/3'
+    channel: NASA Video
+  - youtube: ioXKXeObrHE
+    title: FIRMS Algorithm Approach
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-firms2025-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-06/arset-firms2025-part1-qa.pdf
+- part: 2
+  title: Wildfire Monitoring and Evaluation
+  agenda:
+  - How FIRMS active fire data sources can be used for early detection of wildfires
+  - Using FIRMS capabilities to monitor wildfire growth
+  - Identifying factors that can impact wildfire detection
+  videos:
+  - youtube: UJOwwMwqvWA
+    title: 'NASA ARSET : Wildfire Monitoring and Evaluation, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-06/arset-firms2025-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-06/arset-firms2025-part2-qa.pdf
+- part: 3
+  title: Data Access and Visualization
+  agenda:
+  - Exploring web services available through FIRMS
+  - Options for ingesting active fire data and information into a GIS platform
+  videos:
+  - youtube: S_A4switNdU
+    title: 'NASA ARSET: Data Access and Visualization, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Install QGIS
+    url: https://www.qgis.org/download/
+  - type: other
+    title: short QGIS tutorial
+    url: https://arset.unhosting.site/course/view.php?id=29
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-firms2025-part3-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-06/arset-firms2025-part3-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/arset-firmsintro2025-homework.pdf
+videos:
+- youtube: 2xt47dCqwlE
+  title: 'NASA ARSET: Acceso y Visualización de Datos, Parte 3 de 3'
+  language: es

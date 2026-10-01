@@ -1,0 +1,39 @@
+id: nasa-remote-sensing-flood-monitoring-management
+title: NASA Remote Sensing for Flood Monitoring and Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/nasa-remote-sensing-flood-monitoring-management
+level: advanced
+format: in-person
+languages:
+- en
+start_date: '2017-04-18'
+end_date: '2017-04-20'
+published: '2017-04-18'
+last_updated: '2026-04-13'
+summary: This ARSET training covers how to apply NASA data for assessing flood risk, monitoring conditions,
+  and planning relief.
+description: Remote sensing data can help professionals manage and monitor extreme weather conditions.
+  In this training led by NASA's Applied Remote Sensing Training program (ARSET), participants learned
+  how to access and analyze available NASA data relevant to flood management. This includes data on precipitation,
+  soil moisture, inundation mapping, and elevation modeling. Participants learned to apply data for assessing
+  flood risk, monitoring conditions, and planning relief. Each session included a presentation followed
+  by an opportunity to use the data and tools covered in the presentation.
+objectives:
+- Apply open-source data and tools to flood monitoring and management
+- Utilize satellite observations to evaluate extreme weather conditions, prepare for impending flooding,
+  and plan relief activities
+audience:
+- This training is designed for local, regional, state, federal, and non-governmental organizations involved
+  in flood monitoring and management.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+- water-resources
+videos:
+- youtube: WNs5ZdZMhQY
+  title: Panoply Orientation
+  channel: NASA Earthdata
+- youtube: dTvxE5zcY08
+  title: 'Visualizing Data Using Panoply: Longitude-Latitude Plots'
+  channel: NASA Earthdata

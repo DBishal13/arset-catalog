@@ -1,0 +1,94 @@
+id: introduction-satellite-remote-sensing-air-quality-applications
+title: Introduction to Satellite Remote Sensing for Air Quality Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-satellite-remote-sensing-air-quality-applications
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2016-07-06'
+end_date: '2016-08-03'
+published: '2016-07-06'
+last_updated: '2026-03-02'
+summary: This ARSET training provides an overview of the remote sensing process, data products, and their
+  use in air quality applications.
+description: 'This introductory training series provided a brief overview of some of the fundamentals
+  essential to understanding the remote sensing process, data products, and their use in air quality applications.
+  This training led by NASA''s Applied Remote Sensing Training Program (ARSET) was specifically targeted
+  at participants of the in-person workshops at the 17th IUAPPA World Clean Air Congress, the 9th CAA
+  Better Air Quality Conference, and the Atmospheric Optics: Aerosols, Visibility, and the Radiative Balance
+  Conference.'
+objectives:
+- Understand some of the basics of satellite remote sensing of aerosols and trace gases
+- Be able to access limited satellite images and data using online tools
+- Become familiar with remote sensing terminology.
+audience:
+- National and international entities involved in air quality management and professionals interested
+  in implementing satellite capabilities for decision support activities.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- health-air-quality
+sessions:
+- part: 1
+  title: Overview of Webinar Series, ARSET, and an Introduction to Satellite Remote Sensing
+  date: '2016-07-06'
+  videos:
+  - youtube: vGU4UqhHhAA
+    title: 'NASA ARSET: Overview of Webinar Series and an Introduction to Satellite Remote Sensing, Part
+      1/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Session%201%20-%20Introduction%20to%20Satellite%20Remote%20Sensing%20for%20Air%20Quality%20Applications.pdf?VersionId=gG9B2gXx5t5CBfZm9pkQhxzPoEagGkFW
+- part: 2
+  title: Fundamentals of Remote Sensing Imagery and Tools to Access
+  date: '2016-07-13'
+  videos:
+  - youtube: rVWfZH2eQY0
+    title: 'NASA ARSET: Fundamentals of Remote Sensing Imagery and Tools to Access, Part 2/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Session2.pdf?VersionId=Z27YxFAWEfV5KfErFC7pdXEZe80UzLAW
+- part: 3
+  title: NASA Aerosol Products for Particulate Matter Air Quality
+  date: '2016-07-20'
+  videos:
+  - youtube: _1Fyyl4xDmY
+    title: 'NASA ARSET: NASA Aerosol Products for Particulate Matter Air Quality, Part 3/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Session3.pdf?VersionId=t4Dq9YO7.EyrV9rqxARPm993cWVD5Ql.
+- part: 4
+  title: NASA Trace Gas Products
+  date: '2016-07-27'
+  videos:
+  - youtube: CirebnPK9KE
+    title: 'NASA ARSET: NASA Trace Gas Products, Part 4/5'
+    channel: NASA Video
+  - youtube: lwfJPc-rSXw
+    title: Tour of the EMS 01 - Introduction
+    channel: NASA Science
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Session%204%20-%20Introduction%20to%20Satellite%20Remote%20Sensing%20for%20Air%20Quality%20Applications_0.pdf?VersionId=pmpxMo7IMkiKZSg6b1fnqF5JQ05Fm25l
+  - type: other
+    title: Tour of the Electromagnetic Spectrum
+    url: https://gpm.nasa.gov/education/websites/tour-electromagnetic-spectrum
+- part: 5
+  title: Future Satellite Capabilities for Air Quality Monitoring and Review
+  date: '2016-08-03'
+  videos:
+  - youtube: FEEI6yNx4Us
+    title: 'NASA ARSET: Future Satellite Capabilities for Air Quality Monitoring and Review, Part 5/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: 'Part 5 Presentation Slides: Future Capabilities & Review'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Session%205.1%20-%20Introduction%20to%20Satellite%20Remote%20Sensing%20for%20Air%20Quality%20Applications_1.pdf?VersionId=137i8A0T1G6C7QjXcQi5r4nL3n_4z4UR

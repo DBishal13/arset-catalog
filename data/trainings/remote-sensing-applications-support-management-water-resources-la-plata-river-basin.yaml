@@ -1,0 +1,55 @@
+id: remote-sensing-applications-support-management-water-resources-la-plata-river-basin
+title: Remote Sensing Applications to Support the Management of Water Resources in the La Plata River
+  Basin
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/remote-sensing-applications-support-management-water-resources-la-plata-river-basin
+level: introductory
+format: in-person
+languages:
+- en
+start_date: '2022-11-14'
+end_date: '2022-11-18'
+published: '2022-11-14'
+last_updated: '2026-02-25'
+summary: This in-person ARSET training provided technical support to CIC countries concerning water resource-related
+  issues in the La Plata River Basin.
+description: 'The La Plata River Basin is the second largest river basin in South America after the Amazon.
+  The basin includes areas of southeastern Bolivia, southern and central Brazil, the entirety of Paraguay,
+  most of Uruguay, and northern Argentina. Precipitation in this area finds its way to the Río de la Plata
+  mainly through the Paraná River, the Paraguay River, and the Uruguay River, La Plata’s most important
+  tributaries.
+
+
+  Since 2019, the region has suffered from what started as a meteorological drought due to precipitation
+  deficits and that has now become a severe disruption to the hydrological cycle affecting the entire
+  hydrology (soil moisture, rivers, and groundwater) and ecosystems of the region. These changes to the
+  hydrology of the system are not only a result of climate change, but also increasing urbanization and
+  changes in land use.
+
+
+  The La Plata River Basin has one of the highest recorded sediment transport rates (100 million tons/year)
+  in the Paraná River which has been associated with erosion and water quality degradation. This leads
+  to major problems with navigation, infrastructure maintenance, and wetland conservation.
+
+
+  This week-long, in-person training workshop, led by NASA''s Applied Remote Sensing Training (ARSET)
+  program, involved the Interagency Water Working Group Science and Applications Team (ISAT) to provide
+  technical support to the Comité Intergubernamental Coordinador de los Países de la Cuenca del Plata
+  (CIC) countries concerning water resource-related issues in the La Plata River Basin.
+
+
+  Technical support was provided for capacity building in data acquisition and model development/application.
+  The three main topics for support included: early warning systems for floods/droughts, sediment control,
+  and water quality.'
+objectives:
+- Access Earth observations and modeled data to assist in land cover mapping, water quality, and flood/drought
+  monitoring
+- Summarize surface water budget components for the La Plata Basin
+- Apply remote sensing data (e.g., soil moisture, evapotranspiration, water quality) to hydrologic models
+- Analyze remote sensing-derived water quality parameters to create a Freshwater Health Index.
+applications:
+- climate-resilience
+- disasters
+- drought
+- ecological-conservation
+- water-resources

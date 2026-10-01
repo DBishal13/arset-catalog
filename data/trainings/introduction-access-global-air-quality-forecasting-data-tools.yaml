@@ -1,0 +1,106 @@
+id: introduction-access-global-air-quality-forecasting-data-tools
+title: Introduction and Access to Global Air Quality Forecasting Data and Tools
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-access-global-air-quality-forecasting-data-tools
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2021-09-23'
+end_date: '2021-09-30'
+published: '2021-09-23'
+last_updated: '2026-02-26'
+summary: This ARSET training discusses the basics of air quality (AQ) forecasting, including how to access
+  and interpret global AQ forecasts.
+description: This training led by NASA's Applied Remote Sensing Training (ARSET) program focuses on NASA
+  and European Center for Medium-Range Weather Forecasts (ECMWF) global air quality (AQ) forecasting capabilities.
+  Delivered in collaboration with the Copernicus Atmosphere Monitoring Service (CAMS), this training discusses
+  the basics of AQ forecasting and teaches users how to access and interpret global air quality forecasts.
+audience:
+- This training is primarily intended for local, regional, state, federal, and international organizations
+  involved in air quality management and forecasting, and those with an interest in applying remote sensing
+  and global models for air quality applications.
+prerequisites:
+- fundamentals-remote-sensing
+- data-analysis-tools-high-resolution-air-quality-satellite-datasets
+- modis-viirs-transition-air-quality-applications
+- arset-satellite-observations-tools-fire-risk-detection-analysis
+applications:
+- health-air-quality
+tools:
+- panoply
+instructors:
+- pawan-gupta
+- melanie-follette-cook
+- mark-parrington
+- chris-stewart
+sessions:
+- part: 1
+  title: Introduction to Air Quality Forecasting
+  agenda:
+  - Science and basics of AQ forecasting
+  - Air quality forecasting using local, regional, and global models
+  - Model components such as emissions, boundary conditions, initialization, and data assimilation
+  - Hands-on exercise developing a simple forecasting model
+  videos:
+  - youtube: IJh13kRCFqA
+    title: 'NASA ARSET: Introduction to Air Quality Forecasting, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-IntroAQ2021-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-IntroAQ2021-part1-qa.pdf
+  - type: exercise
+    title: Spreadsheet for Part 1 Exercise
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-01/ARSET-IntroAQ2021-part1-data.xlsx
+- part: 2
+  title: Global Air Quality Forecasting by NASA
+  agenda:
+  - Introduction to NASA GEOS model and data assimilation system
+  - The use of satellite data in theGEOS model
+  - Air quality relevant outputs, validation, and data access
+  - Introduction to the GEOS global long-term reanalysis dataset, the Modern-Era Retrospective analysis
+    for Research and Applications, Version 2 (MERRA-2)
+  - Hands-on exercise on the use of GEOS output to visualize an air quality event
+  videos:
+  - youtube: OgWJtSx-sr0
+    title: 'NASA ARSET: Global Air Quality Forecasting by NASA, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-IntroAQ2021-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-IntroAQ2021-part2-qa.pdf
+  - type: other
+    title: NASA EarthData account
+    url: https://urs.earthdata.nasa.gov/users/new
+  - type: other
+    title: Panoply
+    url: https://www.giss.nasa.gov/tools/panoply/
+- part: 3
+  title: Global Air Quality Forecasting by Copernicus Atmosphere Monitoring Service (CAMS)
+  agenda:
+  - Introduction to ECMWF and CAMS model and data assimilation system
+  - The use of satellite data in CAMS
+  - Air quality relevant outputs, validation, and data access
+  - Hands-on exercise on the use of CAMS output to visualize an air quality event
+  videos:
+  - youtube: hS0jzXIxBJQ
+    title: 'NASA ARSET: Global Air Quality Forecasting by Copernicus Atmosphere Monitoring Service, Part
+      3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-IntroAQ2021-part3-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-IntroAQ2021-part3-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdtLpvUhDGafJXa8a0heKUpXML15dV7N5u7wvXBDYd-QkdoTA/viewform?usp=sf_link

@@ -1,0 +1,113 @@
+id: estimating-biomass-change-gedi-obiwan-api
+title: Estimating Biomass and Change with GEDI and the OBIWAN API
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/estimating-biomass-change-gedi-obiwan-api
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2026-05-21'
+end_date: '2026-05-28'
+published: '2026-04-08'
+last_updated: '2026-06-10'
+summary: Participants learn how the OBIWAN application builds on GEDI’s model-based statistical framework
+  and underlying data infrastructure.
+description: 'NASA''s Global Ecosystem Dynamics Investigation (GEDI) lidar mission provides an extensive
+  global sample of forest structure measurements and high-quality biomass estimates. Applying these measurements
+  to practical carbon accounting requires extending mapped biomass information back in time so that current
+  carbon gains under present management can be compared to past trends.
+
+
+  This intermediate-level training introduces key concepts in carbon monitoring, including system requirements,
+  decision-making needs, and the concept of additionality. Participants learn how the OBIWAN application
+  builds on GEDI’s model-based statistical framework and underlying data infrastructure to generate biomass
+  change estimates, along with associated uncertainties, for user-defined areas and time periods. The
+  training also covers validation approaches, including the use of U.S. Forest Service inventory data
+  to assess the accuracy and precision of OBIWAN outputs.
+
+
+  Through hands-on activities, participants apply GEDI-based estimation methods, visualize footprint and
+  gridded biomass products, and use the OBIWAN API to generate and analyze biomass change. Participants
+  also explore how to compare carbon gains against business-as-usual scenarios, supporting practical,
+  repeatable forest carbon monitoring and decision-making.'
+objectives:
+- Identify fundamental characteristics of GEDI data and carbon monitoring, including data structure, uncertainty,
+  and system requirements;
+- Apply methods for estimating biomass and biomass change, including the integration of GEDI with Landsat
+  time series and calibration with forest inventory data;
+- Evaluate the accuracy and uncertainty of biomass estimates using validation data;
+- Use OBIWAN tools and APIs to generate and analyze biomass change products, including visualizing results
+  for user-defined areas and comparing carbon gains to different climate scenarios;
+- Evaluate advantages and disadvantages of the footprint level versus gridded level GEDI biomass products
+  to determine which data are appropriate for a given use case.
+audience:
+- This training is designed for end users who are interested in improving their ability to monitor, manage,
+  and understand vegetation dynamics, including impacts and disturbances. It is especially valuable for
+  technical teams seeking to explore novel lidar technologies to integrate into existing workflows.
+- The sessions are geared towards technical audiences, including scientists, researchers, analysts, and
+  land managers who are already using geospatial tools to support vegetation-related management and decision-support.
+  These participants may be involved in areas such as ecosystem extent and health assessments, carbon
+  quantification, and conservation or restoration planning. It may also be valuable for geospatial developers
+  looking to build applications to serve land managers, policymakers, and greenhouse gas verification
+  standards.
+prerequisites:
+- fundamentals-remote-sensing
+- spaceborne-lidar-monitoring-vegetation-structure-biomass-using-gedi
+applications:
+- climate-resilience
+- ecological-conservation
+satellites:
+- iss
+- landsat-8
+- landsat-9
+sessions:
+- part: 1
+  title: Estimating Biomass using GEDI
+  date: '2026-05-21'
+  agenda:
+  - About ARSET
+  - Training overview
+  - Introduction
+  - Overview of above-ground biomass
+  - Review of GEDI data structure
+  - Estimating biomass change
+  - Visualizing and generating biomass products
+  - Summary
+  - Q&A session
+  videos:
+  - youtube: 7Gn1rvDe-UI
+    title: 'NASA ARSET: Estimating Biomass using GEDI, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2026-05/arset-2026-obiwan-part1.pdf?VersionId=9w30Vz9oupiyS_bb.7Da5Vvf6s7lRFs9
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/arset-2026-obiwan-part1-qa.pdf
+- part: 2
+  title: Estimating Biomass Change with GEDI and the OBIWAN API
+  date: '2026-05-28'
+  agenda:
+  - Part 1 Review
+  - Part 2 Introduction
+  - 'Section 1 – GEDI Mission Biomass Estimation: Theory and Products'
+  - 'Section 2 – OBIWAN: Estimating Biomass Change with GEDI and Landsat Time Series'
+  - Section 3 – Customizing OBIWAN through its API
+  - Summary
+  - Q&A Session
+  videos:
+  - youtube: 3jQoJYAlwvs
+    title: 'NASA ARSET: Estimating Biomass Change with GEDI and the OBIWAN API, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-05/arset-2026-obiwan-part2.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/arset-2026-obiwan-part2-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://forms.gle/LTToJjEoaMn494CV8

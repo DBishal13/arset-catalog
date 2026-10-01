@@ -1,0 +1,29 @@
+id: introduction-remote-sensing-wildfire-applications
+title: Introduction to Remote Sensing for Wildfire Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-remote-sensing-wildfire-applications
+level: intermediate
+format: in-person
+languages:
+- en
+start_date: '2015-10-06'
+end_date: '2015-10-08'
+published: '2015-10-06'
+last_updated: '2026-03-02'
+summary: This ARSET training provides presentations and hands-on activities about NASA remote sensing
+  missions that are relevant to wildfire applications.
+description: This course hosted by NASA's Applied Remote Sensing Training Program (ARSET) provided presentations
+  and hands-on activities about NASA remote sensing missions that are relevant to wildfire applications.
+objectives:
+- Satellite remote sensing and what to expect from geospatial technologies
+- Fire-related remote sensing platforms and products
+- Pre-fire assessment
+- Integration of geospatial technology in fire assessment
+- Post-fire planning from an end-user perspective
+- New tools and technologies such as the RECOVER decision support system
+- Long-term fire monitoring
+- Future research needs
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- wildland-fires

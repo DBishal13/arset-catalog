@@ -1,0 +1,80 @@
+id: remote-sensing-training-methods-best-practices
+title: 'Remote Sensing Training: Methods and Best Practices'
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/remote-sensing-training-methods-best-practices
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2016-10-13'
+end_date: '2016-10-27'
+published: '2016-10-13'
+last_updated: '2026-01-27'
+summary: This ARSET training shares best practices for how to develop remote sensing trainings for an
+  organization or community of practice.
+description: 'This three-part series shares the training best practices used by NASA''s Applied Remote
+  Sensing Training program (ARSET). These skills will enable participants to develop their own online
+  or face-to-face remote sensing trainings for their organization or community of practice. This webinar
+  series provides best practices on how to:'
+objectives:
+- Understand the key steps needed to develop an online or onsite training
+- Conduct outreach and promote trainings
+- Develop and deliver effective presentations on remote sensing topics and applications
+audience:
+- This training is designed for organizations or individuals with experience in remote sensing who wish
+  to develop remote sensing training courses or programs. It is also intended for those with experience
+  in remote sensing training who wish to learn more about training best practices.
+prerequisites:
+- fundamentals-remote-sensing
+sessions:
+- part: 1
+  title: Overview
+  date: '2016-10-13'
+  videos:
+  - youtube: jVWsT91mhQk
+    title: 'NASA ARSET: Methods & Best Practices Overview, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bestpracticespart1.pdf?VersionId=7DeRr.LPn_FwlKhsCEGj1DdZx5GL3IQL
+  - type: other
+    title: Part 1 Presenter Script
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bestpracticespart1presenterscript.pdf?VersionId=Bsu6QtK.20SLk158oQTUtICWrH81NzBy
+  - type: other
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bestpracticespart1spanish.pdf?VersionId=ZJ4gY6_kdIsw935MLs4qhueWxAXRNdN3
+- part: 2
+  title: Onsite Training
+  date: '2016-10-20'
+  videos:
+  - youtube: 9afQmM6ph5Q
+    title: 'NASA ARSET: Onsite Training, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bestpracticespart2.pdf?VersionId=.5sOwL5I9dSckSKBBwYZRiCZ.t37dC75
+  - type: other
+    title: Part 2 Presenter Script
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bestpracticespart2presenterscript.pdf?VersionId=6htopMyF8VVkS0eOJsulrTCIQjn3j8Ye
+  - type: other
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bestpracticespart2spanish.pdf?VersionId=iLjJKUVAa6YE3iVX0aPs.9KbTrZnaASV
+- part: 3
+  title: Online Training
+  date: '2016-10-27'
+  videos:
+  - youtube: Ixmu1gsus6o
+    title: NASA ARSET:Online Training, Part 3/3
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bestpracticespart3.pdf?VersionId=YqQfWjtfrgpS7zwA_0P5nbF_IKUdnbSc
+  - type: other
+    title: Part 3 Presenter Script
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bestpracticespart3presenterscript.pdf?VersionId=tpdz3a3q3K3FANBrpJvfYfS9NzT5CJ_n
+  - type: other
+    title: Diapositivas de la Presentación de Parte 3
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/bestpracticespart3spanish.pdf

@@ -1,0 +1,127 @@
+id: earth-observations-toolkit-sustainable-cities-human-settlements
+title: Earth Observations Toolkit for Sustainable Cities and Human Settlements
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/earth-observations-toolkit-sustainable-cities-human-settlements
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2022-01-27'
+end_date: '2022-02-10'
+published: '2022-01-27'
+last_updated: '2026-03-03'
+summary: This ARSET training provides an overview of the Earth Observations Toolkit for Sustainable Cities
+  and Human Settlements.
+description: 'Cities around the world face numerous environmental hazards, such as extreme heat events,
+  landslides, pollution, and flooding. Cities must monitor and address these hazards to reduce risks to,
+  and enhance resilience of, their residents to climate change impacts. Earth observations allow cities
+  and other types of human settlements to be monitored and understood in comprehensive ways, deliver up-to-date
+  insights to decision makers, and are essential for reporting on progress towards Sustainable Development
+  Goals (SDGs).
+
+
+  This three-part introductory training provides an overview of the Earth Observations Toolkit for Sustainable
+  Cities and Human Settlements, an online knowledge resource that shares ready-to-use Earth observation
+  data sets and tools. These resources can be applied in policy areas that are important to resilient
+  and sustainable cities. Such areas include sustainable urban planning, adequate housing, access to public
+  transport, and access to public spaces.
+
+
+  Earth observation data provide significant cost and time savings in urban monitoring and indicator measurement,
+  particularly over large areas or areas where little data is available. The Toolkit also shares national
+  and city experiences in using spatial data and analysis for monitoring progress towards the Sustainable
+  Development Goals and the New Urban Agenda, and enabling successful, evidence-based decision making.
+
+
+  This training series is a collaboration between NASA’s Applied Remote Sensing Training Program (ARSET),
+  UN Habitat, Group on Earth Observations (GEO) EO4SDG initiative, GEO Human Planet initiative, and the
+  CEOS Working Group on Capacity Building & Data Democracy (WGCapD).'
+objectives:
+- Understand the value and usefulness of Earth observations to monitor and report on urban Sustainable
+  Development Goal (SDG) indicators and the New Urban Agenda
+- Learn from inspiring examples of cities using Earth observations for SDG 11 (sustainable cities and
+  human settlements) and the New Urban Agenda
+- 'Understand how to apply Earth observation-based Toolkit resources to enhance urban resilience and improve
+  decisions regarding: Planning, including informal settlements, open spaces for public use, access to
+  public transport, urban greening Monitoring, such as for air quality or land consumption Operational
+  preparedness, for example for emergency response to different types of hazards'
+- Planning, including informal settlements, open spaces for public use, access to public transport, urban
+  greening
+- Monitoring, such as for air quality or land consumption
+- Operational preparedness, for example for emergency response to different types of hazards
+audience:
+- This training is primarily intended for local government and municipality authorities, national governments,
+  urban resilience networks and city fora, United Nations agencies with policy mandates related to cities
+  and human settlements (e.g., UN Habitat, UN DRR, UNESCO, UNFCCC), the United Nations Statistical Division
+  (UNSD), as well as the non-public sector including small, medium, and micro-sized enterprises with responsibilities
+  in providing cities with solutions and services.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- disasters
+- ecological-conservation
+- health-air-quality
+sessions:
+- part: 1
+  title: Introduction to the EO Toolkit for Sustainable Cities and Human Settlements
+  agenda:
+  - Overview of Sustainable Development Goal 11 and the New Urban Agenda.
+  - Background and introduction to the main components of the Earth Observations Toolkit for Sustainable
+    Cities and Human Settlements.
+  - The role of Earth observations in monitoring and informing operations and planning for cities and
+    other types of human settlements.
+  videos:
+  - youtube: 0pt2SxQJGNM
+    title: 'NASA ARSET: Introduction to the EO Toolkit for Sustainable Cities and Human Settlements, Part
+      1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-EOToolkit2022-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-EOToolkit2022-part1-qa.pdf
+- part: 2
+  title: Applications of the EO Toolkit to Measure and Analyze Sustainable Development Goals
+  agenda:
+  - Degree of Urbanization Tools and SDG 11 Indicators
+  - Demonstration of POPGRID Website and Viewer
+  - Evaluating the accuracy of gridded population data sets for SDG 11.1.1 (adequate housing)
+  - Demonstration of POPGRID for dataset comparison for SDG 11.5.1 (people directly affected by disasters)
+  videos:
+  - youtube: hSCqJ0BrqFY
+    title: 'NASA ARSET: Applications of the EO Toolkit to Measure and Analyze SDGs, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-EOToolkit2022-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-EOToolkit2022-part2-qa.pdf
+- part: 3
+  title: Use Cases from the National and City Level
+  agenda:
+  - Leveraging Earth observations to calculate SDG indicator 11.3.1 (sustainable urbanization) for South
+    African cities
+  - Integrating statistical and Earth observation data to produce SDG indicator 11.7.1 (open spaces for
+    public use) in Colombia
+  - Introducing an online platform for monitoring SDG indicator 11.6.2 (mean annual levels of fine particulate
+    matter in cities, population weighted) in Europe, leveraging Earth observations
+  videos:
+  - youtube: yJQyIOsT_ws
+    title: 'NASA ARSET: Use Cases from the National and City Level, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-EOToolkit2022-part3-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-EOToolkit2022-part3-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdZcMB7ct7YLKP0GH2X46Fm4gG_E5Jx27wQSw97qTC3P_qZpw/viewform?usp=sf_link

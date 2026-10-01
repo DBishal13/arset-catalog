@@ -1,0 +1,113 @@
+id: monitoring-aquatic-vegetation-remote-sensing
+title: Monitoring Aquatic Vegetation with Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-aquatic-vegetation-remote-sensing
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2022-07-12'
+end_date: '2022-07-19'
+published: '2022-07-12'
+last_updated: '2026-01-13'
+summary: This ARSET training introduces how to use remote sensing and spectrometry to monitor aquatic
+  and coastal vegetation.
+description: 'Aquatic vegetation (AV) provides a habitat for numerous small invertebrate and fish species.
+  Kelp forests, for example, are the dominant coastal ecosystem in temperate waters. The presence of AV
+  in coastal waters is a normal occurrence, as it is an important component of the natural marine environment.
+  Nevertheless, in the last decades, the appearance of increasingly abundant mats of certain floating
+  species in other coastlines (i.e., Caribbean/Atlantic) has become a nuisance to local economies.
+
+
+  Sargassum mats, for example, are reaching coastal areas by tons every year and there is still not a
+  clear hypothesis as to why this is happening. While these mats provide an important habitat for small
+  invertebrate and fish species, they also affect the amount of light reaching shallow-water ecosystems
+  like coral reefs and seagrass beds. Several NASA-funded efforts are using remote sensing techniques
+  to monitor the presence of Sargassum in Caribbean and Atlantic waters, while others have a citizen science-oriented
+  approach to follow giant kelp populations in the Pacific.
+
+
+  This training hosted by NASA''s Applied Remote Sensing Training Program (ARSET) combines basic information
+  on the remote sensing of AVs, spectrometry of aquatic/coastal vegetation, and a demonstration of the
+  NASA-funded Floating Forests citizen science tool.'
+objectives:
+- Distinguish some types of submerged and floating aquatic flora
+- Summarize the major features of AV spectral signatures
+- Recognize the primary satellite sensors used for studying AV
+- Become familiarized with a citizen science (Floating Forests) tool for classifying kelp forests in the
+  west coast of the United States
+- Discover remotely-sensed and in situ tools to study the presence of seaweed in the Atlantic/Caribbean
+  including the Sargassum Watch System (SaWS)
+audience:
+- This training series is intended for local, regional, state, federal, and non-governmental organizations
+  involved in land and coastal ecosystems management. Applied scientists and Geographic Information Systems
+  (GIS) professionals interested in learning how to assess the presence of aquatic vegetation independently.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+sessions:
+- part: 1
+  title: Part 1
+  agenda:
+  - Background of coastal/marine submerged and floating aquatic vegetation species from temperate and
+    tropical waters (seagrasses, kelps, Sargassum)
+  - Overview of primary satellites/sensors used to study aquatic vegetation remotely
+  - Spectral signatures of plants and algae
+  - Remote sensing of seagrass meadows
+  - Q&A
+  videos:
+  - youtube: V_XfiGzA9dA
+    title: 'NASA ARSET: Monitoring Aquatic Vegetation with Remote Sensing, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-AquaticVeg2022-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-AquaticVeg2022-part1-qa.pdf
+- part: 2
+  title: Part 2
+  date: '2022-07-14'
+  agenda:
+  - 'The Kelp Forest: Ecology and Importance'
+  - Remote Sensing of the Kelp Forest
+  - 'Floating Forests: A citizen Science Tool for Mapping the Extent of Kelp Forests on the West Coast
+    of the U.S.'
+  - Q&A
+  videos:
+  - youtube: 74NKtluFQ1M
+    title: 'NASA ARSET: Monitoring Aquatic Vegetation with Remote Sensing, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-AquaticVeg2022-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-AquaticVeg2022-part2-qa.pdf
+- part: 3
+  title: Part 3
+  date: '2022-07-19'
+  agenda:
+  - The Caribbean/Atlantic Sargassum Patch
+  - Remote sensing and in situ sampling for mapping the extent and prevalence of the Sargassum patch in
+    Puerto Rico
+  - The Sargassum Watch System (SaWS)
+  - Q&A
+  videos:
+  - youtube: huw-ML5deg0
+    title: 'NASA ARSET: Monitoring Aquatic Vegetation with Remote Sensing, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-AquaticVeg2022-part3-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-AquaticVeg2022-part3-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://forms.gle/cf9VPJvXeXiCZ2fh7

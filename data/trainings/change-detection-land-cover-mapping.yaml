@@ -1,0 +1,102 @@
+id: change-detection-land-cover-mapping
+title: Change Detection for Land Cover Mapping
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/change-detection-land-cover-mapping
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2018-09-28'
+end_date: '2018-10-05'
+published: '2018-09-28'
+last_updated: '2026-01-26'
+summary: This ARSET training covers change detection methods, including image subtraction, classification,
+  and analysis.
+description: 'Land cover changes can impact many areas of life. These changes can affect deforestation,
+  ecological communities, wildfire extent, and urban growth. This advanced training series led by NASA''s
+  Applied Remote Sensing Training Program (ARSET) focused on using satellite imagery to map changes in
+  land cover.
+
+
+  Attendees learned change detection methods including image subtraction and classification. They also
+  conducted their own change detection analysis. This training used QGIS, the R statistical program, and
+  the Random Forest algorithm. Both sessions featured a lecture and hands-on exercises.'
+objectives:
+- Become familiar with Landsat bands and color combinations
+- Understand how to visualize change in land cover using Landsat data
+- 'Learn the basic steps for change detection by: Conducting image subtraction between two dates using
+  QGIS Creating multi-date Landsat layer stacks Conducting multi-date land cover classification using
+  the Random Forest classification in R Identifying and analyzing changes in land cover'
+- Conducting image subtraction between two dates using QGIS
+- Creating multi-date Landsat layer stacks
+- Conducting multi-date land cover classification using the Random Forest classification in R
+- Identifying and analyzing changes in land cover
+audience:
+- This training is for local, regional, state, federal, and international organizations interested in
+  assessing vegetation conditions and analyzing land cover changes using satellite imagery.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+- wildland-fires
+satellites:
+- landsat-8
+- landsat-9
+tools:
+- qgis
+sessions:
+- part: 1
+  title: Part 1
+  date: '2018-09-28'
+  videos:
+  - youtube: du0fPyiZrpk
+    title: 'NASA ARSET: Introduction to Change Detection, Session 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ChangeDetection_S1.pdf?VersionId=o6yb5enxPUPzgpLWMetYhtP4oT6qzcnf
+  - type: exercise
+    title: 'Part 1 Exercise: Change Detection'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Change_Detection_Exercise1.pdf?VersionId=3ZD0I9KLChBADzgsQW2EZ7eTHAwSve7G
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Change_Detection_QA_Session_1.pdf?VersionId=_dC_p3Guh3lH5ezzheZDlfLZD6h95Dbw
+  - type: other
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/week1_span.pdf?VersionId=Ldk_88gxcN8ZHC.aS9aCZZHk_5yXkXM0
+  - type: exercise
+    title: Ejercicio de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ChangeDetectionExercise1_span.pdf?VersionId=y9Hx1rVQg6Qaa5uNt0sN_xADC0bO1foe
+- part: 2
+  title: Part 2
+  date: '2018-10-05'
+  videos:
+  - youtube: -IOiwRJPtlY
+    title: 'NASA ARSET: Conducting a Change Detection Analysis, Session 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ChangeDetection_S2.pdf?VersionId=JF0zKG5W537gMdlbp5V8OtXRzykwdCKY
+  - type: exercise
+    title: Part 2 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Exercise2_ChangeDetection_0.pdf?VersionId=oeguwZA3gvjJln2B45SX37OUdejwUD1P
+  - type: data
+    title: Part 2 R script classification.R
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/classification.R.zip?VersionId=0PMOAUDmFYvUuXA76ULUL3K8My4k5b3W
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Change_Detection_QA_Session_2.pdf?VersionId=JZA0jNqrYJBBvoZrbfvLY0W1Nh9eJtZP
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLScygNG-NS95d_AtTjzLXC7Lie_tTcXcHFZux52fMl_Kn_ibOA/viewform?usp=sf_link
+  - type: other
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Change_Detection_S2_Spanish.pdf?VersionId=H.s2xKbu_.NKwvmi6TNPFoSkExr0.9ph
+  - type: other
+    title: Ejercicio de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Change_Detection_Ex2_Span.pdf?VersionId=uAbvhqFlXqpp04IQHcGQReus3TevkLUp
+  - type: other
+    title: Tarea
+    url: https://docs.google.com/forms/d/e/1FAIpQLSesp_7ym6w5MDG7sHTQrNZ4xYVMz22qGQ6Z1a5J0-r0ASSkhw/viewform?usp=sf_link

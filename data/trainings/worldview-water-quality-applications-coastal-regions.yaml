@@ -1,0 +1,54 @@
+id: worldview-water-quality-applications-coastal-regions
+title: Worldview and Water Quality Applications in Coastal Regions
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/worldview-water-quality-applications-coastal-regions
+level: introductory
+format: in-person
+languages:
+- en
+start_date: '2026-08-31'
+end_date: '2026-08-31'
+published: '2026-08-27'
+last_updated: '2026-08-31'
+summary: This ARSET training introduces readily-accessible tools to visualize and download water quality
+  data products from diverse satellite platforms and sensors.
+description: 'This training will be conducted as part of the 2026 U.S. Coral Reef Task Force (USCRTF)
+  meeting on August 31, 2026. There will not be an option to attend remotely.
+
+
+  This is a two-hour in-person workshop on the use of NASA Worldview and the Copernicus Browser to access
+  water quality products available for U.S. coastal regions containing economically important coral reefs
+  and associated ecosystems. The workshop is hosted in coordination with the USCRTF Watershed Working
+  Group.'
+objectives:
+- Use NASA Worldview to assess water quality (i.e., chlorophyll, sea surface temperature) in tropical
+  coastal regions.
+- Explore the Copernicus Browser for accessing Sentinel water quality data products for an area of interest.
+- Explain how different spatial and temporal resolutions affect water quality data products that can be
+  obtained from Earth observations.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+tools:
+- worldview
+instructors:
+- juan-l-torres-perez
+- bay-area-environmental-research-institute-baeri-nasa-arc
+- selwyn-hudson-odoi
+sessions:
+- part: 1
+  title: Overview of NASA’s Worldview Tool for Visualization
+  materials:
+  - type: slides
+    title: Introduction to ARSET slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-08/arset-crtf2026-part1-slides.pdf
+  - type: slides
+    title: Worldview presentation slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-08/arset-crtf2026-part2-slides.pdf
+- part: 2
+  title: An Introduction to Navigating the Copernicus Browser
+  materials:
+  - type: slides
+    title: Copernicus Browser presentation slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-08/arset-crtf2026-part3-slides.pdf

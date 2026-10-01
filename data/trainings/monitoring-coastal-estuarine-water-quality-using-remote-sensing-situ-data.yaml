@@ -1,0 +1,121 @@
+id: monitoring-coastal-estuarine-water-quality-using-remote-sensing-situ-data
+title: Monitoring Coastal and Estuarine Water Quality Using Remote Sensing and In Situ Data
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-coastal-estuarine-water-quality-using-remote-sensing-situ-data
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2021-11-30'
+end_date: '2021-12-07'
+published: '2021-11-30'
+last_updated: '2026-01-16'
+summary: This ARSET training provides participants with the skills to combine in situ measurements and
+  optical remote sensing data to assess water quality.
+description: 'This two-part, advanced webinar series led by NASA''s Applied Remote Sensing Training program
+  (ARSET) was a follow-on to the training on coastal and estuarine water quality held in September 2021.
+  It is a hands-on training with demos provided by instructors, followed by an hour of lab time for participants
+  to use Level-1 Moderate Resolution Imaging Spectroradiometer (MODIS) and Visible Infrared Imaging Radiometer
+  Suite (VIIRS) data provided by the Ocean Biology DAAC (OB.DAAC) and the Sea, earth, atmosphere Data
+  Analysis System (SeaDAS) and OCSSW software for deriving water quality parameters.
+
+
+  The derived water quality parameters include chlorophyll-a concentration, sea surface temperature, and
+  suspended particulate matter from optical satellite imagery and in situ measurements using the SeaWiFS
+  Bio-optical Archive and Storage System (SeaBASS), a public repository of in situ oceanographic and atmospheric
+  data, and SeaDAS, a comprehensive software package for the processing, display, analysis, and quality
+  control of remote sensing data.
+
+
+  This training provides participants with the skills to combine in situ measurements and optical remote
+  sensing data to assess water quality for their area of interest.'
+objectives:
+- Select in situ water quality data from SeaBASS
+- Develop algorithms from MODIS and VIIRS imagery using SeaDAS to obtain chlorophyll-a, sea surface temperature,
+  and suspended particulate matter
+- Monitor water quality in selected coastal and estuarine regions
+audience:
+- This training series is intended for federal, state, regional, and local public and private organizations
+  involved in water quality and estuarine ecosystem management.
+prerequisites:
+- fundamentals-remote-sensing
+- monitoring-coastal-estuarine-water-quality-transitioning-from-modis-viirs
+applications:
+- ecological-conservation
+satellites:
+- aqua
+- noaa-20
+- suomi-npp
+- terra
+instructors:
+- amita-mehta
+- sean-mccartney
+sessions:
+- part: 1
+  title: In Situ Data Acquisition Using SeaBASS and Image Processing Using SeaDAS
+  agenda:
+  - Review of MODIS and VIIRS data
+  - Review of SeaDAS imagery processing
+  - Overview of SeaBASS and in situ data acquisition
+  - Lab time for participants to download SeaBASS in situ data for a selected estuary or coastal region
+  - Q&A
+  videos:
+  - youtube: aXiKibOJWKg
+    title: 'NASA ARSET: In Situ Data Acquisition using SeaBASS and Image Processing using SeaDAS, Part
+      1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/WQ_Part1_Final_AM_JO.pdf?VersionId=Jbh4ajd_nuUUVtvJQrhHupE.iTJP2gBX
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/Coastal%20WQ%20II%20Q&A%20Part%201.pdf?VersionId=KSCjOcNHBTwDlrz3E4_36IJxTBPSAlK9
+  - type: exercise
+    title: Part 1 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/WQ_Exercise1_v2_JO.pdf?VersionId=NklqNQi27cYm6vH_Z3GNfAbzrueRRxxf
+  - type: exercise
+    title: Part 1 Exercise Spreadsheet
+    url: https://appliedsciences.nasa.gov/sites/default/files/2021-11/GCOOS_20171011.xlsx
+  - type: other
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/WQ_Part1_Final_Span_0.pdf?VersionId=xJdqLPnBU25B_Gt7jNNjjBMhoYWl4AZk
+  - type: exercise
+    title: Ejercicio de la parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/WQ_Exercise1_Span.pdf?VersionId=yzEKUJxlxdX9A.jqDGu94q4fsSt0pXIV
+- part: 2
+  title: 'Practical: Monitoring MODIS- and VIIRS-Based Water Quality in Selected Estuaries'
+  agenda:
+  - Demonstration of deriving water quality parameters from MODIS and VIIRS using SeaBASS and SeaDAS for
+    the Gulf of Mexico
+  - Lab time for participants to derive water quality parameters for a selected estuary or coastal region
+  - Q&A
+  videos:
+  - youtube: V0pwwG8YOUg
+    title: 'NASA ARSET: Monitoring MODIS- and VIIRS-Based Water Quality in Selected Estuaries, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/WQ_Part2_Edited_SC_JO.pdf?VersionId=VnYsl2UEzhbEt6pdW6fBS_Ap6SjBfngY
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/Coastal%20WQ%20II%20Q&A%20Part%202.pdf?VersionId=Hn2g8Cj3DEVkQoADQESsyzc2G2iL.zE.
+  - type: exercise
+    title: Part 2 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/WQ_Exercise2_Edited_JO.pdf?VersionId=lXQ3Nh1PCxYLi9EZBO.XJ0SW4HC03PPz
+  - type: exercise
+    title: Optional Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/Exercise2_Optional_Edited_SC.pdf?VersionId=f0GtInZpOy5ccrpjpDMmx0qw3dmXa5Gh
+  - type: other
+    title: Part 2 Data
+    url: https://drive.google.com/drive/folders/1dikkUL6Fs8DuKIiuRerTa6SwI7pIxO6H?usp=sharing
+  - type: homework
+    title: Homework
+    url: https://forms.gle/xvDYDqz43B1uYVSV8
+  - type: other
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/WQ_Part2_Edited_SC_JO_Span.pdf?VersionId=ax4czYKcf0iIiExP7motuFImU3sXeECC
+  - type: exercise
+    title: Ejercicio de la parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/WQ-Exercise2_Span.pdf?VersionId=XiaU.KXIvLlIz.vAni1wEhPKSCUAejJ.

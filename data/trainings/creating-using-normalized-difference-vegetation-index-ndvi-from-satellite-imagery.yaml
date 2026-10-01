@@ -1,0 +1,134 @@
+id: creating-using-normalized-difference-vegetation-index-ndvi-from-satellite-imagery
+title: Creating and Using Normalized Difference Vegetation Index (NDVI) from Satellite Imagery
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/creating-using-normalized-difference-vegetation-index-ndvi-from-satellite-imagery
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2016-02-10'
+end_date: '2016-03-02'
+published: '2026-03-02'
+last_updated: '2026-03-03'
+summary: This ARSET training covers how to acquire, use, and derive NDVI imagery from Landsat and MODIS.
+description: In this advanced training, participants learned how to acquire, use, and derive NDVI imagery
+  from Landsat and MODIS. Weekly webinars included lectures, hands-on demonstrations of exercises, and
+  written instructions on how to conduct the exercises. The exercises used QGIS, a cross-platform open
+  source GIS application. Each session guided participants through the exercises.
+objectives:
+- A basic understanding of NDVI
+- Acquiring Landsat and MODIS imagery
+- Creating NDVI images from Landsat
+- Using MODIS NDVI images to derive time series and NDVI anomaly maps.
+audience:
+- Local, regional, state, federal, and international organizations interested in assessing vegetation
+  condition using satellite imagery. Professional organizations in the public and private sectors engaged
+  in environmental management and monitoring will be given preference over organizations focused primarily
+  on research.
+prerequisites:
+- fundamentals-remote-sensing-0
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- terra
+datasets:
+- modis-vegetation-indices
+tools:
+- qgis
+sessions:
+- part: 1
+  title: NDVI & QGIS
+  date: '2016-02-10'
+  videos:
+  - youtube: n1kU1bBU2tQ
+    title: 'NASA ARSET: NDVI & QGIS, Part 1'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart1.pdf?VersionId=QfecGyOLbzq2GUX_RB2c9qVuytod6N2L
+  - type: data
+    title: Part 1 Data
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Week1_Data.zip?VersionId=bsMnE6bZqiD_sXzksBCCpHDxiA3mBhMD
+  - type: exercise
+    title: Part 1 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart1exercise1.pdf?VersionId=gGjofQkd8RlrgK7gyCYvn6llnATNGFUS
+  - type: homework
+    title: Part 1 Homework
+    url: https://docs.google.com/forms/d/1P_Hv2Znw2tG3xJ5vXRdTXsd8ndxdPUnyNbD4goOdL78/viewform
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart1spanish.pdf?VersionId=G_aLg3Gjht8nmbv7qVi9YDf9NOnthZAl
+  - type: exercise
+    title: Ejercicio de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart1exercisespanish.pdf?VersionId=Ul6y.3_X_ZWZl30K99V.yI2r9oTRRKSV
+- part: 2
+  title: Deriving NDVI from Landsat
+  date: '2016-02-17'
+  videos:
+  - youtube: elPbB8k2Sxg
+    title: 'NASA ARSET: Deriving NDVI from Landsat, Part 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart2.pdf?VersionId=QpBjzZOTtwwov1Hd.64xhJ3PuUUiadze
+  - type: data
+    title: Part 2 Data
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Week2_Data.zip?VersionId=7PoNKDEdDu2AtIgjcQPx3mq4XGsnr_1C
+  - type: exercise
+    title: Part 2 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart2exercise.pdf?VersionId=QoRaxIAJ_D70ioHQ7n6oR8DvXstvLEJi
+  - type: homework
+    title: Part 2 Homework
+    url: https://docs.google.com/forms/d/1jbHWqwtZFYoE_S4lBSOcimIwtOnFZ97LKU-6BtuFLuE/viewform
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart2spanish.pdf?VersionId=RQVR1mkTCeiTahncZjPCdUeSGUg_KWGN
+  - type: exercise
+    title: Ejercicio de la Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart2exercisespanish.pdf?VersionId=WfOAst1vFZQWc3nJ4ETtNfQTczfarm0a
+- part: 3
+  title: MODIS NDVI Time Series
+  date: '2016-02-24'
+  videos:
+  - youtube: r48ajiqguvE
+    title: 'NASA ARSET: MODIS NDVI Time Series, Part 3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart3.pdf?VersionId=M4Aeej0FbRuMJT8VwZAJWG9QBbV5bLiX
+  - type: exercise
+    title: Part 3 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart3exercise_0.pdf?VersionId=n7w8ammz786X9ZFDJx1ZaEQ.Z4tnofiL
+  - type: homework
+    title: Part 3 Homework
+    url: https://docs.google.com/forms/d/1MaHNu28peWmwmOXMnr_f0BDWgXc8pB5ShNf9nWySvJU/viewform
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart3spanish.pdf?VersionId=1QoB66fZD9WHG8b5u22xdn6Tz3rrAff3
+  - type: exercise
+    title: Ejercicio de la Parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart3exercisespanish.pdf?VersionId=dF7Y65BfloJZGKx9kFOTDVi2S7JpeyrW
+- part: 4
+  title: MODIS NDVI Anomalies
+  date: '2016-03-02'
+  videos:
+  - youtube: AohkvVi0otA
+    title: 'NASA ARSET: MODIS NDVI Anomalies, Part 4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart4.pdf?VersionId=yZHg4FleOKJd0qX8VV1qtduJdp8dxab9
+  - type: exercise
+    title: Part 4 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart4exercise.pdf?VersionId=GEvAxq0q0iYoCM4ruYdFbq9_O.c2r5Xy
+  - type: homework
+    title: Part 4 Homework
+    url: https://docs.google.com/forms/d/10e7lV1TW6_M_Be-wDs46UJzBJ1JXNeB9Bk0dynRkun8/viewform
+  - type: exercise
+    title: Diapositivas de la Presentación de la Parte 4
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ndvipart4exercisespanish.pdf?VersionId=i72_T9osIHzBtkYbHFiGo9Zt4Uj0FH0x

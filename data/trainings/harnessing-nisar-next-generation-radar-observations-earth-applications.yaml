@@ -1,0 +1,60 @@
+id: harnessing-nisar-next-generation-radar-observations-earth-applications
+title: 'Harnessing NISAR: Next-Generation Radar Observations for Earth Applications'
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/harnessing-nisar-next-generation-radar-observations-earth-applications
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2026-07-02'
+end_date: '2026-07-16'
+published: '2026-05-12'
+last_updated: '2026-08-05'
+summary: This ARSET training introduces users to the characteristics and data of the NISAR mission and
+  demonstrates workflows for accessing, visualizing, and analyzing the data for a range of applications.
+description: 'Synthetic aperture radar (SAR) data is becoming increasingly accessible through open datasets,
+  including those from the newly launched NISAR mission. One of SAR’s main advantages is its ability to
+  observe Earth''s surface by day or night and under most weather conditions, making it especially valuable
+  in persistently cloudy regions like the tropics or in high-latitude areas with long periods of darkness.
+
+
+  NISAR provides a wealth of data for both scientific research and practical applications, but it can
+  be challenging for users to interpret and apply. This course is designed to help users understand the
+  unique characteristics of NISAR data and learn how to access, visualize, and analyze them for various
+  scientific and applied purposes.
+
+
+  This training consists of three sessions:'
+objectives:
+- Identify the characteristics, capabilities, and limitations of NISAR data.
+- Recognize how NISAR data can be applied to decision-making related to flooding, agriculture, earthquakes,
+  and landslides.
+- Differentiate between the various NISAR data products and their applicability for different real-world
+  use cases.
+- Demonstrate how to access NISAR data and tools via the ASF DAAC platform to search, visualize, and analyze
+  data for case studies related to floods, earthquakes, landslides, and agriculture.
+- Generate a flood map, landslide risk map, and volcano deformation map for events of interest using interferogram
+  (GUNW) files in QGIS.
+- Demonstrate how to access NISAR data via the ISRO Bhoonidhi platform, and use available tools for basic
+  visualization and analysis.
+prerequisites:
+- fundamentals-remote-sensing
+- introduction-synthetic-aperture-radar-sar-its-applications
+applications:
+- agriculture
+- disasters
+satellites:
+- nisar
+tools:
+- qgis
+videos:
+- youtube: lIDXtxFJi6M
+  title: 'NASA ARSET: An Introduction to NISAR, Part 1 of 3'
+  channel: NASA Video
+- youtube: B1HPbpfg4oI
+  title: 'NASA ARSET: NISAR Data Access and Tools, Session 2/3'
+  channel: NASA Video
+- youtube: -aZatae_3ew
+  title: 'NASA ARSET: Monitoring Earthquakes, Volcanoes, and Landslides with NISAR’s InSAR Capability'
+  channel: NASA Video

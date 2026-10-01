@@ -1,0 +1,39 @@
+id: earth-observations-support-insurance-finance-sector-decision-making
+title: Earth Observations in Support of Insurance and Finance Sector Decision-Making
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/earth-observations-support-insurance-finance-sector-decision-making
+level: intermediate
+format: in-person
+languages:
+- en
+start_date: '2025-11-12'
+end_date: '2025-11-12'
+published: '2025-11-12'
+last_updated: '2026-02-04'
+summary: This in-person ARSET training covers creating disaster products to accelerate NASA Earth science
+  use in finance and insurance decision making.
+description: 'This in-person training hosted by NASA''s Applied Remote Sensing Training Program (ARSET)
+  is in collaboration with NASA’s Private-Sector Engagement Program. The training covers methodologies
+  on how to generate pre- and post-disaster products from satellite and model data and access existing
+  products relevant to assessing fires and floods.
+
+
+  The training focuses on data access and analysis for the stated applications with demonstrations and
+  hands-on use cases for participants to build their technical skills in working with and analyzing NASA
+  Earth science data. Building technical capacity to apply Earth observations and modeled data will better
+  prepare finance and insurance sectors to identify areas at risk and to estimate loss to property caused
+  by natural hazards and extreme events in different geographies around the world.'
+objectives:
+- Identify practical applications of Earth observations in assessing critical environmental issues specific
+  to fires and floods.
+- Identify Earth observations and modeled data for in-depth analysis of natural hazards.
+- Apply workflows to case studies that leverage Earth observations and modeled data to evaluate and address
+  challenges related to fires and floods.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+instructors:
+- amita-mehta
+- erika-podest
+- sean-mccartney

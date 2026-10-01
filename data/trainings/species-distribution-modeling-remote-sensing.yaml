@@ -1,0 +1,109 @@
+id: species-distribution-modeling-remote-sensing
+title: Species Distribution Modeling With Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/species-distribution-modeling-remote-sensing
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2021-08-12'
+end_date: '2021-08-19'
+published: '2021-08-12'
+last_updated: '2026-02-23'
+summary: This ARSET training provides an overview of species distribution models and how to use remote
+  sensing data for landscape characterization.
+description: 'Species distribution models (SDMs) play a critical role in biodiversity, conservation, and
+  understanding the potential impacts to ecosystems under changing climate conditions. SDMs contextualize
+  future scenarios based on known or projected ecological parameters and are the cornerstone for adaptive
+  management planning around short- and long-term changes to complex landscapes.
+
+
+  This training, led by NASA''s Applied Remote Sensing Training (ARSET) program, provides an overview
+  of SDMs, shows how to use remote sensing data for landscape characterization, and highlights multiple
+  Applied Sciences projects that have developed tools for conducting SDMs for a variety of ecosystems.
+  This includes a special session on the Wallace R-based platform for modeling of species niches and distributions.
+
+
+  Participants are provided with demonstrations and additional resources for using these tools for their
+  own species modeling applications.'
+objectives:
+- Outline the uses of SDMs
+- Recall the data inputs and model framework of SDMs
+- Distinguish the benefits and limitations of SDMs
+- Execute the R-based Wallace code for SDMs
+- Summarize and access multiple SDM tools.
+audience:
+- This training is for local, regional, state, federal, and non-governmental organizations involved in
+  conservation, biodiversity, species modeling, and coastal and ocean processes.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- ecological-conservation
+sessions:
+- part: 1
+  title: Overview of SDMs
+  agenda:
+  - Introduction to SDMs
+  - Species data
+  - Remote sensing of predictor variables
+  - Model development
+  - Pros/Cons and summary
+  - Q&A
+  videos:
+  - youtube: KhZ1Gk9eQFI
+    title: 'NASA ARSET: Overview of Species Distribution Models (SDMs), Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/SDM_Part1_Final.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/SDM%20Q&A%20Doc%20Part%201.pdf
+- part: 2
+  title: Using Wallace to Model Species Niches and Distributions
+  agenda:
+  - Introduction to SDMs in Wallace
+  - 'Wallace Walkthrough: Running a full SDM workflow'
+  - 'SDM Extensions: SDM comparisons and post-processing for conservation decision-making and beyond'
+  - Summary
+  - Q&A
+  videos:
+  - youtube: VfXg3UsnufU
+    title: 'NASA ARSET: Using Wallace to Model Species Niches and Distributions, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/SDM_Part2_Final.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/SDM%20Q&A%20Doc%20Part%202.pdf
+  - type: other
+    title: Wallace v1.1.0 Instructions for Installation
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/Wallace_Installation_V1.pdf
+- part: 3
+  title: Additional SDM Tools and Techniques, ASP Projects, and Summary
+  agenda:
+  - Mapping Application for Penguin Populations and Projected Dynamics (MAPPPD)
+  - Wildlife Insights
+  - Map of Life
+  - Circuitscape
+  - Fisheries and Climate Toolkit (FaCeT)
+  - Summary/Wrap Up
+  - Q&A
+  videos:
+  - youtube: ZMJ-bTXtqHw
+    title: 'NASA ARSET: Additional SDM Tools and Techniques, ASP Projects, and Summary, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/SDM_Part3_Final.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/SDM%20Q&A%20Doc%20Part%203.pdf
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSeUJjKO7crJT-dDoQJMj3ektK-gZf9pL-6uk3lKaT8JML1_5A/viewform?usp=sf_link

@@ -1,0 +1,152 @@
+id: satellite-remote-sensing-measuring-urban-heat-islands-constructing-heat
+title: Satellite Remote Sensing for Measuring Urban Heat Islands and Constructing Heat Vulnerability Indices
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/satellite-remote-sensing-measuring-urban-heat-islands-constructing-heat
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2022-08-02'
+end_date: '2022-08-11'
+published: '2022-08-02'
+last_updated: '2026-07-17'
+summary: This ARSET training provides hands-on exercises to measure urban heat islands and construct heat
+  vulnerability indices.
+description: 'Structures such as buildings, roads, and other infrastructure absorb and re-emit the sun’s
+  heat more than natural landscapes such as forests and water bodies. Urban areas, where these structures
+  are highly concentrated and greenery is limited, become “islands” of higher temperatures relative to
+  outlying areas. These pockets of heat are referred to as “heat islands.” The rapid growth of urban populations,
+  the urban heat island effect, and increase in the frequency and duration of heat waves due to climate
+  change raise a series of issues about the increased health risks of urban populations sensitive to extreme
+  heat and the need to identify effective means of mitigating the impacts of heat waves.
+
+
+  Remote sensing provides global, timely, objective observations to monitor the effects of urban heat
+  islands (UHI) over time. Thermal mapping from satellites can be used to monitor land surface temperature
+  (LST), while optical data collected from satellites can inform where and when land use and land cover
+  have changed over time and can be used to approximate air temperatures. Once UHIs have been mapped,
+  incorporating socioeconomic data pertaining to population, demographics, and health information into
+  heat vulnerability indices (HVI) can help guide interventions to manage heat related risks to public
+  health. This four-part, advanced webinar led by NASA''s Applied Remote Sensing Training Program (ARSET)
+  builds on the urban heat island training held in November 2020, with hands-on exercises for participants
+  to measure UHI and construct HVIs for their areas of interest.
+
+
+  This webinar series is a collaboration between ARSET and the National Integrated Heat Health Information
+  System (NIHHIS).'
+objectives:
+- Define what an urban heat island is and why it matters to urban planners and public health experts.
+- Map land surface temperature from Landsat 4, 5, 7, 8, and 9 using Google Earth Engine and source complementary
+  urban heat measurements.
+- Engage with local decision-makers to identify the socioeconomic inputs appropriate for constructing
+  heat vulnerability indices.
+- Apply common techniques used to create heat vulnerability maps for an urban area of interest.
+audience:
+- Community, municipal, city, state, federal, and private institutions involved in urban planning, health
+  care, energy supply and demand management, and climate mitigation.
+prerequisites:
+- fundamentals-remote-sensing
+- satellite-remote-sensing-urban-heat-islands
+applications:
+- climate-resilience
+- ecological-conservation
+- health-air-quality
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- terra
+tools:
+- google-earth-engine
+- jupyter
+sessions:
+- part: 1
+  title: Land Surface Temperature-Based Surface Urban Heat Island Mapping
+  agenda:
+  - Overview of ARSET
+  - Background on UHI
+  - Lab time for participants to analyze LST and SUHI for their area of interest
+  - Q&A Session
+  videos:
+  - youtube: t88PpJEKteQ
+    title: 'NASA ARSET: Land Surface Temperature-Based Surface Urban Heat Island Mapping, Part 1/4'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: MODIS
+    url: https://www.earthdata.nasa.gov/data/instruments/modis
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-UrbanHeat-2022-Part1-Slides.pdf?VersionId=6L.fAcWzLgSWUnYK1tatMqExfiuOx3ko
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-UrbanHeat-2022-Part1-qa.pdf?VersionId=nHXc.y5KtjMoWVrTGGsu4X_YzSYQ5_KB
+- part: 2
+  title: Integrating Socioeconomic Data with Satellite Imagery for Constructing Heat Vulnerability Indices
+    - Section 1
+  agenda:
+  - Review previous session and introduce guest speakers
+  - Introduction to common methods used to create heat vulnerability indices (HVI)
+  - Techniques for effectively using HVI results to inform exposure and mitigation efforts
+  - Case studies showing how heat vulnerability mapping informed urban planning
+  - Q&A Session
+  videos:
+  - youtube: v5NsOoXWdjo
+    title: 'NASA ARSET: Integrating Socioeconomic Data with Satellite Imagery for Constructing HVIs -
+      Part 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-UrbanHeat-2022-Part2-Slides.pdf?VersionId=IarIhcNApSMq6vCnXqlWkBUDA543wJiL
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-UrbanHeat-2022-Part2-qa.pdf?VersionId=pfZujd7qnc.8zci4b8Gxfm9ALNpxC5Ci
+- part: 3
+  title: Integrating Socioeconomic Data with Satellite Imagery for Constructing Heat Vulnerability Indices
+    - Section 2
+  agenda:
+  - Review previous session
+  - Demonstration on constructing HVI
+  - Lab time for participants to construct HVI
+  - Q&A Session
+  videos:
+  - youtube: GgfqEiVw_mM
+    title: 'NASA ARSET: Integrating Socioeconomic Data with Satellite Imagery for Constructing HVIs, Part
+      3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-UrbanHeat-2022-Part3-Slides.pdf?VersionId=R73GYmBcWtEzGvzjAUaphEwMefHXPXK7
+  - type: other
+    title: Part 3 Data
+    url: https://drive.google.com/drive/folders/1NcqUsNKaJvBOi2VyuGvBNIoVt81quiBb?usp=sharing
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-UrbanHeat-2022-Part3-qa.pdf?VersionId=.VctAvu03lOfXdOd6UxU62wrojGoc_uf
+- part: 4
+  title: Using High-Resolution, Satellite Derived Hot-Humid Heat Estimates and Gridded Population Data
+    to Map Extreme Heat Exposure Worldwide
+  agenda:
+  - Review previous session and introduce guest speaker
+  - Introduction to Wet Bulb Globe Temperature
+  - Overview of Global High Resolution Daily Extreme Urban Heat Exposure (UHE-Daily), v1 (1983 – 2016)
+  - Overview of Annual Global High-Resolution Extreme Heat Estimates, 1983-2016
+  - Jupyter Notebook Demonstration
+  - Q&A Session
+  videos:
+  - youtube: P7i2cWpM9yc
+    title: 'NASA ARSET: Using Hot-Humid Heat Estimates & Population Data to Map Heat Exposure Worldwide,
+      Part 4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-UrbanHeat-2022-Part4-Slides.pdf?VersionId=n4MtuKfqTL97HzqHf6xBzeZ90fU5uaSF
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-UrbanHeat-2022-Part4-qa.pdf?VersionId=d8DajIeFjE98cZPdJGXq3h_NfYXTJyuo
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-UrbanHeat2022-HomeworkPDF.pdf

@@ -1,0 +1,84 @@
+id: earth-observations-blue-carbon-ecosystems
+title: Earth Observations of Blue Carbon Ecosystems
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/earth-observations-blue-carbon-ecosystems
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- fr
+start_date: '2024-12-03'
+end_date: '2024-12-05'
+published: '2024-12-03'
+last_updated: '2026-06-11'
+summary: This ARSET training guides participants through mapping extent and quantifying carbon stocks
+  of blue carbon ecosystems.
+description: 'Nature-based climate solutions are an increasingly critical component of mitigating greenhouse
+  gas emissions to meet the Paris Agreement goal of keeping temperature change to less than 2 degrees
+  celsius. Blue carbon ecosystems, such as mangroves, salt marshes, and sea grasses, are a key aspect
+  of nature-based climate solutions because of high carbon sequestration rates, long-term burial of carbon
+  in sediments, potential for restoration, and connections to many additional ecosystem services.
+
+
+  This training hosted by NASA''s Applied Remote Sensing Training program (ARSET) builds from a series
+  of previous trainings on Remote Sensing of Coastal Ecosystems, Remote Sensing of Mangroves, Remote Sensing
+  of Greenhouse Gases, and Remote Sensing of Carbon Monitoring for Terrestrial Ecosystems to provide a
+  comprehensive overview of blue carbon ecosystem remote sensing. The course guides participants through
+  mapping extent and quantifying the carbon stocks of blue carbon ecosystems using Earth observations
+  to support assessment, monitoring, and restoration goals of these ecosystems.'
+prerequisites:
+- fundamentals-remote-sensing
+- remote-sensing-mangroves-support-un-sustainable-development-goals
+applications:
+- climate-resilience
+- ecological-conservation
+tools:
+- google-earth-engine
+instructors:
+- lola-fatoyinbo
+- adia-bey
+- maria-claudia-diazgranados-cadelo
+- siti-maryam-yaakub
+- kelly-luis
+- anthony-campbell
+sessions:
+- part: 1
+  title: Overview of Blue Carbon Ecosystems and Mapping Mangrove Ecosystems with Earth Observations
+  agenda:
+  - Define a blue carbon ecosystem based on ecosystem characteristics
+  - Map the extent of mangrove ecosystems using satellite observations
+  - Calculate the carbon stock of mapped mangrove ecosystems
+  videos:
+  - youtube: C7HHhHpOxgg
+    title: 'NASA ARSET: Overview of Blue Carbon Ecosystems & Mapping Mangrove Ecosystems, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: GEE account
+    url: https://earthengine.google.com/
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-05/ARSET-bluecarbon2024-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-05/ARSET-bluecarbon2024-part1-qa.pdf
+- part: 2
+  title: Mapping Salt Marsh and Seagrass with Earth Observations
+  agenda:
+  - Map the extent of salt marsh and seagrass ecosystems using satellite observations
+  - Calculate the carbon stocks of mapped salt marsh and seagrass ecosystems
+  - Explore synthesis methods to estimate blue carbon across ecosystems
+  videos:
+  - youtube: KPkzGr7ulIU
+    title: 'NASA ARSET: Mapping Salt Marsh and Seagrass with Earth Observations, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-05/ARSET-bluecarbon2024-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-05/ARSET-bluecarbon2024-part2-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/arset-bluecarbon2024-homework.pdf

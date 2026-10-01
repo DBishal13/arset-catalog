@@ -1,0 +1,88 @@
+id: monitoring-global-terrestrial-surface-water-height-using-remote-sensing
+title: Monitoring Global Terrestrial Surface Water Height using Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-global-terrestrial-surface-water-height-using-remote-sensing
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2025-05-13'
+end_date: '2025-05-15'
+published: '2025-05-13'
+last_updated: '2026-01-07'
+summary: This ARSET training focuses on introducing SWOT freshwater data products and their applications
+  for water resources and disaster management.
+description: 'Oceans, lakes, and rivers are major components of Earth’s surface water. Freshwater lakes
+  and rivers are primary sources of water supply for drinking, agriculture, energy, and transportation,
+  and support aquatic ecosystems and wildlife. A series of NASA satellites (e.g., TOPEX-Poseidon, Jason
+  1, 2, 3, & 6) with altimeter observations have been used to estimate ocean surface and inland lake surface
+  heights (> 50 km2) since 1992.
+
+
+  The latest NASA mission, Surface Water and Ocean Topography (SWOT), which was launched on December 16,
+  2022, allows the first ever mapping of global surface freshwater components, including rivers, lakes,
+  and wetlands, with high-resolution measurements (~200 m). Environmental changes, land use, and other
+  water supply and demand changes affect these freshwater sources. Particularly, rivers spanning multiple
+  countries or states within countries pose challenges in estimating water availability and usage. The
+  SWOT data provides unique capability of monitoring changes in freshwater, including river and lake level
+  elevations, river width, slope, and discharge.
+
+
+  This training focuses on introducing SWOT freshwater data products and their applications for water
+  resources and disaster management.'
+prerequisites:
+- fundamentals-remote-sensing
+- mapping-monitoring-lakes-reservoirs-satellite-observations
+applications:
+- agriculture
+- disasters
+- ecological-conservation
+- water-resources
+satellites:
+- swot
+sessions:
+- part: 1
+  title: Overview of Remote Sensing Observations for Monitoring Global Terrestrial Surface Water in Large
+    Rivers and Lakes
+  agenda:
+  - Background
+  videos:
+  - youtube: 9pjNfRAz7TA
+    title: 'NASA ARSET: Observations for Monitoring Global Terrestrial Surface Water, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: SWOT Mission
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/swot
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-swot-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-swot-part1-qa.pdf
+- part: 2
+  title: SWOT Mission Applications and Access for Retrieving, Visualizing, and Manipulating Data
+  agenda:
+  - Overview of SWOT Data Applications
+  videos:
+  - youtube: pi1arBgclfI
+    title: 'NASA ARSET: SWOT Mission Applications and Retrieving, Visualizing, and Manipulating Data,
+      Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: WISP
+    url: https://apps.usgs.gov/wisp?lat=48.240199&lon=-87.595159&zoom=2.57&basemap=%22Light%22&useDevStyles=false&activeLayers=%5B%7B%22id%22%3A%22sword%22%2C%22value%22%3A%22width%22%7D%5D
+  - type: other
+    title: SWOTViz
+    url: https://swotvis.cuahsi.io/#/map
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-swot-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-swot-part2-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSe67_5g_exJfFqDHTxo7E2XWbIah1RegSyM-jGGFVK1yAzJAw/viewform?usp=preview

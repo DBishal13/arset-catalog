@@ -1,0 +1,96 @@
+id: earth-observations-indigenous-led-land-management
+title: Earth Observations for Indigenous-Led Land Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/earth-observations-indigenous-led-land-management
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2019-02-05'
+end_date: '2019-02-19'
+published: '2019-02-05'
+last_updated: '2026-07-07'
+summary: This ARSET training covers techniques for improving sustainable land management practices.
+description: 'Indigenous territories are threatened by fires, illegal logging, mining, and other external
+  land use activities. The sustainable management of such land – most effectively stewarded by indigenous
+  peoples – is critical for mitigating greenhouse gas emissions, increasing resilience to climate change,
+  conserving biodiversity, and protecting the heritage of indigenous cultures.
+
+
+  Earth Observations for Indigenous-led Land Management (EO4IM) is a NASA-funded project implemented by
+  a team from Conservation International (CI) and is aligned with the AmeriGEOSS program of the Group
+  on Earth Observations (GEO) and the Dedicated Grant Mechanism (DGM) for Indigenous Peoples and Local
+  Communities. The project''s objective is to strengthen the technical capacities of indigenous peoples''
+  organizations in the Americas and globally through alignment with the DGM.
+
+
+  This introductory training series led by NASA''s Applied Remote Sensing Training program (ARSET) shares
+  lectures, case studies, and demonstrations with representatives of indigenous peoples'' organizations.
+  The series focuses on how Earth observations (EO) data and tools can provide spatial information for
+  forest monitoring, mapping, and responding to ecosystem threats. This training helps attendees strengthen
+  their technical capacities to use EO data and tools to enhance their sustainable land management practices.'
+objectives:
+- Describe the basic concepts of remote sensing, satellite sensors, and image interpretation relevant
+  to sustainable land management
+- Name the satellite data and mapping tools available to inform sustainable land management decisions
+  such as mapping traditional ecological knowledge, cultural heritage, forest monitoring, and fire management
+- Access data portals, web tools, software, mobile apps, and systems for early warning and alerts
+audience:
+- This training is for indigenous peoples’ organizations and local and regional organizations focused
+  on sustainable land management, mapping, forest monitoring, and enforcement activities.
+applications:
+- climate-resilience
+- ecological-conservation
+sessions:
+- part: 1
+  title: Introduction to Mapping, GIS, and Drones
+  date: '2019-02-05'
+  videos:
+  - youtube: FwhvAPoWq4Y
+    title: 'NASA ARSET: Introduction to Mapping, GIS, and Drones, Session 1/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: GPS
+    url: https://www.earthdata.nasa.gov/data/space-geodesy-techniques/gnss
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/EO4IM_Session_1.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/Q&A%20Doc%20Session%201%20(EO4IM).pdf
+  - type: homework
+    title: Part 1 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSd7MyrJmOLY8DNnkkyRLgEAhquFjjAQ2u1KCNjk3QNbsg9KlA/viewform?usp=sf_link
+- part: 2
+  title: Introduction to Remote Sensing for Land Management
+  date: '2019-02-12'
+  videos:
+  - youtube: hyJ_ZG3qrPY
+    title: 'NASA ARSET:  Introduction to Remote Sensing for Land Management, Session 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/EO4IM_Session_2.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/EO4LM%20Q&A%20Doc%20Session%202.pdf
+  - type: homework
+    title: Part 2 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSeWELcjGSbAOy-aIKCtFtFBMzxoLxgnTxp3KbQvnL06xS9oFg/viewform?usp=sf_link
+- part: 3
+  title: 'Applications for Sustainable Land Management Decisions: Early Warning and Alert Systems'
+  date: '2019-02-19'
+  videos:
+  - youtube: p85oa4mHPVM
+    title: 'NASA ARSET: Early Warning & Alert Systems, Session 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/EO4IM_Session_3.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/EO4IM%20Q&A%20Doc%20Session%203.pdf

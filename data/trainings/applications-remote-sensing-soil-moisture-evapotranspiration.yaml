@@ -1,0 +1,157 @@
+id: applications-remote-sensing-soil-moisture-evapotranspiration
+title: Applications of Remote Sensing to Soil Moisture and Evapotranspiration
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/applications-remote-sensing-soil-moisture-evapotranspiration
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2016-09-01'
+end_date: '2016-09-29'
+published: '2016-09-01'
+last_updated: '2026-03-03'
+summary: This ARSET training covers NASA soil moisture and evapotranspiration products and how to access
+  and apply them for water resource management.
+description: 'Previous Applied Remote Sensing Training Program (ARSET) trainings focused on water resources
+  have mainly addressed remote sensing measurements of precipitation and their applications, but precipitation
+  is only one component of the water cycle. NASA''s Soil Moisture Active Passive (SMAP) platform is now
+  providing new soil moisture data, and modeling frameworks are providing new evapotranspiration data.
+
+
+  This webinar series was intended to help attendees learn about NASA soil moisture and evapotranspiration
+  products and how to access and apply them for water resource management. Throughout the five sessions
+  you will learn how to monitor and manage water resources with techniques learned in training.
+
+
+  The series begins with an introduction to satellite missions and useful datasets. Next, trainers demonstrate
+  online portals for accessing data. The series concludes with specific examples of how you can apply
+  the data and modeled data products.'
+objectives:
+- Participants will learn about NASA Earth observation resources (data and tools) available for water
+  resource applications, including a basic understanding of how evapotranspiration and soil moisture are
+  included in the water cycle and how to access and visualize these data products.
+- Participants will also become familiar with a number of modeled datasets and techniques for using NASA
+  Earth Science data for water resource management.
+audience:
+- Local, regional, state, federal, and international organizations interested in using satellite imagery
+  for decision and policy making activities.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- water-resources
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- smap
+- terra
+tools:
+- google-earth-engine
+- qgis
+instructors:
+- vanessa-escobar
+- amy-fitzgerrell
+- rick-allen
+- ayse-kilic
+- christopher-hain
+sessions:
+- part: 1
+  title: Introduction to Soil Moisture, Evapotranspiration, and an Overview of the Soil Moisture Active
+    Passive (SMAP) Satellite Mission
+  date: '2016-09-01'
+  videos:
+  - youtube: DFjJbc6VBBs
+    title: 'NASA ARSET: Introduction to Soil Moisture, Evapotranspiration & the SMAP Satellite Mission,
+      Part 1/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-ET2016-part1-slides.pdf
+  - type: slides
+    title: Presentation Slides de la Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-ET2016-part1-slides-esp.pdf
+- part: 2
+  title: Applications of SMAP Data
+  date: '2016-09-08'
+  videos:
+  - youtube: DTQ1FPyCm_w
+    title: 'NASA ARSET: Applications of SMAP Data, Part 2/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-ET2016-part2-slides.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-ET2016-part2-slides-esp.pdf
+- part: 3
+  title: Accessing SMAP Data
+  date: '2016-09-15'
+  videos:
+  - youtube: CKIqVpWu3c0
+    title: 'NASA ARSET: Accessing SMAP Data, Part 3/5'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: NSIDC DAAC
+    url: https://www.earthdata.nasa.gov/centers/nsidc-daac
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-ET2016-part3-slides.pdf
+  - type: homework
+    title: Homework Assignment 1
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdns4SZ6K0GxMEeCVsQZAPYHtFvEt_44GAbF2EwDSoNrW344g/viewform
+  - type: slides
+    title: Diapositivas de la Presentación de la Parte 3
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-ET2016-part3-slides-esp.pdf
+  - type: other
+    title: Tarea 1
+    url: https://goo.gl/forms/pi4kCOLK5m1VW1VT2
+- part: 4
+  title: Landsat-based Evapotranspiration Estimates (METRIC) and Google Earth Engine Evapotranspiration
+    Flux (EEFlux) Portal
+  date: '2016-09-22'
+  videos:
+  - youtube: _MPQgDQJxYw
+    title: 'NASA ARSET: The METRIC model and the EEFlux Portal, Part 4/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-ET2016-part4-slides.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de la Parte 4
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-ET2016-part4-slides-esp.pdf
+- part: 5
+  title: MODIS-based Evapotranspiration (ALEXI) and Soil Moisture and Evapotranspiration data from GLDAS/NLDAS
+  date: '2017-09-29'
+  videos:
+  - youtube: tVf4ltA8SbI
+    title: 'NASA ARSET: ALEXI and Soil Moisture, Evapotranspiration data from GLDAS/NLDAS, Part 5/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 5 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-ET2016-part5.1-slides.pdf
+  - type: slides
+    title: Presentation Slides - ALEXI
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-ET2016-part5.2-slides.pdf
+  - type: other
+    title: QGIS Instructions
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/QGIS_Download%20and%20Install.pdf
+  - type: homework
+    title: Homework Assignment 2
+    url: https://goo.gl/forms/IKvGVLPiahxwzuMs1
+  - type: slides
+    title: Diapositivas de la Presentación de la Parte 5
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-ET2016-part5.1-slides-esp.pdf
+  - type: slides
+    title: Diapositivas de la Presentación - ALEXI
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-ET2016-part5.2-slides-esp.pdf
+  - type: other
+    title: Instrucciones de QGIS
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/QGIS_Download%20and%20Install%20(Spanish).pdf
+  - type: other
+    title: Tarea 2
+    url: https://goo.gl/forms/rmFq17fryxOIYprQ2

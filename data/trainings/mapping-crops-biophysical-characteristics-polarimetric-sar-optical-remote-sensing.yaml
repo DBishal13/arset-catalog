@@ -1,0 +1,176 @@
+id: mapping-crops-biophysical-characteristics-polarimetric-sar-optical-remote-sensing
+title: Mapping Crops and their Biophysical Characteristics with Polarimetric SAR and Optical Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/mapping-crops-biophysical-characteristics-polarimetric-sar-optical-remote-sensing
+level: advanced
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2022-04-12'
+end_date: '2022-05-03'
+published: '2022-04-12'
+last_updated: '2026-02-11'
+summary: This ARSET training presents more advanced radar remote sensing techniques using polarimetry
+  to extract crop structural information.
+description: 'Mapping crop types and assessing their characteristics is critical for monitoring food production,
+  enabling optimal use of the landscape, and contributing to agricultural policy. Remote sensing methods
+  based on optical and/or microwave sensors have become an important means of extracting information related
+  to crops. Optical data is related to the chemical properties of the vegetation, while radar data is
+  related to vegetation structure and moisture. Radar can also image the Earth’s surface regardless of
+  almost any type of weather condition.
+
+
+  This four-part, advanced training hosted by NASA''s Applied Remote Sensing Training Program (ARSET)
+  builds on a previous ARSET training. Here we present more advanced radar remote sensing techniques using
+  polarimetry to extract crop structural information.
+
+
+  We also present Sen4Stat — an open source system demonstrating the potential of optical and synthetic
+  aperture radar (SAR) satellite Earth observations for monitoring and reporting of the UN Sustainable
+  Development Goal (SDG) targets related to agriculture. Sen4Stat also combines Earth observation data
+  with national statistical data sets and surveys to support National Statistical Offices in the uptake
+  of satellite Earth observations for agricultural statistics.
+
+
+  This series focuses on the use of dual polarization Sentinel-1 C-SAR, fully polarimetric C-band SAR
+  from the RADARSAT Constellation Mission (RCM), fully polarimetric L-band SAR from SAOCOM (SAtélite Argentino
+  de Observación COn Microondas), and optical imagery from Sentinel-2 to map and monitor crop types and
+  assess their biophysical characteristics.
+
+
+  This series also covers the theory of SAR polarimetry and include a practical exercise using the Sentinel
+  Application Platform (SNAP) and Python code written in Jupyter Notebooks, a web-based interactive development
+  environment for scientific computing and machine learning.
+
+
+  This webinar series is a collaboration between ARSET, Agriculture and Agri-Food Canada (AAFC), European
+  Space Agency (ESA), United Nations Office for Outer Space Affairs (UNOOSA), University of Stirling,
+  Université Catholique de Louvain (UCLouvain), and the CEOS Working Group on Capacity Building and Data
+  Democracy (WGCapD).'
+objectives:
+- Explain the theory behind SAR polarimetry, especially as related to crop characteristics
+- Generate polarimetric parameters using open source imagery/software and perform a time series analysis
+  of crop growth
+- Identify how Sen4Stat can support National Statistical Offices in the uptake of satellite Earth observations
+  for agricultural statistics
+- Perform a time series analysis of crop types using Sentinel-2 derived LAI index
+audience:
+- This webinar series is intended for local, regional, federal, and non-governmental organizations from
+  agriculture and food security related agencies to use radar and optical remote sensing applications
+  in the domain of agriculture for crop mapping and monitoring.
+prerequisites:
+- fundamentals-remote-sensing
+- introduction-synthetic-aperture-radar-sar-its-applications
+- agricultural-crop-classification-synthetic-aperture-radar-optical-remote-sensing
+applications:
+- agriculture
+satellites:
+- sentinel-1
+- sentinel-2
+tools:
+- esa-snap
+- jupyter
+- python
+- qgis
+instructors:
+- sarah-banks
+- laura-dingle-robertson
+- armando-marino
+- pierre-defourny
+sessions:
+- part: 1
+  title: SAR Polarimetry for Agriculture (Theory and Practice)
+  agenda:
+  - SAR Polarimetry Theory
+  - 'Polarimetry Practical Part 1: Intensity Derived Parameters for Agriculture Monitoring'
+  - Generate Intensity parameters such as Span, Radar Vegetation Index, co-pol and cross-pol ratios derived
+    from Sentinel-1 using SNAP
+  - Q&A
+  videos:
+  - youtube: -Mq5A9aXIuc
+    title: 'NASA ARSET: SAR Polarimetry for Agriculture (Theory and Practice), Part 1/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CropMapping2022-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CropMapping2022-part1-qa.pdf
+  - type: other
+    title: Part 1 Data
+    url: https://drive.google.com/drive/folders/1cNnHifKSeIYMo_tdTz5kLJfEZQoeMj4X?usp=sharing
+  - type: other
+    title: download and install SNAP
+    url: https://step.esa.int/main/download/
+  - type: other
+    title: Part 2 Practice Code
+    url: https://drive.google.com/drive/folders/1J2RWVxBxnBl-4jdt2h0gD0kC0OM7_P7x?usp=sharing
+- part: 2
+  title: 'Polarimetry Practical Part 2: SAR Polarimetry with Sentinel-1, RCM, & SAOCOM Imagery for Agriculture'
+  agenda:
+  - Generate pseudo-polarimetric parameters derived from SLC dual polarimetric Sentinel-1 using SNAP and
+    PolSARpro (cont.)
+  - Analyze a time series of fully polarimetric RCM and SAOCOM images using Python Jupyter Notebooks to
+    identify crop characteristics with different polarimetric observables
+  - Q&A
+  videos:
+  - youtube: 30x6XE6U4CU
+    title: 'NASA ARSET: SAR Polarimetry with Sentinel-1, RCM, & SAOCOM Imagery for Agriculture, Part 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CropMapping2022-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CropMapping2022-part2-qa.pdf
+  - type: other
+    title: SAOCOM 1A Test Products
+    url: https://catalogos.conae.gov.ar/catalogo/catalogoSatSaocomAdel_en.html
+- part: 3
+  title: Sen4Stat Open-Source Toolbox (Theory and Practical)
+  agenda:
+  - Overview of Sen4Stat open source system to process Sentinel-1 and Sentinel-2 data at country level
+  - Explore how Sen4Stat combines Earth observation data with national statistical data sets and surveys
+    for agricultural statistics
+  - Crop type classification combining SAR and optical time series
+  - Q&A
+  videos:
+  - youtube: IQXtWowwkAs
+    title: 'NASA ARSET: Sen4Stat Open-Source Toolbox (Theory and Practical), Part 3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CropMapping2022-part3-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CropMapping2022-part3-qa.pdf
+- part: 4
+  title: Crop-Specific Time Series Analysis for Growth Monitoring
+  agenda:
+  - Retrieval of crop specific LAI time series from Sentinel-2 using SNAP
+  - Quality control of the LAI time series using QGIS
+  - Time series analysis of crop types using Sentinel-2 derived LAI index
+  - Anomalies detection and intra-parcel heterogeneity assessment for different agricultural fields using
+    optical data using Python Jupyter Notebooks
+  - Q&A
+  videos:
+  - youtube: wgTmTB3GlTI
+    title: 'NASA ARSET: Crop-Specific Time Series Analysis for Growth Monitoring, Part 4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CropMapping2022-part4-slides.pdf
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-CropMapping2022-part4-qa.pdf
+  - type: other
+    title: Part 4 Code and Data
+    url: https://drive.google.com/drive/folders/10wR41zaI3W4Ieinb7t7sOn-dKpN-574V?usp=sharing
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdORdMk5mKBqEtCVsitYsJBxvN7T20vROm47Il7PaXKdo2Htg/viewform?usp=sf_link

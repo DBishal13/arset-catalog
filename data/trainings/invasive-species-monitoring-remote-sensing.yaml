@@ -1,0 +1,131 @@
+id: invasive-species-monitoring-remote-sensing
+title: Invasive Species Monitoring with Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/invasive-species-monitoring-remote-sensing
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2024-08-14'
+end_date: '2024-08-28'
+published: '2024-08-14'
+last_updated: '2026-09-18'
+summary: This ARSET training highlights applications of remote sensing for identifying invasive plant
+  species of interest.
+description: 'Invasive species costs the U.S. economy billions of dollars a year and can cause declines
+  in ecosystem health. NASA data can be used to identify the impacts of invasive species including the
+  extent, potential distribution, and impacts to affected ecosystems. With improvements to the temporal,
+  spatial, and spectral resolution of data alongside cloud-based computing there are new opportunities
+  to apply NASA data, products, and tools to landscape management.
+
+
+  This course will provide participants with an overview of typical NASA satellites and sensors used to
+  map invasive plants such as Landsat, the Moderate Resolution Imaging Spectroradiometer (MODIS), and
+  the Visible Infrared Imaging Radiometer Suite (VIIRS), as well as innovative or upcoming data and missions
+  such as the Global Ecosystem Dynamics Investigation (GEDI), the Hydrological Modeling and Analysis Platform
+  (HyMap), the Surface Biology and Geology (SBG) mission, and the Geosynchronous Littoral Imaging and
+  Monitoring Radiometer (GLIMR).
+
+
+  This training will highlight project-based applications of remote sensing for plant species of interest
+  especially those affecting grasslands and aquatic inland lakes and waterbodies, and more with a lens
+  towards innovative uses of hyperspectral data for additional invasive species detection.'
+objectives:
+- Recognize the extent and impacts of invasive species on biodiversity and a changing climate.
+- Identify the types of remote sensing data and products that can be used for invasive species mapping
+  and monitoring.
+- Explore key considerations, benefits and limitations of remote sensing data sets for invasive species.
+- Identify where to access remote sensing data for monitoring invasive species and mapping relevant habitat
+  and climate variables.
+- Evaluate remote sensing methods used to monitor aquatic and grassland invasive plant species.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- ecological-conservation
+satellites:
+- aqua
+- iss
+- landsat-8
+- landsat-9
+- noaa-20
+- suomi-npp
+- terra
+instructors:
+- sativa-cruz
+- juan-l-torres-perez
+- justin-fain
+- erin-hestir
+- hamed-gholizadeh
+sessions:
+- part: 1
+  title: An Introduction to the Monitoring of Invasive Species with Remote Sensing Tools
+  agenda:
+  - Recognize the extent and impacts of invasive species on biodiversity and a changing climate.
+  - Identify commonly used types of remote sensing data and products that can be used for invasive species
+    mapping and monitoring.
+  - Identify upcoming satellite missions with application for invasive species research.
+  - Identify where to access commonly used remote sensing data for monitoring invasive species and mapping
+    relevant habitat and climate variables.
+  - Identify key considerations, benefits and limitations of remote sensing data sets for invasive species.
+  - Differentiate the properties of multispectral and hyperspectral datasets for monitoring of invasive
+    species.
+  - Cite remote sensing methods used in invasive species monitoring from past NASA projects and recent
+    literature.
+  videos:
+  - youtube: Sc20HX1zSZs
+    title: 'NASA ARSET: Introduction to the Monitoring of Invasive Species with Remote Sensing Tools,
+      Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-InvasiveSpecies2024-part1-slides.pdf?VersionId=myP4edpS_eHXuMlHpLPEwKPbJU.197WY
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-InvasiveSpecies2024-part1-qa.pdf?VersionId=7L5KNAktz5jgiqaWtdbcjBJd7UW340gU
+- part: 2
+  title: Monitoring of Aquatic Invasive Species with Remote Sensing
+  agenda:
+  - Describe the extent and impacts of aquatic invasive species on biodiversity, ecosystem functions,
+    and nature’s contributions to people.
+  - Describe key considerations, benefits and limitations of remote sensing of invasive species.
+  - Identify applications of airborne data for monitoring aquatic invasive species.
+  - Identify relevant NASA multispectral and hyperspectral data for mapping and monitoring or invasive
+    species.
+  - Compare remote sensing methods used to monitor aquatic invasive species.
+  videos:
+  - youtube: djhoE5NoSCA
+    title: 'NASA ARSET: Monitoring of Aquatic Invasive Species with Remote Sensing, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-InvasiveSpecies2024-part2-slides.pdf?VersionId=P8STlEVdnoAWFY9EI3L7gYRlIAqM.Gk3
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-InvasiveSpecies2024-part2-qa.pdf?VersionId=07dwP6x_DnBN6Tl85f9Sf5jPjcw358Qb
+- part: 3
+  title: Mapping Invasive Grassland Plant Species with Hyperspectral Remote Sensing
+  agenda:
+  - Identify the key challenges of monitoring invasive plants in grassland ecosystems using field-based
+    techniques
+  - Compare the key benefits of remote sensing techniques for mapping invasive plants compared to field-based
+    techniques
+  - Identify applications of airborne hyperspectral data for mapping invasive plants in grasslands
+  - Identify limitations of remote sensing for mapping invasive plants
+  videos:
+  - youtube: EGxUoCKbrFs
+    title: 'NASA ARSET: Mapping Invasive Grassland Plant Species with Hyperspectral Remote Sensing, Part
+      3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-InvasiveSpecies2024-part3-slides.pdf?VersionId=XnsAOI1d9hrURbwgd64E3MFe6aClKyZw
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-InvasiveSpecies2024-part3-qa.pdf?VersionId=TpGHqhwDsNlasHIaoIpZTQAaWO.AJBRy
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-09/ARSET-InvasiveSpecies2024-HomeworkPDF.pdf

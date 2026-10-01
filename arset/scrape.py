@@ -7,6 +7,7 @@ from urllib.parse import unquote, urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup, Tag
+from requests.utils import requote_uri
 
 from .catalog import slugify
 
@@ -140,7 +141,7 @@ def _classify(text: str, href: str) -> str:
         return "exercise"
     if "transcript" in low:
         return "transcript"
-    if "q&a" in low or "question" in low:
+    if "q&a" in low or "question" in low or re.search(r"[-_]qa\.", low):
         return "qa"
     if re.search(r"\.(zip|csv|tif|tiff|nc|h5|kml|kmz|shp)(\?|$)", href.lower()):
         return "data"
@@ -156,7 +157,26 @@ def _youtube_ids(el: Tag) -> list[str]:
     return found
 
 
-def _instructors(root: Tag) -> list[dict]:
+PERSON = re.compile(r"^[A-Z][\w'.\-]*(?:\s+[A-Za-z][\w'.\-]*){1,4}$")
+
+
+def people_from_text(text: str, title: str) -> list[dict]:
+    """'Pawan Gupta, Melanie Follette-Cook, and Sarah Strode' / 'Sujung Go (UMBC/NASA GSFC)' -> people."""
+    people = []
+    for part in re.split(r",\s*(?:and\s+)?(?![^()]*\))|\s+and\s+(?![^()]*\))|;", text):
+        part = part.strip().strip(".")
+        m = re.match(r"^(.*?)\s*\(([^)]*)\)$", part)
+        name, affiliation = (m.group(1).strip(), m.group(2).strip()) if m else (part, "")
+        if PERSON.match(name) and not any(c.isdigit() for c in name):
+            person = {"name": name, "title": title}
+            if affiliation:
+                person["affiliation"] = affiliation
+            people.append(person)
+    return people
+
+
+def _instructors(root: Tag, from_text: list[dict]) -> list[dict]:
+    """Instructors from tables (newer pages), then from 'Instructors' paragraphs (older pages)."""
     people: dict[str, dict] = {}
     for table in root.find_all("table"):
         rows = [[_text(c) for c in tr.find_all(["td", "th"])] for tr in table.find_all("tr")]
@@ -172,12 +192,14 @@ def _instructors(root: Tag) -> list[dict]:
             if name and name not in people:
                 person = {"name": name, "title": get("title"), "affiliation": get("affiliation")}
                 people[name] = {k: v for k, v in person.items() if v}
+    for person in from_text:
+        people.setdefault(person["name"], person)
     return list(people.values())
 
 
 def parse_training(html: str, url: str) -> dict:
-    """Return a draft training record plus two private keys:
-    `_is_arset` (bool) and `_instructors` (list of name/title/affiliation dicts)."""
+    """Return a draft training record plus private keys: `_is_arset` (bool),
+    `_instructors` (name/title/affiliation dicts) and `_linked` (slugs of other trainings linked)."""
     soup = BeautifulSoup(html, "html.parser")
     slug = training_slug(url) or slugify(url.rstrip("/").rsplit("/", 1)[-1])
 
@@ -219,7 +241,10 @@ def parse_training(html: str, url: str) -> dict:
     materials: list[dict] = []
     seen_videos: set[str] = set()
     seen_urls: set[str] = set()
+    linked: set[str] = set()  # every other training this page links to
+    listed_people: list[dict] = []  # from "Instructors" paragraphs on older pages
     section = ""
+    sub = ""  # h4 heading inside a session ("Materials", "ARSET Instructors", ...)
     session: dict | None = None
 
     for el in root.find_all(True):
@@ -230,9 +255,11 @@ def parse_training(html: str, url: str) -> dict:
                 session = {"part": int(m.group(1)), "title": m.group(2) or heading,
                            "date": None, "agenda": [], "videos": [], "materials": []}
                 sessions.append(session)
-                section = "session"
+                section, sub = "session", ""
+            elif heading and el.name == "h4" and session is not None:
+                sub = heading.lower()
             elif heading:
-                session = None
+                session, sub = None, ""
                 section = heading.lower()
             if section in ("citation", "details"):
                 break  # the rest is page chrome; metadata fields were read above
@@ -247,33 +274,45 @@ def parse_training(html: str, url: str) -> dict:
             text = _text(el)
             if not text:
                 continue
-            if section == "description" and el.name == "p":
+            heading_now = sub if session is not None else section
+            if "instructor" in heading_now:
+                role = "Guest Instructor" if "guest" in heading_now else "ARSET Instructor"
+                listed_people += people_from_text(text, role)
+            elif section == "description" and el.name == "p":
                 description.append(text)
             elif section == "objectives" and el.name == "li":
                 objectives.append(text)
-            elif section == "target audience" and el.name == "li":
+            elif section == "target audience" and (el.name == "li" or not el.find_parent("ul")):
                 audience.append(text)
             elif section == "course format":
                 format_text.append(text)
-            elif session is not None:
+            elif session is not None and "material" not in sub:
                 if el.name == "p" and not session["date"] and len(text) < 40 and parse_dates(text):
                     session["date"] = parse_dates(text)[0].isoformat()
                 elif el.name == "li" and not el.find("a") and not el.find("li"):
                     session["agenda"].append(text)
 
         if el.name == "a" and el.get("href"):
-            href = urljoin(url, el["href"])
+            href = requote_uri(urljoin(url, el["href"].strip()))  # some file links contain raw spaces
             if not href.startswith("http"):
                 continue
             pre = training_slug(href)
+            if pre and pre != slug:
+                linked.add(pre)
             if section == "prerequisites":
                 if pre and pre not in prerequisites:
                     prerequisites.append(pre)
                 continue
-            if session is None or pre or YOUTUBE_ID.search(href) or href in seen_urls:
+            if session is None or pre or YOUTUBE_ID.search(href):
+                continue
+            label = _text(el)
+            if href in seen_urls:
+                # Pages often wrap an icon and the text in separate links: keep the labelled one.
+                earlier = next((m for s in sessions for m in s["materials"] if m["url"] == href), None)
+                if earlier is not None and label and "title" not in earlier:
+                    earlier.update(title=label, type=_classify(label, href))
                 continue
             seen_urls.add(href)
-            label = _text(el)
             material = {"type": _classify(label, href), "title": label or None, "url": href,
                         "language": _language_of(label)}
             session["materials"].append({k: v for k, v in material.items() if v})
@@ -300,5 +339,6 @@ def parse_training(html: str, url: str) -> dict:
     })
     record = {k: v for k, v in record.items() if v not in (None, [], "")}
     record["_is_arset"] = is_arset
-    record["_instructors"] = _instructors(root)
+    record["_instructors"] = _instructors(root, listed_people)
+    record["_linked"] = sorted(linked)
     return record

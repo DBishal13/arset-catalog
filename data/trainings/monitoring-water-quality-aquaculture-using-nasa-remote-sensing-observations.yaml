@@ -1,0 +1,47 @@
+id: monitoring-water-quality-aquaculture-using-nasa-remote-sensing-observations
+title: Monitoring Water Quality for Aquaculture Using NASA Remote Sensing Observations
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-water-quality-aquaculture-using-nasa-remote-sensing-observations
+level: introductory
+format: in-person
+languages:
+- en
+start_date: '2026-03-23'
+end_date: '2026-03-23'
+published: '2026-03-19'
+last_updated: '2026-03-23'
+summary: This ARSET workshop focuses on monitoring water quality parameters that impact fisheries and
+  aquaculture farming.
+description: 'Remote sensing observations can provide near-real-time assessments of water quality, enabling
+  informed decision-making for managing aquaculture, shellfish harvesting, and related restoration efforts.
+  In addition to timely, current observations, historical data can offer predictive insights into water
+  quality across coastal and freshwater environments. Satellite observations can be used to detect water
+  temperature, turbidity, and salinity—factors that impact harmful algal blooms (such as vibrio outbreaks)
+  and significantly affect fishery and aquaculture operations.
+
+
+  This three-hour introductory workshop will provide an overview of NASA remote sensing data and its applications
+  in supporting shellfishery activities. We will introduce observations from multiple satellites that
+  offer frequent and enhanced spatial coverage for monitoring water quality parameters in coastal and
+  freshwater areas. (Note: This workshop will be conducted in-person at the National Shellfisheries Association''s
+  118th Annual Meeting, and there will not be an option to attend remotely.) The workshop will cover:
+
+
+  No prior knowledge or experience with remote sensing is required to attend this training.'
+objectives:
+- Recognize how remote sensing data can be used to estimate water quality parameters;
+- Identify relevant NASA missions and data products for detecting HABs (such as chlorophyll-a and water
+  temperature), total suspended solids (TSS), water transparency, and salinity in coastal zones and inland
+  lakes;
+- Identify interactive web tools for historical and near-real time analysis and visualization of the HAB
+  indicators, TSS, and water transparency;
+- Use the web tools for assessing water quality parameters in coastal zones and inland lakes to facilitate
+  aquaculture management.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+instructors:
+- kelly-luis
+- rachel-jiang
+- melanie-follette-cook

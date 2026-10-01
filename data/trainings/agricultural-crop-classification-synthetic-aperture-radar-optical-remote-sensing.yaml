@@ -1,0 +1,189 @@
+id: agricultural-crop-classification-synthetic-aperture-radar-optical-remote-sensing
+title: Agricultural Crop Classification with Synthetic Aperture Radar and Optical Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/agricultural-crop-classification-synthetic-aperture-radar-optical-remote-sensing
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2021-10-05'
+end_date: '2021-10-19'
+published: '2021-10-05'
+last_updated: '2026-01-30'
+summary: This ARSET training covers using SAR from Sentinel-1 and optical imagery from Sentinel-2 to map
+  crop types and assess biophysical characteristics.
+description: 'For years, mapping of crop types and assessment of their characteristics has been carried
+  out to monitor food security, inform optimal use of the landscape, and contribute to agricultural policy.
+  High-quality crop mapping has become a requirement for most nations given its importance in national
+  and international economics, trade, and food security, and is a major topic of interest in the domains
+  of policy, economics, and land management.
+
+
+  Most countries or economic regions currently and increasingly use freely available satellite imagery
+  for crop type classification and biophysical variable assessment as they provide a synoptic view, multi-temporal
+  coverage, and are cost-effective. Remote sensing methods based on optical and/or microwave sensors have
+  become an important means of extracting crop information as they explain vegetation structure and biochemical
+  properties.
+
+
+  This five-part, intermediate webinar series focuses on the use of synthetic aperture radar (SAR) from
+  Sentinel-1 and/or optical imagery from Sentinel-2 to map crop types and assess their biophysical characteristics.
+  The webinar covers a SAR and optical refresher along with pre-processing and analysis of Sentinel-1
+  and Sentinel-2 data using the Sentinel Application Platform (SNAP) and Python code written in JupyterLab,
+  a web-based interactive development environment for scientific computing and machine learning.
+
+
+  The webinar also covers an operational roadmap for mapping crop type, including best practices for collecting
+  field data to train and validate models for classifying crops on a national level. The final session
+  of this series covers crop biophysical variable retrievals using optical data.
+
+
+  This training series is a collaboration between NASA’s Applied Remote Sensing Training Program (ARSET),
+  Agriculture and Agri-Food Canada (AAFC), European Space Agency (ESA), Indian Space Research Organization
+  (ISRO), United Nations Office for Outer Space Affairs (UNOOSA), and the CEOS Working Group on Capacity
+  Building & Data Democracy (WGCapD).'
+objectives:
+- The information content in passive (optical) and active (microwave) remote sensing data and how it relates
+  to agricultural parameters
+- The characteristics of passive and/or active sensors used in operational crop mapping and biophysical
+  retrievals
+- Where to acquire satellite data for conducting agricultural analysis
+- The steps for pre-processing optical and radar imagery
+- The steps to classify crop types using supervised and unsupervised techniques and explain the difference
+  among classifiers (e.g., Decision Tree and Random Forest)
+- Best practices for collecting field-based training data
+- Retrieval of crop biophysical variables
+audience:
+- This training series is intended for local, regional, federal, and non-governmental organizations from
+  agriculture and food security related agencies to use radar and optical remote sensing applications
+  in the domain of agriculture for crop type mapping.
+prerequisites:
+- fundamentals-remote-sensing
+- introduction-synthetic-aperture-radar
+applications:
+- agriculture
+- ecological-conservation
+satellites:
+- sentinel-1
+- sentinel-2
+tools:
+- esa-snap
+- jupyter
+- python
+instructors:
+- heather-mcnairn
+- laura-dingle-robertson
+- magdalena-fitrzyk
+- fabrizio-ramoino
+- georgia-karadimou
+- sophie-bontemps
+- pierre-defourny
+sessions:
+- part: 1
+  title: Synthetic Aperture Radar (SAR) Refresher
+  agenda:
+  - SAR theory (phase, incidence angle, geometry, polarization, etc.)
+  - Optimal sensor parameters for agricultural applications
+  - Soil and crop characteristics on SAR response
+  - Q&A
+  videos:
+  - youtube: 2SGP30TGHXM
+    title: 'NASA ARSET: Synthetic Aperture Radar (SAR) Refresher, Part 1/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/SAR2021-part1-slides.pdf?VersionId=RXygavb_TiSW0SvDZTUQXbi8ws2kZWY_
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/SAR2021-part1-qa.pdf?VersionId=bWYehX2AeFGaJRF5Y.V9EwvmocXe1vzX
+- part: 2
+  title: Optical Remote Sensing Refresher and Introduction to SNAP
+  agenda:
+  - Basic physics, concepts and theory of optical remote sensing, and its applications for agriculture
+  - Optical imagery pre-processing using SNAP
+  - Q&A
+  videos:
+  - youtube: 47lS2FupWjM
+    title: 'NASA ARSET: Optical Remote Sensing Refresher and Introduction to SNAP, Part 2/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/SAR2021-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/SAR2021-part2-qa.pdf?VersionId=M.ZmgA2kODZkuGvOcTHJrcV3gHac7.n5
+  - type: other
+    title: Part 2 Data Download Instructions
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/SAR2021-part2-data.pdf
+  - type: other
+    title: SNAP
+    url: http://step.esa.int/main/download/snap-download/
+  - type: other
+    title: Copernicus Open Access Hub
+    url: https://scihub.copernicus.eu/
+- part: 3
+  title: Operational Crop Classification Roadmap using Optical and SAR Imagery
+  agenda:
+  - Roadmap for producing an Annual Crop Inventory
+  - Selection of radar + optical data for crop mapping
+  - Overview of how Agriculture and Agri-Food Canada (AAFC) collects training data
+  - SAR imagery pre-processing using SNAP
+  - Q&A
+  videos:
+  - youtube: 6_bytSnJCc8
+    title: 'NASA ARSET: Operational Crop Classification Roadmap using Optical and SAR Imagery, Part 3/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/SAR2021-part3-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/SAR2021-part3-qa.pdf
+  - type: other
+    title: Download the Sentinel-1 SAR Images
+    url: https://drive.google.com/file/d/13zfEU2VPt5USlwCqXDbkYYNsd8EpuX6G/view?usp=sharing
+- part: 4
+  title: Operational Crop Classification Roadmap using Optical and SAR Imagery
+  agenda:
+  - Explanation of Random Forest, Support Vector Machine, and Unsupervised algorithms as classifiers
+  - Explain Python libraries for running classifiers in JupyterLab
+  - Use of SNAP and Python for crop classification, including demonstration of different parameters (e.g.,
+    S1 vs. S2 alone) when classifying crop types in a given study area
+  - Q&A
+  videos:
+  - youtube: _cZidf9taJ8
+    title: 'NASA ARSET: Operational Crop Classification Roadmap using Optical and SAR Imagery 2, Part
+      4/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/SAR2021-part4-slides.pdf
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/SAR2021-part4-qa.pdf
+- part: 5
+  title: Biophysical Variable Retrieval using Optical Imagery to Support Agricultural Monitoring Practices
+  agenda:
+  - Biophysical Variables (LAI, FAPAR, FVC, Cab and CWC) derived from Sentinel-2
+  - 'Radiometric Indices: quantitative measures of features that are obtained by combining several spectral
+    bands'
+  - Q&A
+  videos:
+  - youtube: _X9HiOj8yMo
+    title: 'NASA ARSET: Biophysical Variable Retrieval using Optical Imagery for Agriculture, Part 5/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 5 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/SAR2021-part5-slides.pdf
+  - type: transcript
+    title: Part 5 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/SAR2021-part5-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://forms.gle/SXLAH7pxRgpHWXRf8

@@ -1,0 +1,100 @@
+id: tools-analyzing-nasa-air-quality-model-output
+title: Tools for Analyzing NASA Air Quality Model Output
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/tools-analyzing-nasa-air-quality-model-output
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2022-02-22'
+end_date: '2022-03-01'
+published: '2022-02-22'
+last_updated: '2026-02-17'
+summary: This training builds capacity to apply Python codes and other online tools to work with datasets
+  from NASA's Goddard Earth Observing System (GEOS).
+description: This training, led by NASA's Applied Remote Sensing Training (ARSET) program, builds capacity
+  to apply Python codes and other online tools to read, map, and analyze datasets from NASA's Goddard
+  Earth Observing System (GEOS) air quality forecasts as well as products from the second Modern-Era Retrospective
+  analysis for Research and Application (MERRA-2) reanalysis. The training sessions include lectures and
+  hands-on activities, including exercises, interacting with web-based and offline python tools, and time
+  to perform analyses.
+objectives:
+- Download, map, and subset GEOS outputs using tools developed by the Goddard Earth Sciences Data and
+  Information Services Center (GES DISC)
+- Perform intercomparison and evaluation of analysis and forecast output using Jupyter notebooks
+- Perform air quality assessment using reanalysis and forecasts from GEOS, ground and satellite measurements
+audience:
+- This training is primarily intended for local, regional, state, federal, and international organizations
+  involved in air quality management and forecasting, and those with an interest in applying remote sensing
+  and global models for air quality applications.
+prerequisites:
+- fundamentals-remote-sensing
+- introduction-access-global-air-quality-forecasting-data-tools
+applications:
+- health-air-quality
+datasets:
+- merra-2
+tools:
+- jupyter
+- python
+sessions:
+- part: 1
+  title: Review of NASA Air Quality Forecasts and Reanalysis
+  date: '2022-02-22'
+  agenda:
+  - GEOS FP and GEOS-CF forecasts, and MERRA-2 Reanalysis
+  - GES DISC tools for visualization and analysis
+  videos:
+  - youtube: U9w9vZbdrNM
+    title: 'NASA ARSET: Review of NASA Air Quality Forecasts and Reanalysis, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-AQModel2022-part1-slides.pdf?VersionId=5zAJJvDXkGL_UjfjhxuB9TVqlAdE4SoG
+  - type: other
+    title: Part 1 Data
+    url: https://drive.google.com/drive/folders/1CCs16mVjx8OMoHirXNkgtk66okHFeive?usp=sharing
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-AQModel2022-part1-qa.pdf?VersionId=7R2UWs.yiVe00vy4I0N9_RteAbbMyV4O
+- part: 2
+  title: Introduction to Python Tools for Visualization and Analysis
+  date: '2022-02-24'
+  agenda:
+  - 'Hands-On Exercise: Intercomparison with Satellite Observations'
+  - 'Hands-On Exercise: Validation with Surface Observations'
+  videos:
+  - youtube: Cr6xtc_ITf4
+    title: 'NASA ARSET: Introduction to Python Tools for Visualization and Analysis, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-AQModel2022-part2-slides.pdf
+  - type: data
+    title: Part 2 Codes and Data
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/part2_codes_data_revision2025.zip
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-AQModel2022-part2-qa.pdf?VersionId=fSnWEO.4fnl.g3AsDGKck8cdGDcsAay7
+- part: 3
+  title: Interpreting Model Output for Air Quality Assessment
+  date: '2022-03-01'
+  agenda:
+  - 'Case Study Analysis: Instructor-led exercise to combine data and apply tools to assess forecast and
+    analysis performance'
+  videos:
+  - youtube: HDXwk1r-QI0
+    title: 'NASA ARSET: Interpreting Model Output for Air Quality Assessment, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-AQModel2022-part3-slides.pdf?VersionId=MmR_0UfOI4pzQT.iWyzzK8fmM51g7ZH5
+  - type: notebook
+    title: Part 3 Notebooks and Data
+    url: https://drive.google.com/drive/folders/1LJWaHgnQtDFQnmbTQdEQAnalJnTv3Dz8?usp=sharing
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-AQModel2022-part3-qa.pdf?VersionId=REg.kw25nKZWRdgNEUC1iW1UCD5_hydM

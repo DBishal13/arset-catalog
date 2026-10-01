@@ -1,0 +1,72 @@
+id: methane-observations-large-emission-event-detection-monitoring
+title: Methane Observations for Large Emission Event Detection and Monitoring
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/methane-observations-large-emission-event-detection-monitoring
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2024-11-19'
+end_date: '2024-11-21'
+published: '2024-11-19'
+last_updated: '2026-06-11'
+summary: This ARSET training describes how observations from the EMIT mission can be used to identify
+  and monitor areas of high methane enhancement.
+description: 'While carbon dioxide (CO2) is the primary greenhouse gas emitted through human activities,
+  methane is estimated to be around 80 times more effective at trapping heat in the atmosphere on a 20-year
+  timescale.
+
+
+  Methane is an attractive target for mitigation activities because it has a relatively short decadal-scale
+  lifetime in the atmosphere (as compared with the century-scale carbon dioxide lifetime), it can be utilized
+  as an energy source or combusted (converted to CO2) in order to reduce its global warming potential,
+  and the safety issues associated with high concentrations of this flammable gas. Many activities can
+  lead to the release of large concentrations of methane during the course of normal industrial operations
+  or as accidental releases, these are often referred to as super emitter events, which can be identified
+  from modern satellites.
+
+
+  This introductory, two-part training will begin with an introduction to the U.S. Greenhouse Gas Center
+  and provide participants with an overview of how methane observations from the Earth surface Mineral
+  dust Source Investigation (EMIT) mission can be used to identify and monitor areas of high methane enhancement.
+  This course will also demonstrate how to navigate the U.S. Greenhouse Gas center portal to access data
+  products as well as highlight tools for visualizing methane observations.'
+audience:
+- Federal, state and local government agency representatives, United Nations agencies with policy mandates
+  related to GHG emission measurement, monitoring and mitigation (e.g., UNEP), entities whose operations
+  produce methane (i.e. oil and gas sector, landfills, livestock, etc.), as well as non-public sector
+  entities with roles/responsibilities in providing GHG data, solutions and services.
+- University students, early career researchers, and the media may also be interested.
+prerequisites:
+- fundamentals-remote-sensing
+satellites:
+- iss
+instructors:
+- melanie-follette-cook
+- dana-chadwick
+- andrew-thorpe
+- phillip-broderick
+sessions:
+- part: 1
+  title: United States Greenhouse Gas Center (US GHG) and Remote Detection of Large Methane Emissions
+  agenda:
+  - Recognize the role of methane in the Earth system
+  - Identify the goals and objectives of the U.S. Greenhouse Gas Center
+  - Identify sensors used to measure atmospheric methane
+  videos:
+  - youtube: cFCinjBP5FQ
+    title: 'NASA ARSET: U.S. Greenhouse Gas Center (US GHG) and Remote Detection of Methane Emissions,
+      Part 1/2'
+    channel: NASA Video
+- part: 2
+  title: EMIT Data Products and Visualization
+  agenda:
+  - Recognize the strengths and limitations of satellite observations of methane used to observe large
+    emission events
+  - Navigate the U.S. Greenhouse Gas Center Portal to access and visualize data for large emission event
+    tracking and the EMIT Open Data Portal to understand observation context
+  videos:
+  - youtube: lB_Eq8amD84
+    title: 'NASA ARSET: EMIT Data Products and Visualization, Part 2/2'
+    channel: NASA Video

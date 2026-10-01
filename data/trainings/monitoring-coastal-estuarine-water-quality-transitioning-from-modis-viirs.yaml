@@ -1,0 +1,120 @@
+id: monitoring-coastal-estuarine-water-quality-transitioning-from-modis-viirs
+title: 'Monitoring Coastal and Estuarine Water Quality: Transitioning from MODIS to VIIRS'
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-coastal-estuarine-water-quality-transitioning-from-modis-viirs
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2021-09-14'
+end_date: '2021-09-21'
+published: '2021-09-14'
+last_updated: '2026-02-11'
+summary: This ARSET training provides an overview of the similarities and differences between MODIS and
+  VIIRS for water quality monitoring.
+description: 'Estuaries are water bodies where freshwater from rivers and streams meets with seawater.
+  Coastal and estuarine waters are important to humans as they are highly productive habitats supporting
+  a variety of fish and wildlife. These environments also provide resources, economic benefits, and ecosystem
+  services. That being said, the water quality of these coastal and estuarine areas is of great importance.
+  This is heavily influenced by the flow of nutrients and sediment from land-based sources.
+
+
+  The flow of nitrogen and phosphorus in particular enhances algal bloom and hypoxia in the water, highly
+  affecting benthic creatures such as fish, shellfish, and crustaceans. Water quality in estuaries also
+  depends on several factors such as their size, location, coastal land use, quality of freshwater runoff,
+  and tidal effects from the sea.
+
+
+  Remote sensing observations from the Moderate Resolution Imaging Spectroradiometer (MODIS) instrument
+  on the Aqua platform have enabled us to monitor coastal and estuarine water quality since mid-2000.
+  With the end of the MODIS mission, it is important to transition to Visible Infrared Imaging Radiometer
+  Suite (VIIRS) observations to provide continuity with the MODIS instrument and add to the moderate-resolution,
+  long-term data record of water quality monitoring in estuaries.
+
+
+  This intermediate-level webinar, led by NASA''s Applied Remote Sensing Training program (ARSET), provides
+  an overview of satellites and sensors used for extending the MODIS long-term water quality time series,
+  specifically focusing on VIIRS image processing using the NASA Ocean Color software, Sea, earth, atmosphere
+  Data Analysis System (SeaDAS). This webinar points out similarities and differences between MODIS and
+  VIIRS and demonstrates water quality monitoring procedures using these sensors in selected coastal and
+  estuarine regions.'
+objectives:
+- Identify recent satellite data useful for water quality monitoring
+- Process MODIS and VIIRS images using SeaDAS to get water quality parameters
+- Monitor water quality in selected coastal and estuarine regions
+audience:
+- This training is designed for federal, state, regional, and local public and private organizations involved
+  in water quality and estuarine ecosystem management.
+prerequisites:
+- fundamentals-remote-sensing
+- processing-satellite-imagery-monitoring-water-quality
+applications:
+- ecological-conservation
+satellites:
+- aqua
+- noaa-20
+- suomi-npp
+- terra
+sessions:
+- part: 1
+  title: Overview of Remote Sensing Observations for Water Quality Monitoring in Estuaries
+  agenda:
+  - Background information about estuaries and their water quality
+  - Introduction to recent satellites and sensors relevant for monitoring water quality
+  - Comparison of MODIS and VIIRS for water quality monitoring
+  - Demonstration of VIIRS data acquisition
+  videos:
+  - youtube: hSmTXXLO_PE
+    title: Overview of Remote Sensing Observations for Water Quality Monitoring in Estuaries, Part 1/3
+    channel: NASA Video
+  materials:
+  - type: other
+    title: SeaDAS
+    url: https://www.earthdata.nasa.gov/data/tools/seadas
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-Estuaries2021-part1-slides.pdf?VersionId=tQ5X_Ew47t.se_.Ecyg0lljDjJC_tNB2
+  - type: qa
+    title: Part 1 Q&A
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/Estuaries%20Q&A%20Part%201.pdf?VersionId=.RFry0rl_WQFEmOx41E3hSwP6krU9MWR
+- part: 2
+  title: Image Processing Using SeaDAS
+  agenda:
+  - ​​​​​Overview of image processing
+  - Demonstration of using SeaDAS/Ocean Color Science Software (OCSSW) for MODIS and VIIRS image processing
+    in the Chesapeake Bay
+  - Overview of the NOAA Coast Watch Water Quality Product for Puerto Rico using VIIRS
+  videos:
+  - youtube: Mw3hg2w3xNg
+    title: 'NASA ARSET: Image Processing using SeaDAS, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-Estuaries2021-part2-slides.pdf?VersionId=S59qYAP4PVzuGNHhBJnZeQJD0Ov7VByG
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/Estuaries%20Q&A%20Part%202.pdf?VersionId=iHdKSLc5W7WFE4TIGqMx0tD75Pu7PrPL
+- part: 3
+  title: Monitoring MODIS- and VIIRS-Based Water Quality in Selected Estuaries
+  agenda:
+  - Chesapeake Bay
+  - Río de la Plata
+  - Importance and ecosystems of the study areas
+  - Demonstration of water quality monitoring, including sea surface temperatures, chlorophyll-a concentration,
+    and particulate organic carbon in the two estuaries
+  videos:
+  - youtube: df4LzwVtYXA
+    title: 'NASA ARSET: Monitoring MODIS- and VIIRS-Based Water Quality in Selected Estuaries, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-Estuaries2021-part3-slides.pdf?VersionId=Ars5SZFqthy7Ujy5xn84mGqv1z_HSX0d
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/Estuaries%20Q&A%20Part%203.pdf?VersionId=DtjNnltD0Fv9j3tf92xL3AQRuiWgxscx
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLScLdgoUmSphNor8-xCxcD-iZkOnS_CbCc-D_GEQVVM8nf4Sdg/viewform?usp=sf_link

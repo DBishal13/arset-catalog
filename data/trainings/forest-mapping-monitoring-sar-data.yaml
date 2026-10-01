@@ -1,0 +1,138 @@
+id: forest-mapping-monitoring-sar-data
+title: Forest Mapping and Monitoring with SAR Data
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/forest-mapping-monitoring-sar-data
+level: advanced
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2020-05-12'
+end_date: '2020-05-31'
+published: '2020-05-12'
+last_updated: '2026-02-16'
+summary: This ARSET training introduces how to use SAR data to map and monitor forest change, land cover,
+  and mangroves.
+description: 'Measurements of forest cover and change are vital to understanding the global carbon cycle
+  and the contribution of forests to carbon sequestration. Many nations are engaged in international agreements
+  such as the Reducing Emissions from Deforestation and Degradation (REDD+) initiative, which includes
+  tracking annual deforestation rates and developing early warning systems of forest loss. Remote sensing
+  data are integral to data collection for these metrics, however, the use of optical remote sensing for
+  monitoring forest health can be challenging in tropical, cloud-prone regions.
+
+
+  Radar remote sensing overcomes these challenges because of its ability to “see” the surface through
+  clouds and regardless of day or night conditions. In addition, the radar signal can penetrate through
+  the vegetation canopy and provide information relevant to structure and density.
+
+
+  Although the capabilities and benefits of SAR data for forest mapping and monitoring are known, it is
+  underutilized operationally due to data complexities and limited user-friendly tutorials.
+
+
+  This advanced webinar series hosted by NASA''s Applied Remote Sensing Training Program (ARSET) introduces
+  participants to synthetic aperture radar (SAR) time series analysis of forest change using Google Earth
+  Engine (GEE); land cover classification with radar and optical data with GEE; mapping mangroves with
+  SAR; and forest stand height estimation with SAR. Each training session includes a theoretical portion
+  describing the use of SAR for landcover mapping, as related to the focus of the session, followed by
+  a demonstration that shows participants how to access, download, and analyze SAR data for forest mapping
+  and monitoring. These demonstrations use freely-available, open-source data and software.'
+objectives:
+- Interpret radar data for forest mapping
+- Understand how radar data can be applied to land cover mapping
+- Become familiar with open source tools used to analyze radar data
+- Conduct a land cover classification with radar and optical data
+- Map mangrove forests with radar data
+- Understand how forest stand height can be mapped using radar data
+- Apply SAR time-series analysis to map forest change
+- Learn about upcoming radar missions at NASA
+audience:
+- Local, regional, state, federal, and non-governmental forest and environmental managers already working
+  with satellite remote sensing datasets for forest monitoring.
+prerequisites:
+- introduction-synthetic-aperture-radar
+- sar-landcover-applications
+applications:
+- ecological-conservation
+satellites:
+- nisar
+tools:
+- google-earth-engine
+sessions:
+- part: 1
+  title: Time Series Analysis of Forest Change
+  agenda:
+  - Introduction to analysis and interpretation of SAR data for forest mapping
+  - 'Exercise: Time Series of Forest Change using GEE'
+  - Q&A
+  videos:
+  - youtube: KitbOq7ARNQ
+    title: 'NASA ARSET: Time Series Analysis of Forest Change, Part 1/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/SAR_Part1.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/Q&A%20Doc%20Part%201.pdf
+- part: 2
+  title: Land Cover Classification with Radar and Optical Data
+  agenda:
+  - Review of the unique attributes of radar and optical data as related to forest mapping and how they
+    can be complementary
+  - Classification algorithms and improvements with optical imagery
+  - 'Exercise: Land Cover Classification with Radar and Optical using GEE'
+  - Q&A
+  videos:
+  - youtube: raXA3gnb94Q
+    title: 'NASA ARSET: Land Cover Classification with Radar and Optical Data, Part 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/SAR_Part2.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/Q&A%20Doc%20Part%202.pdf
+- part: 3
+  title: Mangrove Mapping
+  agenda:
+  - Introduction to analysis and interpretation of SAR data for mangrove mapping
+  - 'Exercise: Mapping Mangroves with the Sentinel Toolbox'
+  - Q&A
+  videos:
+  - youtube: vaBEHALn-js
+    title: 'NASA ARSET: Mangrove Mapping, Part 3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/SAR_Part3.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/Q&A%20Doc%20Part%203.pdf
+  - type: other
+    title: Part 3 Data Download
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/SAR_Part_3_Data_Download.pdf
+- part: 4
+  title: Forest Stand Height (with Guest Speaker Paul Siqueria)
+  agenda:
+  - Introduction to the use of SAR data for mapping forest stand height
+  - Applications and looking forward to NISAR 2022
+  - 'Exercise: Estimating Forest Stand Height'
+  - Q&A
+  videos:
+  - youtube: RROJ_4Ud78g
+    title: 'NASA ARSET: Forest Stand Height (with Guest Speaker Paul Siqueria), Part 4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/SAR_Part4.pdf?VersionId=.fZm1cxexwkDYwoNyISea4RoKTuYn83q
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/Q&A%20Doc%20Part%204.pdf
+  - type: homework
+    title: Homework
+    url: http://docs.google.com/forms/d/e/1FAIpQLScHGmZcBOZnXjQMEflN89aA96bQl5tZSTjLzFc7_Fhaf64Pjg/viewform

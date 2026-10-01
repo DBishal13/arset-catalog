@@ -1,0 +1,148 @@
+id: applications-remote-sensing-based-evapotranspiration-data-products-agricultural
+title: Applications of Remote Sensing-Based Evapotranspiration Data Products for Agricultural and Water
+  Resource Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/applications-remote-sensing-based-evapotranspiration-data-products-agricultural
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2022-06-01'
+end_date: '2022-06-15'
+published: '2022-06-01'
+last_updated: '2026-02-26'
+summary: This ARSET training focuses on introducing evapotranspiration (ET) products derived from remote
+  sensing observations.
+description: 'Evapotranspiration (ET) is the process by which the land surface returns water to the atmosphere
+  in the form of moisture. ET is a very important part of the water cycle in the Earth system. It is the
+  sum of evaporation from bare soil and transpiration from vegetation.
+
+
+  For a given watershed, the supply of water from precipitation, surface, and groundwater can be depleted
+  via ET. Therefore, estimating the amount of ET is crucial for calculating the overall water budget and
+  for effective water management. Since ET indicates loss of moisture from the soil and vegetation, monitoring
+  ET on agricultural fields helps with crop irrigation activities and water conservation.
+
+
+  Because ET depends on land surface characteristics such as type of vegetation and soil moisture, available
+  heat energy from sunlight, and atmospheric weather conditions; it is not possible to measure ET directly.
+  Remote sensing observations provide several of the land and atmospheric parameters useful for estimating
+  ET.
+
+
+  Several methodologies have been developed using various satellite observations to estimate ET over the
+  past two decades. These ET products are used for a variety of applications from the farm scale to the
+  watershed scale.
+
+
+  This training, led by NASA''s Applied Remote Sensing Training (ARSET) program, focuses on introducing
+  ET products derived from remote sensing observations. It specifically covers a web portal called OpenET,
+  which includes ET products estimated by using six models as well as Landsat satellite observations.
+  These ET products cover the Western United States.
+
+
+  In addition, information about global ET products derived from ECOsystem Spaceborne Thermal Radiometer
+  Experiment on the Space Station (ECOSTRESS) are covered. The training sessions provide detail about
+  OpenET and ECOSTRESS ET products, demonstrations and hands-on exercises for data access and analysis,
+  and examples of applications of the data.'
+objectives:
+- Identify state-of-the-art techniques to derive evapotranspiration (ET) using remote sensing
+- Recognize how ET data can be used in water resources and agricultural management
+- Access OpenET and ECOSTRESS ET data products for their own applications.
+audience:
+- This training is intended for local, regional, federal, and non-governmental organizations from agriculture
+  and water resources related agencies involved in water resources and agricultural management.
+prerequisites:
+- fundamentals-remote-sensing
+- new-sensor-highlight-ecostress
+applications:
+- agriculture
+- ecological-conservation
+- water-resources
+satellites:
+- iss
+- landsat-8
+- landsat-9
+tools:
+- qgis
+instructors:
+- amita-mehta
+- gregory-halverson
+- kerry-cawse-nicholson
+- christine-lee
+sessions:
+- part: 1
+  title: Introduction to OpenET
+  date: '2022-06-01'
+  agenda:
+  - Background, methodologies, and validation of various ET products
+  - Applications of ET for water resources and agricultural management
+  - Demonstration of OpenET data portal for data access and visualization
+  videos:
+  - youtube: QHqWrO2HMco
+    title: 'NASA ARSET: Introduction to OpenET, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Evapotranspiration2022-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Evapotranspiration2022-part1-qa.pdf
+- part: 2
+  title: Introduction to ECOSTRESS ET
+  date: '2022-06-08'
+  agenda:
+  - Background of the ECOSTRESS mission
+  - ECOSTRESS ET products
+  - Demonstration of ECOSTRESS ET data access and visualization
+  videos:
+  - youtube: Yc8QDt2f4hs
+    title: 'NASA ARSET: Introduction to ECOSTRESS ET, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Evapotranspiration2022-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Evapotranspiration2022-part2-qa.pdf
+  - type: other
+    title: Code
+    url: https://drive.google.com/drive/folders/1i1Y692EBRr5eyeHhzgva-BmO3nL2g5HW?usp=sharing
+  - type: other
+    title: NASA Earthdata
+    url: https://urs.earthdata.nasa.gov/users/new
+  - type: other
+    title: QGIS
+    url: https://qgis.org/en/site/forusers/download.html
+  - type: other
+    title: Anaconda
+    url: https://www.anaconda.com/
+  - type: other
+    title: Visual Studio Code
+    url: https://code.visualstudio.com/
+- part: 3
+  title: Data Access and Application of ET products
+  date: '2022-06-15'
+  agenda:
+  - Demonstration of using ET for water balance assessment at the watershed level
+  - Hands on exercise to download and compare the OpenET and ECOSTRESS ET products at farm to watershed
+    scales
+  videos:
+  - youtube: QHqtJFfx4F8
+    title: 'NASA ARSET: Data Access and Application of ET products, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Evapotranspiration2022-part3-slides.pdf
+  - type: exercise
+    title: Exercise
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Evapotranspiration2022-part3-exercise.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Evapotranspiration2022-part3-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdQxeOMFxhoy3fdHwJk3HVBvwljAUX1tJ7Y6sw5jOHu5kDeCA/viewform?usp=sf_link

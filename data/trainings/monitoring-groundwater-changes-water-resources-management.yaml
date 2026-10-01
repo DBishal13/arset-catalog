@@ -1,0 +1,172 @@
+id: monitoring-groundwater-changes-water-resources-management
+title: Monitoring Groundwater Changes for Water Resources Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-groundwater-changes-water-resources-management
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2026-04-23'
+end_date: '2026-04-30'
+published: '2026-03-05'
+last_updated: '2026-05-22'
+summary: This ARSET training covers how data from GRACE/GRACE-FO, OPERA-DISP, and GLDAS can be used to
+  assess groundwater changes.
+description: 'Groundwater is a vital resource, especially in arid regions where surface water is limited.
+  The U.S. Geological Survey (USGS) reports approximately 82 billion gallons of groundwater are withdrawn
+  daily in the U.S. for domestic, irrigation, industrial, mining, thermoelectric, livestock, and aquaculture
+  uses.
+
+
+  According to the National Groundwater Association (NGWA), groundwater accounts for about 29% of total
+  U.S. water usage; about two thirds of that groundwater is used for irrigation. Aquifers in certain regions
+  of the world are being depleted by unsustainable groundwater pumping to support irrigated agriculture,
+  including in southern High Plains and Central Valley aquifers in the U.S., northern India, the North
+  China Plain, and parts of the Middle East.
+
+
+  The Gravity Recovery and Climate Experiment (GRACE, 2002–2017) and GRACE Follow-On (GRACE-FO, 2018–present)
+  satellite missions — supported by NASA and the German Research Centre for Geosciences (GFZ) — provide
+  monthly estimates of changes in terrestrial water storage (the sum of groundwater, soil moisture, surface
+  waters, snow, and ice) at spatial resolutions no better than about 150,000 km² at mid-latitudes. While
+  useful for detection of large-scale changes, the coarse resolution limits regional-scale groundwater
+  assessments.
+
+
+  There are, however, groundwater products with higher spatial resolutions that can be useful for finer
+  scale monitoring. A new product from Observational Products for End-Users from Remote Sensing Analysis
+  (OPERA) provides surface displacement products (DISP) for North America that use Synthetic Aperture
+  Radar (SAR) from Sentinel-1 at 30 m 2 (and from NISAR next year) to indicate subsidence due to groundwater
+  withdrawal. In addition, NASA''s Global Land Data Assimilation System (GLDAS) assimilates GRACE/GRACE-FO
+  data into a land surface model along with other higher resolution inputs, producing daily outputs on
+  a 0.25° (~25 km) grid.
+
+
+  This three-part training focuses on an overview of GRACE/GRACE-FO data, OPERA-DISP data, and GLDAS groundwater
+  data for assessing seasonal to interannual groundwater changes at various spatial scales. The training
+  provides hands-on experience in accessing and analyzing these products for applications.'
+objectives:
+- Identify characteristics of groundwater quantity datasets from GRACE/FO, OPERA, and GLDAS;
+- Access, analyze, and visualize GRACE/FO data to monitor seasonal to interannual changes in large-scale
+  terrestrial water storage;
+- Access, analyze, and visualize GLDAS data to monitor seasonal to interannual changes in groundwater
+  use at regional scales;
+- Map surface subsidence related to groundwater extraction with OPERA Displacement (DISP) data;
+- Utilize groundwater products from these datasets at multiple spatial/temporal scales to make decisions
+  in a variety of applications, such as monitoring drought and flood conditions or planning groundwater
+  resources for irrigation.
+audience:
+- Water resource, drought, flood, and irrigation managers from federal, state, and local government agencies,
+  NGOs, and private sector organizations, both domestically and internationally.
+- Academic faculty and students, mining planners, groundwater recharge and water harvesting planners.
+prerequisites:
+- groundwater-monitoring-using-observations-from-nasas-gravity-recovery-climate
+applications:
+- agriculture
+- climate-resilience
+- disasters
+- drought
+- water-resources
+satellites:
+- grace
+- grace-fo
+- nisar
+- sentinel-1
+datasets:
+- grace-fo-mascons
+- opera-disp
+tools:
+- earthdata-search
+- giovanni
+- jupyter
+instructors:
+- amita-mehta
+- matthew-rodell
+- eric-fielding
+sessions:
+- part: 1
+  title: Overview and Analysis of NASA Terrestrial Water Storage Data from GRACE/GRACE-FO
+  date: '2026-04-23'
+  agenda:
+  - Overview of GRACE/GRACE-FO missions
+  - GRACE/FO data products
+  - Data applications, benefits, and limitations
+  - Select and visualize maps and time series of terrestrial water storage changes
+  - Using GRACE/FO Interactive Browser
+  - 'Case study: GRACE data access, analysis, and visualization'
+  - Summary
+  videos:
+  - youtube: KlYIAvKii8M
+    title: 'NASA ARSET: Overview and Analysis of NASA Terrestrial Water Storage Data from GRACE/GRACE-FO
+      Pt. 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-04/Groundwater-2026_Part1_AM_sgm_MM_MR.pptx%20(1).pdf
+  - type: exercise
+    title: Part 1 Exercise
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-04/Exercise1_AM_sgm_MM_SM.pptx.pdf
+  - type: transcript
+    title: Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-04/ARSET-Groundwater2026-part1-qa.pdf
+- part: 2
+  title: Overview and Applications of GLDAS Groundwater Data Products at Regional Scale
+  date: '2026-04-28'
+  agenda:
+  - Background and description
+  - Motivation for GRACE data assimilation
+  - GLDAS groundwater data evaluation
+  - Examples of data applications, benefits, and limitations
+  - Giovanni/Earthdata search
+  - 'Exercise: GLDAS data analysis'
+  - Summary
+  videos:
+  - youtube: IaOGhf9NYDk
+    title: 'NASA ARSET: Overview and Applications of GLDAS Groundwater Data Products at Regional Scale
+      Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-04/ARSET-Groundwater2026-Part2-slides_sgm_mr2_MM.pdf
+  - type: exercise
+    title: Part 2 Exercise
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-04/Exercise2_AM_SM_SGM_MM.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-05/ARSET-Groundwater2026-part2-qa.pdf
+- part: 3
+  title: Overview and Applications of OPERA-DISP to Monitor Groundwater Changes
+  date: '2026-04-30'
+  agenda:
+  - Background of SAR data and OPERA
+  - Description and interpretation of DISP data for monitoring groundwater changes
+  - Data applications, benefits, and limitations
+  - OPERA Displacement Portal
+  - OPERA data analysis with Jupyter Notebook
+  - 'Case study: OPERA-DISP data access, visualization, and interpretation'
+  - Summary
+  videos:
+  - youtube: RbiYboadlLc
+    title: 'NASA ARSET: Overview and Applications of OPERA-DISP to Monitor Groundwater Changes Part 3/3'
+    channel: NASA Video
+  - youtube: A-EoWxAmCco
+    title: 'NASA ARSET: Downloading OPERA Displacement Data from NASA EarthData'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-04/ARSET-Groundwater2026-part3-slides.pdf
+  - type: exercise
+    title: Part 3 Exercise
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-04/Exercise3_AM_SGM_SM_MM.pdf
+  - type: notebook
+    title: Github
+    url: https://github.com/NASAARSET/Monitoring_Groundwater_Changes_for_Water_Resources_Management/
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-05/Part%203%20Groundwater%20Q&A%20Session.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-05/ARSET-Groundwater2026-homework.pdf

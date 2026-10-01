@@ -1,0 +1,112 @@
+id: water-resource-management-using-nasa-earth-science-data
+title: Water Resource Management Using NASA Earth Science Data
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/water-resource-management-using-nasa-earth-science-data
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2015-10-13'
+end_date: '2015-11-10'
+published: '2015-10-13'
+last_updated: '2026-03-03'
+summary: This ARSET training introduces NASA data products for water resources.
+description: This five-week course hosted by NASA's Applied Remote Sensing Training Program (ARSET) covers
+  precipitation (rainfall and snow fraction), soil moisture, evapotranspiratoin, runoff and streamflow,
+  groundwater, and lake level heights. Attendees are introduced to a number of NASA data products.
+objectives:
+- Access global freshwater data for applications in drought, agricultural, flooding and reservoir management
+- Conduct a GIS-based analysis of regional water budgets.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- agriculture
+- disasters
+- drought
+- water-resources
+satellites:
+- aqua
+- gpm
+- grace
+- smap
+- terra
+instructors:
+- brian-f-thomas
+sessions:
+- part: 1
+  title: NASA Satellite Missions and Land-Atmosphere Models Relevant to Water Resource Management
+  date: '2015-10-13'
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part1.pdf
+  - type: homework
+    title: Part 1 Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part1-hw.pdf
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part1-esp.pdf
+- part: 2
+  title: Overview of Precipitation and Soil Moisture Data
+  date: '2015-10-20'
+  materials:
+  - type: other
+    title: GPM
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/gpm
+  - type: other
+    title: TRMM
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/trmm
+  - type: other
+    title: MODIS
+    url: https://www.earthdata.nasa.gov/data/instruments/modis
+  - type: other
+    title: SMAP
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/smap
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part2.pdf
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part2-esp.pdf
+- part: 3
+  title: Overview of Runoff, Streamflow, and Reservoir Level Data
+  date: '2015-10-27'
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part3.pdf
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 3
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part3-esp.pdf
+- part: 4
+  title: Overview of Evapotranspiration and Ground Water Data
+  date: '2015-11-03'
+  materials:
+  - type: other
+    title: GRACE
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/grace-grace-fo
+  - type: slides
+    title: Evapotranspiration Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part4a.pdf
+  - type: slides
+    title: Ground Water Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part4b.pdf
+  - type: other
+    title: Diapositivas de la Presentación Evapotranspiración
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part4a-esp.pdf
+  - type: other
+    title: Diapositivas de la Presentación Agotamiento de Aguas Subterráneas
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part4b-esp.pdf
+- part: 5
+  title: Regional Water Budget Estimation and Water Resource Data Applications
+  date: '2015-11-10'
+  materials:
+  - type: slides
+    title: LDAS Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part5b.pdf
+  - type: slides
+    title: Summary Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part5a.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-WaterResources2015-part5hw.pdf

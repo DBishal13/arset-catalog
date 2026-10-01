@@ -1,0 +1,65 @@
+id: airborne-data-applications-invasive-species-mapping
+title: Airborne Data Applications for Invasive Species Mapping
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/airborne-data-applications-invasive-species-mapping
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2025-09-30'
+end_date: '2025-09-30'
+published: '2025-09-30'
+last_updated: '2026-09-16'
+summary: This ARSET training identifies types of remote sensing data and products that can be used for
+  terrestrial invasive species mapping and monitoring.
+description: 'Invasive species can cause catastrophic impacts on ecosystem health and function. Under
+  a changing climate, urban expansion, and extreme weather events, the occurrence and impacts of invasive
+  species is expected to increase. Remote sensing has been used as a tool to monitor the current extent
+  and predict future spread of invasive species in aquatic and terrestrial environments.
+
+
+  This Applied Remote Sensing Training Program (ARSET) training highlights the different types of remote
+  sensing data and products that can be used for terrestrial invasive species mapping and monitoring.
+  Participants are introduced to airborne and in situ field data applications for invasive species mapping
+  utilizing datasets acquired during the Biodiversity Survey of the Cape (BioSCape) campaign in South
+  Africa.
+
+
+  A demonstration of invasive species mapping using a managed Jupyterhub Python environment provides the
+  opportunity to apply a cloud based workflow to train airborne data from the Airborne Visible InfraRed
+  Imaging Spectrometer - Next Generation (AVIRIS-NG) and utilize in situ field data. Participants develop
+  a site specific scene demonstrative of using in situ field data and imaging spectroscopy to map and
+  visualize data, providing insights into the analysis of estimating invasive species using supervised
+  image classification.
+
+
+  Participants can leave with a better understanding of the applications and limitations of imaging spectroscopy
+  and airborne data products. Participants also can develop skills to apply their knowledge of the data
+  to areas of interest to inform land management and planning decisions.'
+objectives:
+- Recognize how image classification of airborne imaging spectroscopy and labeled field data can be used
+  to map invasive species.
+- Use a Jupyter Notebook to access NASA JPL AVIRIS-NG data located on the NASA Earthdata cloud for a spatial
+  and temporal region of interest.
+- Apply a cloud based workflow in a provided Jupyter Notebook to classify species using a trained machine
+  learning model for the Greater Cape Floristic Region, South Africa.
+- Identify key considerations for interpreting machine learning end products for invasive species mapping
+  for land management decisions.
+audience:
+- Resource managers (local, state, regional, international), agriculture sector, remote sensing technicians,
+  ecologists, and academics.
+prerequisites:
+- biodiversity-applications-airborne-imaging-systems
+- fundamentals-machine-learning-earth-science
+- invasive-species-monitoring-remote-sensing
+- hyperspectral-data-land-coastal-systems
+applications:
+- climate-resilience
+- ecological-conservation
+tools:
+- jupyter
+- python
+videos:
+- youtube: 2bukmnvg5OA
+  title: 'NASA ARSET: Airborne Data Applications for Invasive Species Mapping, Part 1/1'
+  channel: NASA Video

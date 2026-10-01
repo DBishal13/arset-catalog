@@ -1,0 +1,84 @@
+id: remote-sensing-disasters-scenarios
+title: Remote Sensing for Disasters Scenarios
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/remote-sensing-disasters-scenarios
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2019-04-16'
+end_date: '2019-04-30'
+published: '2019-04-16'
+last_updated: '2026-07-29'
+summary: This ARSET training shows how NASA remote sensing data can be used to characterize and monitor
+  disaster-related events and support relief efforts.
+description: According to the World Health Organization, disasters “kill around 90,000 people and affect
+  close to 160 million people worldwide” every year. This training, led by NASA's Applied Remote Sensing
+  Training program (ARSET), shows participants how remote sensing data can be used to characterize and
+  monitor disaster-related events and support relief efforts. Each session covers a different disaster
+  and its supporting data. Disaster scenarios include tropical storms, flooding, earthquakes, and landslides.
+objectives:
+- Identify NASA data products to characterize and monitor disasters and support decision-making
+- Understand the different data products available and their shortcomings
+- Access and interpret data covered in the different sessions
+audience:
+- This training is for disaster management agencies, including domestic and international government agencies
+  (e.g. the Federal Emergency Management Agency (FEMA) and equivalent government organizations outside
+  the U.S.) as well as aid organizations (e.g. Red Cross, United Nations).
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+sessions:
+- part: 1
+  title: Tropical Storms
+  date: '2019-04-16'
+  videos:
+  - youtube: XHyYvsjN6bQ
+    title: 'NASA ARSET: Disasters Scenarios, Tropical Storms, Session 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisastersScenarios_Part1.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisastersScenarios_Q&A1.pdf
+  - type: homework
+    title: Part 1 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdJfiqFrXTCMS7FDS1ioZS3tw9oSI1unjPriXCY5B-x1pZL6g/viewform?usp=sf_link
+- part: 2
+  title: Flooding
+  date: '2019-04-23'
+  videos:
+  - youtube: CkhOoYoPzSA
+    title: 'NASA ARSET: Disasters Scenarios, Flooding, Session 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisastersScenarios_Part2.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisastersScenarios_Q&A2.pdf
+  - type: homework
+    title: Part 2 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSd55viVEnbWgmqlwiuVoV0rY9QgYGMHpCo9jmBGfuUj8HPhAg/viewform?usp=sf_link
+- part: 3
+  title: Landslides and Earthquakes
+  date: '2019-04-30'
+  videos:
+  - youtube: P09XKLdhtrM
+    title: 'NASA ARSET: Disasters Scenarios, Landslides and Earthquakes, Session 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisastersScenarios_Part3.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisastersScenarios_Q&A3.pdf
+  - type: homework
+    title: Part 3 Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/arset-disastersscenarios2019-homework.pdf

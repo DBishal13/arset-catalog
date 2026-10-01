@@ -1,0 +1,98 @@
+id: fundamentals-satellite-remote-sensing-health-monitoring
+title: Fundamentals of Satellite Remote Sensing for Health Monitoring
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/fundamentals-satellite-remote-sensing-health-monitoring
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2016-06-02'
+end_date: '2016-06-30'
+published: '2016-06-02'
+last_updated: '2026-03-02'
+summary: This ARSET training provides an overview of environmental parameters that are useful for predicting
+  and monitoring environmental health events.
+description: 'Predicting and monitoring disease outbreaks and environmental health events is vitally important
+  to public health and safety. NASA Earth Science resources can benefit decision makers looking to apply
+  remote sensing data within the health community.
+
+
+  This introductory training led by NASA''s Applied Remote Sensing Training Program (ARSET) provided an
+  overview of environmental parameters available from NASA Earth Science that are useful for monitoring
+  and predicting health for decision support. There are many different data sources from different satellite
+  missions, sensors, and models, and these training sessions outlined their features, strengths, and limitations.
+  It also covered easily-accessible NASA data, web-based tools, analysis, visualization, and examples
+  of data usage.'
+audience:
+- This course is aimed at health researchers, health policy makers, ministries of health staff, and the
+  general public.
+applications:
+- health-air-quality
+instructors:
+- pawan-gupta
+- maury-estes
+- john-haynes
+- ambrish-vaidyanathan
+- arie-manangan
+- richard-stumpf
+- michael-c-wimberly
+sessions:
+- part: 1
+  title: Fundamentals of Remote Sensing for Health Applications
+  date: '2016-06-02'
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/healthmonitoringpart1.pdf?VersionId=npmcpPRQ.3N4kL1.eyHunvpZZ7gPXNU5
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/healthmonitoringpart1spanish.pdf?VersionId=21Ft_kJr.nhj7crBqMnxHI1Yb6bHzf_o
+- part: 2
+  title: How NASA is Using Remotely Sensed Data to Study Health Issues
+  date: '2016-06-09'
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/healthmonitoringpart2.pdf?VersionId=MfP.OTrwSYERQEd29vI.a9uMNqWPO4nQ
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/healthmonitoringpart2spanish.pdf?VersionId=bJhA7iISB3H3PRrJGhTlr865Av8LDNMn
+- part: 3
+  title: 'Using Remote Sensing Data for Public Health: CDC-NASA Collaboration'
+  date: '2016-06-16'
+  materials:
+  - type: slides
+    title: 'Part 3 Presentation Slides: Applications of Remote Sensing Data for the National Environmental
+      Public Health Tracking Program'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/healthmonitoringpart3a.pdf?VersionId=UEprJs9_mNZ856TyRcslNX.VSp8ew6jH
+  - type: slides
+    title: 'Part 3 Presentation Slides: The Bird''s Eye View of Health'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/healthmonitoringpart3b.pdf?VersionId=xlM_f.BpYu9NidMGecM3vsSveZ2s01Pr
+  - type: other
+    title: 'Diapositivas de la Presentación de la Parte 3: Aplicaciones de los datos de teledetección
+      para el Programa Nacional de Seguimiento de la Salud Pública Ambiental'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/healthmonitoringpart3aspanish.pdf?VersionId=.zV1vXf_2hKJ627upKiGGJGgVN18nOhg
+  - type: other
+    title: 'Diapositivas de la Presentación de la Parte 3: Una visión general de la salud desde una perspectiva
+      panorámica'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/healthmonitoringpart3bspanish.pdf?VersionId=YveRBv_BRDOdnTIFmOBr6ZFrpyNJ3_BE
+- part: 4
+  title: Using Satellite Data for the Prediction and Detection of Harmful Algal Bloom Outbreaks
+  date: '2016-06-23'
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/healthmonitoringpart4.pdf?VersionId=MPpkQnkvIjHBLiEokRQUE1hDgwgj8d_o
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 4
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/healthmonitoringpart4spanish.pdf?VersionId=GGbdrdH9MyKQCrxes8Im5isPHaZM4EF2
+- part: 5
+  title: Mapping and Forecasting Mosquito-Borne Disease Risk
+  date: '2016-06-30'
+  materials:
+  - type: slides
+    title: Part 5 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/healthmonitoringpart5.pdf?VersionId=OATw6cDbXwUn4gMBmkued4XsgiYQZzDs
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 5
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/healthmonitoringpart5spanish.pdf?VersionId=JqVfsOLLPg_eO9wjJwr_gfuu6pjK2DE3

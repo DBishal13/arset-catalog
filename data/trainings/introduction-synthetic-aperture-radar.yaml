@@ -1,0 +1,94 @@
+id: introduction-synthetic-aperture-radar
+title: Introduction to Synthetic Aperture Radar
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-synthetic-aperture-radar
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2017-06-28'
+end_date: '2017-07-06'
+published: '2017-06-28'
+last_updated: '2026-02-11'
+summary: This ARSET training focuses on building the skills needed to acquire and understand synthetic
+  aperture radar data as well as potential applications.
+description: 'A limitation of optical satellite remote sensing is that it depends on cloudless, well-illuminated
+  areas to produce quality data. This is especially problematic for collecting data during nighttime,
+  around storms, and in densely-forested areas. Synthetic aperture radar (SAR) is a solution for many
+  of these obstacles.
+
+
+  SAR can observe Earth''s surface day and night, through most weather conditions, and the signal can
+  penetrate the vegetation canopy. There are a number of existing SAR datasets from current and past airborne
+  and satellite missions as well as exciting upcoming missions.
+
+
+  This online training led by NASA''s Applied Remote Sensing Training program (ARSET) focuses on building
+  the skills needed to acquire and understand SAR data, including polarimetric and interferometric SAR
+  (PolSAR and InSAR) as well as potential applications.'
+objectives:
+- Interpret the information in SAR images
+- Recognize distortions that need to be corrected in SAR images
+- Describe the basics of PolSAR and the information provided by different polarizations
+- Describe the basics of InSAR and the information in an interferogram
+audience:
+- This training is for remote sensing users from local, regional, state, federal, and international organizations
+  interested in using SAR for terrestrial applications such as inundation mapping, fire scar detection,
+  land cover land use change studies, or surface deformation.
+prerequisites:
+- fundamentals-remote-sensing
+sessions:
+- part: 1
+  title: The Basics of SAR
+  date: '2017-06-28'
+  videos:
+  - youtube: Xemo2ZpduHA
+    title: 'NASA ARSET: Basics of Synthetic Aperture Radar (SAR), Session 1/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-SAR2017-part1-slides.pdf
+  - type: homework
+    title: Part 1 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSeNOFth-9SP1NcSi7WmMgNGGh92rsOU1MBNZPZRxNQyfpXYEQ/viewform?usp=sf_link
+- part: 2
+  title: SAR Processing and Data Analysis
+  date: '2017-06-29'
+  videos:
+  - youtube: OwrLh7pjHRQ
+    title: 'NASA ARSET: SAR Processing and Data Analysis, Session 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-SAR2017-part2-slides.pdf
+- part: 3
+  title: Introduction to Polarimetric SAR
+  date: '2017-07-05'
+  videos:
+  - youtube: -xU4oE66pgY
+    title: 'NASA ARSET: Introduction to Polarimetric SAR, Session 3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-SAR2017-part3-slides.pdf
+  - type: other
+    title: PolSARpro Software Link
+    url: https://earth.esa.int/web/polsarpro/download/version-5.0
+- part: 4
+  title: Introduction to SAR Interferometry
+  date: '2017-07-06'
+  videos:
+  - youtube: 9T1lBnta9P0
+    title: 'NASA ARSET: Introduction to SAR Interferometry, Session 4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-SAR2017-part4-slides.pdf
+  - type: homework
+    title: Part 4 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfxn_TZQxKE0yvs7LdwEAfbHkN9WmbmzLEPWJEGRGSZt1gbSA/viewform?usp=sf_link

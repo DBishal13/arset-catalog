@@ -1,0 +1,103 @@
+id: satellite-observations-analyzing-natural-hazards-small-island-nations
+title: Satellite Observations for Analyzing Natural Hazards on Small Island Nations
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/satellite-observations-analyzing-natural-hazards-small-island-nations
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2021-08-18'
+end_date: '2021-08-26'
+published: '2021-08-18'
+last_updated: '2026-07-23'
+summary: This ARSET training introduces data, methods, and tools useful for monitoring natural hazards
+  on small island nations.
+description: 'Small island nations are highly vulnerable to climate change and natural disasters; among
+  them hurricanes, cyclones, and other violent storms. These disasters can lead to severe flooding, landslides,
+  and, in the worst cases, can result in the loss of life and property. In addition, a rise in the global
+  mean sea level places island nations at a higher risk for permanent submersion of land, coastal erosion,
+  coastal ecosystem loss or change, salinization, and impeded drainage.
+
+
+  This three-part training series focuses on small island nations while introducing the data, methods,
+  and tools useful for monitoring natural hazards. Case studies are used to demonstrate methodologies
+  applying satellite and model data and open access tools to analyze storm impacts, sea level rise, and
+  landslides on small island nations.
+
+
+  This training is offered byNASA''s Applied Remote Sensing Training (ARSET) program in collaboration
+  with the Caribbean Center for Rising Seas.'
+objectives:
+- Recognize the applications of passive and active remote sensing for flooding, landslides, and sea level
+  rise
+- Perform an analysis pre- and post-storm event for a region of interest
+- Assess the landslide hazard for a region of interest prior to and during an event
+- Interpret satellite-derived products for characterizing sea level rise on a regional scale.
+audience:
+- This training is primarily intended for local, regional, state, federal, and international organizations
+  involved in pre, during, or post disaster assessment in small island nations.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- disasters
+- ecological-conservation
+tools:
+- google-earth-engine
+instructors:
+- erika-podest
+- sean-mccartney
+- amita-mehta
+- john-englander
+- dr-ben-hamlington
+sessions:
+- part: 1
+  title: Assessing Pre- and Post-Storm Impacts
+  videos:
+  - youtube: L8XwNyXcpHQ
+    title: 'NASA ARSET: Assessing Pre- and Post-Storm Impacts, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: GEE
+    url: https://console.cloud.google.com/earth-engine/welcome
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/Small_Island_Nations_Part1_Final.pdf?VersionId=GSnFrX1fjGCS8Ra1BZQxFe2Az5wIdQ.t
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/Small%20Island%20Nations%20Q&A%20Part%201.pdf?VersionId=nTPVXYYkg5vMvBUN5YKA3XjD1PeRI_cU
+- part: 2
+  title: Assessing Sea Level Rise at the Regional to Local Scale Using Earth Observations
+  videos:
+  - youtube: MxtrW14o1-k
+    title: 'NASA ARSET: Assessing Sea Level Rise at the Regional to Local Scale Using Earth Observations,
+      Pt 2/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: DAT
+    url: https://sealevel.nasa.gov/data-analysis-tool/
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/Small_Island_Nations_Part2_Edited_JO.pdf?VersionId=g9HNRUlw6q0XDaBNmTdqGXmUSO7hoYD9
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/Small%20Island%20Nations%20Q&A%20Part%202.pdf?VersionId=okV5Bdu08klug3X4S._K7zyQh3H25El0
+- part: 3
+  title: Assessing Landslide Hazards Before and During an Event
+  videos:
+  - youtube: irctKtTt0eE
+    title: 'NASA ARSET: Assessing Landslide Hazards Before and During an Event, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/Small_Island_Nations_Part3_Final.pdf?VersionId=A4Vjcj7JYG7Vf2pE0zswqYjvH9QA2sxY
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/Small%20Island%20Nations%20Q&A%20Part%203.pdf?VersionId=phPiczWdxjU3Caebrl9Z0bpm84bTUyWK
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-SmallIslandNations2021-HomeworkPDF.pdf

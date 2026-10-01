@@ -1,0 +1,140 @@
+id: spectral-indices-land-aquatic-applications
+title: Spectral Indices for Land and Aquatic Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/spectral-indices-land-aquatic-applications
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2023-10-26'
+end_date: '2023-11-09'
+published: '2023-10-26'
+last_updated: '2026-09-18'
+summary: This training provides an overview of spectral indices for land and aquatic applications.
+description: 'This training, offered by NASA''s Applied Remote Sensing Training Program (ARSET), provides
+  an overview of spectral indices for land and aquatic applications. Specifically, this training begins
+  with an introduction to the Normalized Difference Vegetation Index (NDVI), along with its calculation,
+  uses, and prominence in Earth science.
+
+
+  In session two, we expand to other spectral indices primarily used in aquatic ecosystems, such as the
+  Normalized Difference Chlorophyll Index (NDCI), Normalized Difference Aquatic Vegetation Index (NDAVI),
+  Floating Algal Index (FAI), and Normalized Difference Turbidity Index (NDTI) for aquatic applications.
+  In the final session we review additional land-based indices such as the Enhanced Vegetation Index (EVI),
+  Soil-Adjusted Vegetation Index (SAVI), and Normalized Burn Ratio (NBR).
+
+
+  These sessions discuss the correct circumstances under which to use these indices, and participants
+  take part in hands-on indices calculation over relevant study areas. Learners work with data from Landsat
+  9 Operational Land Imager 2 (OLI-2), Sentinel-2 Multispectral Imager (MSI), and Harmonized Landsat Sentinel-2
+  (HLS) for indices calculation.
+
+
+  The training discusses pre-calculated index products such as Terra Moderate Resolution Imaging Spectroradiometer
+  (MODIS) vegetation indices and HLS vegetation indices suite and upcoming data products available based
+  on user feedback provided to the Satellite Needs Working Group. Use cases from recent Earth Action projects
+  (such as NASA DEVELOP) further highlight how spectral indices can provide essential information about
+  land and aquatic environments.'
+prerequisites:
+- fundamentals-remote-sensing-0
+applications:
+- ecological-conservation
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- sentinel-2
+- terra
+datasets:
+- hls
+- modis-vegetation-indices
+tools:
+- google-earth-engine
+instructors:
+- britnay-beaudry
+- sativa-cruz
+- amber-mccullum
+- juan-torres-perez
+sessions:
+- part: 1
+  title: Part 1
+  agenda:
+  - Training Overview
+  - What are spectral indices?
+  - What is Normalized Difference Vegetation Index (NDVI)?
+  - Summary
+  videos:
+  - youtube: vAtm_rkKrlM
+    title: 'NASA ARSET: Spectral Indices for Land and Aquatic Applications, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: exercise
+    title: Link to Part 1 exercise code
+    url: https://code.earthengine.google.com/1c9a5811b4892272233def83baa7f902
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Indices2023-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Indices2023-part1-qa.pdf
+  - type: other
+    title: Google Earth Engine
+    url: https://earthengine.google.com/
+  - type: slides
+    title: Diapositivas de la Presentación de parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Indices2023-part1-slides-esp.pdf
+- part: 2
+  title: Part 2
+  agenda:
+  - Introduction
+  - Overview of Indices for Aquatic Applications
+  - Normalized Difference Chlorophyll Index (NDCI)
+  - Normalized Difference Aquatic Vegetation Index (NDAVI)
+  - Floating Algal Index (FAI)
+  - Normalized Difference Turbidity Index (NDTI)
+  - NASA DEVELOP Use Cases for Aquatic Indices
+  videos:
+  - youtube: hga94lkmtqM
+    title: 'NASA ARSET: Spectral Indices for Land and Aquatic Applications, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: exercise
+    title: Link to Part 2 exercise code
+    url: https://code.earthengine.google.com/9a316de7092e6af4a9f2fde33baea8c4
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Indices2023-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Indices2023-part2-qa.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de parte 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Indices2023-part2-slides-esp.pdf
+- part: 3
+  title: Part 3
+  agenda:
+  - Introduction
+  - Enhanced Vegetation Index (EVI)
+  - Soil-Adjusted Vegetation Index (SAVI)
+  - Normalized Burn Ratio (NBR)
+  - NASA DEVELOP Use Cases for Land Indices
+  videos:
+  - youtube: _MYEleEIXbQ
+    title: 'NASA ARSET: Spectral Indices for Land and Aquatic Applications, Part 3'
+    channel: NASA Video
+  materials:
+  - type: exercise
+    title: Link to Part 3 exercise code
+    url: https://code.earthengine.google.com/cf527405df03a3cfc4cb2e558a82bf95
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Indices2023-part3-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Indices2023-part3-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-09/ARSET-Indices2023-HomeworkPDF.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de parte 3
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Indices2023-part3-slides-esp.pdf

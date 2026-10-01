@@ -1,0 +1,116 @@
+id: measuring-atmospheric-carbon-dioxide-from-space-support-climate-related-studies
+title: Measuring Atmospheric Carbon Dioxide from Space in Support of Climate Related Studies
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/measuring-atmospheric-carbon-dioxide-from-space-support-climate-related-studies
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2022-05-24'
+end_date: '2022-06-02'
+published: '2022-05-24'
+last_updated: '2026-06-17'
+summary: This ARSET training provides an overview of atmospheric carbon dioxide measurements from space
+  with the OCO-2 and OCO-3 satellite missions.
+description: 'Carbon dioxide (CO 2) monitoring from space is becoming an increasingly important and relevant
+  capability in support of climate studies and to inform policy decisions. This training provides an overview
+  of atmospheric carbon dioxide measurements from space with the Orbiting Carbon Observatory-2 (OCO-2)
+  and Orbiting Carbon Observatory-3 (OCO-3) satellite missions.
+
+
+  The session includes a theoretical portion that describes the instrument, how the measurement is made,
+  and the characteristics, limitations, and validation of the measurements. There is a discussion of the
+  type of climate studies that such measurements can support. There also is a practical session where
+  participants learn how to access, search, filter, and display XCO 2 data using Jupyter Notebook.'
+objectives:
+- Understand the characteristics and limitations of XCO 2 measurements from space
+- Understand the type of climate studies that these measurements can support
+- Be able to open and visualize XCO 2 data from OCO-2
+audience:
+- This webinar series is intended for local, regional, federal, and non-governmental organizations from
+  climate agencies to use CO 2 remote sensing data in climate studies.
+prerequisites:
+- fundamentals-remote-sensing-0
+applications:
+- climate-resilience
+- health-air-quality
+satellites:
+- oco-2
+tools:
+- jupyter
+instructors:
+- karen-yuen
+- abhishek-chatterjee
+- john-lin
+sessions:
+- part: 1
+  title: An Introduction to XCO 2 with OCO-2 and OCO-3
+  agenda:
+  - Background of the XCO 2 measurement and how it is measured
+  - Description of the OCO-2/OCO-3 sensors
+  - Characteristics, limitations and validation of the measurement
+  - Q&A
+  videos:
+  - youtube: 2551aFGyleY
+    title: 'NASA ARSET: An Introduction to XCO2 with OCO-2 and OCO-3, Part 1/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-XCO22022-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-XCO22022-part1-qa.pdf
+- part: 2
+  title: A Demonstration on How to Access and Visualize OCO-2/OCO-3 Data
+  agenda:
+  - Use of Jupyter Notebook to access, search, filter and display XCO 2 data
+  - Q&A
+  videos:
+  - youtube: 2ZILcjYB9Fk
+    title: 'NASA ARSET: A Demonstration on how to Access and Visualize OCO-2/OCO-3 Data, Part 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-XCO22022-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-XCO22022-part2-qa.pdf
+- part: 3
+  title: XCO 2 in Support of Global and Regional Climate Related Studies
+  agenda:
+  - Global and regional carbon flux estimation, and carbon cycle response to climate variability and changes
+    in anthropogenic emissions
+  - Q&A
+  videos:
+  - youtube: -uxGCX8l1gI
+    title: 'NASA ARSET: XCO2 in Support of Global and Regional Climate Related Studies, Part 3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-XCO22022-part3-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-XCO22022-part3-qa.pdf
+- part: 4
+  title: XCO 2 in Support of Local and Regional Climate Related Studies
+  agenda:
+  - Climate impacts from localized emissions, air quality, and urban density
+  - Q&A
+  videos:
+  - youtube: WjPq6gGI9Ig
+    title: 'NASA ARSET: XCO2 in Support of Local and Regional Climate Related Studies, Part 4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-XCO22022-part4-slides.pdf
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-XCO22022-part4-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/arset-xco22022-homework.pdf

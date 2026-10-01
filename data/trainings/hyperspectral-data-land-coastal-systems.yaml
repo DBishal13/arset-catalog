@@ -36,9 +36,19 @@ objectives:
   management, wildfire impacts, forest decline, and pest infestation;
 - Illustrate uses of hyperspectral data for coastal and ocean applications, such as coral reef assessments,
   mapping submerged aquatic vegetation, and identifying marine debris.
+audience:
+- Governmental and non-governmental organizations involved in invasive species management, forest monitoring,
+  coastal and ocean processes, and innovative remote sensing techniques.
 prerequisites:
 - fundamentals-remote-sensing
 applications:
 - agriculture
 - ecological-conservation
 - wildland-fires
+videos:
+- youtube: L4sGAgQB0a4
+  title: 'NASA ARSET: Hyperspectral Data for Coastal and Ocean Systems, Part 3/3'
+- youtube: x7l6n7njVPo
+  title: 'NASA ARSET: Hyperspectral Data for Land Management, Part 2/3'
+- youtube: FjKVptgr3uU
+  title: NASA ARSET: Overview of Hyperspectral Data,  Part 1/3

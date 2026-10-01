@@ -1,0 +1,78 @@
+id: application-earth-observations-assessing-waterborne-disease-risk
+title: The Application of Earth Observations for Assessing Waterborne Disease Risk
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/application-earth-observations-assessing-waterborne-disease-risk
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2025-03-25'
+end_date: '2025-03-27'
+published: '2025-03-25'
+last_updated: '2026-07-07'
+summary: This ARSET training describes remote sensing observations useful as water quality indicators
+  of waterborne diseases.
+description: 'Waterborne diseases such as cholera, diarrhea, hepatitis A, typhoid, and polio are caused
+  by contaminated drinking water and poor sanitation (World Health Organization). Inadequate management
+  of urban, industrial, and agricultural wastewater worsens water quality in water bodies, introducing
+  chemicals and exacerbating growth of pathogens in water. Every year, waterborne diseases are responsible
+  for approximately one million deaths, the majority of which are children under the age of five.
+
+
+  For improved availability of safe drinking water, it is necessary to monitor and manage watershed processes
+  (e.g., rainfall, land use, runoff) and water quality in coastal regions, streams, and lakes for harmful
+  pathogens and sediments. Globally available satellite observations have been found useful for monitoring
+  temperature, sediments, and phytoplankton in water bodies as indicators of waterborne diseases. Also,
+  flooding and pathways for waterborne diseases are studied using satellite observations. Satellite data
+  are also used in disease (e.g., cholera) prediction models.
+
+
+  This two-part training focuses on describing and accessing remote sensing observations useful as water
+  quality indicators of waterborne diseases, and presents case studies where remote sensing data are used
+  to assess the likelihood of cholera outbreaks.'
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- agriculture
+- disasters
+- ecological-conservation
+sessions:
+- part: 1
+  title: Overview of Monitoring Waterborne Diseases using Remote Sensing Observations
+  agenda:
+  - Overview of Waterborne Diseases
+  - Open-Source Satellites and Sensors
+  - 'Demonstration: Data Access'
+  videos:
+  - youtube: _LXgg2yzYH8
+    title: 'NASA ARSET: Overview of Monitoring Waterborne Diseases using Remote Sensing Observations,
+      Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-waterborne-part1-slides.pdf?VersionId=nvqwKeqDpP8BfLudu05VEWA7QdgW2pR5
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-waterborne-part1-qa.pdf?VersionId=rTIqkx.Ue1cYL83uGy49vzsh3bauF9yG
+- part: 2
+  title: Using Remote Sensing-based Cholera Predictive Intelligence for Intervention and Mitigation
+  agenda:
+  - Utility of Satellite Data in Waterborne Disease Prediction Models
+  - Example of a Disease Prediction Model for Cholera
+  - 'Demonstration: Assessing Risk and Decision Making for Diseases'
+  videos:
+  - youtube: VdukOyMswzI
+    title: 'NASA ARSET: Part 2: Remote Sensing-based Cholera Predictive Intelligence for Intervention,
+      Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-waterborne-part2-slides.pdf?VersionId=.djHlb0cB__ioQ4X.MRcB1lw7pKHvp7I
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-waterborne-part2-qa.pdf?VersionId=9N0zfhATKsAPUg6lWZF6IOL5idzPldQt
+  - type: homework
+    title: Homework (Due April 10, 2025)
+    url: https://docs.google.com/forms/d/e/1FAIpQLSeWrOc8RZ-Y_yQ8S0CARYsQR-vQ6S-L5kL8Qtc_GizplSt4HA/viewform?usp=sharing

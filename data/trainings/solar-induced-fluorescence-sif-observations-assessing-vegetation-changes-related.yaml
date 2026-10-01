@@ -1,0 +1,139 @@
+id: solar-induced-fluorescence-sif-observations-assessing-vegetation-changes-related
+title: Solar Induced Fluorescence (SIF) Observations for Assessing Vegetation Changes Related to Floods,
+  Drought, and Fire Impacts
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/solar-induced-fluorescence-sif-observations-assessing-vegetation-changes-related
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2025-10-15'
+end_date: '2025-10-29'
+published: '2025-10-15'
+last_updated: '2026-06-03'
+summary: This ARSET training discusses the use of a remote sensing measure of photosynthesis to study
+  the impact of extreme weather on cropland and ecosystems.
+description: 'Solar-induced chlorophyll fluorescence (SIF) provides a unique remote sensing approach for
+  measuring photosynthetic activity, offering real-time insights into vegetation stress and productivity
+  that surpass traditional indices (e.g. Normalized Difference Vegetation Index (NDVI)) in sensitivity
+  and accuracy. This intermediate training builds on a previous Applied Remote Sensing Training Program
+  (ARSET) training that introduces the SIF measurement and covers several case studies of the impact of
+  floods and droughts on agricultural systems and the impacts of fire on forested ecosystems.
+
+
+  Participants will learn fundamental principles of SIF remote sensing and its practical applications
+  for monitoring vegetation dynamics across cropland and natural systems. The course demonstrates how
+  SIF data can track crop phenological cycles, assess agricultural drought impacts, evaluate wildfire
+  damage and recovery patterns, and quantify relationships between SIF observations and Gross Primary
+  Production (GPP). Participants will gain hands-on experience analyzing SIF datasets from NASA platforms
+  including the Orbiting Carbon Observatory-2 (OCO-2) and Orbiting Carbon Observatory-3 (OCO-3), as well
+  as using gap-filled data products derived using machine learning techniques.'
+objectives:
+- Recognize how the Solar Induced Fluorescence (SIF) is measured and used as a complementary measurement
+  to commonly used indices (NDVI) for land and vegetation applications.
+- Identify advantages and limitations of using space-based SIF measurements to monitor and evaluate vegetation
+  health and condition.
+- Run a given Jupyter Notebook to generate a Snapshot Area Map (SAM) plot from OCO-3 data for selected
+  regions of interest to analyze and evaluate vegetation and land change due to fire impacts.
+- Run a given Jupyter Notebook using GoSIF data for selected regions of interest to produce visualizations
+  to analyze and interpret episodic land change due to droughts and floods.
+- Compare how SIF products aggregated in space and time using open source tools are used to study vegetation
+  change across different regions in a variety of science and applied use cases.
+audience:
+- Researchers, analysts, and end users who are interested in learning how to use SIF to study vegetative
+  change for agriculture, land management, pre-fire conditions, and droughts.
+- Students and academics who are interested in assessing vegetative change with satellite data and understanding
+  SIF.
+prerequisites:
+- fundamentals-remote-sensing
+- use-solar-induced-fluorescence-lidar-assess-vegetation-change-vulnerability
+applications:
+- agriculture
+- disasters
+- drought
+- ecological-conservation
+- wildland-fires
+satellites:
+- oco-2
+datasets:
+- modis-vegetation-indices
+- oco-2-sif-lite
+tools:
+- jupyter
+instructors:
+- nick-parazoo
+- jacqueline-ryan
+- erika-podest
+- junjie-liu
+- karen-yuen
+- jaqueline-ryan
+sessions:
+- part: 1
+  title: Solar Induced Chlorophyll Fluorescence (SIF) Measurements from Space
+  date: '2025-10-15'
+  agenda:
+  - About ARSET
+  - Training Overview
+  - Part 1 introduction
+  - SIF Overview and SIF from Space
+  - Setting up your environment to work on SIF data sets
+  - Retrieving and spatially gridding SIF data
+  - Part 1 Summary
+  - Q&A session
+  videos:
+  - youtube: 6_XKD3wrJ1g
+    title: 'NASA ARSET: Solar Induced Chlorophyll Fluorescence (SIF) Measurements from Space Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-SIF2025-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-SIF2025-part1-qa.pdf?VersionId=ySC.bIQ6OcnkgeJYCPlyZaXZOPjTadDY
+- part: 2
+  title: Overview of OCO-2 and OCO-3 Observing Modes and SIF Observations
+  date: '2025-10-22'
+  agenda:
+  - Part 2 introduction
+  - SIF measurements in science and applications
+  - OCO-3 Snapshot Area Map (SAM) mode
+  - Comparison with flux tower data
+  - 'Case study: fire conditions and SIF in Oregon, 2020'
+  - Part 2 Summary
+  - Q&A session
+  videos:
+  - youtube: ygdK8uMxi8A
+    title: 'NASA ARSET: Overview of OCO-2 and OCO-3 Observing Modes and SIF Observations Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET_SIF2025_Part2_slides.pdf?VersionId=DlAzfAmpS.2oFp66a0b6qbm1eQiXwAoL
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-SIF2025-part2-qa.pdf?VersionId=hlTqfs7R0nRNQsZrDZhm11uvwNVgaHJc
+- part: 3
+  title: Working with Gap-Filled SIF Products
+  date: '2025-10-29'
+  agenda:
+  - Part 3 Introduction
+  - Use of gap-filled SIF data products
+  - 'Case study: 2019 Midwestern US floods and impacts to agriculture'
+  - Part 3 & Overall Training Summary
+  - Q&A session
+  videos:
+  - youtube: PU1PaHliBK8
+    title: 'NASA ARSET: Working with Gap-Filled SIF Products Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-SIF2025-part3-slides.pdf?VersionId=ZBHNIUjlaTA8TBLG6uUs0xLwFbSJz36W
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-SIF2025-part3-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/ARSET-SIF2025-homeworkPDF.pdf

@@ -1,0 +1,118 @@
+id: nasa-satellite-laser-altimetry-coastal-near-shore-bathymetry
+title: NASA Satellite Laser Altimetry for Coastal and Near-Shore Bathymetry
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/nasa-satellite-laser-altimetry-coastal-near-shore-bathymetry
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2025-12-02'
+end_date: '2025-12-04'
+published: '2025-11-14'
+last_updated: '2026-02-10'
+summary: This ARSET training covers NASA data providing near global coverage of coastal and near-shore
+  satellite-derived bathymetry (SDB) measurements.
+description: This two-part training focused on NASA data providing near global coverage of coastal and
+  near-shore satellite-derived bathymetry (SDB) measurements from the Advanced Topographic Laser Altimeter
+  System (ATLAS) instrument — a space-based lidar instrument flying on the Ice, Cloud, and land Elevation
+  Satellite 2 (ICESat-2) platform. ATLAS’s green wavelength, photon-counting lidar signal can reach depths
+  of up to 40 meters in regions with adequate water clarity to provide shallow, near-shore bathymetric
+  data for a range of applications, including coastal and marine science management, nearshore habitat
+  research, marine navigation, and engineering applications. The ATL24 product provides near global along-track
+  coastal and nearshore SDB, consisting of refraction-corrected seafloor and sea surface heights, as well
+  as associated uncertainties. This Applied Remote Sensing Training Program (ARSET) training improved
+  users' knowledge of ICESat-2, the ATL24 product, and how to access, plot, and analyze ICESat-2 bathymetry
+  data.
+objectives:
+- Identify NASA bathymetry data used for global coastal and near-shore bathymetry mapping for risk reduction
+  relating to shipping and navigation.
+- Identify the applications and limitations of ICESat-2 bathymetry data (ATL24) for coastal and near-shore
+  bathymetry mapping.
+- Plot and download ICESat-2 bathymetry data (ATL24) using SlideRule Web Client.
+- Analyze ICESat-2 bathymetry data (ATL24) using SlideRule Python Client.
+audience:
+- Remote sensing scientists and geospatial analysts public (local, regional, and federal), private industry,
+  and international institutions who use satellite altimetry for bathymetric applications pertaining to
+  risk reduction in coastal and near-shore waters.
+- Academics and researchers interested in satellite-derived bathymetry.
+prerequisites:
+- fundamentals-remote-sensing
+- mapping-monitoring-lakes-reservoirs-satellite-observations
+applications:
+- ecological-conservation
+- water-resources
+satellites:
+- icesat-2
+tools:
+- python
+- qgis
+sessions:
+- part: 1
+  title: NASA ATL24 Bathymetric Data for Coastal and Near-Shore Applications
+  date: '2025-12-02'
+  agenda:
+  - ICESat-2 mission overview
+  - ICESat-2 data products
+  - Operational coastal and nearshore bathymetry product
+  - National Snow and Ice Data Center (NSIDC) – Resources and data access
+  - SlideRule Web Service for plotting and downloading ATL24 data
+  - Summary and Q&A
+  videos:
+  - youtube: FoOSm5VQ0lc
+    title: 'NASA ARSET: NASA ATL24 Bathymetric Data for Coastal and Near-Shore Applications Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-2025-IceSat2-part1-slides.pdf?VersionId=6T7IrUaJ6IL0d4LYsraCN7jDbNAEidyq
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-02/ICESat2%20Q&A%20Part%201.pdf
+- part: 2
+  title: Techniques for Plotting and Analyzing ATL24 Coastal Bathymetry
+  date: '2025-12-04'
+  agenda:
+  - Review of Part 1
+  - 'Demonstration: SlideRule Web Client & QGIS'
+  - Generate SDB from multispectral satellite imagery and ATL24
+  - 'Demonstration: SlideRule Python Client'
+  - NOAA’s SatBathy tool and integration of NASA’s ATL24
+  - Summary and Q&A
+  videos:
+  - youtube: vLcK5-QnlOY
+    title: 'NASA ARSET: Techniques for Plotting and Analyzing ATL24 Coastal Bathymetry Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-2025-IceSat2-part2-slides.pdf?VersionId=lQ90C94ON6jph3OxcsHoMW8bQR30Hj9n
+  - type: data
+    title: 'Part 2 Demo: Shapefile'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Hyannis_AOI_Shapefile.zip?VersionId=JrGb_FkUekGZO2Oz2nRA98oVAtztH3tF
+  - type: data
+    title: 'Part 2 Demo: Python Script'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Python_Script.zip?VersionId=v_ZNJ9YXuiJAilyAwpcjbWsdyRRamX1i
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-02/ICESat2%20Q&A%20Part%202.pdf
+  - type: other
+    title: EU Copernicus account
+    url: https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdataspace.copernicus.eu%2F&data=05%7C02%7Cmaria.c.marabito%40nasa.gov%7C4d03ab07be9e4f6fa58708de2cf4ea6e%7C7005d45845be48ae8140d43da96dd17b%7C0%7C0%7C638997627580454668%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=S8qQMC6%2BS1G9Lwa8%2BJg3RYvBcBuDocHnqMq6pWkUs2U%3D&reserved=0
+  - type: other
+    title: QGIS software
+    url: https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fqgis.org%2F&data=05%7C02%7Cmaria.c.marabito%40nasa.gov%7C4d03ab07be9e4f6fa58708de2cf4ea6e%7C7005d45845be48ae8140d43da96dd17b%7C0%7C0%7C638997627580470506%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=oSwgYcCFdVDbpDLVb51souV6XJGOTsj0TDai9tfyFnc%3D&reserved=0
+  - type: other
+    title: Install QGIS
+    url: https://arset.unhosting.site/course/view.php?id=29
+  - type: other
+    title: Copernicus browser
+    url: https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fbrowser.dataspace.copernicus.eu%2F%3Fzoom%3D5%26lat%3D50.16282%26lng%3D20.78613%26themeId%3DDEFAULT-THEME%26visualizationUrl%3DU2FsdGVkX1%252BT1hgS0FaK929VFs60Z5CwKsE%252FNzq28oXWKrrtTb3HKxPcymRWJZRIM0cMEEGniPqbk%252FwgeXTIr51dXxZoH3LkGeujJcIhcIV6rWNTQGppavoj2MaaRbkk%26datasetId%3DS2_L2A_CDAS%26demSource3D%3D%2522MAPZEN%2522%26cl&data=05%7C02%7Cmaria.c.marabito%40nasa.gov%7C4d03ab07be9e4f6fa58708de2cf4ea6e%7C7005d45845be48ae8140d43da96dd17b%7C0%7C0%7C638997627580485934%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=%2B7wujMRfTHGmMG6Ow7bbqBPDk73mRMim5A%2BOyCi%2FaIw%3D&reserved=0
+  - type: slides
+    title: SlideRule Web Client
+    url: https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fclient.slideruleearth.io%2F&data=05%7C02%7Cmaria.c.marabito%40nasa.gov%7C4d03ab07be9e4f6fa58708de2cf4ea6e%7C7005d45845be48ae8140d43da96dd17b%7C0%7C0%7C638997627580501831%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=dol5l%2Ff93qGd8S8yE6ELZufs%2BDlmFzANw15p4DT8XCs%3D&reserved=0
+  - type: other
+    title: NOAA WMTS ENC
+    url: https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgis.charttools.noaa.gov%2Farcgis%2Frest%2Fservices%2FMarineChart_Services%2FNOAACharts%2FMapServer%2FWMTS&data=05%7C02%7Cmaria.c.marabito%40nasa.gov%7C4d03ab07be9e4f6fa58708de2cf4ea6e%7C7005d45845be48ae8140d43da96dd17b%7C0%7C0%7C638997627580517224%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=2sVa0Y4eZMt36%2Flq0kQu35ULl4gV0L%2F4ba0kWRC%2Bs7o%3D&reserved=0
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLScmQPgG2xdIv9bBqsgGrcNTSM5DTNvf-foHeVTq24jN6KerIw/viewform?usp=header

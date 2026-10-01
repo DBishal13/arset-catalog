@@ -1,0 +1,105 @@
+id: monitoring-urban-floods-using-remote-sensing
+title: Monitoring Urban Floods Using Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-urban-floods-using-remote-sensing
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2018-07-25'
+end_date: '2018-08-01'
+published: '2018-07-25'
+last_updated: '2026-07-29'
+summary: This ARSET training focuses on areas of urban flooding that satellite data can track, including
+  extreme precipitation and waterlogged and ponded surfaces.
+description: 'According to the United Nations Development Program, by 2050 two-thirds of the world’s population
+  is likely to live in cities. Urban flooding is already a major risk for cities. Increasing impervious
+  surface area, inadequate storm water drainage, and aging infrastructure all contribute to urban flooding.
+  As a result, growing urban populations will face a greater risk of flooding from extreme weather events.
+
+
+  This training series hosted by NASA''s Applied Remote Sensing Training program (ARSET) focuses on the
+  components of urban flooding that satellite data can track:
+
+
+  Using satellite data allows individuals and organizations to develop better plans for handling floods.
+  This can include developing better early warning techniques, better plans for rescue and relief, and
+  more effective long-term infrastructure planning.'
+objectives:
+- Describe remote sensing and Earth system model data useful for flood monitoring in urban areas
+- Identify how remote sensing can aid in planning early warning systems, flood response, and flood recovery
+  efforts
+audience:
+- This training is primarily intended for urban water and disaster managers, urban planners, emergency
+  responders, transportation and utility providers and planners, public health professionals, and the
+  insurance sector.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+- water-resources
+satellites:
+- aqua
+- terra
+sessions:
+- part: 1
+  title: Overview of Urban Flooding
+  date: '2018-07-25'
+  videos:
+  - youtube: fzf_usG5dfE
+    title: 'NASA ARSET: Overview of Urban Flooding, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_UrbanFloods2018_part1_slides.pdf?VersionId=GhxFIVRGnh8_QvH9063NbbPqekmbZ1kS
+  - type: exercise
+    title: Part 1 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_UrbanFloods2018_part1_exercise.pdf?VersionId=B6ghjH.bmBvIFGIDHzZQMquXnViYBxNS
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_UrbanFloods2018_part1_qa.pdf?VersionId=9c0YgHgQWHe56vdZvoDAVc3mdBg42z15
+  - type: homework
+    title: Part 1 Homework
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_UrbanFloods2018_part1_homework.pdf?VersionId=iYy8vNjpow26XTO170jQaiWFn9q.RBBD
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_UrbanFloods2018_part1_slides_esp.pdf?VersionId=LZeQwUll0sJ7zaIBlE0PSqyB2MVGnW8X
+  - type: exercise
+    title: Ejercicio de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_UrbanFloods2018_part1_exercise_esp.pdf?VersionId=jyu5p9QQB3BwWy9ie4T2Kf6_cU6q3Fnj
+  - type: homework
+    title: Tarea de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_UrbanFloods2018_part1_homework_esp.pdf?VersionId=_CM9cVC0EGRsulCda1yMyIwa8Ij39Z7A
+- part: 2
+  title: Satellite Data for Monitoring Urban Flooding
+  date: '2018-08-01'
+  videos:
+  - youtube: jzZ_5bS4FWY
+    title: 'NASA ARSET: Satellite Data for Monitoring Urban Flooding, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: synthetic aperture radar
+    url: https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar
+  - type: other
+    title: SRTM
+    url: https://www.earthdata.nasa.gov/data/instruments/srtm
+  - type: other
+    title: MODIS
+    url: https://www.earthdata.nasa.gov/data/instruments/modis
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_UrbanFloods2018_part2_slides.pdf?VersionId=vCUpVEjm89Ij3FEDVdbn3F4wRyV0758w
+  - type: data
+    title: Part 2 Demo GIS Tiffs
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-UrbanFloods2018-part2-demo.zip
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_UrbanFloods2018_part2_qa.pdf?VersionId=Ks0H.f0BhHhI7_ylnn6.2pjnWhuvjTEB
+  - type: homework
+    title: Part 2 Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/arset-urbanfloods2018-part2-homework.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_UrbanFloods2018_part2_slides_esp.pdf?VersionId=bBLmmjQOvbof6p.BIFtsmw_8wQfHQNJf

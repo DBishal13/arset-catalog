@@ -1,0 +1,68 @@
+id: overview-global-disaster-alert-coordination-system-gdacs
+title: Overview of the Global Disaster Alert and Coordination System (GDACS)
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/overview-global-disaster-alert-coordination-system-gdacs
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2017-02-21'
+end_date: '2017-02-21'
+published: '2017-02-21'
+last_updated: '2026-08-12'
+summary: This ARSET training teaches how to use the GDACS to monitor disasters, assess impacts, and develop
+  response strategies.
+description: 'Up-to-date and accessible information is essential to providing an effective, coordinated
+  response to disasters, such as earthquakes, floods, and tropical storms. The Global Disaster Alert and
+  Coordination System (GDACS) provides near real-time data, alerts, and impact assessments that can be
+  accessed online. The interactive website integrates coordination tools with maps and satellite imagery
+  relevant to an event, including NASA satellite imagery and Moderate Resolution Imaging Spectroradiometer
+  (MODIS)-based flood mapping from the Dartmouth Flood Observatory.
+
+
+  In this two-hour training, participants learned how to use GDACS to monitor real-time disasters, assess
+  the impacts of an event, and develop response strategies for both national and international events.
+  The training led by NASA''s Applied Remote Sensing Training program (ARSET) included a presentation,
+  followed by a demonstration of GDACS features and a case study with step-by-step instructions for obtaining
+  satellite images, alerts, and crisis management information using GDACS.'
+objectives:
+- Monitor real-time disasters using satellite images and maps
+- Use geographic information system (GIS)-based and in situ information to inform impact assessments and
+  response strategies
+audience:
+- This training is for disaster managers, emergency and relief organizations, and nongovernmental organizations
+  operating on local to international levels. Professional organizations in the public and private sectors
+  engaged in disaster management and relief will be given preference over organizations focused primarily
+  on research.
+applications:
+- disasters
+satellites:
+- aqua
+- terra
+sessions:
+- part: 1
+  title: The Global Disaster Alert and Coordination System
+  date: '2017-02-21'
+  videos:
+  - youtube: E9CiSZKZxC8
+    title: 'NASA ARSET: The Global Disaster Alert and Coordination System (GDACS), Part 1/1'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-GDACS2017-part1-slides.pdf?VersionId=2c_wgWqFQQoXMFesQVkd69z2M6XldQ3w
+  - type: slides
+    title: 'Part 1 Guest Presentation Slides: Luca Dell''Oro'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-GDACS2017-part1-slides-guest.pdf?VersionId=goQTGADHVCU26eAJeXydYpyZ7Ruur8dH
+  - type: homework
+    title: ​Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-08/ARSET-GDACS2017-HomeworkPDF.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-GDACS2017-part1-slides-esp.pdf?VersionId=y7dbSqbmNhYMdQbDFa0ZE96Z_mbNTDZ7
+  - type: slides
+    title: 'Diapositivas de la presentación del invitado de la Parte 1: Luca Dell''Oro'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-GDACS2017-part1-slides-guest-esp.pdf?VersionId=R_2MAN4l6cO6Cu7FCMZ1GwLnAwOeiBET
+  - type: other
+    title: Tarea
+    url: http://goo.gl/forms/hOKImq8lm1XkYmbf2

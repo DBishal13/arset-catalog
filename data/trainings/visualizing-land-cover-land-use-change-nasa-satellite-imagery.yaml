@@ -1,0 +1,104 @@
+id: visualizing-land-cover-land-use-change-nasa-satellite-imagery
+title: Visualizing Land Cover and Land Use Change with NASA Satellite Imagery
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/visualizing-land-cover-land-use-change-nasa-satellite-imagery
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2026-02-24'
+end_date: '2026-02-26'
+published: '2025-12-18'
+last_updated: '2026-06-03'
+summary: This ARSET training explores how the R statistical coding language can be used to classify land
+  cover and quantify changes in land cover over time.
+description: 'Land cover and land use change (LCLUC) describes the many ways our world changes around
+  us. Every new building, each vacant lot, and the expansion and retreat of forests or wetlands are all
+  examples of LCLUC. These changes may be slow or sudden, but understanding the ways in which our landscape
+  is changing gives us the opportunity to better anticipate and avoid problems that may arise.
+
+
+  This training, led by NASA''s Applied Remote Sensing Training program (ARSET), covers some of the ways
+  that we can use NASA data to determine what is happening on the ground and how that changes over time.
+  Participants will see examples of supervised and unsupervised classification models implemented in the
+  R statistical coding language, and improve their understanding of how these models can be used to produce
+  maps and metrics of LCLUC.'
+objectives:
+- Access NASA Earth observation data (e.g., Harmonized Landsat and Sentinel-2 (HLS)) relevant to LCLUC
+  mapping.
+- Convert NASA Earth observation data into distinct land cover and land use (LCLU) classes using supervised
+  and unsupervised machine learning classification methods in the R programming language.
+- Recognize the role of classification methods as one part of a change monitoring strategy.
+- Compute a change matrix representing the change in LCLU between two dates.
+- Create a map in RStudio visualizing the differences in LCLU between two dates.
+audience:
+- Professionals interested in coding to quantify land cover change as it relates to phenomena such as
+  forest composition change, deforestation, urban expansion, habitat loss, and hydro/cryosphere changes.
+- Other scientists or analysts interested in leveraging automated tools for decision support around land
+  use management, natural resource management, or other issues that have an impact on how our world is
+  structured across space and time.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+satellites:
+- landsat-8
+- landsat-9
+- sentinel-2
+datasets:
+- hls
+tools:
+- earthdata-search
+- r
+sessions:
+- part: 1
+  title: Classification Methods for Land Cover
+  date: '2026-02-24'
+  agenda:
+  - Why LCLU Matters
+  - Drivers of LCLU Change
+  - LCLUC Examples
+  - Spectral Profiles and Training Data
+  - Supervised and Unsupervised Classification
+  - Overview of Selected Classification Methods
+  - Accessing HLS Imagery with Earthdata Search
+  - Building a K-Means Clustering Model
+  - Interpreting Model Results
+  - Building a K-Nearest Neighbor Model
+  - Interpreting Model Results
+  videos:
+  - youtube: aOBk75nE8b4
+    title: 'NASA ARSET: Classification Methods for Land Cover Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-02/ARSET-LCLUC2026-Part1_Final.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-02/Part%201%20LCLUC%20Q&A%20Session%20.docx.pdf
+- part: 2
+  title: Visualizing Land Cover Change
+  date: '2026-02-26'
+  agenda:
+  - Review of Selected Classification Methods
+  - How Random Forest Models Work
+  - Building a Random Forest Model
+  - Interpreting Model Results
+  - Applying Models Across Dates
+  - Creating a Change Matrix
+  - Mapping Changes in LCLU
+  videos:
+  - youtube: 2in7i2qiIpw
+    title: 'NASA ARSET: Visualizing Land Cover Change Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-02/ARSET-LCLUC2026-Part2_Final.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-03/Part%202%20LCLUC%20Q&A%20Session%20.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/ARSET-LCLUC2026-HomeworkPDF.pdf

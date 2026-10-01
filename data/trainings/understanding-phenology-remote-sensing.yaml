@@ -1,0 +1,119 @@
+id: understanding-phenology-remote-sensing
+title: Understanding Phenology With Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/understanding-phenology-remote-sensing
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2020-06-30'
+end_date: '2020-07-14'
+published: '2020-06-30'
+last_updated: '2026-02-17'
+summary: This ARSET training focuses on the use of remote sensing to understand global phenology.
+description: 'This training, led by NASA''s Applied Remote Sensing Training (ARSET) program, focuses on
+  the use of remote sensing to understand phenology, which is the study of life-cycle events. Phenological
+  patterns and processes can vary greatly across a range of spatial and temporal scales, and can provide
+  insights about ecological processes like invasive species encroachment, drought, wildlife habitat, and
+  wildfire potential.
+
+
+  This training highlights NASA-funded tools to observe and study phenology across a range of scales.
+  Participants are exposed to the latest in phenological observatory networks and science, and how these
+  observations relate to ecosystem services, the carbon cycle, biodiversity, and conservation.'
+objectives:
+- Summarize NASA satellites and sensors that can be used for monitoring global phenology patterns
+- Outline the benefits and limitations of NASA data for phenology
+- Describe the multi-scalar approach to vegetation life cycle analyses
+- Compare and contrast data from multiple phenology networks
+- Evaluate various projects and case-study examples of phenological data.
+audience:
+- This training is designed for individuals and organizations interested in using satellite imagery for
+  mapping vegetation health and seasonal patterns. Professional organizations in the public and private
+  sectors engaged in environmental management and monitoring will be given preference over organizations
+  focused primarily on research.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- drought
+- ecological-conservation
+- wildland-fires
+satellites:
+- aqua
+- noaa-20
+- suomi-npp
+- terra
+sessions:
+- part: 1
+  title: Overview of Phenology and Remote Sensing
+  agenda:
+  - An introduction to NASA data and phenology
+  videos:
+  - youtube: 2-c0tIZCOj4
+    title: 'NASA ARSET: Overview of Phenology and Remote Sensing, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: MODIS
+    url: https://www.earthdata.nasa.gov/data/instruments/modis
+  - type: other
+    title: VIIRS
+    url: https://www.earthdata.nasa.gov/data/instruments/viirs
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Phenology_Part1.pdf?VersionId=LruNZOLpkQpBbMQT_SUUFYxmzhJOV4HR
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Q&A%20Doc%20Session%201.pdf?VersionId=bRyS0rQzXAyjSqii70eJqN6pyWLZQldy
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Phenology_Session1_Span_Final.pdf?VersionId=RKnpT5WXLnXIsANMBiquQ1ydw_i9GtmN
+- part: 2
+  title: Scales of Phenology
+  agenda:
+  - Resolving challenges associated with variability in space, time, and resolution for phenology research
+    and applications
+  - USA-National Phenology Network (NPN) and The National Ecological Observatory Network (NEON)
+  - 'Phenocam: Near-surface phenology'
+  - Conservation Science Partners
+  videos:
+  - youtube: 0B_Zp9z-grw
+    title: 'NASA ARSET: Scales of Phenology, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Phenology_Session2_Final.pdf?VersionId=6SINu5d0nC8A6TNwRMxQ2bO0qoN6sEUA
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Q&A%20Doc%20Session%202.pdf?VersionId=oaDKJQTiEiReO2sUVWVB39hrzpDF86v.
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Phenology_Session2_Span_Final.pdf?VersionId=kTF.Fj2p0iQtO0apTMK62E.qI_RiiR_a
+- part: 3
+  title: Utility and Advantage of Multi-Scale Analysis
+  agenda:
+  - Field based phenology and gridded products
+  - Integration of PhenoCam near-surface remote sensing and satellite phenological data
+  - Greenwave modeling
+  - Urbanization and plant phenology
+  videos:
+  - youtube: 3WuW69A2uDc
+    title: 'NASA ARSET: Utility and Advantage of Multi-Scale Analysis, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Phenology_Session3_Final.pdf?VersionId=Hk1rZJ9z.9o15PLRg31PLG4N_N3eHWBq
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Q&ADocSession3.pdf?VersionId=1bhF93wQaW8H4hKDJZ5VRcvk2QMUdzHV
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdYhrSpERfAkV58pEVLg6UzJPVAhI9ICIs2t1xFWD6iz_eEtw/viewform?usp=sf_link
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Phenology_Session3_Span_Final.pdf?VersionId=XoQu1VOy9ed8s0DFt_3FdS8G2.85_7Q2
+  - type: other
+    title: Tarea
+    url: https://docs.google.com/forms/d/e/1FAIpQLScSVuSaUrmPneqgek0tT4Z56bjoBpCnPuOQ1TvJgvRU6e81BQ/viewform?usp=sf_link

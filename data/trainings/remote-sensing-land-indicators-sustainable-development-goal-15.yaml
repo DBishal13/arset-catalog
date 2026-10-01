@@ -1,0 +1,127 @@
+id: remote-sensing-land-indicators-sustainable-development-goal-15
+title: Remote Sensing of Land Indicators for Sustainable Development Goal 15
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/remote-sensing-land-indicators-sustainable-development-goal-15
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2017-06-20'
+end_date: '2017-06-22'
+published: '2017-06-20'
+last_updated: '2026-02-02'
+summary: This ARSET training covers how to access and apply satellite data relevant to land indicators,
+  such as estimating total forest area and forest change.
+description: 'The United Nations Sustainable Development Goals (SDGs) are a series of 17 goals set to
+  end global poverty and protect the planet, with the aim of achieving successes by 2030. The SDGs topics
+  include global health, climate change, economic inequality, sustainability, poverty, and more. This
+  training focuses on addressing SDG goal 15 and its focus to “protect, restore, and promote sustainable
+  use of terrestrial ecosystems; sustainably manage forests; combat desertification; halt and reverse
+  land degradation; and halt biodiversity loss.”
+
+
+  In this training hosted by NASA''s Applied Remote Sensing Training program (ARSET), participants learn
+  how to access and apply satellite data relevant to land indicators, such as estimating total forest
+  area and forest change. The webinar includes an overview of the SDGs, as well as an introduction to
+  image classification and change detection.'
+objectives:
+- Describe the UN Sustainable Development Goals, particularly Goal 15
+- Acquire satellite observations of land cover used to assess SDG indicators 15.1.1 and 15.3.1
+- Develop a basic understanding of image classification and change detection
+audience:
+- This training is for regional, state, federal, and international organizations interested in addressing
+  monitoring requirements for the SDGs through the use of remote sensing. Professional organizations in
+  the public and private sectors engaged in environmental management and monitoring will be given preference
+  over organizations focused primarily on research.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- ecological-conservation
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- noaa-20
+- suomi-npp
+- terra
+sessions:
+- part: 1
+  title: Overview of SDG 15
+  date: '2017-06-20'
+  agenda:
+  - Overview of SDG 15
+  - International Institute for Sustainable Development’s (IISD’s) SDG Knowledge Hub
+  - Group on Earth Observations (GEO) and the SDGs
+  - State of the world’s forests
+  - Introduction to the role of land-based remote sensing for targets and indicators
+  videos:
+  - youtube: RsVEv0PboPI
+    title: 'NASA ARSET: Overview of SDG 15, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Landsat
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/landsat-9
+  - type: other
+    title: MODIS
+    url: https://www.earthdata.nasa.gov/data/instruments/modis
+  - type: other
+    title: VIIRS
+    url: https://www.earthdata.nasa.gov/data/instruments/viirs
+  - type: other
+    title: Sentinel
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/SDG15_Part1.pdf?VersionId=_oqP9vBXYHM6jsob622O.JKKOcR5SLan
+  - type: other
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/SDG15_Part1_Spanish.pdf?VersionId=Zb3pWSVMFDnC8QaEz.MLdttIT.CXKBK_
+- part: 2
+  title: SDG Target 15.1
+  date: '2017-06-21'
+  agenda:
+  - Overview of Target 15.1 and Indicator 15.1.1
+  - Global Forest Watch (GFW)
+  - The Forest Land Use Data Explorer (FLUDE)
+  - European Space Agency Global Land Cover Map
+  - MODIS Landcover
+  - Overview of image classification
+  - 'Demo: Downloading MODIS data'
+  videos:
+  - youtube: bSEYGSGVugU
+    title: 'NASA ARSET: SDG Target 15.1, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/SDG15_Part2.pdf?VersionId=AOcZfY1I3TARoST3nEvNRqHFZZXXQx2m
+  - type: other
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/SDG15_Part2_Spanish.pdf?VersionId=Ql2IBiObjq_zxeHfyFcW.f3.g2E2GWd8
+- part: 3
+  title: SDG Target 15.3
+  date: '2017-06-22'
+  agenda:
+  - Overview of Target 15.3 and Indicator 15.3.1
+  - Introduction to United Nations Convention to Combat Desertification (UNCCD)
+  - Supervised land cover classification
+  - 'Demo: Global Forest Watch (GFW)'
+  videos:
+  - youtube: tkvwzdyV0xQ
+    title: 'NASA ARSET: SDG Target 15.3, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/SDG15_Part3.pdf?VersionId=RvLYzqCJ8b2SeuQKiPvzngTrDOSgLchH
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/a/nasa.gov/forms/d/e/1FAIpQLSdKef2hOpac0mPnrzI2IZgccla0UO88Kf4-Z1iaLHRQJfafDA/viewform
+  - type: other
+    title: Diapositivas de la Presentación de Parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/SDG15_Part3_Spanish.pdf?VersionId=PTvIax6bKCK2af1X7gz9Yb9OYZkO08mn
+  - type: other
+    title: Tarea
+    url: https://docs.google.com/a/nasa.gov/forms/d/e/1FAIpQLSfby4Wpq_RfQDBXoVYtLihYIgJByBISayASRZorQdrluhx0yA/viewform

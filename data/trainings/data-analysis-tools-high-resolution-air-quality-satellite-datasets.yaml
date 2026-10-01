@@ -1,0 +1,107 @@
+id: data-analysis-tools-high-resolution-air-quality-satellite-datasets
+title: Data Analysis Tools for High Resolution Air Quality Satellite Datasets
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/data-analysis-tools-high-resolution-air-quality-satellite-datasets
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2018-01-17'
+end_date: '2018-01-22'
+published: '2018-01-17'
+last_updated: '2026-02-06'
+summary: This ARSET training teaches how to use Python scripts to map and analyze air quality data through
+  hands-on exercises.
+description: High-resolution air quality data is helpful for monitoring urban air pollution. In this training
+  led by NASA's Applied Remote Sensing Training program (ARSET), participants learned how to use Python
+  scripts to map and analyze air quality data through hands-on exercises. The training covered Moderate
+  Resolution Imaging Spectroradiometer (MODIS) aerosol optical depth data and Ozone Monitoring Instrument
+  (OMI) NO2 and SO2 data.
+objectives:
+- Use available Python scripts to read, map, and analyze Level 2 data
+- Modify available scripts for future use
+audience:
+- This training is primarily intended for air quality professionals and decision makers from local, state,
+  and federal agencies, non-governmental organizations (NGOs), and the private sector. Governmental and
+  NGOs engaged in air quality monitoring will be given preference over organizations focused primarily
+  on research.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- health-air-quality
+satellites:
+- aqua
+- terra
+datasets:
+- modis-maiac-aod
+tools:
+- python
+sessions:
+- part: 1
+  title: Introduction to Datasets
+  date: '2018-01-17'
+  videos:
+  - youtube: wIXFw9W1M4E
+    title: 'NASA ARSET: Introduction to Datasets, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Part1.pdf?VersionId=P2QvR63sVkOenElyyNRfckQPI2QplS4L
+  - type: exercise
+    title: Part 1 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Exercise1.pdf?VersionId=g9B0yLrwEkQ1DD4VzNs284B7BjUtqlww
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Q&A1.pdf?VersionId=ePneGVjijeUD4.RmlJwTV69pm31ohQiE
+  - type: other
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Part1_Spanish.pdf?VersionId=Da9TwZiFxWNrX8jCZ.YmtBY3g6BvTqDT
+  - type: exercise
+    title: Ejercicio de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Exercise1_Spanish.pdf?VersionId=ckuWJH1H1rr1D9lW569rQBQtuuv0xvS.
+- part: 2
+  title: Read, Map, and Analyze Level 2 MODIS AOD Data
+  date: '2018-01-19'
+  videos:
+  - youtube: eYyWTuWthyY
+    title: 'NASA ARSET: Read, Map, and Analyze Level 2 MODIS AOD Data, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Part2.pdf?VersionId=8SDKF3bHlV8e5ighTGmb7LbT5V7iujcb
+  - type: data
+    title: Part 2 Data Download
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/week2_code_data.zip?VersionId=cJzGnrdD2lwsBvWiY.X5Qt_Q07x.MBJN
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Q&A2.pdf?VersionId=_7LIcFQm3teC2lV5Sr9_mIH8UpfWlIQX
+  - type: other
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Part2_Spanish.pdf?VersionId=g_H8L5huEZuShsLs1aaHsxzerY28sJn8
+- part: 3
+  title: Read, Map, and Analyze OMI NO2 and SO2 Data
+  videos:
+  - youtube: VZ0HBPPIo5A
+    title: 'NASA ARSET: Read, Map, and Analyze OMI NO2 and SO2 Data, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: 'Part 3 Presentation Slides: Read, Map, and Extract NO2 and SO2 Data'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Part3a.pdf?VersionId=8rWbgp5L8KZP4QWTY9QqHd4_Iiq5C9dx
+  - type: slides
+    title: 'Part 3 Presentation Slides: New and Upcoming Missions'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Part3b.pdf?VersionId=KY0uADZZjvC450O_LDfilpkp4L4mB5tl
+  - type: slides
+    title: 'Part 3 Reference Slides: Download NO2 and SO2 Data'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Part3c_v2.pdf?VersionId=keS5gb6wvQW5_9R9k2F3hmUUXN3KKHzW
+  - type: data
+    title: Part 3 Data Download
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/session_3_code_data.zip?VersionId=DwpXapSRWJPlPH6pcTDpsXL.MYI1PObR
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Q&A3.pdf?VersionId=5v9Yt7UQxCiYFnU_pzw42hnxVDK0VgIz
+  - type: other
+    title: Diapositivas de la Presentación de Parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/HighResAQ_Part3_Spanish.pdf?VersionId=ho90hzCNUUbPzIJzK57i98mADOvH3_1K

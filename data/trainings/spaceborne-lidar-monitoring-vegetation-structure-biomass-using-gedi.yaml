@@ -1,0 +1,128 @@
+id: spaceborne-lidar-monitoring-vegetation-structure-biomass-using-gedi
+title: Spaceborne Lidar for Monitoring Vegetation Structure and Biomass using GEDI
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/spaceborne-lidar-monitoring-vegetation-structure-biomass-using-gedi
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2025-10-23'
+end_date: '2025-11-06'
+published: '2025-10-23'
+last_updated: '2026-09-15'
+summary: This ARSET training walks participants through the theoretical background of GEDI lidar capabilities
+  by learning to access and plot GEDI data.
+description: 'This three-part training builds on a fundamental understanding of light detection and ranging
+  (lidar), including its strengths, limitations, and distinguishing characteristics compared to other
+  active and passive remote sensing observations. A central focus of the training is NASA’s Global Ecosystem
+  Dynamics Investigation (GEDI) mission, a novel spaceborne lidar sensor that began collecting data in
+  April 2019. GEDI is the first mission specifically designed for observing the vertical structure of
+  forests and vegetation.
+
+
+  Through case studies and an overview of available GEDI data products, participants will explore how
+  GEDI informs analyses of canopy structure and supports biomass estimation for forests. The training
+  introduces the sensitivity of waveform lidar by guiding participants through plotting waveforms and
+  deriving key vegetation structure metrics, such as canopy cover, elevation, relative height, and plant
+  area indices. In addition, participants will learn how to work with GEDI-derived biomass estimates in
+  combination with data fusion products. The course covers the theoretical background of GEDI''s capabilities
+  and demonstrations on accessing, plotting, and interpreting GEDI data. The training concludes with an
+  introduction to interpreting biomass datasets for decision support, which can be accessed through Google
+  Earth Engine using the OBIWAN (Online Biomass Inference using Waveforms And iNventory) Application Programming
+  Interface (API).'
+objectives:
+- Identify the fundamental physical principles of lidar remote sensing, including the uses and limitations
+  for terrestrial applications.
+- Access and retrieve full waveform lidar data from public NASA repositories to visualize vegetation structure.
+- Identify key GEDI products, including elevation, canopy height, vegetation structure metrics, and biomass,
+  across different processing levels and spatial resolutions.
+- Access and visualize GEDI data related to elevation, height, vegetation structure, and biomass for specific
+  areas of interest using openly available tools.
+- Utilize GEDI standard biomass products at both footprint and 1 km scales to map forest resources.
+- Access the open-source OBIWAN API to generate estimates of biomass change in areas of interest.
+- Identify how OBIWAN can be used to create baseline scenarios for forest carbon accounting projects.
+prerequisites:
+- fundamentals-remote-sensing
+- lidar-profiling-satellite-observations-air-quality-applications
+- use-solar-induced-fluorescence-lidar-assess-vegetation-change-vulnerability
+- biodiversity-applications-airborne-imaging-systems
+applications:
+- climate-resilience
+- ecological-conservation
+satellites:
+- iss
+- landsat-8
+- landsat-9
+tools:
+- google-earth-engine
+sessions:
+- part: 1
+  title: Introduction to Full-Waveform Lidar
+  date: '2025-10-23'
+  agenda:
+  - The ARSET Program
+  - Training Overview
+  - Introduction to Session 1
+  - Fundamentals of Lidar Remote Sensing
+  - Review of Different Types of Lidar Data
+  - Full Waveform Lidar Data from the GEDI Mission
+  - 'Demonstration 1: Access, Plot, and Interpret GEDI Waveform Data'
+  - 'Demonstration 2: Access and Plot Relative Height Metrics'
+  - Summary of Session 1
+  - Q&A Session
+  videos:
+  - youtube: 2GZfn6Z6v4Y
+    title: 'NASA ARSET: Introduction to Full-Waveform Lidar Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/arset-2025-gedi-part1-jo-sc-vf.pdf
+  - type: notebook
+    title: Exercise 1A
+    url: https://github.com/savcooley/full_waveform_lidar_training
+  - type: notebook
+    title: Exercise 1B
+    url: https://github.com/NaiaraSPinto/VegMapper/tree/master/gedi
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/arset-2025-gedi-part1-qa.pdf
+- part: 2
+  title: Introduction to the GEDI Mission and its Derived Products
+  date: '2025-10-30'
+  agenda:
+  - Introduction to Session 2
+  - GEDI Mission Objectives and Application Areas
+  - Overview of GEDI Products and Tools
+  - Accessing, Downloading and Visualizing GEDI Products
+  - Summary of Session 2
+  - Q&A Session
+  videos:
+  - youtube: C8t1isFGWrM
+    title: 'NASA ARSET: Introduction to the GEDI Mission and its Derived Products Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/arset-gedi2025-part2-slides.pdf
+  - type: notebook
+    title: Exercise 2
+    url: https://github.com/NASA-EarthRISE/training_Getting_started_with_GEDI_spaceborne_lidar/tree/main/tutorials/ARSET_Part2
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/arset-2025-gedi-part2-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-09/ARSET-GEDI2025-HomeworkPDF.pdf
+- part: 3
+  title: Estimating Biomass Change with GEDI and the OBIWAN API
+  date: '2025-11-06'
+  agenda:
+  - Introduction to Session 3
+  - 'GEDI Mission Biomass Estimation: Theory and Products'
+  - 'OBIWAN: Estimating Biomass Change with GEDI and Landsat Time Series'
+  - Customize OBIWAN Through its API and Compare Carbon Gains to Climate Scenarios
+  - Summary of Session 3
+  - Training Overview
+  - Q&A Session

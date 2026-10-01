@@ -1,0 +1,105 @@
+id: from-earth-observations-earth-applications-satellite-applications-biodiversity
+title: 'From Earth Observations to Earth Applications: Satellite Applications for Biodiversity Conservation'
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/from-earth-observations-earth-applications-satellite-applications-biodiversity
+level: introductory
+format: in-person
+languages:
+- en
+start_date: '2016-09-04'
+end_date: '2016-09-04'
+published: '2016-09-04'
+last_updated: '2026-02-02'
+summary: This ARSET training introduces how to use Earth observations to inform conservation policy and
+  management.
+description: Satellite-based Earth observations provide a transparent, repeatable, and cost-effective
+  method for global monitoring of natural resources. These observations are critical to inform conservation
+  management and provide valuable input to policy tools such as the Convention on Biological Diversity
+  Aichi Biodiversity Targets, the International Union for Conservation of Nature (IUCN) Red List of Threatened
+  Species, the IUCN Red List of Ecosystems, and other climate change and sustainable development conventions.
+  This conservation campus provided an overview of satellite remote sensing for conservation decision-makers
+  and provided specific applications and hands-on demonstrations of how to use Earth observations to inform
+  conservation policy and management.
+objectives:
+- Understand the basics of satellite remote sensing and its application to the conservation of biodiversity,
+  natural resource management, and ecosystem services
+- Become familiar with open and freely available web tools used for Earth observations that can contribute
+  to conservation objectives
+audience:
+- This course was designed for a broad audience, including resource managers and policy makers that are
+  interested in learning the basic concepts of remote sensing and apply them directly to conservation
+  goals.
+applications:
+- climate-resilience
+- ecological-conservation
+satellites:
+- aqua
+- terra
+datasets:
+- modis-vegetation-indices
+tools:
+- google-earth-engine
+sessions:
+- part: 1
+  title: Who We Are and Why Remote Sensing?
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bioconpart1.pdf?VersionId=XE4Fz3Mf_oiyNj4AGXV.KHH5WrVthvUq
+- part: 2
+  title: Introduction to Remote Sensing
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bioconpart2.pdf?VersionId=Rc1wi7AYE_F9ybEDyYw9DzUZmKaYgM_o
+- part: 3
+  title: Remote Sensing for Conservation and Biodiversity
+  materials:
+  - type: slides
+    title: 'Part 3a Presentation Slides: Animal Movement'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/bioconpart3a.pdf
+  - type: slides
+    title: 'Part 3b Presentation Slides: Dynamic Habitat Index for Biodiversity'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bioconpart3b.pdf?VersionId=08SAfhxooGP02rlTxFc6qHHLXkFkh8nu
+  - type: slides
+    title: 'Part 3 Presentation Slides: Citizen Science Approach to Chimpanzee Monitoring (Jane Goodall
+      Foundation)'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/bioconpart3c.pdf
+  - type: slides
+    title: 'Part 3d Presentation Slides: Vegetation Carbon Stock Corridors'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/bioconpart3d.pdf
+  - type: slides
+    title: 'Part 3e Presentation Slides: New and Emerging Uses of Remote Sensing for Land Change Detection'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bioconpart3e.pdf?VersionId=n0X0nopmNXekMW1pRDnRF1vhtwA9RUpP
+  - type: slides
+    title: 'Part 3f Presentation Slides: Firecast Success Stories – Near Real-Time Monitoring for Improved
+      Landscape Management'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bioconpart3f.pdf?VersionId=5N.JDrfnNRxp231M0XI_ruSfhNsrlsx_
+  - type: slides
+    title: 'Part 3g Presentation Slides: Introduction to Google Earth Engine'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bioconpart3g.pdf?VersionId=qjAo1Mp0JqCszCy3WqBFa3WKJi.ukPnO
+- part: 4
+  title: Remote Sensing Tools and Data Exploration Exercises
+  materials:
+  - type: slides
+    title: 'Part 4a Presentation Slides: Coral Reef Watch'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bioconpart4a.pdf?VersionId=3aoLLY2BQp8sKHF6Hq1Iq7WazuZuZzUj
+  - type: slides
+    title: 'Part 4b Presentation Slides: Firecast (Near Real-Time Monitoring)'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bioconpart4b.pdf?VersionId=lgRFSBRkIWXLGgcE9Tb4Clz2Ex2Pn3Yv
+  - type: slides
+    title: 'Part 4c Presentation Slides: Google Earth Engine Explorer'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bioconpart4c.pdf?VersionId=d9n4FaguMk4MIAD5s_XLPV5pGIocWl04
+  - type: slides
+    title: 'Part 4d Presentation Slides: MODIS NDVI Anomalies and Time Series'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/bioconpart4d.pdf
+- part: 5
+  title: Feedback and Wrap-up
+  materials:
+  - type: slides
+    title: 'Part 5a Presentation Slides: Remote Sensing, the IUCN Programme, and Supported Conservation
+      Initiatives'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bioconpart5a.pdf?VersionId=7vYL.FFgCPFR9WYJmakRK_YIlE9W3MQu
+  - type: slides
+    title: 'Part 5b Presentation Slides: Wrap-up'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/bioconpart5b.pdf?VersionId=F2LJU_BREzF0NGnn2ZXSnnNnFmhgjvad

@@ -1,0 +1,93 @@
+id: introduction-population-grids-integration-remote-sensing-data-sustainable
+title: Introduction to Population Grids and Their Integration With Remote Sensing Data for Sustainable
+  Development and Disaster Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-population-grids-integration-remote-sensing-data-sustainable
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2021-03-30'
+end_date: '2021-04-06'
+published: '2021-03-30'
+last_updated: '2026-07-17'
+summary: This ARSET training focuses on different global population grids and their application to development
+  planning and monitoring of the SDGs.
+description: 'Population distribution data are essential for planning and decision-making in regions faced
+  by crisis or conflict, and they are also useful for monitoring progress towards the sustainable development
+  goals (SDGs). Decision-makers need to know where people are located, what conditions they are facing,
+  what infrastructure is available, and what basic services they can access. And we also need to ensure
+  that no one is left off the map in pursuit of the SDGs or in response to disasters.
+
+
+  Gridded population data, which often uses remote sensing inputs to improve the spatial allocation of
+  population within a country, are vital for all these purposes. Together with the growing variety of
+  applications that require spatial population data, there is now a bewildering array of population grids,
+  and users need to know which ones are most suitable for their applications.
+
+
+  This two-part training, developed and presented by members of the POPGRID Data Collaborative, focuses
+  on the different global population grids and their application to a range of topics related to development
+  planning and monitoring of the SDGs (e.g., environment, hazards, and access to resources). Attendees
+  are exposed to the latest data and methods used to produce global grids, how the grids incorporate remote
+  sensing inputs, and how population grids can be used in conjunction with other types of data.'
+objectives:
+- Identify what are and what distinguishes the various population grids
+- Become familiar with POPGRID’s online for visualization and intercomparison of population grids for
+  specific regions and types of data of interest
+- Identify uses of population grids in different application areas (sustainable development, health, environment,
+  emergency management, and humanitarian relief)
+- Recognize what disaster risk reduction exposure data is and how it is used in the human and economic
+  loss due to disaster
+- Learn the basic process of developing exposure data and how remote sensing data could contribute to
+  it
+- Understand disaster risk reduction uncertainty and the appropriate use of results
+- Describe SDG indicator 9.1.1 (Rural Access Index) and how it is measured
+- Identify the inputs used to calculate the Rural Access Index (RAI)
+- Recognize the advantages and the limitations of using currently available open global data sources to
+  calculate RAI
+- Explain why the choice of gridded population input can lead to different results for this “simple” indicator.
+audience:
+- This training is for National Statistical Office representatives, government agency technical staff,
+  national policymakers involved in sustainable development, health, environment, emergency management,
+  and humanitarian relief.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+sessions:
+- part: 1
+  title: Introduction to Population Grids and Their Uses
+  videos:
+  - youtube: yS0Ck29lCrc
+    title: 'NASA ARSET: Introduction to Population Grids and Their Uses, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/POPGRID_Part1Slides.pdf?VersionId=eqUmQ5QT9G0S7GsZkuRK8FJPlhw3PvA_
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/POPGRID%20Q&A%20Transcript%20Part%201.pdf?VersionId=AlzkZjB3tf0F..Kvgz5iOcjvADSZJ0wD
+  - type: slides
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/POPGRID_Part1Slides_esp.pdf?VersionId=eWc3T1siNEZcH0jM4GncdMMB4.X19Nly
+- part: 2
+  title: Population Grid Application Areas
+  videos:
+  - youtube: 2JscvT0ubts
+    title: 'NASA ARSET: Population Grid Application Areas, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/POPGRID_Part2Slides.pdf?VersionId=E4LeKKYCu5y45Xbyq2FYAju4K7DKogKF
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/POPGRID%20Q&A%20Transcript%20Part%202.pdf?VersionId=PRwYYOjlyG9OLyJ3_aEliVNO61z4P9UD
+  - type: slides
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/POPGRID_Part2Slides_esp.pdf?VersionId=PY2WSTxqlS9_4RfJ2ddkHXk9TKFZ.Jmt
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-POPGRID2021-Homework.pdf

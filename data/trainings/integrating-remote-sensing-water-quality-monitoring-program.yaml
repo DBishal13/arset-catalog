@@ -1,0 +1,143 @@
+id: integrating-remote-sensing-water-quality-monitoring-program
+title: Integrating Remote Sensing into a Water Quality Monitoring Program
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/integrating-remote-sensing-water-quality-monitoring-program
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2019-06-05'
+end_date: '2019-06-19'
+published: '2019-06-05'
+last_updated: '2026-02-09'
+summary: This ARSET training focuses on integrating NASA Earth observations into water quality monitoring
+  decision-making processes.
+description: This training hosted by NASA's Applied Remote Sensing Training program (ARSET) focuses on
+  integrating NASA Earth observations into water quality monitoring decision-making processes. This includes
+  overviews of data products used for water quality monitoring; aquatic remote sensing-specific criteria,
+  methods, and best practices; obtaining NASA Earth observation data for water quality monitoring; and
+  practical skill-building in image processing for water quality monitoring of coastal and larger inland
+  water bodies. Three two-hour parts include lectures, hands-on demonstrations, written instructions to
+  conduct exercises, and a question and answer session.
+objectives:
+- Acquire relevant remotely-sensed imagery and products
+- Apply best practices for atmospheric correction to remotely-sensed images
+- Evaluate the uncertainty of images by validating satellite imagery using in situ measurements
+- Analyze water quality data using NASA's SeaDAS software and validate aquatic remote sensing data products
+audience:
+- This training is intended for regional, state, federal, and international organizations interested in
+  addressing water quality monitoring through the use of remote sensing.
+prerequisites:
+- fundamentals-remote-sensing
+- processing-satellite-imagery-monitoring-water-quality
+applications:
+- ecological-conservation
+sessions:
+- part: 1
+  title: Water Quality in the Coastal Zone
+  date: '2019-06-05'
+  videos:
+  - youtube: p0syKhg_IME
+    title: 'NASA ARSET: Water Quality in the Coastal Zone, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Part1_AWQ_final.pdf?VersionId=NihnG7q3dzxWCadWsInC0Zc0vORGkLTQ
+  - type: other
+    title: Part 1 Data Download
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Part1_AWQ_Data_Download.pdf?VersionId=h1qMwgnZEU9I6TV3l6c2WvgoKiPiNqOG
+  - type: exercise
+    title: Part 1 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/WQExercise1_final.pdf?VersionId=cSq4jegDRgO9Z5InUeKYDW5ZXHGGmPZy
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Adv_Water_Quality_Session_1_QA.pdf?VersionId=VCHCoNBy6N9YD2kIihiVkQPbcC.FMlrR
+  - type: homework
+    title: Part 1 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLScnoBIsMynB6IzCpQgozyL1B4NgfdtoCP7AUv6YadARHThqbw/viewform?usp=sf_link
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Part1_Adv_WQ_Spanish.pdf?VersionId=EjcedauSt_5KDmdy8EYBLU52VfF2LOz8
+  - type: other
+    title: Descargar de Datos de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Part1_AWQ_Data_Download_Spanish.pdf?VersionId=xQkBLD9ZiT90dPGE_DBUN19357QOb08g
+  - type: exercise
+    title: Ejercicio de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/WQExercise1_Spanish.pdf?VersionId=.TGz.te8doNXD1jJ0dvc7dVojYhlkIEj
+- part: 2
+  title: Water Quality of Larger Inland Water Bodies
+  date: '2019-06-12'
+  videos:
+  - youtube: XLhi-pUMQi0
+    title: 'NASA ARSET: Water Quality of Larger Inland Water Bodies, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Part2_Adv_WQ_0.pdf?VersionId=hvK.dEf6WyZGbpD4S6fBBY3MKYUpJ9d4
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Adv_Water_Quality_Session_2_QA.pdf?VersionId=l.6uN7BixrKsGMP5_GaDuEcH9YVq22Kb
+  - type: data
+    title: Part 2 Data (1/2)
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/Part-2-1-of-2.zip
+  - type: data
+    title: Part 2 Data (2/2)
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/Part-2-2-of-2.zip
+  - type: homework
+    title: Part 2 Homework
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/WQ_Homework2_0.pdf?VersionId=EKrQbxDVxToIiYA1tjMd33m4JCDyd.Zc
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/Part2_Adv_WQ_Spanish_0.pdf
+  - type: homework
+    title: Tarea de la Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/WQ_Homework2_Spanish.pdf?VersionId=mU.OqLya6tXzXlhwY6cX8RhxqikO0a3h
+- part: 3
+  title: Aquatic Remote Sensing Skill Development and Best Practices
+  date: '2019-06-19'
+  videos:
+  - youtube: 0XvWJZdgxYs
+    title: 'NASA ARSET: Aquatic Remote Sensing Skill Development and Best Practices, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: data
+    title: L2014266163447.L2_LAC_OC
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/L2014266163447.zip
+  - type: data
+    title: L2015244164041.L2_LAC_OC
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/L2015244164041.zip
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Part3_AWQ_FINAL_v2.pdf?VersionId=xs1hHGxKp2tGBceVbCEiALj.EZ9luK_p
+  - type: data
+    title: ARSET-WQ2019-part3-data-inSitu
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/WQ_in%20situ.zip?VersionId=AH08klGYU9BXnQ3IlQW7vUb7pHVa2i7l
+  - type: data
+    title: 'Part 3 Data: Salish Sea'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/SalishSea%20Data.zip?VersionId=VsTfz_VREO6baqXuPqo4fIxgWJgk786w
+  - type: data
+    title: 'Part 3 Data: Suwannee River'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Suwannee%20River%20Data.zip?VersionId=plOxvUXdxi_BkEwBPWeFTNNeJZeyR2O3
+  - type: exercise
+    title: 'Part 3 Exercise: SeaDAS'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/WQExercise3_SeaDAS.pdf?VersionId=JsbgdCJ_ua.WjAmY8XpQz41J66tEFfGq
+  - type: exercise
+    title: 'Part 3 Exercise: Wisconsin'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/WQExercise3_inSitu.pdf?VersionId=eO8E.TGGHJPd3.8jljcitUlJ5MCu_h0Q
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Adv_WQ_QA_Session_3.pdf?VersionId=16Gn2mri_kZej_OKnQK8MIRebItY4p6m
+  - type: homework
+    title: Part 3 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLScOX-AqUQDm9xkSZTq9rmBoUwEytJEeX4Wwu3Adl6ImfykERQ/viewform?usp=sf_link
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Part3_Adv_WQ_Spanish.pdf?VersionId=V9jou_mnywfhVWqZTd0Dq4t7ZUzjxFxl
+  - type: exercise
+    title: 'Ejercicio de la Parte 3: SeaDAS'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/WQExercise3_SeaDAS_Spanish.pdf?VersionId=AiNZ0wuAZLq9.yj6EJ.8ITOSIq2PkZdw
+  - type: exercise
+    title: ARSET-WQ2019-part3-exercise-Wisonsin-esp
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/WQExercise3_inSitu_Spanish.pdf

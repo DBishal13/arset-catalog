@@ -1,0 +1,122 @@
+id: remote-sensing-forest-cover-change-assessment-carbon-monitoring
+title: Remote Sensing of Forest Cover and Change Assessment for Carbon Monitoring
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/remote-sensing-forest-cover-change-assessment-carbon-monitoring
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2016-06-09'
+end_date: '2016-07-07'
+published: '2016-06-09'
+last_updated: '2026-02-02'
+summary: This ARSET training provides an overview of carbon monitoring for terrestrial ecosystems.
+description: 'In this introductory course led by NASA''s Applied Remote Sensing Training program (ARSET),
+  participants are provided with an overview of carbon monitoring for terrestrial ecosystems. This includes
+  background information about the Intergovernmental Panel on Climate Change (IPCC), Greenhouse Gas (GHG)
+  inventories, the United Nations Framework Convention on Climate Change (UNFCCC), and development of
+  the Reducing Emissions from Deforestation and Degradation (REDD+) program.
+
+
+  This course covers products from Landsat, the Moderate Resolution Imaging Spectroradiometer (MODIS),
+  Sentinel, and other satellites and sensors commonly used for land management applications.
+
+
+  This course also provides information about carbon estimation techniques and conducting accuracy assessments
+  on these estimates. There are also demonstrations of tools for carbon monitoring, such as NASA’s Carbon
+  Mapper. Finally, guidance on reporting and verification of carbon estimates and the larger role of carbon
+  markets are discussed, as well as additional guidance on resources available to participants.'
+objectives:
+- Techniques for estimating carbon
+- Developing accuracy assessments
+- Reporting and verifying carbon estimates
+audience:
+- This training is for local, regional, state, federal and international organizations interested in assessing
+  and reporting carbon estimates using satellite imagery.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- ecological-conservation
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- terra
+sessions:
+- part: 1
+  title: Overview of Carbon Monitoring for Terrestrial Ecosystems
+  date: '2016-06-09'
+  videos:
+  - youtube: oYfgAmntdcw
+    title: 'NASA ARSET: Overview of Carbon Monitoring for Terrestrial Ecosystems, Part 1/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_SilvaCarbon_CarbonMonitoring_Week1_Final.pdf?VersionId=YjIIB6LkCnD1Fb8TRHKXsrF4RNO8Q2p_
+  - type: other
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/CarbonMonitoring_Part1_Spanish.pdf?VersionId=Wwzt.kNPe9_10REHYOBqVQqJ1uGvVjEq
+- part: 2
+  title: Sensors and Products Available for Terrestrial Ecosystems
+  date: '2016-06-16'
+  videos:
+  - youtube: 62-3V0nXfY0
+    title: 'NASA ARSET: Sensors and Products Available for Terrestrial Ecosystems, Part 2/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_SilvaCarbon_CarbonMonitoring_Week2_Final.pdf?VersionId=7wmePkN7vjJsrnc5hOnhATyYRxMnG7c6
+  - type: homework
+    title: Part 2 Homework
+    url: https://docs.google.com/forms/d/1sYISmoJazwUurfEIUvhQ0kdCXvtOscBTYLD6qq2FThc/viewform
+  - type: other
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/CarbonMonitoring_Part2_Spanish.pdf?VersionId=umgZ8m6kK9k7hSBqJ5wd78Fp4LsJaNCK
+- part: 3
+  title: Carbon Estimation Techniques and Methods
+  date: '2016-06-23'
+  videos:
+  - youtube: VxtD9Op--tM
+    title: 'NASA ARSET: Carbon Estimation Techniques and Methods, Part 3/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_SilvaCarbon_CarbonMonitoring_Week3_Final2.pdf?VersionId=bExainUkMA8GNXlK4TzkbV0F52svcZWD
+  - type: other
+    title: Diapositivas de la Presentación de Parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/CarbonMonitoring_Part3_Spanish.pdf?VersionId=pCiLkkAtPMwQtoWdp.Hp30pGkFedhQjK
+- part: 4
+  title: Accuracy Assessment
+  date: '2016-06-30'
+  videos:
+  - youtube: C2Mdeuiqi-U
+    title: 'NASA ARSET: Carbon Monitoring Accuracy Assessment, Part 4/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_SilvaCarbon_CarbonMonitoring_Week4_Final.pdf?VersionId=UfBQP9q3rN.tyWhXprZLBEJTAdWK6dad
+  - type: homework
+    title: Part 4 Homework
+    url: http://docs.google.com/forms/d/1KvYbV3R6zgNmtoJ37jk8utE52rVwfr3BVg94JfOqJQ4/viewform
+  - type: other
+    title: Diapositivas de la Presentación de Parte 4
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/CarbonMonitoring_Part4_Spanish.pdf?VersionId=KQyp4ZKsX6D10gr7Mham0HW0qeroTNSu
+- part: 5
+  title: Guidance, Reporting, and Verification
+  date: '2016-07-07'
+  videos:
+  - youtube: f681DNstmPg
+    title: 'NASA ARSET: Guidance, Reporting, and Verification, Part 5/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 5 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET_SilvaCarbon_CarbonMonitoring_Week5_Final.pdf?VersionId=MC_nICfXiQ1TCxFT.M_j8neVpvS7n7xd
+  - type: other
+    title: Diapositivas de la Presentación de Parte 5
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/CarbonMonitoring_Part5_Spanish.pdf?VersionId=pWSntbYdlPOOdVITI5XORMHff68iqFdW

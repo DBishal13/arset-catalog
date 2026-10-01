@@ -1,0 +1,86 @@
+id: radar-remote-sensing-land-water-disaster-applications
+title: Radar Remote Sensing for Land, Water, and Disaster Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/radar-remote-sensing-land-water-disaster-applications
+level: advanced
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2018-08-07'
+end_date: '2018-08-16'
+published: '2018-08-07'
+last_updated: '2026-02-22'
+summary: This ARSET training covers different techniques for applying synthetic aperture radar to disaster,
+  water, and land cover applications.
+description: 'Optical satellite remote sensing depends on cloudless, well-illuminated areas to produce
+  quality data. This is especially problematic for collecting data during nighttime or when there is cloud
+  cover. Radar is an ideal sensor because of its ability to “see” the surface through clouds or regardless
+  of day or night conditions. In addition, the radar signal can penetrate through the vegetation canopy
+  and provide information about conditions underneath, such as whether there is flooding. Also, techniques
+  such as interferometry can track surface deformation on the order of centimeters, such as displacement
+  caused by earthquakes.
+
+
+  This webinar series, led by NASA''s Applied Remote Sensing Training (ARSET) program, builds on ARSET''s
+  previous webinar, Introduction to Synthetic Aperture Radar. The training focuses on different techniques
+  such as time-series'', polarimetry, and interferometry for mapping and monitoring disasters, water,
+  and land cover applications such as deforestation, crops, flooding, and earthquakes.'
+objectives:
+- Use synthetic aperture radar (SAR) data to map deforestation, floods, crop growth, and surface deformation
+  as a result of an earthquake
+audience:
+- The training is designed for remote sensing users from local, regional, state, federal, and international
+  organizations interested in using SAR for terrestrial applications such as inundation mapping, land
+  cover land use change studies, and surface deformation for volcanic and earthquake activity.
+prerequisites:
+- introduction-synthetic-aperture-radar
+applications:
+- agriculture
+- disasters
+- ecological-conservation
+sessions:
+- part: 1
+  title: Part 1
+  date: '2018-08-07'
+  videos:
+  - youtube: IDxBgK1VY_4
+    title: 'NASA ARSET: SAR for Mapping Land Cover, Session 1/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-RadarRS2018-part1-slides.pdf
+- part: 2
+  title: Part 2
+  date: '2018-08-09'
+  videos:
+  - youtube: QKrG5jYZe10
+    title: 'NASA ARSET: SAR for Flood Mapping, Session 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-RadarRS2018-part2-slides.pdf
+- part: 3
+  title: Part 3
+  date: '2018-08-14'
+  videos:
+  - youtube: yoEu2P1i5xE
+    title: 'NASA ARSET: SAR for Mapping Soils & Crops, Session 3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-RadarRS2018-part3-slides.pdf
+- part: 4
+  title: Part 4
+  date: '2018-08-16'
+  videos:
+  - youtube: P8lQ7pjkRlw
+    title: 'NASA ARSET: SAR Interferometry for Earthquake Studies, Session 4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-RadarRS2018-part4-slides.pdf

@@ -1,0 +1,89 @@
+id: monitoring-tropical-storms-emergency-preparedness
+title: Monitoring Tropical Storms for Emergency Preparedness
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-tropical-storms-emergency-preparedness
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2018-05-03'
+end_date: '2018-05-10'
+published: '2018-05-03'
+last_updated: '2026-07-29'
+summary: This ARSET training covers the NASA data and tools useful for monitoring tropical storms.
+description: 'Tropical storms have major impacts, including loss of life and destruction of property.
+  In 2017 alone, the United States experienced three tropical storms with more than $1 billion in losses.
+  Open source satellite data can be used before, during, and after a storm for monitoring and response.
+  A storm’s intensity, path, wind, precipitation, storm surge, and flooding can be derived from historical
+  and near real-time satellite observations.
+
+
+  In this introductory training led by NASA''s Applied Remote Sensing Training Program (ARSET), participants
+  learn about the NASA data and tools they can use to monitor tropical storms.'
+objectives:
+- Identify remote sensing data and tools relevant to tropical storms
+- Monitor conditions before, during, and after a storm using remote sensing data
+- Understand how remote sensing data can be used in decision-making activities
+audience:
+- This training is primarily intended for individuals and organizations engaged in emergency management,
+  such as relief organizations, transportation and utility providers, public health professionals, and
+  insurance providers.
+prerequisites:
+- fundamentals-remote-sensing
+- satellite-remote-sensing-flood-monitoring-management
+applications:
+- disasters
+- water-resources
+sessions:
+- part: 1
+  title: An Overview of Tropical Storms and Their Impacts
+  date: '2018-05-03'
+  videos:
+  - youtube: 1bi6Q3oiWAM
+    title: 'NASA ARSET: An Overview of Tropical Storms and Their Impacts, Session 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-TropicalStorms2018-part1-slides.pdf
+  - type: exercise
+    title: Part 1 Exercise
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-TropicalStorms2018-part1-exercise.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-TropicalStorms2018-part1-qa.pdf
+  - type: homework
+    title: Part 1 Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-TropicalStorms2018-part1-homeworkPDF.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-TropicalStorms2018-part1-slides-esp.pdf
+  - type: exercise
+    title: Ejercicio de Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-TropicalStorms2018-part1-exercise-esp.pdf
+  - type: other
+    title: Tarea de Parte 1
+    url: https://goo.gl/forms/rSRLUFbt8RQPU8fN2
+- part: 2
+  title: Monitoring Conditions During and After Tropical Storms
+  date: '2018-05-10'
+  videos:
+  - youtube: i94fHhsKoR0
+    title: 'NASA ARSET: Monitoring Conditions During and After Tropical Storms, Session 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-TropicalStorms2018-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-TropicalStorms2018-part2-qa.pdf
+  - type: homework
+    title: Part 2 Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-TropicalStorms2018-part2-homeworkPDF.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-TropicalStorms2018-part2-slides-esp.pdf
+  - type: other
+    title: Tarea de Parte 2
+    url: https://goo.gl/forms/wiMo3riz5Wvce5Bx1

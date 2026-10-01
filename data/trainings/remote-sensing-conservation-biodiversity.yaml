@@ -1,0 +1,77 @@
+id: remote-sensing-conservation-biodiversity
+title: Remote Sensing for Conservation and Biodiversity
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/remote-sensing-conservation-biodiversity
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2019-01-22'
+end_date: '2019-01-24'
+published: '2019-01-22'
+last_updated: '2026-02-02'
+summary: This ARSET training introduces participants to the use of satellite data for conservation and
+  biodiversity applications.
+description: 'The United Nations Millennium Ecosystem Assessment states that "ecosystems are critical
+  to human well-being – to our health, our prosperity, our security, and to our social and cultural identity."
+  Conservation and biodiversity management play important roles in maintaining healthy ecosystems; Earth
+  observations can help with these efforts.
+
+
+  This online training series led by NASA''s Applied Remote Sensing Training program (ARSET) introduces
+  participants to the use of satellite data for conservation and biodiversity applications. The series
+  highlights specific projects that have successfully used satellite data. Examples include:'
+objectives:
+- Be able to outline uses of remote sensing for habitat suitability, species population dynamics, and
+  monitoring wildfires
+- Learn about the Group on Earth Observations Biodiversity Observation Network (GEOBON), Marine Biodiversity
+  Observation Network (MBON), and essential biodiversity variables
+audience:
+- This training is designed for individuals and organizations interested in using satellite imagery for
+  conservation and biodiversity.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+- wildland-fires
+sessions:
+- part: 1
+  title: Remote Sensing for Conservation
+  date: '2019-01-22'
+  videos:
+  - youtube: aWAqge0E1cM
+    title: 'NASA ARSET: Remote Sensing for Conservation, Session 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Conservation%20Session%201.pdf?VersionId=2P..oARVpmDQ18QgQoPgCE7iigW74FQe
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Conservation%20Q&A%20Session%201.pdf?VersionId=9i0XmPGifMx77JjSKS40nntc84nPfWRm
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfgcuS_JF-wQixlNXFzxPTby_F32iSU2M-waJNhbe7uUhwEXA/viewform?usp=sf_link
+  - type: other
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Conservation%20Session%201%20(Spanish).pdf?VersionId=4vflul0ORNGCGB9UMFKUk8yEOpH9uE0C
+  - type: other
+    title: Tarea
+    url: https://docs.google.com/forms/d/e/1FAIpQLScbufqRfMfZtprirdGDsaw1q0tY8NvM_liCg65L0qj7ny0Mwg/viewform?usp=sf_link
+- part: 2
+  title: Remote Sensing for Biodiversity
+  date: '2019-01-24'
+  videos:
+  - youtube: 70Zkm4Pg_ZE
+    title: 'NASA ARSET: Remote Sensing for Biodiversity, Session 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Conservation%20Session%202.pdf?VersionId=FIdeilE_2U4guQ5h5AGkC.K6Pybh7oyV
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Conservation%20Q&A%20Session%202.pdf?VersionId=EcBjylF4TMyFy0wutQV8DrxR_4CntBzG
+  - type: other
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Conservation%20Session%202%20(Spanish).pdf?VersionId=jkcYYIp9mbyRcbysWWFexllmqhhH_VAc

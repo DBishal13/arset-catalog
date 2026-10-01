@@ -1,0 +1,525 @@
+6nlZeWZgHXs|NASA ARSET: Flash Drought Detection and Prediction, Part 2/2
+ZMQZBUs6n0g|NASA ARSET: Introduction to Flash Drought Monitoring using SIF and Soil Moisture, Part 1/2
+-PFWqSiUyKQ|NASA ARSET: Applying NASA Earth Observations to Hydropower Reservoir Management
+Xk3_U1FJbq8|NASA ARSET: Accessing NASA Earth Observations for Reservoir Management, Part 2/3
+ugppiig6Dbc|NASA ARSET: Data Requirements for Reservoir Management, Part 1/3
+oFlb2K8WHP0|NASA ARSET: Estudio de Caso – Comparación de Productos de PM2.5 Derivados de Satélites Disponibles
+tjs9MnE-hBA|NASA ARSET: Comparing Satellite-Derived PM2.5 Products to Ground-Based Measurements Part 3/3
+vKpo01HrMBk|NASA ARSET: Terremotos, Volcanes y Deslizamientos de Tierra con la Capacidad InSAR de NISAR
+MkIb1WAoYQc|NASA ARSET: Estimación de PM2.5 a partir del AOD – Metodologías y Conjuntos de Datos Disponibles
+-aZatae_3ew|NASA ARSET: Monitoring Earthquakes, Volcanoes, and Landslides with NISAR’s InSAR Capability
+_wZjndrYmQI|NASA ARSET: Estimation of PM2.5 from AOD – Methodologies and Available Datasets Part 2/3
+SIsXlfq8kcA|NASA ARSET: Building, Evaluating, and Interpreting a SDM Part 2/2
+U_U2bh_1m7Q|NASA ARSET: Acceso a Datos y Herramientas de NISAR, Sesión 2/3
+B1HPbpfg4oI|NASA ARSET: NISAR Data Access and Tools, Session 2/3
+YaxoMzOjGWY|NASA ARSET: AOD Versus PM2.5 – Cuándo Están Relacionados y Cuándo No, Parte 1/3
+dUNZevw8Dcs|NASA ARSET: AOD Versus PM2.5 – When They Are and Are Not Related, Part 1/3
+JhJGyzcEung|NASA ARSET: Foundations of Species Distribution Modeling with GEE Part 1/2
+VrdNiNcM-iw|NASA ARSET: Introducción a NISAR, Parte 1/3
+lIDXtxFJi6M|NASA ARSET: An Introduction to NISAR, Part 1 of 3
+1QbpVlIuHsU|NASA ARSET: Overview of GEOGLOWS for Monitoring and Predicting Flood Risk Part 3/3
+Xq8t-J3xpe0|NASA ARSET: Overview of Monitoring Floods using OPERA Surface Water Extent Part 2/3
+neDs0QZbytU|NASA ARSET: Overview of Global Flood Product Derived from NASA Optical observations Part 1/3
+k4ub-CNo6Pg|NASA ARSET: Applications in Urban Heat Island Mapping Part 2/2
+MuoYz3I2XLc|NASA ARSET: Estimación del Cambio de Biomasa con GEDI y la API OBIWAN, Parte 2/2
+3jQoJYAlwvs|NASA ARSET: Estimating Biomass Change with GEDI and the OBIWAN API, Part 2/2
+dmSxjSpZetY|NASA ARSET: Foundational Concepts Part 1/2
+75FT7hIegxI|NASA ARSET: Estimación de Biomasa Usando GEDI, Parte 1 de 2
+7Gn1rvDe-UI|NASA ARSET: Estimating Biomass using GEDI, Part 1/2
+RbiYboadlLc|NASA ARSET: Overview and Applications of OPERA-DISP to Monitor Groundwater Changes Part 3/3
+A-EoWxAmCco|NASA ARSET: Downloading OPERA Displacement Data from NASA EarthData
+IaOGhf9NYDk|NASA ARSET: Overview and Applications of GLDAS Groundwater Data Products at Regional Scale Part 2/3
+KlYIAvKii8M|NASA ARSET: Overview and Analysis of NASA Terrestrial Water Storage Data from GRACE/GRACE-FO Pt. 1/3
+2in7i2qiIpw|NASA ARSET: Visualizing Land Cover Change Part 2/2
+aOBk75nE8b4|NASA ARSET: Classification Methods for Land Cover Part 1/2
+Xlt3v99nNyY|NASA ARSET:  Introduction and Demonstration of STREAM, Part 1/2
+v-g1-gua5jg|NASA ARSET: Case Studies in Trace Gas Monitoring with North American Geostationary Sensors, Part 2/2
+tUrophmxrd4|NASA ARSET: Análisis y Visualización de Datos, Parte 2/2
+3zlqrftGU7c|NASA ARSET: North American Geostationary Trace Gas Data Products for Air Quality, Part 1/2
+9bDbXVdd0Kk|NASA ARSET: Imágenes Satelitales Posteriores a un Incendio y Monitoreo del Humo, Parte 1/2
+vLcK5-QnlOY|NASA ARSET: Techniques for Plotting and Analyzing ATL24 Coastal Bathymetry Part 2/2
+FoOSm5VQ0lc|NASA ARSET: NASA ATL24 Bathymetric Data for Coastal and Near-Shore Applications Part 1/2
+iNWlKhZSykU|NASA ARSET: Data Analysis and Visualization Part 2/2
+dk4TWK0aOUI|NASA ARSET: Post-Fire Imagery and Smoke Monitoring Part 1/2
+RuV6vCcNk9A|NASA ARSET: Introducción a la Misión GEDI y sus Productos Derivados Parte 2 de 2
+C8t1isFGWrM|NASA ARSET: Introduction to the GEDI Mission and its Derived Products Part 2/2
+TfFDzBYtCvk|NASA ARSET: Datos de SIF Completos (Gap-Filled) Parte 3/3
+PU1PaHliBK8|NASA ARSET: Working with Gap-Filled SIF Products Part 3/3
+1imvsVTM90E|NASA ARSET: Introducción a Lidar de Forma de Onda Completa Parte 1 de 2
+ygdK8uMxi8A|NASA ARSET: Overview of OCO-2 and OCO-3 Observing Modes and SIF Observations Part 2/3
+2GZfn6Z6v4Y|NASA ARSET: Introduction to Full-Waveform Lidar Part 1/2
+cQTiDZ5AgF8|NASA ARSET: Resumen de los Modos de Observación de OCO-2/3 y de las Observaciones de SIF Pt 2 de 3
+kSVQxj_e4as|NASA ARSET: Mediciones de la Fluorescencia Inducida por el Sol (SIF) desde el Espacio Parte 1 de 3
+6_XKD3wrJ1g|NASA ARSET: Solar Induced Chlorophyll Fluorescence (SIF) Measurements from Space Part 1/3
+OLLQXfaW3Cc|NASA ARSET: Case Study - Use of Remote Sensing for Climate-Sensitive Infectious Diseases Part 2/2
+1WAtjat365o|NASA ARSET: How Remote Sensing Can be Used to Study Climate-Sensitive Infectious Diseases Part 1/2
+2bukmnvg5OA|NASA ARSET: Airborne Data Applications for Invasive Species Mapping, Part 1/1
+SxSA76J9NvI|NASA ARSET: NEX-GDDP-CMIP6 Overview, Data Access and Application using Google Earth Engine Part 1/2
+L9UTzIeIhKs|NASA ARSET: Extreme Event Statistics during 21st Century using NEX-GDDP Data, Part 2/2
+VWAHDPSQosw|NASA ARSET: NEX-GDDP-CMIP6 Overview, Data Access and Application using Google Earth Engine Part 1/2
+MhU1e5PqS2M|NASA ARSET: Monitoring Snowpack and Prediction of Water Availability in the Western US, Part 3/3
+IqiYndJxyrg|NASA ARSET: Overview of NASA Snow and Ice Data Products, Part 1/3
+2xt47dCqwlE|NASA ARSET: Acceso y Visualización de Datos, Parte 3 de 3
+LJXFd3fthlA|NASA ARSET: Assessment Tools for Sea Level Change, Part 2/2
+-6YsozJoNLk|NASA ARSET: LiDAR Profiling Satellite Observations for Air Quality Applications, Part 2/2
+HFq_a4VEHfo|NASA ARSET: Overview of Sea Level Change – Regional to Global, Part 1/2
+vJV50ThHc-U|NASA ARSET: LiDAR Profiling Satellite Observations for Air Quality Applications, Part 1/2
+xVFU4qHtvW8|NASA ARSET: Integration of Animal Tracking and Remote Sensing Data, Part 2/2
+M4oTCKS5mWg|NASA ARSET: Introduction to Animal Tracking and Remote Sensing at NASA, Part 1/2
+XOXyxSf4P_k|NASA ARSET: Aplicaciones y Acceso a SWOT para la Extracción y Visualización de Datos, Parte 2 de 2
+pi1arBgclfI|NASA ARSET: SWOT Mission Applications and Retrieving, Visualizing, and Manipulating Data, Part 2/2
+0yeolxXCpFU|NASA ARSET: Los Datos para el Monitoreo Global del Agua Superficial Terrestre, Parte 1 de 2
+9pjNfRAz7TA|NASA ARSET: Observations for Monitoring Global Terrestrial Surface Water, Part 1/2
+S_A4switNdU|NASA ARSET: Data Access and Visualization, Part 3/3
+UJOwwMwqvWA|NASA ARSET : Wildfire Monitoring and Evaluation, Part 2/3
+2Us91BGL3Q4|NASA ARSET: Introduction to Satellite-Based Active Fire Detection using FIRMS, Part 1/3
+VdukOyMswzI|NASA ARSET: Part 2: Remote Sensing-based Cholera Predictive Intelligence for Intervention, Part 2/2
+_LXgg2yzYH8|NASA ARSET: Overview of Monitoring Waterborne Diseases using Remote Sensing Observations, Part 1/2
+5n7y8wYNYwo|NASA ARSET: Remote Sensing and Landslide Susceptibility, Part 3/3
+EvhCt0nan0A|NASA ARSET: Mapping Landslide Occurrence Using Earth Observations, Part 2/3
+vq5l3rfrMbU|NASA ARSET: Remote Sensing for Landslide Science and Disaster Planning, Part 1/3
+IJeiaE8L2wo|NASA ARSET: El Cálculo de Índices Espectrales para Aplicaciones para Tierras y Acuáticas Usando QGIS
+B3_IGZLjCo8|NASA ARSET: Calculating Spectral Indices for Land and Aquatic Applications Using QGIS
+9A1d7Wcpqeg|NASA ARSET: Acceso y Visualización de Datos de EMIT, Parte 2 de 2
+v4cgBz_8JvY|NASA ARSET: La Teledetección de Grandes Emisiones de Metano, Parte 1 de 2
+KPkzGr7ulIU|NASA ARSET: Mapping Salt Marsh and Seagrass with Earth Observations, Part 2/2
+qrrcxPLL41c|NASA ARSET: Cartographier les Marais Salants et les Herbiers Marins, Partie 2/2
+MuJZn6PqNvo|NASA ARSET: Aperçu des Écosystèmes de Carbone Bleu et Cartographie des Écosystèmes de Mangrove, 1/2
+C7HHhHpOxgg|NASA ARSET: Overview of Blue Carbon Ecosystems & Mapping Mangrove Ecosystems, Part 1/2
+yN2zu_qYsE4|NASA ARSET: Resumen General de Fuentes de Datos y Herramientas SAR, Parte 3 de 3
+lB_Eq8amD84|NASA ARSET: EMIT Data Products and Visualization, Part 2/2
+Dw9XFtDrgtA|NASA ARSET: An Overview of SAR Data Sources and Tools, Part 3/3
+cFCinjBP5FQ|NASA ARSET: U.S. Greenhouse Gas Center (US GHG) and Remote Detection of Methane Emissions, Part 1/2
+SlISriULDzQ|NASA ARSET: Introducción al SAR Interferométrico (InSAR), Parte 2 de 3
+egP0aoGXHDs|NASA ARSET: Introduction to Interferometric SAR (InSAR)
+pDQ0XTDexHA|NASA ARSET: Introducción al Radar de Apertura Sintética (SAR), Parte 1 de 3
+AUIUpFHgVx0|NASA ARSET: An Introduction to Synthetic Aperture Radar (SAR) and Its Applications, Part 1/3
+ef6AVyDsdmU|NASA ARSET: Access & Visualization of PACE/OCI Data using Python/Jupyter Notebook Software, Part 3/3
+VCMenqi2R6Q|NASA ARSET: Acceso y Visualización de Datos de PACE/OCI Data, Parte 3 de 3
+mhWoriX0qlU|NASA ARSET: Resumen General, Acceso y Análisis de los Datos de PACE Ocean Color, Parte 2 de 3
+CoqJUeyXgAA|NASA ARSET: Introduction to the PACE Mission for Water Quality Monitoring, Part 1/3
+nnynQKUdEhQ|NASA ARSET: Introducción a la Misión PACE para el Monitoreo de la Calidad del Agua, Parte 1 de 3
+a3jZqyMtJrg|Ask NASA ARSET: Remote Sensing Observations for Air Quality Applications
+hRCODTemQlg|Ask NASA ARSET: Radar Remote Sensing for Flood Monitoring
+EGxUoCKbrFs|NASA ARSET: Mapping Invasive Grassland Plant Species with Hyperspectral Remote Sensing, Part 3/3
+3qfXlMonG0s|NASA ARSET: Introduction to the Micro-Pulse LiDAR Network (MPLNET), Part 5/5
+djhoE5NoSCA|NASA ARSET: Monitoring of Aquatic Invasive Species with Remote Sensing, Part 2/3
+zS3T-4Pnde8|NASA ARSET: Introduction to the Tropospheric Ozone LiDAR Network (TOLNet), Part 4/5
+Sc20HX1zSZs|NASA ARSET: Introduction to the Monitoring of Invasive Species with Remote Sensing Tools, Part 1/3
+qeMZa6BiQ2g|NASA ARSET: Introduction to the Pandora Instrument and the Pandonia Global Network, Part 3/5
+wSCFtOjQw0o|NASA ARSET: Hands-On Analysis of AERONET Data, Part 2/5
+x0Gg8COznJ8|NASA ARSET: Introduction to the Aerosol Robotic Network (AERONET), Part 1/5
+dyXtQ0uiscA|NASA ARSET: Demonstration of Regional Drought Monitoring Tools, Part 4/4
+RvgDLPlFr9s|NASA ARSET: Climate Change Projections and Droughts, Part 3/4
+rnBxGWjRiXw|NASA ARSET: Drought Prediction using NASA Sub-seasonal to Seasonal (S2S) Predictions, Part 2/4
+5WZf1bBAqzg|NASA ARSET: Overview of Drought Monitoring Data and Tools using Earth Observations, Part 1/4
+bZftCf-wZ0w|NASA ARSET: Mediciones del CO2 sobre un Área Urbana Extensa, Parte 3 de 3
+B-Y1uz02Ccg|NASA ARSET: CO2 Measurements over a Large Urban Area, Part 3/3
+myygnUpDQF4|NASA ARSET: El Impacto de las Sequías en el CO2, Parte 2 de 3
+AeBy7lFKbgE|NASA ARSET: The Impact of Drought on CO2, Part 2/2
+NeRydm9OUsc|NASA ARSET: XCO2 de OCO-2 y OCO-3: Repaso de las Misiones y las Características, Parte 1 de 3
+n_Dv8c92OPc|NASA ARSET: XCO2 from OCO-2 & OCO-3: Mission Recap, and Data Characteristics & Limitations, Part 1/3
+_802zNWrRBw|NASA ARSET: Tracking Drought Effects on Agricultural Landscapes in Refugee Settings, Part 3/3
+Qb8PMcZGs6w|NASA ARSET: Gauging Long-Term Heat Stress in Refugee Settings, Part 2/2
+JXYUUkGQu9I|NASA ARSET: Assessing Flood Risk in Refugee Camp Settings, Part 1/3
+nm3EGcR-dC0|NASA ARSET: Introduction to Lightning Observations and Applications, Part 3/3
+ke2gPRRdXZY|NASA ARSET: Lightning Data Products from Remote Sensing and Ground-Based Measurements, Part 2/3
+0RR37KuohEk|NASA ARSET: Background and History of Lightning Measurements, Part 1/3
+vpHREZBTuF8|NASA ARSET: Training & Testing ML Models for Irregularly-Spaced Time Series of Imagery, Part 3/3
+w-zRfsTZBFY|NASA ARSET: Data Loaders for Training ML Models on Irregularly-Spaced Time-Series Imagery, Part 2/3
+wwhb14hDhEQ|NASA ARSET: Data Preparation of Imagery for Large-Scale ML Modeling, Part 1/3
+oGwupIMKvdw|NASA ARSET: Overview of SeaDAS 8.4.1 for the Processing, Analysis & Visualization of Optical Data
+_MYEleEIXbQ|NASA ARSET: Spectral Indices for Land and Aquatic Applications, Part 3
+2CKxV_mTuxk|NASA ARSET: Detecting and Monitoring Floods with SAR, Part 3/3
+uv3H-FgNAV0|NASA ARSET: Detección y Monitoreo de Inundaciones con SAR, Parte 3 de 3
+YE3DeQmd_IQ|NASA ARSET: Measuring Surface Subsidence due to Groundwater Extraction with InSAR, Part 2/3
+PkiFhbsmD40|NASA ARSET: Medición de la Subsidencia del Suelo debido a la Extracción de Agua Subterránea, Parte 2
+hga94lkmtqM|NASA ARSET: Spectral Indices for Land and Aquatic Applications, Part 2/3
+vAtm_rkKrlM|NASA ARSET: Spectral Indices for Land and Aquatic Applications, Part 1/3
+KdaQgFGIxvI|NASA ARSET: Detecting and Monitoring Sea Ice with SAR, Part 1/3
+Quaz4x0RcLA|NASA ARSET: Detección y Monitoreo de Hielo Marino con SAR, Parte 1 de 3
+BrOsXIWNu88|NASA ARSET: Assessing Utility and Communicating Uncertainty, Part 3 of 3
+cueh9WfAhIU|NASA ARSET: Evaluación de la Utilidad y Comunicación de la Incertidumbre, Parte 3 de 3
+AgXL2c45FPg|NASA ARSET: Desarrollo de Datos de Exposición para Sitios Específicos, Parte 2 de 3
+R5JdP8msTbE|NASA ARSET: Development of Site-specific Exposure Data with Earth Observations, Part 2/3
+gMRMagEo4xY|NASA ARSET: Desarrollo de Datos de Exposición Regionales con Observaciones de la Tierra Parte 1 de 3
+RBSmMTkVvzc|NASA ARSET: Development of Regional Exposure Data with Earth Observations, Part 1/3
+kFLDFxfsJ1A|NASA ARSET: Developing Climate Adaptation Support for NASA Centers, Part 2/2
+4QKY-IxalyI|NASA ARSET: Theoretical Framework for Demand-Driven Climate Adaptation Support, Part 1/2
+ux-EFNbHRDg|ARSET's 100,000th Participant
+tetTo4i_Etg|NASA ARSET: Assess Water Quality using Satellite and In Situ Observations, Part 3/3
+eFQz6qmbsok|NASA ARSET: Cyanobacteria Assessment Network (CyAN), Part 2/3
+UaDybXuIW1c|NASA ARSET: Overview of Remote Sensing Observations to Assess Water Quality, Part 1/3
+w2MmBY3lhYE|NASA ARSET: Using Google Earth Engine to Monitor Post-Fire Impacts, Part 3/3
+lAHM05jeQq0|NASA ARSET: The Soil & Water Assessment Tool (SWAT) for Assessing Post-Fire Water Quality: Part 2/3
+H3Q1pI-NFL8|NASA ARSET: Satellite Observations and Tools for Fire Risk, Part 1/3
+myCgQ_EzCEA|NASA ARSET: Access Data at Organization and Individual Levels, Part 3/3
+5W_w5ZKX_BI|NASA ARSET: Early and Established Applications of LIS for Drought Analysis in Operations, Part 2/3
+yA7gX95oOBU|NASA ARSET: Foundational Understanding of LIS (static, forcing, models, output), Part 1/3
+M369bW8FJpQ|NASA ARSET: Model Tuning, Parameter Optimization, & Additional Machine Learning Algorithms, Part 3/3
+x-qshtt7A_Y|NASA ARSET: Ajustes de Modelos, Optimización de Parámetros y Algoritmos Adicionales, Parte 3 de 3
+5RIoU9ImnH0|NASA ARSET: Training Data and Land Cover Classification Example, Part 2/3
+pviEsA7Hj8o|NASA ARSET: Ejemplo de Datos de Entrenamiento y Clasificación de la Cobertura Terrestre, Parte 2/3
+U-uJGnhD-zg|NASA ARSET: Overview of Machine Learning, Part 1/3
+iKN3IAsCwHo|NASA ARSET: Introducción al Aprendizaje Automático, Parte 1 de 3
+YWe_uhEV-NM|NASA ARSET: Monitoreo del Crecimiento de los Cultivos a través de Parámetros Estructurales, Parte 3
+3rZAUeOMBLo|NASA ARSET: Monitoring Crop Growth Through SAR-Derived Crop Structural Parameters, Part 3/3
+0sdBiVcLFIE|NASA ARSET: Crop Classification with Time Series Optical and Radar Data, Part 2/3
+mbbHWBRJCno|NASA ARSET: Clasificación de Cultivos con Datos Ópticos y de Radar de Series Temporales, Parte 2
+llRk4mILEFA|NASA ARSET: Biodiversity Applications for Airborne Imaging Systems, Part 4/4
+d1JePrWHUK4|NASA ARSET: Clasificación de Cultivos con Series, Parte 1 de 3
+QP4VPaBovBk|NASA ARSET: Crop Classification with Time Series of Polarimetric SAR Data, Part 1/3
+qmE7FTyw6H8|NASA ARSET: Biodiversity Applications for Airborne Imaging Systems, Part 3/4
+DRhzDYvnWXM|NASA ARSET: Biodiversity Applications for Airborne Imaging Systems, Part 2/4
+Gi2PYyTk4QA|NASA ARSET: Biodiversity Applications for Airborne Imaging Systems, Part 1/4
+1zrpkH7s18I|NASA ARSET: Citizen Science at NASA with Land Applications, Part 3/3
+DTAMcKsdncc|NASA ARSET: Ciencia Ciudadana en la NASA con Aplicaciones para Tierras, Parte 3 de 3
+Dldm9YfA85w|NASA ARSET: Ciencia Ciudadana en la NASA con Aplicaciones Costeras/Oceánicas. Parte 2 de 3
+4tAmf3dBUxU|NASA ARSET: NASA’s Citizen Science for Earth Systems Program, Part 2/3
+y_N47fiHyl4|NASA ARSET: Introducción a la Ciencia Ciudadana, Parte 1 de 3
+vfT4VG7x0AY|NASA ARSET: Overview of Citizen Science, Part 1/3
+vGU4UqhHhAA|NASA ARSET: Overview of Webinar Series and an Introduction to Satellite Remote Sensing, Part 1/5
+rVWfZH2eQY0|NASA ARSET: Fundamentals of Remote Sensing Imagery and Tools to Access, Part 2/5
+_1Fyyl4xDmY|NASA ARSET: NASA Aerosol Products for Particulate Matter Air Quality, Part 3/5
+CirebnPK9KE|NASA ARSET: NASA Trace Gas Products, Part 4/5
+FEEI6yNx4Us|NASA ARSET: Future Satellite Capabilities for Air Quality Monitoring and Review, Part 5/5
+AohkvVi0otA|NASA ARSET: MODIS NDVI Anomalies, Part 4/4
+r48ajiqguvE|NASA ARSET: MODIS NDVI Time Series, Part 3/4
+elPbB8k2Sxg|NASA ARSET: Deriving NDVI from Landsat, Part 2/4
+RsVEv0PboPI|NASA ARSET: Overview of SDG 15, Part 1/3
+bSEYGSGVugU|NASA ARSET: SDG Target 15.1, Part 2/3
+tkvwzdyV0xQ|NASA ARSET: SDG Target 15.3, Part 3/3
+_jtKJbDcjoU|NASA ARSET: AQ Products from GOES, Part 2/3
+OJWMN3CSJWc|NASA ARSET: Derrames de Petróleo, Parte 3 de 3
+iyHPQa2VGOI|NASA ARSET: Oil Spills, Part 3/3
+lPb0wb_lZd8|NASA ARSET: AQ Products from GEMS, Part 3/3
+wVBmHLJBEDo|NASA ARSET: Deslizamientos de Tierra, Parte 2 de 3
+UV1Th-dYVak|NASA ARSET: Landslides, Part 2/3
+t5NY081aK-w|NASA ARSET: Inundaciones, Parte 1 de 3
+Uz44ppuT8xw|NASA ARSET: Floods, Part 1/3
+ZkCcPGMWlLQ|NASA ARSET: Introduction to Geostationary AQ Observations and AQ Products from Himawari, Part 1/3
+P7i2cWpM9yc|NASA ARSET: Using Hot-Humid Heat Estimates & Population Data to Map Heat Exposure Worldwide, Part 4
+GgfqEiVw_mM|NASA ARSET: Integrating Socioeconomic Data with Satellite Imagery for Constructing HVIs, Part 3/4
+v5NsOoXWdjo|NASA ARSET: Integrating Socioeconomic Data with Satellite Imagery for Constructing HVIs - Part 2/4
+t88PpJEKteQ|NASA ARSET: Land Surface Temperature-Based Surface Urban Heat Island Mapping, Part 1/4
+Ji7edL2ogUM|NASA ARSET: Monitoreo de la Vegetación Acuática con Teledetección, Parte 3 de 3
+huw-ML5deg0|NASA ARSET: Monitoring Aquatic Vegetation with Remote Sensing, Part 3/3
+WOlEqkTqvpM|NASA ARSET: Monitoreo de la Vegetación Acuática con Teledetección, Parte 2 de 3
+74NKtluFQ1M|NASA ARSET: Monitoring Aquatic Vegetation with Remote Sensing, Part 2/3
+V_XfiGzA9dA|NASA ARSET: Monitoring Aquatic Vegetation with Remote Sensing, Part 1/3
+XlzA_0FxRG4|NASA ARSET: Monitoreo de la Vegetación Acuática con Teledetección, Parte 1 de 3
+JxPZyXLsdTg|NASA ARSET: Assessing Climate Hazards at Refugee Camps, Part 4/4
+3UPjH_tSJ_M|NASA ARSET: Detecting Agricultural & Vegetation Changes Surrounding Refugee Settlements, Part 3/4
+3yEelQADHxc|NASA ARSET: Mapping Refugee Settlement Growth and Population Change, Part 2/4
+QHqtJFfx4F8|NASA ARSET: Data Access and Application of ET products, Part 3/3
+R5Pbrd9a6gk|NASA ARSET: Monitoring Urban Damage with Multi-Sensor Satellite Imagery, Part 1/4
+Yc8QDt2f4hs|NASA ARSET: Introduction to ECOSTRESS ET, Part 2/3
+GJXDEy3gNyI|NASA ARSET: XCO2 en Apoyo a Estudios Relacionados con el Clima Locales y regionales, Parte 4 de 4
+WjPq6gGI9Ig|NASA ARSET: XCO2 in Support of Local and Regional Climate Related Studies, Part 4/4
+QHqWrO2HMco|NASA ARSET: Introduction to OpenET, Part 1/3
+vL07GMG9auM|NASA ARSET: XCO2 en Apoyo a Estudios Relacionados con el Clima Mundiales y Regionales, Parte 3 de 4
+-uxGCX8l1gI|NASA ARSET: XCO2 in Support of Global and Regional Climate Related Studies, Part 3/4
+LGKLIM7maVQ|NASA ARSET: Introducción a XCO2 con OCO-2 y OCO-3, Parte 1 de 4
+2551aFGyleY|NASA ARSET: An Introduction to XCO2 with OCO-2 and OCO-3, Part 1/4
+2ZILcjYB9Fk|NASA ARSET: A Demonstration on how to Access and Visualize OCO-2/OCO-3 Data, Part 2/4
+XUERBFMVvzc|NASA ARSET: Demostración de cómo Acceder y Visualizar Datos de OCO-2/OCO-3, Parte 2 de 4
+y9ZCf9Dt2Z4|NASA ARSET:  Top-Down Budgets and Bottom-Up Inventories to Support the Global Stocktake, Part 3/3
+dxsGsrvYGzU|NASA ARSET: Creating Top-Down Atmospheric Budgets of CO2 and CH4 on Policy-Relevant Scales, Part 2/3
+aYcz80Ycir0|NASA ARSET: Tracking Greenhouse Gases, Part 1/3
+n1kU1bBU2tQ|NASA ARSET: NDVI & QGIS, Part 1
+KPMen6cRnbY|NASA ARSET: Laboratorio Avanzado 2: Dominio de los Espacios de Trabajo Seguros de UNBL
+kzriIDd3Y84|NASA ARSET: Session Avancée 2 : Maîtriser les espaces de travail sécurisés du UNBL
+NMlyeVdzzjc|NASA ARSET: Advanced Lab 2: Mastering UNBL Secure Workspaces
+X3YJNLyWM6c|NASA ARSET: Análisis de Series de Tiempo de Cultivos Específicos: Parte 4 de 4
+wgTmTB3GlTI|NASA ARSET: Crop-Specific Time Series Analysis for Growth Monitoring, Part 4/4
+PN8g0Pv450g|NASA ARSET: Laboratorio Avanzado: Dominio de la Plataforma Pública UNBL
+YZ0AzIfahGs|NASA ARSET: Session Avancée : Maîtriser la plateforme publique du UNBL
+snrAjX_OydQ|NASA ARSET: Advanced Lab 1: Mastering the UNBL Public Platform
+sG9vWZ0tSJM|NASA ARSET: Exploración de los Espacios de Trabajo Seguros del UN Biodiversity Lab, parte 3 de 3
+6B9WFCXaYuI|NASA ARSET: Explorer les Espaces de Travail Sécurisés du UN Biodiversity Lab, Partie 3/3
+_FnVu_Wxc3o|NASA ARSET: Technical Training: Exploring UN Biodiversity Lab Secure Workspaces, Part 3/3
+IQXtWowwkAs|NASA ARSET: Sen4Stat Open-Source Toolbox (Theory and Practical), Part 3/4
+JRjo46oRisM|NASA ARSET: Caja de Herramientas (Toolkit) de Fuente Abierta Sen4Stat Teoría y Práctica Parte 3 de 4
+s83phm5lXGo|NASA ARSET: Exploración de la Plataforma Pública del UN Biodiversity Lab, Parte 2 de 3
+hTdiwiLgCGc|NASA ARSET: Technical Training: Exploring the UN Biodiversity Lab Public Platform, Part 2/3
+VZmI14fGK4k|NASA ARSET: Exploration de la plateforme publique du UN Biodiversity Lab, Partie 2/3
+30x6XE6U4CU|NASA ARSET: SAR Polarimetry with Sentinel-1, RCM, & SAOCOM Imagery for Agriculture, Part 2/4
+S_EFDxuQRiI|NASA ARSET: Polarimetría SAR con Imágenes de Sentinel-1, RCM y SAOCOM para Agricultura, Parte 2 de 4
+gEMrQsNr9rw|NASA ARSET: Utilización del UN Biodiversity Lab para Apoyar Biodiversidad y Desarrollo Sostenible
+nbtrJa50Bfo|NASA ARSET: Utiliser le UN Biodiversity Lab pour biodiversité et le développement durable Partie 1/3
+PnkJPMstgco|NASA ARSET: Using UN Biodiversity Lab to Support Biodiversity & Sustainable Development, Part 1/3
+-Mq5A9aXIuc|NASA ARSET: SAR Polarimetry for Agriculture (Theory and Practice), Part 1/4
+kWpIjfr3AMg|NASA ARSET: Polarimetría SAR para la Agricultura (Teoría y Práctica), Parte 1 de 4
+HDXwk1r-QI0|NASA ARSET: Interpreting Model Output for Air Quality Assessment, Part 3/3
+Cr6xtc_ITf4|NASA ARSET: Introduction to Python Tools for Visualization and Analysis, Part 2/3
+_oOKZOL-hbQ|NASA ARSET: PM 2.5 Case Study Analysis, Part 3/3
+phHKEcliRz0|NASA ARSET: World Health Organization (WHO) PM2.5 Data Set, Part 2/3
+GswAJ_fsF4Y|NASA ARSET: Sustainable Development Goals (SDGs) and Relevant Air Quality Observations, Part 1/3
+U9w9vZbdrNM|NASA ARSET: Review of NASA Air Quality Forecasts and Reanalysis, Part 1/3
+ffJ8-Pa7PuQ|NASA ARSET: Large Scale Monitoring Using Remote Sensing and Citizen Science, Part 4/4
+TH7y0YzPNSM|NASA ARSET: Understanding HABs in the Coastal Environment, Part 3/4
+UFDEllzDxE4|NASA ARSET: Platforms and Sensors for Ocean Observations, Data Access, & Processing Tools, Part 2/4
+w7yYkF8pbvg|NASA ARSET: Overview of Harmful Algal Blooms, Part 1/4
+tVf4ltA8SbI|NASA ARSET: ALEXI and Soil Moisture, Evapotranspiration data from GLDAS/NLDAS, Part 5/5
+_MPQgDQJxYw|NASA ARSET: The METRIC model and the EEFlux Portal, Part 4/5
+CKIqVpWu3c0|NASA ARSET: Accessing SMAP Data, Part 3/5
+DTQ1FPyCm_w|NASA ARSET: Applications of SMAP Data, Part 2/5
+DFjJbc6VBBs|NASA ARSET: Introduction to Soil Moisture, Evapotranspiration & the SMAP Satellite Mission, Part 1/5
+E9CiSZKZxC8|NASA ARSET: The Global Disaster Alert and Coordination System (GDACS), Part 1/1
+8tg_TYkt2gU|NASA ARSET: Casos de Uso a Nivel Nacional y Municipal, Parte 3 de 3
+yJQyIOsT_ws|NASA ARSET: Use Cases from the National and City Level, Part 3/3
+eYyWTuWthyY|NASA ARSET: Read, Map, and Analyze Level 2 MODIS AOD Data, Part 2/3
+VZ0HBPPIo5A|NASA ARSET: Read, Map, and Analyze OMI NO2 and SO2 Data, Part 3/3
+wIXFw9W1M4E|NASA ARSET: Introduction to Datasets, Part 1/3
+sAZ1Ng9aVzo|NASA ARSET: Aplicaciones del Toolkit de Observaciones de la Tierra para Medir los ODS, Parte 2 de 3
+hSCqJ0BrqFY|NASA ARSET: Applications of the EO Toolkit to Measure and Analyze SDGs, Part 2/3
+sEe9Oq9BUTU|NASA ARSET : Introducción al Toolkit de Observaciones de la Tierra, Parte 1 de 3
+0pt2SxQJGNM|NASA ARSET: Introduction to the EO Toolkit for Sustainable Cities and Human Settlements, Part 1/3
+poWjCS3bxb0|NASA ARSET: Post-Fire Mapping, Part 2/2
+yQY41ViDPKU|NASA ARSET: Pre-Fire Mapping, Part 1/2
+V0pwwG8YOUg|NASA ARSET: Monitoring MODIS- and VIIRS-Based Water Quality in Selected Estuaries, Part 2/2
+aXiKibOJWKg|NASA ARSET: In Situ Data Acquisition using SeaBASS and Image Processing using SeaDAS, Part 1/2
+AftRWxzN99c|NASA ARSET: Obtención de Variables Biofísicas Usando Imágenes Ópticas para Agrícola, Parte 5 de 5
+_X9HiOj8yMo|NASA ARSET: Biophysical Variable Retrieval using Optical Imagery for Agriculture, Part 5/5
+Y3L9PkUNbII|NASA ARSET:  Mapa Operativo de la Clasificación de Cultivos 2, Parte 4 de 5
+_cZidf9taJ8|NASA ARSET: Operational Crop Classification Roadmap using Optical and SAR Imagery 2, Part 4/5
+JfxKz-J30Hc|NASA ARSET: Mapa Operativo de la Clasificación de Cultivos Usando Ópticas y de SAR, Parte 3 de 5
+6_bytSnJCc8|NASA ARSET: Operational Crop Classification Roadmap using Optical and SAR Imagery, Part 3/5
+uIdK0_xOPNU|NASA ARSET: Repaso de la Teledetección Óptica e Introducción a SNAP, Parte 2 de 5
+47lS2FupWjM|NASA ARSET: Optical Remote Sensing Refresher and Introduction to SNAP, Part 2/5
+d6vC6_H_0iI|NASA ARSET: Climate Change Future Scenarios, Impact Projection, and Adaptation, Part 2/2
+rwQND_tau58|NASA ARSET: Repaso de Radar de Apertura Sintética, Parte 1 de 5
+2SGP30TGHXM|NASA ARSET: Synthetic Aperture Radar (SAR) Refresher, Part 1/5
+hS0jzXIxBJQ|NASA ARSET: Global Air Quality Forecasting by Copernicus Atmosphere Monitoring Service, Part 3/3
+SnnIz2C5Ny4|NASA ARSET: Climate Change Monitoring & Impacts Using Remote Sensing and Modeled Data, Part 1/2
+OgWJtSx-sr0|NASA ARSET: Global Air Quality Forecasting by NASA, Part 2/3
+IJh13kRCFqA|NASA ARSET: Introduction to Air Quality Forecasting, Part 1/3
+Yid3uAhKkiU|NASA ARSET: Monitoreo de la Calidad del Agua en base a MODIS y VIIRS en Estuarios, Parte 3 de 3
+df4LzwVtYXA|NASA ARSET: Monitoring MODIS- and VIIRS-Based Water Quality in Selected Estuaries, Part 3/3
+Mw3hg2w3xNg|NASA ARSET: Image Processing using SeaDAS, Part 2/3
+t8SwzYmC1-U|NASA ARSET: Procesamiento de Imágenes con SeaDAS, Parte 2 de 3
+jhtV90jmOxQ|NASA ARSET:  NASA ARSET: Monitoreo de la Calidad del Agua en los Estuarios, Parte 1 de 3
+irctKtTt0eE|NASA ARSET: Assessing Landslide Hazards Before and During an Event, Part 3/3
+fc04R93GnD4|NASA ARSET: Evaluación del Peligro de Derrumbes Antes y Durante un Evento, Parte 3 de 3
+rBG1INvr57U|NASA ARSET:  Evaluación del Aumento del Nivel del Mar, Parte 2 de 3
+MxtrW14o1-k|NASA ARSET: Assessing Sea Level Rise at the Regional to Local Scale Using Earth Observations, Pt 2/3
+ZMJ-bTXtqHw|NASA ARSET: Additional SDM Tools and Techniques, ASP Projects, and Summary, Part 3/3
+L8XwNyXcpHQ|NASA ARSET: Assessing Pre- and Post-Storm Impacts, Part 1/3
+SRSh1N_VC30|NASA ARSET: Evaluación de los Impactos Antes y Después de las Tormentas, Parte 1 de 3
+VfXg3UsnufU|NASA ARSET: Using Wallace to Model Species Niches and Distributions, Part 2/3
+KhZ1Gk9eQFI|NASA ARSET: Overview of Species Distribution Models (SDMs), Part 1/3
+RqVselZ5hKM|NASA ARSET: Time Series Analysis and Change Detection in Google Earth Engine, Part 3/3
+Gd005hKVrPs|NASA ARSET: Overview of the Global Wildfire Information System (GWIS), Part 2/2
+n3UCO2BoALg|NASA ARSET: Using the Fire Mapping Tools to Map Fires, Part 1/2
+JFvxudueT_k|NASA ARSET: Land Cover Classification and Accuracy Assessment in Google Earth Engine, Part 2/3
+SdQaSM_DScU|NASA ARSET: Utilizing the NASA POWER Web Services for Energy Related Applications, Part 4/4
+-BwqcjgHh6A|NASA ARSET: Google Earth Engine Basics and General Applications, Part 1/3
+o83KNj85AJw|NASA ARSET: Resources for Renewable Energy and Building Energy Efficiency Applications, Part 3/4
+4eFiIf-92Zs|NASA ARSET: Using NASA Products for a More Climate Resilient Energy Sector, Part 2/4
+Wmagqj7_c8w|NASA ARSET: Introduction to Earth Observations (EOs) for Energy Management, Part 1/4
+oG-pNayqaEo|NASA ARSET: Satellites and Sensors for Vegetation-Based Wildfire Applications (Post-Fire), Part 6/6
+gQAm3IwinNI|NASA ARSET: Satellites, Sensors, & Models for Climate & Hydrologic-Based Applications, Part 5/6
+hx-m1XMJlfc|NASA ARSET: Smoke Modeling and Forecasting, Part 4/6
+9qDmLOI1GoI|NASA ARSET: Calidad del Aire y Pronósticos de Humo y Modelación de Incendios Activos, Parte 4/6
+AYehqG1j508|NASA ARSET: Satellites and Sensors for Active Fire Monitoring (During-Fire), Part 3/6
+JnYJ2AFMKQo|NASA ARSET: Satellites and Sensors for Vegetation-Based Wildfire Applications (Pre-Fire), Part 2/6
+6AOyvADNOPk|NASA ARSET: Satellites, Sensors, & Models for Climate & Hydrologic-Based Applications, Part 1/6
+2JscvT0ubts|NASA ARSET: Population Grid Application Areas, Part 2/2
+yS0Ck29lCrc|NASA ARSET: Introduction to Population Grids and Their Uses, Part 1/2
+jwsymP9_PrE|NASA ARSET: Accessing and Analyzing SIF Data for Vegetation Studies, Part 4/4
+VvZi5xIye-8|NASA ARSET: Solar Induced Fluorescence and its Applications, Part 3/4
+jf5WSrx17iU|NASA ARSET: Acceso y Análisis de Datos de SIF para Estudios de la Vegetación, Parte 4/4
+qbyhCSQklqI|NASA ARSET: La Fluorescencia Inducida por el Sol (SIF) y sus Aplicaciones, Parte 3/4
+I5_d5Rpzy18|NASA ARSET: Acceso y Análisis de datos de LIDAR para Estudios de la Vegetación,  Parte 2/4
+W-7gzSeHxS8|NASA ARSET: Accessing and Analyzing LIDAR Data for Vegetation Studies, Part 2/4
+iuTm1jJy2XY|NASA ARSET: LIDAR and its Applications, Part 1/4
+ovIAQF6bn40|NASA ARSET: LIDAR y Sus Aplicaciones,  Parte 1/4
+-wVpoYszRCs|NASA ARSET: Mapping and Monitoring Lakes and Reservoirs with Satellite Observations, Part 3/3
+ELgJ3hvaBUI|NASA ARSET: Mapping and Monitoring Lakes and Reservoirs with Satellite Observations, Part 2/3
+sliQ_o-P1wM|NASA ARSET: Mapping and Monitoring Lakes and Reservoirs with Satellite Observations, Part 1/3
+L4sGAgQB0a4|NASA ARSET: Hyperspectral Data for Coastal and Ocean Systems, Part 3/3
+x7l6n7njVPo|NASA ARSET: Hyperspectral Data for Land Management, Part 2/3
+FjKVptgr3uU|NASA ARSET: Overview of Hyperspectral Data,  Part 1/3
+KSxlhBLOAc4|NASA ARSET: Black Marble Background, Use, and Applications, Part 1/1
+rkyu9BWr28I|NASA ARSET:  Black Marble - Antecedentes, Uso y Aplicaciones,  Part 1/1
+GbmrMWHkaWg|NASA ARSET: Mitigating UHI via Long-Term Urban Climate Monitoring, Part 3/3
+fIQJx3_xlEQ|NASA ARSET: Integrating In-Situ Observations with Satellite Imagery, Part 2/3
+1eXQw8_Wy8k|NASA ARSET: Creating Google Earth Engine (GEE) Apps and Example Usage, Part 3/3
+5Venmt7t6BI|NASA ARSET: Mapping Mangrove Extent, Part 2/3
+KYV2j3kwj2A|NASA ARSET: Land Surface Temperature-Based Urban Heat Island Mapping, Part 1/3
+eFn00Q77HDY|NASA ARSET: Introduction to SDG 6.6 and Remote Sensing Techniques for Mangroves, Part 1/3
+mu6K4KopEyA|NASA ARSET: MODIS to VIIRS Transition for Air Quality Applications, Part 1/1
+f681DNstmPg|NASA ARSET: Guidance, Reporting, and Verification, Part 5/5
+C2Mdeuiqi-U|NASA ARSET: Carbon Monitoring Accuracy Assessment, Part 4/5
+VxtD9Op--tM|NASA ARSET: Carbon Estimation Techniques and Methods, Part 3/5
+62-3V0nXfY0|NASA ARSET: Sensors and Products Available for Terrestrial Ecosystems, Part 2/5
+oYfgAmntdcw|NASA ARSET: Overview of Carbon Monitoring for Terrestrial Ecosystems, Part 1/5
+6Tv3QxGpMro|NASA ARSET: Improving a Supervised Land Cover Classification, Part 2/2
+ZtSlipKIH8E|NASA ARSET: Introduction to Land Cover Classification and QGIS, Part 1/2
+ks4R3L981bA|NASA ARSET: Coral Reefs, Part 4/4
+nELx8r1iy1Q|NASA ARSET: Animal Movement, Part 3/4
+IPJ7GM5YVP0|NASA ARSET: Platforms and Sensors for Observations, Data Access, and Processing Tools, Part 2/4
+kyfPIj27MR8|NASA ARSET: Overview of Satellite Remote Sensing of Aquatic Environments, Part 1/4
+Zweyg3fZLjk|NASA ARSET: Teledetección de Componentes de la Línea de Costa, Parte: 3/3
+hJBrbbK5Nyk|NASA ARSET: Remote Sensing of Shorelines, Part 3/3
+MVMydmwWDOQ|NASA ARSET: Penetración de la Luz en la Columna de Agua, Parte: 2/3
+2pfoEFnsyEQ|NASA ARSET: Penetration of Light in the Water Column, Part 2/3
+0Su5VRQxFCg|NASA ARSET: Una Mirada a los Ecosistemas Costeros y la Teledetección, Parte 1/3
+Q2MDct5CoTQ|NASA ARSET: Overview of Coastal Ecosystems and Remote Sensing, Part 1/3
+LtM4X5J4OuI|NASA ARSET: Conducting Unsupervised and Supervised Land Cover Classifications, Part 2/2
+jxeUy2JZYB8|NASA ARSET: Introduction to Accuracy Assessments, Part 1/2
+4H-OANBWxfg|NASA ARSET:  Overview of VIC Implementation in a River Basin, Part 3/3
+PBlUiaW5r2s|NASA ARSET: Overview of Remote Sensing-Based Input Data for VIC, Part 2/3
+51bB7frovtg|NASA ARSET: Introduction to the VIC Hydrological Model, Part 1/3
+ez1TuzdAO0s|NASA ARSET: Water Budget Estimation using Global Land Data Assimilation Model, Part 3/3
+rcR-s3DbmjI|NASA ARSET: Water Budget Estimation using Remote Sensing Observations,   Part 2/3
+FguKFg-Y1zc|NASA ARSET: Access of Earth Observations and Modeled Data for River Basin Monitoring, Part 1/3
+3WuW69A2uDc|NASA ARSET: Utility and Advantage of Multi-Scale Analysis, Part 3/3
+0B_Zp9z-grw|NASA ARSET: Scales of Phenology, Part 2/3
+2-c0tIZCOj4|NASA ARSET: Overview of Phenology and Remote Sensing, Part 1/3
+3x76e2rsjIY|NASA ARSET: Groundwater Monitoring using Observations from NASA’s GRACE Missions
+gK50CZVi6K8|NASA ARSET: El Monitoreo de Aguas Subterráneas Usando Observaciones de las Misiones GRACE de la NASA
+fzf_usG5dfE|NASA ARSET: Overview of Urban Flooding, Part 1/2
+jzZ_5bS4FWY|NASA ARSET: Satellite Data for Monitoring Urban Flooding, Part 2/2
+Ixmu1gsus6o|NASA ARSET:Online Training, Part 3/3
+9afQmM6ph5Q|NASA ARSET: Onsite Training, Part 2/3
+jVWsT91mhQk|NASA ARSET: Methods & Best Practices Overview, Part 1/3
+RROJ_4Ud78g|NASA ARSET: Forest Stand Height (with Guest Speaker Paul Siqueria), Part 4/4
+vaBEHALn-js|NASA ARSET: Mangrove Mapping, Part 3/4
+VpUzhXs8TX8|NASA ARSET: How NASA Measures Particulate Matter (Aerosols), Part 2/2
+GyARWKzzJJw|NASA ARSET: Cómo la NASA MidePartículas (Aerosoles), Parte: 2/2
+JHi3Fa2esR0|NASA ARSET: Cómo la NASA MideDióxido de Nitrógeno (NO2), Parte: 1/2
+truE3iCaGt8|NASA ARSET: How NASA Measures Nitrogen Dioxide (NO2), Part 1/2
+3-tXyG09zYM|NASA ARSET:  Estimación de la Altura de los Bosques con SAR, Parte: 4/4
+WRd5BIciw5c|NASA ARSET:  Mapeo de Manglares, Parte: 3/4
+raXA3gnb94Q|NASA ARSET: Land Cover Classification with Radar and Optical Data, Part 2/4
+mLayrVh9BUo|NASA ARSET:  Clasificación de la Cobertura Terrestre con Datos SAR y Ópticos, Parte: 2/4
+1TBtJ8pTANQ|NASA ARSET: Fundamentals of Aquatic Remote Sensing
+MISLC--HNxo|NASA ARSET: Satellites, Sensors, and Earth Systems Models for Water Resources Management
+qiqUAlJK4vI|NASA ARSET: Satellites, Sensors, Data and Tools for Land Management and Wildfire Applications
+KitbOq7ARNQ|NASA ARSET: Time Series Analysis of Forest Change, Part 1/4
+js_ka3O2RVM|NASA ARSET: Análisis del Cambio en los Bosques con Datos SAR Multi-Temporales, Parte: 1/4
+YUrQGwTryk4|NASA ARSET: Evapotranspiration & Evaporative Stress Index for Agricultural Applications, Part 4/4
+Q2L-iF_GKFI|NASA ARSET: Earth Observations for Agricultural Monitoring, Part 3/4
+psYiwSxTfx0|NASA ARSET: Soil Moisture for Agricultural Applications, Part 2/4
+pdR4GbMcRiM|NASA ARSET: Overview of Agricultural Remote Sensing, Part 1/4
+Mx2SNZaKlfA|NASA ARSET: How are Countries Using Spatial Data to Support Conservation of Nature? Part 3/3
+9QhzXrYIfNo|NASA ARSET:  ¿Cómo Están Utilizando Datos Espaciales los Países?, Parte 3 de 3
+608MDvi0BRQ|NASA ARSET : Comment les pays utilisent-ils les données spatiales ?, Partie 3/3
+lpfYd2TKq-c|NASA ARSET: UN Biodiversity Lab: Introduction and Training, Part 2/3
+rBC2JGD7pRQ|NASA ARSET: El UN Biodiversity Lab: Introducción y Capacitación, Parte 2/3
+80LSZgqbqbI|NASA ARSET : UN Biodiversity Lab : Introduction et formation, Partie 2/3
+Cko2J9SJWzA|NASA ARSET: Introducción a Datos Espaciales y Políticas para la Diversidad Biológica, Parte 1 de 3
+j8gBwQCkP1I|NASA ARSET : Introduction aux données spatiales et aux politiques de biodiversité, Partie 1/3
+Iw6kTO5KTn8|NASA ARSET: Introduction to Spatial Data and Policies for Biodiversity, Part 1/3
+Z8qx2Dg11y0|NASA ARSET: Flood and Drought Risk Assessment Based on SPI, Part 3/3
+Gok9zsA_RFk|NASA ARSET: Calculate SPI based on IMERG to Monitor Wet and Dry Conditions, Part 2/3
+6sbuIKunCGU|NASA ARSET: Calculation of Precipitation Statistics Using IMERG, Part 1/3
+pw4XRDK-gTw|NASA ARSET: New Sensor Highlight: ECOSTRESS, Part 1/1
+YijXxj5FUUI|NASA ARSET: River Basin Delineation Based on NASA Digital Elevation Data, Part 1/1
+x6FuOkc8sbQ|NASA ARSET: Generación de un Modelo de Elevación Digital, Parte 3 de 3
+9PbFbHqRufQ|NASA ARSET: Generating a Digital Elevation Model (DEM), Part 3/3
+Je5VWe8PVkM|NASA ARSET: SAR Interferométrico para la Observación de Derrumbes, Parte 2 de 3
+biqoDH9VsiA|NASA ARSET: Interferometric SAR for Landslide Observations, Part 2/3
+6P2C4_35wRI|NASA ARSET: SAR para el Mapeo de Inundaciones Utilizando Google Earth Engine, Parte 1 de 3
+4Y2giuRPCuc|NASA ARSET:  SAR for Flood Mapping Using Google Earth Engine, Part 1/3
+UMLlhO8y9CI|NASA ARSET: Overview of the Freshwater Health Index (FHI), Part 3/3
+x9BwaazUumc|NASA ARSET: Overview of the Riverscape Analysis Project (RAP), Part 2/3
+gLjcfxX-2OQ|NASA ARSET: Review of Aquatic Remote Sensing & Freshwater Habitats, Part 1/3
+HO4B3n4qWOI|NASA ARSET: SAR para el Monitoreo Agrícola, Parte 2 de 2
+vS7r50EbFQY|NASA ARSET: Exploiting SAR to Monitor Agriculture, Part 2/2
+PQ141_Xy6aw|NASA ARSET: SAR para el Mapeo de Inundaciones Utilizando Google Earth Engine, Parte 1 de 2
+J5RPibJ8my4|NASA ARSET: Monitoring Flood Extent with Google Earth Engine, Part 1/2
+OS-0GYDniqM|NASA ARSET: NASA Remote Sensing and Socioeconomic Data for Disaster Risk Assessment, Part 1/4
+wt6j4qP2bn8|NASA ARSET: Operational Application of Remote Sensing for Disaster Management, Part 4/4
+EjJ0QTqi0ss|NASA ARSET: Disaster Risk Assessment Case Studies Using Remote Sensing Data, Part 3/4
+c84N22jegU4|NASA ARSET: Assessing the Risk of Floods and Cyclones Using NASA Data, Part 2/4
+6iN_-obEBJ0|NASA ARSET: A Q&A Session on Radar Remote Sensing
+VYOCWnU5WWc|NASA ARSET: Una Sesión de Preguntas y Respuestas sobre La Teledetección por Radar
+1eXzBn6vNmc|NASA ARSET: Urban Mapping Using Trends.Earth for Computing SDG Indicator 11.3.1
+bRnU7i4Ya9Q|NASA ARSET: Monitoreo de los ODS sobre la Degradación de Tierras: Indicador 11.3.1, Parte 3/3
+42RYoqfvXYU|NASA ARSET: Monitoreo de los ODS sobre la Degradación de Tierras: 15.3.1: datos locales, Parte 2/3
+tG4vxF1IP6w|NASA ARSET: Using Remote Sensing Data & Trends.Earth for Monitoring SDG 15
+v2j8M8ailm0|NASA ARSET: Monitoreo de los ODS sobre la Degradación de Tierras: Indicador 15.3.1, Parte 1/3
+b_2tfsVE2mY|NASA ARSET: Introduction to SDG Framework and Trends.Earth, Part 1/3
+0XvWJZdgxYs|NASA ARSET: Aquatic Remote Sensing Skill Development and Best Practices, Part 3/3
+XLhi-pUMQi0|NASA ARSET: Water Quality of Larger Inland Water Bodies, Part 2/3
+p0syKhg_IME|NASA ARSET: Water Quality in the Coastal Zone, Part 1/3
+MxBg5ZMH2nM|NASA ARSET: Python Tools for Analyzing NO2, Part 3/3
+-yOInEUJTYM|NASA ARSET: Introducing TROPOMI - High Resolution NO2 Observations from Space, Part 2/3
+rvSjD-vGI4k|NASA ARSET: Remote Sensing of NO2 with OMI, Part 1/3
+dvxloblhpUs|NASA ARSET: Escenarios de Desastres, Derrumbes y Terremotos, Sesión 3 de 3
+P09XKLdhtrM|NASA ARSET: Disasters Scenarios, Landslides and Earthquakes, Session 3/3
+-qkgNKxJAts|NASA ARSET: Escenarios de Desastres, Inundaciones, Sesión 2 de 3
+CkhOoYoPzSA|NASA ARSET: Disasters Scenarios, Flooding, Session 2/3
+5BZvjVUfBG0|NASA ARSET: LandTrendr Overview & Applications, Session 2/2
+AqCFBOunSs8|NASA ARSET: Escenarios de Desastres, Tormentas Tropicales, Sesión 1 de 3
+XHyYvsjN6bQ|NASA ARSET: Disasters Scenarios, Tropical Storms, Session 1/3
+KJTyMDyvBik|NASA ARSET: Introduction to Time Series Analysis & AppEEARS , Session 1/2
+7A_SHnPbAGY|NASA ARSET: Surface Water Budget Estimation Based on Remote Sensing, Session 4/4
+V1jgEc6wqm4|NASA ARSET: Applications of Remote Sensing for River Basin Monitoring, Mekong Basin, Session 3/4
+t09kon01dq8|NASA ARSET: Applications of Remote Sensing for River Basin Monitoring, Nile Basin, Session 2/4
+8rLiHMb4OBw|NASA ARSET: Overview of Remote Sensing Data for River Basin Monitoring, Session 1/4
+nARwVopZB1I|NASA ARSET: Monitoring Storms, Floods, and Landslides, Session 4/4
+PWna23H0oa8|NASA ARSET: Observing Oil Spills Using Remote Sensing Measurements, Session 3/4
+TL5ER46ebnk|NASA ARSET:  Overview of Remote Sensing for Wildfire Applications, Session 2/4
+YahCfZZyNDs|NASA ARSET:  Monitoring Volcanoes, Earthquakes, and Tsunamis, Session 1/4
+urhraw2ikw4|NASA ARSET:Tema tres: Riesgos geológicos, Sesión 3 de 3
+c79bm_fBeRw|NASA ARSET: Tema dos: Desastres hidrometeorológicos, Sesión 2 de 3
+1nEZWfSStH8|NASA ARSET: Tema uno: Gestión general de desastres, Sesión 1 de 3
+D91KznnXFkY|NASA ARSET: Los Sistemas de Alertas y la Alerta Temprana, Sesión 3 de 3
+p85oa4mHPVM|NASA ARSET: Early Warning & Alert Systems, Session 3/3
+iDaptvYbsPU|NASA ARSET: Introducción a los Sensores Remotos (Teledetección), Sesión 2 de 3
+hyJ_ZG3qrPY|NASA ARSET:  Introduction to Remote Sensing for Land Management, Session 2/3
+vDBTMGN777M|NASA ARSET: Introducción al Mapeo, el GIS y los Drones, Sesión 1 de 3
+FwhvAPoWq4Y|NASA ARSET: Introduction to Mapping, GIS, and Drones, Session 1/3
+70Zkm4Pg_ZE|NASA ARSET: Remote Sensing for Biodiversity, Session 2/2
+aWAqge0E1cM|NASA ARSET: Remote Sensing for Conservation, Session 1/2
+jJqXYQuvs5M|NASA ARSET: Species Distribution and Simulation Modeling, Session 4/4
+Hfi9OaYtygU|NASA ARSET: Overview of Scenario Planning, Session 3/4
+76lzLPUjH7M|NASA ARSET: Overview of Climate Science and Data, Session 2/4
+arfqOCOuf9E|NASA ARSET: Overview of Ecological Forecasting, Session 1/4
+-IOiwRJPtlY|NASA ARSET: Conducting a Change Detection Analysis, Session 2/2
+du0fPyiZrpk|NASA ARSET: Introduction to Change Detection, Session 1/2
+j41xwb9Y_o8|NASA ARSET: INSAT Aerosol Observations over Asia and Africa, Session 4/4
+yCNMu1qRczw|NASA ARSET: Ejercicio Práctico de Procesamiento de Imágenes, 3/3
+YD-CHY0s5pU|NASA ARSET: Image Processing Hands-On Exercise, Session 3/3
+rH3oCnsDDCM|NASA ARSET: Aerosol Observations from the HIMAWARI, GOCI, and GEMS Satellites Over Asia, Session 3/4
+clJ1xjm_5Uc|NASA ARSET: Introducción al Procesamiento de Imágenes y Acceso a Datos, 2/3
+T1wLWzpgOVI|NASA ARSET: Introduction to Image Processing & Data Access, Session 2/3
+1bi6Q3oiWAM|NASA ARSET: An Overview of Tropical Storms and Their Impacts, Session 1/2
+i94fHhsKoR0|NASA ARSET: Monitoring Conditions During and After Tropical Storms, Session 2/2
+XGN_uFU1Vtw|NASA ARSET: Aerosol Observations from GOES-R Series Geostationary Satellites, Session 2/4
+BlMnNNcCmrw|NASA ARSET: Introduction to Geostationary Satellite Remote Sensing of Air Quality, Session 1/4
+Qj35zb5W-gk|NASA ARSET: SAR Interferométrico para el Estudio de Terremotos, Sesión 4/4
+WjR6O7cpo1Y|NASA ARSET: SAR para el Mapeo de Suelos y Cultivos, Sesión 3/4
+dGaaxzcBQfc|NASA ARSET: SAR para el Mapeo de Inundaciones, Sesión 2/4
+XVFfi-wI0Yc|NASA ARSET: SAR para el Mapeo de la Cobertura Terrestre, Sesión 1/4
+P8lQ7pjkRlw|NASA ARSET: SAR Interferometry for Earthquake Studies, Session 4/4
+ubqCAd424W4|NASA ARSET: La Teledetección de la NASA para el Monitoreo de Floraciones de Algas Nocivas, 1/3
+yoEu2P1i5xE|NASA ARSET: SAR for Mapping Soils & Crops, Session 3/4
+QKrG5jYZe10|NASA ARSET: SAR for Flood Mapping, Session 2/4
+IDxBgK1VY_4|NASA ARSET: SAR for Mapping Land Cover, Session 1/4
+BNcJuB-TRuU|NASA ARSET: NASA Remote Sensing for Monitoring Harmful Algal Blooms, Session 1/3
+o-NBWXiyC3k|NASA ARSET: Drought Monitoring Analysis and Application, Session 2/2
+ro2UBNgjOh4|NASA ARSET: Remote Sensing-Based Drought Monitoring, Session 1/2
+Gtopm6VLr_4|NASA ARSET: Introducción a SAR Interferométrico, Sesión 4/4
+q4sePXswtn0|NASA ARSET: Introducción SAR Polarimétrico, Sesión 3/4
+f3RHfO1LNLg|NASA ARSET: Procesamiento y Análisis de Datos de SAR, Sesión 2/4
+QdKkTQ7fWH0|NASA ARSET: Conceptos Básicos de SAR, Sesión 1/4
+9T1lBnta9P0|NASA ARSET: Introduction to SAR Interferometry, Session 4/4
+-xU4oE66pgY|NASA ARSET: Introduction to Polarimetric SAR, Session 3/4
+OwrLh7pjHRQ|NASA ARSET: SAR Processing and Data Analysis, Session 2/4
+Xemo2ZpduHA|NASA ARSET: Basics of Synthetic Aperture Radar (SAR), Session 1/4
+mfasgPCMJmg|Animated GIFS UNBL 2 Part 3 (Slides 24 50) Spanish
+OftJ_bJduoo|Animated GIFS UNBL 2 Part 3 (Slides 24-50) French
+cg6h9jdJE5I|Animated GIFS UNBL 2 Part 3 (Slides 24-50)
+yCl5p94-Nog|Animated GIFS UNBL 2 Part 2 Slides 45 77 Spanish
+O1Ec11eXyvo|Animated GIFS UNBL 2 Part 2 Slides 48 81 French
+zcVN1BKKZ_o|Animated GIFS UNBL 2 Part 2 Slides 48 81
+vayPiCzhSBE|UNBL 2 Part 1 GIFS FR
+GzsTvqS1ofM|UNBL 2 Part 1 GIFS SP
+Wo3-f_3cr-4|UNBL 2 Part 1 animated GIFS
+R68RjNovVJI|Earth Day Virtual Learning Zone 2022
+nfFKkz_LlFI|NASA ARSET: River Basin Delineation Based on NASA Digital Elevation Data, Part 1/1
+8gU_XE9mGb0|NASA ARSET: New Sensor Highlight: ECOSTRESS, Part  1/1

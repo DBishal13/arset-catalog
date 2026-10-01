@@ -1,0 +1,114 @@
+id: nasa-earth-observations-energy-management
+title: NASA Earth Observations for Energy Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/nasa-earth-observations-energy-management
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2021-06-01'
+end_date: '2021-06-22'
+published: '2021-06-01'
+last_updated: '2026-05-01'
+summary: This ARSET training introduces how NASA earth observations can contribute to a greater understanding
+  of energy management applications.
+description: 'Energy impacts everything we do, from providing basic services such as cooking and cleaning
+  to providing development opportunities and improving overall quality of life. However, energy management,
+  through energy production, transmission, and distribution, is impacted by environmental and climate
+  conditions, including weather patterns or extremes and climate change.
+
+
+  Energy providers are turning to cleaner and renewable energy sources, as well as assessing and implementing
+  actions to make their energy management activities more resilient to environmental hazards. Decision
+  makers need to better understand where energy resources exist and how they are impacted by physical
+  environmental conditions, weather, and climate.
+
+
+  This training offers participants an introduction to how NASA Earth observations (EOs) can contribute
+  to a greater understanding of energy management applications. The course summarizes priorities and challenges
+  for energy management and how various NASA EOs can support decision making.
+
+
+  Attendees gain familiarity with a broad set of relevant NASA datasets, tools, platforms, and resources,
+  as well as hear about case studies and real-world applications related to climate resilience, energy
+  efficiency, and renewable energy.'
+objectives:
+- Be able to summarize priorities and challenges in the energy management sector and how Earth observations
+  can support decision making
+- Become familiar with online tools for acquiring data from satellite missions and visualizing data or
+  conducting analyses
+- Be aware of various use cases for Earth Observations in energy management for renewable energy, energy
+  efficiency, and climate resilience
+audience:
+- The audience is primarily energy management professionals and decision makers from local government,
+  state agencies, the private sector, or other stakeholders (e.g., electric utilities).
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+sessions:
+- part: 1
+  title: Introduction to Earth Observations (EOs) for Energy Management
+  videos:
+  - youtube: Wmagqj7_c8w
+    title: NASA ARSET: Introduction to Earth Observations (EOs) for Energy Management, Part 1/4
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-Energy2021-part1-slides.pdf?VersionId=XjfF0Fy1nU3EC1Su68HDdp7CHvSCP5KS
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-Energy2021-part1-qa.pdf?VersionId=kMqRX6d5dsJmNAif2AQc6c64yOJFTtC5
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-Energy2021-part1-slides-esp.pdf?VersionId=w0Z58W3CHxCIOgYdJ3XW798AGM_xoJhS
+- part: 2
+  title: Using NASA Products for a More Climate Resilient Energy Sector
+  videos:
+  - youtube: 4eFiIf-92Zs
+    title: NASA ARSET: Using NASA Products for a More Climate Resilient Energy Sector, Part 2/4
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-Energy2021-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-Energy2021-part2-qa.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-Energy2021-Part2-slides-esp.pdf
+- part: 3
+  title: NASA Resources for Renewable Energy and Building Energy Efficiency Applications
+  videos:
+  - youtube: o83KNj85AJw
+    title: NASA ARSET: Resources for Renewable Energy and Building Energy Efficiency Applications, Part
+      3/4
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-Energy2021-part3-slides.pdf
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-Energy2021-part3-qa.pdf
+  - type: other
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-02/Energy_Part3_Edited_JO_Span.pdf
+- part: 4
+  title: 'Data Access: Utilizing the NASA POWER Web Services for Energy Related Applications'
+  videos:
+  - youtube: SdQaSM_DScU
+    title: NASA ARSET: Utilizing the NASA POWER Web Services for Energy Related Applications, Part 4/4
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-Energy2021-part4-slides.pdf
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-Energy2021-part4-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSct9EOUbvVn9Uz5DgyCtegnOMXNRE2ppz1k0vhNCzKhJB2TNg/viewform?usp=sf_link

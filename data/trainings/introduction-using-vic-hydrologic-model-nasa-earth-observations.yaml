@@ -1,0 +1,94 @@
+id: introduction-using-vic-hydrologic-model-nasa-earth-observations
+title: Introduction to Using the VIC Hydrologic Model with NASA Earth Observations
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-using-vic-hydrologic-model-nasa-earth-observations
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2018-02-15'
+end_date: '2018-03-01'
+published: '2018-02-15'
+last_updated: '2026-03-02'
+summary: This ARSET training introduces the Variable Infiltration Capacity Model, sources of satellite-derived
+  input data, and implementation of the model.
+description: 'Hydrologic modeling is useful for flood, drought, and water resources management. The Variable
+  Infiltration Capacity (VIC) Model uses inputs to better understand hydrological processes in near real-time.
+  Many of the inputs are available from NASA remote sensing and Earth system models, allowing the model
+  to provide soil moisture, evapotranspiration, and runoff as outputs.
+
+
+  Together with precipitation data, these outputs provide quantitative assessment of a regional water
+  budget. This introductory training hosted by NASA''s Applied Remote Sensing Training Program (ARSET)
+  will include an overview of the model, sources of satellite-derived input data, and implementation of
+  the model.'
+objectives:
+- Download, install, and use the VIC model
+- Set up VIC for a watershed or river basin using remote sensing data inputs
+- Analyze output water resource components.
+audience:
+- This training is primarily intended for water resources professionals and disaster managers from local,
+  state, and federal agencies, non-governmental organizations (NGOs), and the private sector.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+- drought
+- water-resources
+sessions:
+- part: 1
+  title: Introduction to the VIC Hydrological Model
+  date: '2018-02-15'
+  videos:
+  - youtube: 51bB7frovtg
+    title: 'NASA ARSET: Introduction to the VIC Hydrological Model, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-VIC2018-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-VIC2018-part1-qa.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de la parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-VIC2018-part1-slides-esp.pdf
+- part: 2
+  title: Overview of Remote Sensing-Based Input Data for VIC
+  date: '2018-02-22'
+  videos:
+  - youtube: PBlUiaW5r2s
+    title: 'NASA ARSET: Overview of Remote Sensing-Based Input Data for VIC, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-VIC2018-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-VIC2018-part2-qa.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de la parte 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-VIC2018-part2-slides-esp.pdf
+- part: 3
+  title: Overview of VIC Implementation in a River Basin
+  videos:
+  - youtube: 4H-OANBWxfg
+    title: 'NASA ARSET:  Overview of VIC Implementation in a River Basin, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-VIC2018-part3-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-VIC2018-part3-qa.pdf
+  - type: homework
+    title: Homework Assignment
+    url: https://goo.gl/forms/FsQpOP7XpHwcukmm1
+  - type: slides
+    title: Diapositivas de la Presentación de la parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-VIC2018-part3-slides-esp.pdf
+  - type: other
+    title: Tarea
+    url: https://goo.gl/forms/D6qk7r3ZEP9HvGS53

@@ -1,0 +1,126 @@
+id: monitoring-water-quality-lakes-coastal-regions-using-stream
+title: Monitoring Water Quality in Lakes and Coastal Regions Using STREAM
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-water-quality-lakes-coastal-regions-using-stream
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2026-02-10'
+end_date: '2026-02-17'
+published: '2025-12-17'
+last_updated: '2026-06-03'
+summary: This ARSET training introduces STREAM, a web tool for monitoring chlorophyll-a concentration,
+  Secchi disk depth, and total suspended solids in inland lakes and coastal regions.
+description: 'Monitoring water quality is vital for managing drinking water treatment and public health
+  and ecosystem advisories. In particular, monitoring harmful algal blooms and water transparency are
+  crucial for assessing health and productivity of freshwater and saltwater fisheries. Conventional in
+  situ measurements of water quality parameters are expensive and have limited spatial and temporal coverage.
+  Remote sensing provides a cost-effective way to assess water quality in thousands of lakes and on coastal
+  waters.
+
+
+  NASA has developed the Satellite-based Tool for Rapid Evaluation of Aquatic Environments (STREAM) —
+  an interactive web tool that enables high-resolution (20–30 meter) monitoring of water quality in inland
+  lakes and coastal waters across the U.S. and selected other countries. STREAM provides both past (since
+  2018) and near real-time maps of chlorophyll-a concentration, Secchi disk depth, and total suspended
+  solids based on data from the Landsat 8/9 Operational Land Imager (OLI) and the Sentinel 2 Multispectral
+  Instrument (MSI).
+
+
+  Additionally, an open-source machine learning model based on a Mixture Density Network (MDN) is available
+  to estimate water quality parameters for any inland or coastal water body worldwide (minimum size: 100m
+  x 100m).
+
+
+  This two-part training led by NASA''s Applied Remote Sensing Training Program (ARSET) introduces the
+  STREAM web tool to visualize maps of water quality parameters over lakes and coastal areas and how to
+  use STREAM application programming interface (API) to discover and download satellite images and water
+  quality data for a selected water body. The training demonstrates how to assess changes in water quality
+  in a given lake using QGIS. The training also demonstrates the application of a MDN model to estimate
+  water quality parameters from satellite images.'
+objectives:
+- Identify the purpose, capabilities, and benefits of the STREAM tool for analyzing inland and coastal
+  water bodies.
+- Identify the process to use STREAM to monitor chlorophyll-a concentration, Secchi disk depth, and total
+  suspended solids in lakes and coastal waters.
+- Identify the steps to use STREAM API to search and download chlorophyll-a concentration, Secchi disk
+  depth, and total suspended solids data for a specific time period.
+- Examine time series of chlorophyll-a concentration, Secchi disk depth, and total suspended solids using
+  QGIS.
+- Identify how an open-source machine-learning model based on Mixture Density Network (MDN) enables users
+  to estimate water quality parameters for any inland or coastal water body (greater than 100m x 100m)
+  worldwide.
+audience:
+- National and international water resources managers at local, state, and federal levels. Public and
+  private water utilities, natural resources conservation organizations, and fisheries and aquaculture
+  organizations.
+- Academic faculty and students.
+prerequisites:
+- fundamentals-remote-sensing
+- monitoring-water-quality-inland-lakes-using-remote-sensing
+applications:
+- ecological-conservation
+- health-air-quality
+satellites:
+- landsat-8
+- landsat-9
+- sentinel-2
+tools:
+- qgis
+instructors:
+- amita-mehta
+- william-wainwright
+sessions:
+- part: 1
+  title: Introduction and Demonstration of STREAM
+  date: '2026-02-10'
+  agenda:
+  - Introduction to STREAM webtool and API
+  - Demonstration of mapping water quality using STREAM
+  - Demonstration of making time series of water quality parameters
+  - Q&A Session
+  videos:
+  - youtube: Xlt3v99nNyY
+    title: 'NASA ARSET:  Introduction and Demonstration of STREAM, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-02/ARSET-STREAM2026-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-02/ARSET-STREAM2026-part1-qa.pdf
+- part: 2
+  title: Introduction to a Machine Learning Model to Estimate Water Quality Parameters Based on Satellite
+    Observations
+  date: '2026-02-17'
+  agenda:
+  - 'Overview: Access and process satellite images for the machine learning model for estimating water
+    quality parameters'
+  - Overview of the Mixture Density Network (MDN) based model
+  - Demonstration of deriving water quality parameters using the model and satellite data
+  - Q&A session
+  videos:
+  - youtube: LxaoPnsMP0w
+    title: Introduction to a Machine Learning Model to Estimate Water Quality Parameters, Part 2/2
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-02/ARSET-STREAM2026-part2-slides.pdf
+  - type: other
+    title: Introduction to Git
+    url: https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Farset.unhosting.site%2Fcourse%2Fview.php%3Fid%3D29&data=05%7C02%7Csarah.cutshall%40nasa.gov%7C5c754f5df40543d7eb6a08de6b34e30f%7C7005d45845be48ae8140d43da96dd17b%7C0%7C0%7C639066072043242157%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=99Z6NxtLrzTw1ftcGE%2B5jre477pappSrzOqNkq%2F70pk%3D&reserved=0
+  - type: notebook
+    title: tutorial
+    url: https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2Fryan-edward-oshea%2FMDN_tutorials&data=05%7C02%7Csarah.cutshall%40nasa.gov%7C5c754f5df40543d7eb6a08de6b34e30f%7C7005d45845be48ae8140d43da96dd17b%7C0%7C0%7C639066072043193832%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=wpAU%2BC2YLlpXBl8iBUVphXDAK23W2bBkhIOn2Zb113s%3D&reserved=0
+  - type: notebook
+    title: README
+    url: https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2Fryan-edward-oshea%2FMDN_tutorials%2Fblob%2Fmain%2FREADME.md&data=05%7C02%7Csarah.cutshall%40nasa.gov%7C5c754f5df40543d7eb6a08de6b34e30f%7C7005d45845be48ae8140d43da96dd17b%7C0%7C0%7C639066072043222548%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Bf0B4Xph2L1n2a858eOMxGdqlgjsevHs3S98xDmqPGg%3D&reserved=0
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-02/ARSET-STREAM2026-part2-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/ARSET-STREAM2026-HomeworkPDF.pdf

@@ -28,6 +28,8 @@ description: 'This Applied Remote Sensing Training Program (ARSET) training will
   Note: If you do not already have an account for the ARSET learning management system, you will be prompted
   to create an account before you can enroll yourself in this training.'
 audience:
+- 'This course is open and available to any interested learner, but each module is attuned to the likely
+  interests of these audiences:'
 - 'Ana’s story: early career scientists.'
 - 'Kyle’s story: partners new to remote sensing.'
 - 'Dinesh’s story: experienced researchers new to building applications.'

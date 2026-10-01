@@ -1,0 +1,57 @@
+id: methods-using-nasa-remote-sensing-health-applications
+title: Methods in Using NASA Remote Sensing for Health Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/methods-using-nasa-remote-sensing-health-applications
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2017-06-01'
+end_date: '2017-06-15'
+published: '2017-06-01'
+last_updated: '2026-03-02'
+summary: This ARSET training focuses on how to access and apply NASA data relevant to public health.
+description: 'Every year, environmental conditions adversely affect the health of millions of people.
+  Environmental data can be combined with public health information to predict and monitor potentially
+  dangerous environmental health events, such as disease outbreaks, harmful algal blooms, excessive heat,
+  airborne allergens, and low air quality.
+
+
+  In this advanced webinar led by NASA''s Applied Remote Sensing Training Program (ARSET), participants
+  learn how to access and apply NASA data relevant to public health. The webinar includes a presentation
+  on tools available for evaluating the relationship between environmental conditions and health outcomes,
+  followed by lectures on pollen dispersal and heat stress mitigation. Two homework assignments will give
+  participants an opportunity to review and practice what they have learned during the presentations.'
+objectives:
+- Use satellite remote sensing to increase their knowledge in environmental health research
+- Complete original homework problem dealing health and environmental satellite data
+- Identify which satellite data sources that could be used in their research.
+audience:
+- Public health professionals and decision makers from local, state, federal, and international agencies,
+  non-governmental organizations (NGOs), and the private sector.
+prerequisites:
+- fundamentals-satellite-remote-sensing-health-monitoring
+applications:
+- health-air-quality
+sessions:
+- part: 1
+  title: How Can Health Professionals Use NASA Data? Acquiring and Using Environmental Data for Health
+    Applications?
+  materials:
+  - type: slides
+    title: Part 1 presentation slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/RSHealth_Part1.pdf?VersionId=RAgmmFMZNkLldTR6AfWud7motEY5vg.t
+- part: 2
+  title: 'You Can Run, But You Can’t Hide: Juniper Pollen Phenology and Dispersal'
+  date: '2017-06-08'
+  materials:
+  - type: slides
+    title: Part 2 presentation slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/RSHealth_Part2.pdf
+- part: 3
+  title: Using Satellite Data to Enhance Evidence Based Public Health Efforts at the Local Level
+  date: '2017-06-15'
+  materials:
+  - type: slides
+    title: Part 3 presentation slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/RSHealth_Part3.pdf

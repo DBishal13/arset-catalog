@@ -1,0 +1,48 @@
+id: nasa-satellite-observations-tools-fire-smoke-monitoring
+title: NASA Satellite Observations and Tools for Fire and Smoke Monitoring
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/nasa-satellite-observations-tools-fire-smoke-monitoring
+level: introductory
+format: in-person
+languages:
+- en
+start_date: '2026-03-23'
+end_date: '2026-03-23'
+published: '2026-03-20'
+last_updated: '2026-03-23'
+summary: This ARSET training provides an introduction to satellite remote sensing and hands-on demonstrations
+  of NASA tools for visualizing fires and smoke plumes.
+description: 'New satellite technology and data products continually advance our capabilities for detecting
+  and monitoring wildland fires and for identifying and tracking smoke plumes. This workshop, led by NASA''s
+  Applied Remote Sensing Training (ARSET) program, will provide an overview of the advanced satellite
+  data available and introduce participants to NASA resources and tools for monitoring fires and smoke.
+  These include NASA''s Fire Information for Resource Management System (FIRMS), which integrates multiple
+  sources of satellite imagery and derived data products relevant to active fire detection and smoke monitoring.
+
+
+  The workshop will also introduce NASA Worldview, a web mapping application for interactively browsing
+  global satellite imagery and near-real-time data products. Participants will be guided through ways
+  to use Worldview to visualize products relevant to assessing smoke evolution and air quality impacts—such
+  as the new air pollutant observations collected every daytime hour by the NASA Tropospheric Emissions:
+  Monitoring of POllution (TEMPO) mission.
+
+
+  The workshop is being held as part of the International Smoke Symposium.'
+objectives:
+- Identify satellite sensors and data products applicable for detecting and monitoring fires and smoke
+  plumes;
+- Understand the capabilities and limitations of different data sources for detecting fires and observing
+  smoke plumes;
+- Access relevant data products using NASA tools such as Worldview and the Fire Information for Resource
+  Management System (FIRMS);
+- Generate and interpret data visualizations of satellite-based observations for fire and smoke monitoring.
+applications:
+- health-air-quality
+- wildland-fires
+satellites:
+- tempo
+tools:
+- worldview
+instructors:
+- kristina-pistone
+- caterina-mogno

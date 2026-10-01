@@ -1,0 +1,74 @@
+id: groundwater-monitoring-using-observations-from-nasas-gravity-recovery-climate
+title: Groundwater Monitoring using Observations from NASA’s Gravity Recovery and Climate Experiment (GRACE)
+  Missions
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/groundwater-monitoring-using-observations-from-nasas-gravity-recovery-climate
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2020-06-25'
+end_date: '2020-06-25'
+published: '2020-06-25'
+last_updated: '2026-02-11'
+summary: This ARSET training provides an overview of how GRACE observations can be used to support water
+  resources management.
+description: 'Groundwater makes up roughly 30% of global freshwater. It also provides drinking water for
+  the world’s population and irrigation for close to one third of global agricultural land. Because of
+  this level of reliance, monitoring groundwater is crucial for water resources and land management.
+
+
+  The Gravity Recovery and Climate Experiment and Follow On (GRACE/GRACE-FO) missions from NASA and the
+  German Research Centre for Geosciences (GFZ) provide large-scale terrestrial water storage estimation
+  from mid-2000 to present. GRACE uses twin satellites to accurately map variations in the Earth''s gravity
+  field and surface mass distribution.
+
+
+  GRACE observations have been used for detecting groundwater depletion and for drought and flood predictions.
+  This lightning-style training, led by NASA''s Applied Remote Sensing Training program (ARSET), is designed
+  to answer the demand and interest from the applications community in technologies that can be used to
+  support water resources management.
+
+
+  The training provides an overview of the GRACE missions, groundwater data availability, and their applications
+  in the monitoring and management of water resources. It also serves as the foundation for the advanced
+  webinar Using Earth Observations to Monitor Water Budgets for River Basin Management II.'
+objectives:
+- Access GRACE data and analyze regional groundwater changes
+audience:
+- The content of this training was developed for local, regional, state, federal, and international organizations
+  engaged in the management of water resources, irrigation, and agricultural management.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- agriculture
+- climate-resilience
+- disasters
+- drought
+- water-resources
+satellites:
+- grace
+- grace-fo
+datasets:
+- grace-fo-mascons
+sessions:
+- part: 1
+  title: Part 1
+  date: '2020-06-25'
+  agenda:
+  - Introduction to GRACE and GRACE-FO
+  - Data Format, Variables, and Resolution
+  - GRACE Data Access
+  - Q&A Session
+  videos:
+  - youtube: 3x76e2rsjIY
+    title: 'NASA ARSET: Groundwater Monitoring using Observations from NASA’s GRACE Missions'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/GRACE_Final.pdf?VersionId=WJuyJceybjgsnJXB.ae4E2z.jJMHZVRv
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/GRACE_QandA_Session.pdf?VersionId=4CI9gmM607R.7tGTUR3Kar0iOWSB3Uqp

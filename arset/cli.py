@@ -69,23 +69,29 @@ def cmd_add(args) -> int:
             print(f"skip: {url} is not an Earthdata /learn/trainings/ page")
             status = 1
             continue
-        record, people, is_arset = ingest.scrape_training(cat, scrape.training_url(slug))
-        if not is_arset and not args.force:
+        scraped = ingest.scrape_training(cat, scrape.training_url(slug))
+        if not scraped.is_arset and not args.force:
             print(f"skip: {slug} does not look like an ARSET training (use --force)")
             status = 1
             continue
         if slug in cat["training"]:
-            changes = ingest.merge(cat["training"][slug], record)
-            cat.save("training", cat["training"][slug])
+            changes = ingest.update_existing(cat, cat["training"][slug], scraped)
             print(f"updated {slug}: " + ("; ".join(changes) or "no changes"))
         else:
-            ingest.enrich_videos(record)
-            created = ingest.ensure_instructors(cat, people)
+            created = ingest.add_new(cat, scraped)
             print(f"added {catalog.record_path('training', slug).relative_to(catalog.ROOT)}")
             for id_ in created:
                 print(f"  + instructor {id_}")
-            cat.save("training", record)
     return status
+
+
+def cmd_backfill(args) -> int:
+    from .backfill import crawl
+    cat = catalog.load()
+    seeds = [scrape.training_slug(u) or u for u in args.seeds]
+    crawl(cat, seeds=seeds, limit=args.max, youtube_ids_file=args.youtube, wayback=args.wayback,
+          refresh=args.refresh)
+    return 0
 
 
 def cmd_stats(args) -> int:
@@ -118,6 +124,18 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--all", action="store_true", help="re-scrape every known training, not just recent ones")
     p.add_argument("--dry-run", action="store_true", help="report only; write nothing")
     p.set_defaults(fn=cmd_track)
+
+    p = sub.add_parser("backfill", help="crawl older trainings via links between training pages (and YouTube)")
+    p.add_argument("seeds", nargs="*", help="extra training URLs or slugs to start from")
+    p.add_argument("--max", type=int, default=500, help="stop after fetching this many pages")
+    p.add_argument("--refresh", action="store_true",
+                   help="re-read trainings already in the catalog (for new content and links)")
+    p.add_argument("--wayback", action="store_true",
+                   help="also start from every training URL the Internet Archive has captured")
+    p.add_argument("--youtube", metavar="FILE",
+                   help="text file of 'videoId|title' lines (ARSET videos only); their descriptions are "
+                        "searched for training links")
+    p.set_defaults(fn=cmd_backfill)
 
     p = sub.add_parser("add", help="add (or update) trainings from Earthdata page URLs")
     p.add_argument("urls", nargs="+")

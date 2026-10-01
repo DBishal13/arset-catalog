@@ -1,0 +1,124 @@
+id: monitoring-predicting-floods-using-earth-observations-planning-preparedness
+title: Monitoring and Predicting Floods Using Earth Observations for Planning and Preparedness
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-predicting-floods-using-earth-observations-planning-preparedness
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2026-06-18'
+end_date: '2026-06-25'
+published: '2026-04-29'
+last_updated: '2026-07-21'
+summary: This three-part ARSET training covers flood monitoring via remote sensing, NASA flood products,
+  and GEOGLOWS streamflow predictions.
+description: 'Floods are the most common and widespread of all weather-related natural disasters. Lasting
+  from minutes to weeks, floods can place a huge burden on a community, including loss of life, damage
+  to infrastructure and economies, and long-term impacts on human health and well-being. Remote sensing
+  observations and Earth system models, when combined with hydrologic models, can support both flood monitoring
+  and prediction efforts to significantly improve preparedness and response planning.
+
+
+  This three-part training included an overview and demonstration of flood monitoring tools based on remotely
+  sensed optical observations, NASA''s near real-time Global Flood Product, and several Observational
+  Products for End-users from Remote Sensing Analysis (OPERA). Additionally, the training introduced a
+  streamflow prediction tool — the Group on Earth Observations Global Water Sustainability (GEOGLOWS)
+  model — which provides global, historical, and 15-day streamflow predictions. Trainers guided participants
+  through hands-on exercises to access and visualize selected flood data.'
+objectives:
+- Identify datasets in NASA's Global Flood Product, which is based on remotely sensed optical observations.
+- Use the webtool, NASA Worldview, to access and visualize flooded regions from Global Flood Product,
+  available from multiple satellites, from 2021 to near-real time.
+- Identify OPERA dynamic surface water extent data for flood detection derived from optical and SAR observations.
+- Access and visualize OPERA dynamic surface water extent data for flood events using NASA Worldview.
+- Identify the capabilities of GEOGLOWS River Forecast System (RFS) for global streamflow prediction.
+- Use GEOGLOWS Hydroviewer to access globally available retrospective and predicted streamflow for selected
+  rivers.
+audience:
+- Local, regional, federal, and non-governmental organizations, as well as companies, involved in flood
+  and water resources management, emergency response, disaster relief and rescue operations, flood insurance,
+  and real estate and infrastructure building.
+- Students and academics who are interested in learning about remote sensing of flood monitoring and predictions.
+prerequisites:
+- fundamentals-remote-sensing-0
+applications:
+- disasters
+- water-resources
+datasets:
+- opera-dswx
+tools:
+- worldview
+instructors:
+- amita-mehta
+- dan-slayback
+- renato-frasson
+sessions:
+- part: 1
+  title: Overview of Global Flood Product Derived from NASA Optical Observations
+  date: '2026-06-18'
+  agenda:
+  - Introduction
+  - Overview of NASA's Global Flood Product
+  - Access and Visualize the Global Flood Product
+  - Summary and Q&A
+  videos:
+  - youtube: neDs0QZbytU
+    title: 'NASA ARSET: Overview of Global Flood Product Derived from NASA Optical observations Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-05/ARSET-Floods2026-part1-slides.pdf
+  - type: exercise
+    title: Part 1 Exercise
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/ARSET-Floods2026-part1-exercise.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-05/ARSET-Floods2026-part1-qa.pdf
+- part: 2
+  title: Overview of Monitoring Floods using OPERA Surface Water Extent Based on Optical and SAR Observations
+  date: '2026-06-23'
+  agenda:
+  - Introduction
+  - Overview of OPERA Dynamic Surface Water Data Product
+  - Visualize Dynamic Surface Water from Optical and SAR Imagery
+  - Summary and Q&A
+  videos:
+  - youtube: Xq8t-J3xpe0
+    title: 'NASA ARSET: Overview of Monitoring Floods using OPERA Surface Water Extent Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-05/ARSET-Floods2026-part2-slides_1.pdf
+  - type: exercise
+    title: Part 2 Exercise
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/ARSET-Floods2026-part2-exercise.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-05/ARSET-Floods2026-part2-qa.pdf
+- part: 3
+  title: Overview of GEOGLOWS for Monitoring and Predicting Flood Risk
+  date: '2026-06-25'
+  agenda:
+  - Introduction
+  - Introduction to GEOGLOWS
+  - Access Streamflow Data using GEOGLOWS Hydroviewer
+  - Summary and Q&A
+  videos:
+  - youtube: 1QbpVlIuHsU
+    title: 'NASA ARSET: Overview of GEOGLOWS for Monitoring and Predicting Flood Risk Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-05/ARSET-Floods2026-part3-slides.pdf
+  - type: exercise
+    title: Part 3 Exercise
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/ARSET-Floods2026-part3-exercise_0.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-05/ARSET-Floods2026-part3-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-Floods2026-HomeworkPDF.pdf

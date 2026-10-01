@@ -117,27 +117,25 @@ def run(cat: Catalog, refresh_all: bool = False, dry_run: bool = False) -> Repor
     for slug in dict.fromkeys(to_check):
         url = known[slug]["source_url"] if slug in known else scrape.training_url(slug)
         try:
-            record, people, is_arset = ingest.scrape_training(cat, url)
+            scraped = ingest.scrape_training(cat, url)
         except requests.RequestException as e:
             report.errors.append(f"{slug}: {e}")
             continue
-        state["pages"][slug] = {"arset": is_arset, "last_checked": today.isoformat()}
-        if not is_arset:
+        state["pages"][slug] = {"arset": scraped.is_arset, "last_checked": today.isoformat()}
+        if not scraped.is_arset:
             report.skipped.append(slug)
             continue
         if slug in known:
-            changes = ingest.merge(known[slug], record)
+            changes = ingest.update_existing(cat, known[slug], scraped, save=not dry_run)
             if changes:
                 report.updated[slug] = changes
-                if not dry_run:
-                    cat.save("training", known[slug])
         else:
-            ingest.enrich_videos(record)
-            new_records.append(record)
-            report.new_trainings.append((slug, record["title"]))
-            if not dry_run:
-                report.new_instructors += ingest.ensure_instructors(cat, people)
-                cat.save("training", record)
+            new_records.append(scraped.record)
+            report.new_trainings.append((slug, scraped.record["title"]))
+            if dry_run:
+                ingest.enrich_videos(scraped.record)
+            else:
+                report.new_instructors += ingest.add_new(cat, scraped)
 
     trainings = list(known.values()) + ([] if not dry_run else new_records)
     assigned = {v["youtube"] for t in trainings for _, v in iter_videos(t)}

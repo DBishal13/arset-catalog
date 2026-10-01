@@ -1,0 +1,93 @@
+id: landslide-monitoring-risk-assessment-using-nasa-earth-system-data
+title: Landslide Monitoring and Risk Assessment Using NASA Earth System Data
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/landslide-monitoring-risk-assessment-using-nasa-earth-system-data
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2025-03-11'
+end_date: '2025-03-18'
+published: '2025-03-11'
+last_updated: '2026-06-17'
+summary: This ARSET training teaches participants how satellite-based Earth observations can inform landslide
+  science and disaster planning.
+description: 'This three-part introductory training covers a number of topics relating to landslides,
+  demonstrating a wide variety of NASA Earth science data uses to characterize landslides and their impacts.
+  The training provides the scientific background of landslides to answer important questions such as:
+  What is a landslide? Where do they occur? What causes them, and why?
+
+
+  Participants learn how satellite-based Earth observations can inform landslide science and disaster
+  planning with a focus on key observations and model data, including optical and synthetic aperture radar
+  (SAR) based analysis. The training includes information on how NASA data and models can be used to automate
+  landslide detection to rapidly map where landslides have occurred post-disaster using the NASA SALaD
+  model (Semi-Automatic Landslide Detection).
+
+
+  The training also covers how satellite-based Earth observations can better predict the location and
+  timing of landslides using the global LHASA model (Landslide Hazard Assessment model for Situational
+  Awareness). These open source tools can help communities prepare for and respond to landslides all over
+  the world.'
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+sessions:
+- part: 1
+  title: Remote Sensing for Landslide Science and Disaster Planning
+  agenda:
+  - About ARSET
+  - Core concepts
+  - Satellite observations of landslides
+  - Ancillary data
+  - Optional independent activity
+  videos:
+  - youtube: vq5l3rfrMbU
+    title: 'NASA ARSET: Remote Sensing for Landslide Science and Disaster Planning, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-landslides-part1-slides.pdf?VersionId=lQnIchWi.fam7VBOUH1yjJdxIvwOVO_B
+  - type: slides
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-landslides-part1-qa.pdf?VersionId=6McvwzHdDcEHw.KzPrvPj50s0pqknTLU
+- part: 2
+  title: Mapping Landslide Occurrence Using Earth Observations
+  agenda:
+  - Landslide mapping using satellite data
+  - Automated mapping
+  - Non-optical detection
+  - Optional independent activity
+  videos:
+  - youtube: EvhCt0nan0A
+    title: 'NASA ARSET: Mapping Landslide Occurrence Using Earth Observations, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-landslides-part2-slides.pdf?VersionId=K35cqhVe1cR75z8oo60EX1lW22UMddZW
+  - type: slides
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-landslides-part2-qa.pdf?VersionId=hJrqUBjRWfq5ZRJFPHeDEdRNaE7dfYJn
+- part: 3
+  title: Remote Sensing and Landslide Susceptibility
+  agenda:
+  - Landslide susceptibility
+  - Constructing susceptibility models
+  - Dynamic hazard models
+  videos:
+  - youtube: 5n7y8wYNYwo
+    title: 'NASA ARSET: Remote Sensing and Landslide Susceptibility, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-landslides-part3-slides.pdf?VersionId=Rt4mhHTSklyRy0bR9X6Xyb2Zd1mXGAS1
+  - type: slides
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-landslides-part3-qa.pdf?VersionId=2nR8nMHjAqnFyqany7346KHXvpMQLf3M
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/arset-landslides2025-homework.pdf

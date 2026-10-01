@@ -1,0 +1,167 @@
+id: drought-monitoring-prediction-projection-using-nasa-earth-system-data
+title: Drought Monitoring, Prediction, and Projection using NASA Earth System Data
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/drought-monitoring-prediction-projection-using-nasa-earth-system-data
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2024-07-23'
+end_date: '2024-08-01'
+published: '2024-07-23'
+last_updated: '2025-08-19'
+summary: This ARSET training provides hands-on data analysis exercises for monitoring different types
+  of drought (meteorological, hydrological, and agricultural).
+description: 'The United Nations has documented that drought frequency and duration have increased globally
+  since 2000. According to this report 2.3 billion people around the world are currently facing water
+  stress. Although droughts only represent 15% of natural disasters, they killed 650,000 people between
+  1970 and 2019. Also, it is predicted that by 2050, drought could affect more than 75% of the world’s
+  population.
+
+
+  Droughts affect drinking water availability, ecosystems, and crop production – critical for quality
+  and sustainability of plant, animal and human lives. For better water and agricultural management it
+  is crucial to monitor and forecast drought conditions.
+
+
+  This four-part advanced training will build upon previous ARSET trainings and provide hands-on data
+  analysis exercises for monitoring different types of drought (meteorological, hydrological, and agricultural).
+  Moreover, the training will include drought prediction analysis on sub-seasonal to seasonal (S2S) time
+  scales and climate change projection analysis of drought conditions.
+
+
+  Optional: To follow along with the demonstrations for this training, please review optional prerequisites
+  listed under each training part below.'
+objectives:
+- Identify important Earth Observations and tools for assessing short term (week to month) to long-term
+  (seasonal to multi-decadal) drought conditions.
+- Identify drought portals and relevant geophysical parameters for monitoring droughts globally and regionally.
+- Access and analyze sub-seasonal to seasonal forecasts of temperature and precipitation for evolving
+  drought conditions for a region of interest.
+- Access and analyze climate change projection data to assess impacts on long term drought conditions
+  for a region of interest.
+- Explore selected regional drought monitoring tools that can be customized for a user’s region of interest.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- agriculture
+- climate-resilience
+- disasters
+- drought
+- ecological-conservation
+- water-resources
+tools:
+- google-earth-engine
+- qgis
+instructors:
+- amita-mehta
+- sean-mccartney
+- kelsey-satalino
+- steve-ansari
+- brad-pugh
+- compton-tucker
+- andrea-molod
+- erika-podest
+- amber-mccullum
+- reetam-majumder
+sessions:
+- part: 1
+  title: Overview of Drought Monitoring Data and Tools using Earth Observations
+  agenda:
+  - Identify Earth observation data sets and tools for both global and regional short term drought monitoring
+  - Explore regional drought monitoring tools for analyzing drought conditions in the U.S.
+  videos:
+  - youtube: 5WZf1bBAqzg
+    title: 'NASA ARSET: Overview of Drought Monitoring Data and Tools using Earth Observations, Part 1/4'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Google Earth Engine
+    url: https://earthengine.google.com/
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Drought2024-part1-slides.pdf?VersionId=clQGE6E7hHrW57F_LJL07amFZvuCf3Cf
+  - type: exercise
+    title: Part 1 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Drought2024-part1-exercise.pdf?VersionId=rpgLZoKFrDtWmTr5koDolDnlxXBpv2mQ
+  - type: other
+    title: Part 1 Google Earth Engine Demonstration
+    url: https://code.earthengine.google.com/87f8fd4323288e2f722df37c71f95f5b?accept_repo=users%2Fmayanaclark%2FUHEAT
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Drought2024-part1-qa.pdf?VersionId=oGm.a.N_4uG6Rx9N9I9vCor2T9sq8Cdg
+- part: 2
+  title: Drought Prediction using NASA Sub-seasonal to Seasonal (S2S) Predictions
+  agenda:
+  - Recognize the functionality of NASA's sub-seasonal to seasonal (S2S) forecast system and data
+  videos:
+  - youtube: rnBxGWjRiXw
+    title: 'NASA ARSET: Drought Prediction using NASA Sub-seasonal to Seasonal (S2S) Predictions, Part
+      2/4'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: download QGIS
+    url: https://www.qgis.org
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Drought2024-part2-slides.pdf?VersionId=SvelUR18SDhQFdrOXh4R7uqmNfW63qLN
+  - type: exercise
+    title: Part 2 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Drought2024-part2-exercise.pdf?VersionId=2kZh4TQQxno3q3MIk5NP346tj_nMb54P
+  - type: other
+    title: Part 2 QGIS Demonstration Data
+    url: https://drive.google.com/drive/folders/1EI4UFjlwTVIDZoWF-AUHNDQ90BZXei-P
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Drought2024-part2-qa.pdf?VersionId=X.M0fiw2uOSjZQ6Fb3pnvWf8ZAYVprcj
+- part: 3
+  title: Climate Change Projections and Droughts
+  agenda:
+  - Recognize functionality of NEX-GDDP-CMIP6 climate projection dataset
+  videos:
+  - youtube: RvgDLPlFr9s
+    title: 'NASA ARSET: Climate Change Projections and Droughts, Part 3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Drought2024-part3-slides.pdf?VersionId=8SYUojXIS.yTz83hFcqDiaFNyd.c2551
+  - type: exercise
+    title: Part 3 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Drought2024-part3-exercise.pdf?VersionId=1P.7aA7XimFYNddg_52Z_oJS_SH0J2PH
+  - type: other
+    title: Part 3 Google Earth Engine Demonstration
+    url: https://code.earthengine.google.com/fae60618fd8e3cabf1b574e177210fa3
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Drought2024-part3-qa.pdf?VersionId=lclK.h23llYiuNot882X11_Al3r1WTQy
+- part: 4
+  title: Demonstration of Regional Drought Monitoring Tools
+  agenda:
+  - Identify regional drought projects with NASA’s Western Water Applications Office
+  - Explore how the WWAO-developed Navajo Nation Drought Severity Evaluation Tool (DSET) is used to calculate
+    drought metrics and vegetation health anomalies
+  videos:
+  - youtube: dyXtQ0uiscA
+    title: 'NASA ARSET: Demonstration of Regional Drought Monitoring Tools, Part 4/4'
+    channel: NASA Video
+  materials:
+  - type: notebook
+    title: Google Colab
+    url: https://colab.research.google.com/
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Drought2024-part4-slides.pdf?VersionId=CpcdDFAtsAKXVM2lC45l1gZZa4JuXY8j
+  - type: exercise
+    title: Part 4 Google Earth Engine Instructions
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Drought2024-part4-exercise.pdf?VersionId=RcMabxSBDzUwXk9mGyAKR0egGNNLEga7
+  - type: notebook
+    title: NASA ARSET Github
+    url: https://github.com/NASAARSET/ARSET_Drought_Monitoring_Prediction
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Drought2024-part4-qa.pdf?VersionId=vEdBNm.EYkCQP7OAqhis4xiU7RMyNv2k
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdpF6jpAaylOQMjcYF2iaEp7cIfOrZf1-9n2MboSIk4LuHMsg/viewform?usp=sf_link

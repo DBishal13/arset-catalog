@@ -1,0 +1,92 @@
+id: introduction-integration-animal-tracking-remote-sensing
+title: Introduction to the Integration of Animal Tracking and Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-integration-animal-tracking-remote-sensing
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2025-05-20'
+end_date: '2025-05-22'
+published: '2025-05-20'
+last_updated: '2026-09-17'
+summary: This ARSET training provides an overview of animal tracking sensors, NASA's history of animal
+  tracking, and NASA's Internet of Animals project.
+description: 'Animals are sentinels of environmental change, and animal telemetry is a commonly used tool
+  to quantify habitat use and help understand environmental changes. NASA data can be used to characterize
+  the environmental parameters that infer the habitats that animals use.
+
+
+  This training course will provide participants with an overview of animal tracking sensors, NASA’s history
+  of animal tracking, NASA’s Internet of Animals project, and the types of remote sensing data that can
+  be paired with animal telemetry. Because animal telemetry collects frequent animal location data, it
+  is important to consider time-matched remote sensing in data analyses. In remote marine environments,
+  for example, Level 3 and Level 4 products provide the most complete spatiotemporal coverage, such as
+  Ocean Surface Current Analyses Real-time (OSCAR) for ocean surface currents.
+
+
+  Participants will then learn how to integrate telemetry and remote sensing data by applying a basic
+  data standardization process to animal tracking data, visualizing the animals’ distribution via home
+  ranges with utilization distributions, downloading remote sensing data, and characterizing animals’
+  habitats in a species distribution model to infer habitat use. The balance of tradeoffs (spatiotemporal
+  mismatches; computational power and time) from pairing remotely sensed data with animal tracks will
+  be discussed. Examples for both marine and terrestrial environments will be provided.'
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+tools:
+- r
+sessions:
+- part: 1
+  title: Introduction to Animal Tracking and Remote Sensing at NASA
+  agenda:
+  - Overview of animal tracking
+  - How is remote sensing related to animal tracking?
+  - Working with animal tracking data
+  - Summary
+  - Q&A Session
+  videos:
+  - youtube: M4oTCKS5mWg
+    title: 'NASA ARSET: Introduction to Animal Tracking and Remote Sensing at NASA, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-internetofanimals-part1-slides.pdf?VersionId=I23Iy_U5_4PQPQXcLlIPWcD2KaCf7wtX
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-internetofanimals-part1-qa.pdf?VersionId=RyuAUrd7dVAbkDnyC9sqOFEQq_EjMGdN
+- part: 2
+  title: Integration of Animal Tracking and Remote Sensing Data
+  agenda:
+  - 'Integration of Animal Tracking and Remote Sensing: Case Study (Marine)'
+  - 'Integration of Animal Tracking and Remote Sensing: Case Study (Terrestrial)'
+  - Summary
+  - Q&A Session
+  videos:
+  - youtube: xVFU4qHtvW8
+    title: 'NASA ARSET: Integration of Animal Tracking and Remote Sensing Data, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Earthdata account
+    url: https://urs.earthdata.nasa.gov/
+  - type: other
+    title: R
+    url: https://www.r-project.org/
+  - type: other
+    title: RStudio
+    url: https://posit.co/download/rstudio-desktop/
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-internetofanimals-part2-slides.pdf?VersionId=8EDiaiw5bOqAVMyNklZl1OcfFSqw0tnu
+  - type: notebook
+    title: GitHub Repository
+    url: https://github.com/NASAARSET/ARSET_Animal_Tracking
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-internetofanimals-part2-qa.pdf?VersionId=DhkFjMUkv8Pq.y6Nh_O8H5k0FvydE15m
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-09/ARSET-InternetofAnimals2025-HomeworkPDF.pdf

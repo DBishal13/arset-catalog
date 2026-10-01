@@ -1,0 +1,134 @@
+id: earth-observations-humanitarian-applications
+title: Earth Observations for Humanitarian Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/earth-observations-humanitarian-applications
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2024-06-06'
+end_date: '2024-06-20'
+published: '2024-06-06'
+last_updated: '2026-07-08'
+summary: This ARSET training focuses on flood risk, heat stress, and drought effects on agricultural landscapes
+  in refugee settings.
+description: 'Refugees, internally displaced people (IDPs), and other displaced populations are made more
+  vulnerable to climate change impacts due to their socio-political marginalization. This three-part training
+  presents concrete strategies for mapping localized climate conditions with risks faced by refugee and
+  IDP communities around the world, and is a follow-on to our 2022 Introductory training, Humanitarian
+  Applications Using NASA Earth Observations.
+
+
+  The training will focus on flood risk assessments and specific challenges for assessing flood risk in
+  refugee and IDP camps; gauging long-term heat stress in refugee camps and the challenges with decision
+  making surrounding heat risk; and monitoring drought effects on agricultural landscapes in refugee settings
+  using Earth observations (EO) to explore the correlations between anomalies in crop productivity and
+  weather-based factors.
+
+
+  By the end of the training, participants will be able to integrate EO, building footprint and infrastructure
+  data, and population data to quantify climate risk and development trends in specific humanitarian settings,
+  and recognize the value and limitations of specific EO and geospatial datasets.
+
+
+  Optional: To follow along with the demonstrations for this training, please review optional prerequisites
+  listed under each training part below.'
+prerequisites:
+- fundamentals-remote-sensing-0
+- introduction-synthetic-aperture-radar-sar-its-applications
+- humanitarian-applications-using-nasa-earth-observations
+applications:
+- agriculture
+- climate-resilience
+- disasters
+- drought
+tools:
+- google-earth-engine
+- qgis
+instructors:
+- sean-mccartney
+- mark-bernhofen
+- mark-trigg
+- ruby-paterson
+- andrew-zimmer
+- jamon-van-den-hoek
+- sitian-xiong
+- lyndon-estes
+sessions:
+- part: 1
+  title: Assessing Flood Risk in Refugee Camp Settings
+  agenda:
+  - Identify and apply open geospatial datasets (global model outputs and EO data & products) to undertake
+    flood risk assessments for refugee camps anywhere in the world
+  - Recognize specific humanitarian challenges when assessing flood risk in refugee camps
+  videos:
+  - youtube: JXYUUkGQu9I
+    title: 'NASA ARSET: Assessing Flood Risk in Refugee Camp Settings, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: download QGIS
+    url: https://www.qgis.org
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-05/ARSET-Humanitarian2024-part1-slides.pdf?VersionId=YHUZMZAWDuwuPLkjwVI96Fh_SZlNC233
+  - type: other
+    title: Part 1 Data
+    url: https://zenodo.org/records/11203929
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-05/ARSET-Humanitarian2024-part1-qa.pdf?VersionId=RcPudA6jKkaNwWsi_6HovPumBRuUpyfA
+- part: 2
+  title: Gauging Long-Term Heat Stress in Refugee Settings
+  agenda:
+  - Identify and apply open geospatial datasets (global model outputs and EO data & products) to analyze
+    long-term heat stress for refugee camps anywhere in the world
+  - Fill out the form with your email, full name, affiliation, etc. and click submit.
+  - You can use your university/organization email or your Gmail for signing up.
+  - It usually takes 1-2 days for approval.
+  videos:
+  - youtube: Qb8PMcZGs6w
+    title: 'NASA ARSET: Gauging Long-Term Heat Stress in Refugee Settings, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Google Earth Engine
+    url: https://earthengine.google.com/
+  - type: notebook
+    title: Google Colab
+    url: https://colab.research.google.com
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-05/ARSET-Humanitarian2024-part2-slides.pdf?VersionId=.ftC9WGwmdA9K_EuezdAFISOmAOXOuIN
+  - type: notebook
+    title: 'Part 2 Demo: Google Colab Notebook'
+    url: https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcolab.research.google.com%2Fdrive%2F1l1Azjt1OlMxmblFFVEMFPujft7p9XxjU%3Fusp%3Dsharing&data=05%7C02%7Csean.mccartney%40nasa.gov%7C896f843ddba64ca7ddde08dc7f2570e3%7C7005d45845be48ae8140d43da96dd17b%7C0%7C0%7C638525046020033965%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=1lI7hhFOQW2FvgST6oVRglMaEDl5HrRrt64SdSBgMZ4%3D&reserved=0
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-05/ARSET-Humanitarian2024-part2-qa.pdf?VersionId=nJQdCfO0R2f7VZEHBzbkAOhQJMaqJCaE
+- part: 3
+  title: Tracking Drought Effects on Agricultural Landscapes in Refugee Settings
+  agenda:
+  - Identify trends and anomalies in crop productivity through EO time series analysis, utilizing open-source
+    data and programming languages
+  videos:
+  - youtube: _802zNWrRBw
+    title: 'NASA ARSET: Tracking Drought Effects on Agricultural Landscapes in Refugee Settings, Part
+      3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-05/ARSET-Humanitarian2024-part3-slides.pdf?VersionId=aXiGKgL5O_pv7tzhU7T8.z1bK4Mrxc6Q
+  - type: notebook
+    title: Part 3 Data & Notebook
+    url: https://github.com/agroimpacts/nasa-arset-part3
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-05/ARSET-Humanitarian2024-part3-qa.pdf?VersionId=wNt2GlID8pU7xk1OkaZG7Bv4yleYLfCT
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-Humanitarian2024-homework.pdf
+  - type: other
+    title: Find More ARSET Trainings
+    url: https://www.earthdata.nasa.gov/data/projects/arset

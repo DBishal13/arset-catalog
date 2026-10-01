@@ -1,0 +1,81 @@
+id: selecting-climate-change-projection-sets-mitigation-adaptation-risk-management
+title: Selecting Climate Change Projection Sets for Mitigation, Adaptation, and Risk Management Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/selecting-climate-change-projection-sets-mitigation-adaptation-risk-management
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2022-09-19'
+end_date: '2022-09-20'
+published: '2022-09-19'
+last_updated: '2026-01-06'
+summary: This training provides an overview of resources for choosing climate projection sets for mitigation,
+  adaptation, and risk management applications.
+description: 'Projections of climate change from global climate models are a fundamental basis for mitigation,
+  adaptation, and risk management planning across many elements of society and ecosystems around the world.
+  Depending on the application need, scientists can use a variety of climate modeling projection sets
+  with a range of distinguishing factors. Although the future will likely be shaped by a combination of
+  mitigation, adaptation, and risk planning, the distinctions between these application areas can impact
+  the choice of which climate projection set to use.
+
+
+  Climate projection sets begin with global climate model outputs and often include additional observational
+  data to produce variables that are more relevant for certain applications. These datasets are constructed
+  according to specific choices about source material, domain, resolution, and scenarios or storylines,
+  among other factors. Different projection sets provide their own unique advantages but are often limited
+  by tradeoffs shaped by resource constraints and the availability of supporting materials.
+
+
+  This two-part webinar series provides an overview of resources for choosing climate projection sets
+  for mitigation, adaptation, and risk management applications. The webinar gives an overview of application
+  areas, defines a list of distinguishing characteristics of climate projection sets, and highlights the
+  main benefits and drawbacks of different types of projection sets.'
+prerequisites:
+- fundamentals-remote-sensing
+- introduction-nasa-resources-climate-change-applications
+applications:
+- climate-resilience
+- ecological-conservation
+sessions:
+- part: 1
+  title: What Makes Projection Sets Different?
+  agenda:
+  - Overview of application areas (mitigation, adaptation, risk)
+  - Where climate projection sets come from
+  - Key distinguishing features between climate projection sets
+  videos:
+  - youtube: gGM5Bnz0Gh8
+    title: What Makes Projection Sets Different? Part 1/2
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-ClimateProjections2022-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-ClimateProjections2022-part1-qa.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-ClimateProjections2022-part1-slides-esp.pdf
+- part: 2
+  title: How Do You Choose a Projection Set for Your Application?
+  agenda:
+  - How to avoid using antiquated versions
+  - Tradeoffs in using more complex climate projection sets
+  - Selecting an appropriate climate projection set given application needs
+  - Supporting materials that make a climate projection set more appealing
+  videos:
+  - youtube: 4vJSKCNKqq4
+    title: How Do You Choose a Projection Set for Your Application? Part 2/2
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-ClimateProjections2022-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-ClimateProjections2022-part2-qa.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-ClimateProjections2022-part2-slides-esp_0.pdf

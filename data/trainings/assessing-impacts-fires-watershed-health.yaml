@@ -1,0 +1,131 @@
+id: assessing-impacts-fires-watershed-health
+title: Assessing the Impacts of Fires on Watershed Health
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/assessing-impacts-fires-watershed-health
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2023-07-06'
+end_date: '2023-07-13'
+published: '2023-07-06'
+last_updated: '2026-07-08'
+summary: This advanced-level training focuses on using remote sensing observations for monitoring post-fire
+  impacts on watershed health.
+description: 'This advanced-level training hosted by NASA''s Applied Remote Sensing Training program (ARSET)
+  focuses on using remote sensing observations for monitoring post-fire impacts on watershed health, and
+  builds on the ARSET training offered in 2021: Satellite Observations and Tools for Fire Risk, Detection,
+  and Analysis. Specifically, this training highlights uses of NASA Earth observations (EO) for pre-fire
+  land cover mapping, watershed delineation and stream mapping, post-fire burn severity mapping, and pre-
+  and post-fire riverine and freshwater water quality. This training highlights case studies that use
+  remote sensing data for assessing the impacts of fires on watersheds. This training also provides participants
+  with hands-on exercises for using NASA EO for these assessments within the Soil Water Assessment Tool
+  (SWAT) and Google Earth Engine.'
+prerequisites:
+- fundamentals-remote-sensing-0
+- arset-satellite-observations-tools-fire-risk-detection-analysis
+- using-google-earth-engine-land-monitoring-applications
+applications:
+- drought
+- ecological-conservation
+- wildland-fires
+tools:
+- google-earth-engine
+instructors:
+- sean-mccartney
+- amita-mehta
+- erika-podest
+- ibrahim-mohammed
+- mandy-lopez
+- amber-mccullum
+- juan-torres-perez
+- britnay-beaudry
+- sativa-cruz
+sessions:
+- part: 1
+  title: Satellite Observations and Tools for Fire Risk
+  agenda:
+  - Provide examples of fire science criteria for drought conditions in a given watershed pre-fire to
+    select the appropriate data from satellites/instruments for a watershed of interest
+  - Demonstrate how to delineate river basins and subbasins for a watershed of interest
+  - Calculate anomalies in biophysical and meteorological conditions for a watershed of interest
+  - Q & A Session
+  videos:
+  - youtube: H3Q1pI-NFL8
+    title: 'NASA ARSET: Satellite Observations and Tools for Fire Risk, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-FiresWatershed2023-part1-slides.pdf?VersionId=7A0XZ4RASy0zOkLLg96t7VmwdmFy_.6t
+  - type: qa
+    title: Part 1 Q&A Document
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-FiresWatershed2023-part1-qa.pdf?VersionId=nA3eb.2YQFyxMSSllzS60meuuX57mjil
+  - type: other
+    title: Google Earth Engine
+    url: https://earthengine.google.com/
+  - type: slides
+    title: Diapositivas de la Presentación de parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-FiresWatershed2023-part1-slides-esp.pdf?VersionId=RrTJQspwQQUDcGkZct5iiyzBoWoLUhkg
+- part: 2
+  title: Earth Observations and The Soil & Water Assessment Tool (SWAT) for Assessing Post-Fire Water
+    Quality in Watersheds
+  agenda:
+  - Identify physically-based model components necessary to run a SWAT model to predict the impact of
+    management on water and sediment in a watershed
+  - Ingestion of Earth remote sensing data into SWAT model using NASAaccess
+  - Recognize best practices used to conduct calibration in SWAT
+  - Q&A Session (30 minutes)
+  videos:
+  - youtube: lAHM05jeQq0
+    title: 'NASA ARSET: The Soil & Water Assessment Tool (SWAT) for Assessing Post-Fire Water Quality:
+      Part 2/3'
+    channel: NASA Video
+  - youtube: 0vz6Sz1yCPA
+    title: 'NASA ARSET: Earth Observations and SWAT for Assessing Post-Fire Water Quality, Part 2 (Demo)
+      of 3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-FiresWatershed2023-part2-slides.pdf?VersionId=8p_bHSbMFnnwzSpIeDUVbtd_Vs34qsNi
+  - type: qa
+    title: Part 2 Q&A Document
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-FiresWatershed2023-part2-qa.pdf?VersionId=OGxXpcNUjFDbG.aWsS0NCcR40Cf3g.if
+  - type: slides
+    title: Diapositivas de la Presentación de parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-FiresWatershed2023-part2-slides-esp.pdf?VersionId=HxIssi_Wh0lyKhm4MFEzofrjVvCo96Um
+  - type: other
+    title: 'SWAT Model Guide: Malibu Creek Woolsey Fire Example using ArcSWAT'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-FiresWatershed2023-part2-SWATModel.pdf?VersionId=Y.0t15HPlIl6FfhUq0Oirzei70LX1Ipi
+  - type: other
+    title: SWAT Input data
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-FiresWatershed2023-part2-SWATData.pdf?VersionId=K0bUf8NgxewKQFmqqyr.HRQYOuP6BdsH
+- part: 3
+  title: Using Google Earth Engine to Monitor Post-Fire Impacts
+  agenda:
+  - Identify global socioeconomic datasets and land cover products useful for assessing the impact of
+    fire on population, infrastructure, and land use and land cover types
+  - Acquire land use & land cover maps for a watershed of interest
+  - Evaluate the severity of post-fire burns within a watershed of interest
+  - Q & A Session (30 minutes)
+  videos:
+  - youtube: w2MmBY3lhYE
+    title: 'NASA ARSET: Using Google Earth Engine to Monitor Post-Fire Impacts, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-FiresWatershed2023-part3-slides.pdf?VersionId=vhGgd11TGbZ3WHTYuaJEDsc9.dXj0kib
+  - type: qa
+    title: Part 3 Q&A Document
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-FiresWatershed2023-part3-qa.pdf?VersionId=br.Q5jFylgRr3zgWtPzBH.jPSgsmdt1P
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-FiresWatershed2023-homework.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-FiresWatershed2023-part3-slides-esp.pdf?VersionId=9D6BTtUa1u7nBpWyRhUeKhwJPXoVaIhN
+  - type: other
+    title: Tarea
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdywQzlBjjStxZkBWCvGtupFoj8fthN71O6aDZ2JG9tcJ2riQ/viewform?usp=sf_link

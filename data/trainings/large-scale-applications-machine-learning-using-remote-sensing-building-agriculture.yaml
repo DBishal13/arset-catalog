@@ -1,0 +1,142 @@
+id: large-scale-applications-machine-learning-using-remote-sensing-building-agriculture
+title: Large Scale Applications of Machine Learning using Remote Sensing for Building Agriculture Solutions
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/large-scale-applications-machine-learning-using-remote-sensing-building-agriculture
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2024-03-05'
+end_date: '2024-03-19'
+published: '2024-03-05'
+last_updated: '2025-08-19'
+summary: This ARSET training describes data format and quality considerations, tools, and techniques to
+  process imagery at large scale from publicly available sources.
+description: 'Remote sensing data is becoming crucial to solve some of the most important environmental
+  problems, especially pertaining to agricultural applications and food security. Effectively working
+  with this large data source requires different tools and processing, such as cloud computing and infrastructure.
+  Participants will become familiar with data format and quality considerations, tools, and techniques
+  to process remote sensing imagery at large scale from publicly available satellite sources, using cloud
+  tools such as AWS S3, Databricks, and Parquet.
+
+
+  Additionally, participants will learn how to analyze and train machine learning models for classification
+  using this large source of data to solve environmental problems with a focus on agriculture. Participants
+  will have a basic understanding of tools such as Pyspark and TensorFlow. We hope that participants in
+  this course will walk away with the skills and tools to train algorithms using satellite imagery to
+  solve environmental problems anywhere on the planet.
+
+
+  Optional: To follow along with the demonstrations for this training, please create an account to login
+  to Databricks prior to the training start date.'
+prerequisites:
+- fundamentals-remote-sensing
+- crop-mapping-using-synthetic-aperture-radar-sar-optical-remote-sensing
+applications:
+- agriculture
+satellites:
+- sentinel-2
+instructors:
+- sean-mccartney
+- john-just
+- erik-sorensen
+sessions:
+- part: 1
+  title: Data Preparation of Imagery for Large-Scale ML Modeling
+  agenda:
+  - Submit lists of boundaries to the NASS API and retrieve CDL rasters back.
+  - Subsample and visualize retrieved data from CDL with interactive spatial images and other statistical
+    plots.
+  - Obtain Sentinel-2 raster files for a given area and timeframe corresponding to the retrieved CDL data
+    and manipulate the sentinel-2 rasters into tables in preparation for analysis and model training.
+  - Verify correct processing of data via various interactive plots (e.g. time series of pixels of various
+    land covers).
+  videos:
+  - youtube: wwhb14hDhEQ
+    title: 'NASA ARSET: Data Preparation of Imagery for Large-Scale ML Modeling, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-part1-slides.pdf?VersionId=R3k.WiePJZu.2CsyIWHwYl2dewwUGMNS
+  - type: other
+    title: Part 1 Data
+    url: https://drive.google.com/drive/folders/1Gzk5hpb7CJcCWgQ7QbcpCZF6G22NO9_C?usp=drive_link
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-part1-qa.pdf?VersionId=Phn3h3n8hrJkNoHV2FgpnRUtykTwVBdZ
+  - type: other
+    title: Databricks Setup Instructions
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-databrickssetup.pdf?VersionId=P3t5RSmsDmZQ2oGQPbHFah_7Kg7owckE
+  - type: exercise
+    title: Optional Part 1 Learning Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-part1-exercise.pdf?VersionId=jnCFKlGGbob_0zSA4dYtF1ZeN3nAArBA
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-part1-slides-esp.pdf?VersionId=Jg00K05gv4AJ_0FXMIc6vJR7VSm2ugeB
+- part: 2
+  title: Data Loaders for Training ML Models on Irregularly-Spaced Time-Series of Imagery
+  agenda:
+  - Follow the process to set up a Tensorflow data loader that works with Parquet files to create a training
+    pipeline suitable for training a model on large-scale data.
+  - Perform steps to manipulate the imagery data stored in tables, normalize the values, and bucketize
+    irregularly spaced time-series data to prep for modeling.
+  - Follow steps to parallelize/prefetch preprocessing for fast training.
+  - Apply the correct procedure to split time-series data into train/val/test sets to avoid data leakage.
+  videos:
+  - youtube: w-zRfsTZBFY
+    title: 'NASA ARSET: Data Loaders for Training ML Models on Irregularly-Spaced Time-Series Imagery,
+      Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-part2-slides.pdf?VersionId=c7AA7PbxJLNWlhkQ1gwnRbY4FVXCdAvb
+  - type: other
+    title: Part 2 Data
+    url: https://drive.google.com/drive/folders/1186YWDx-V2HV8K5wn0V0jw8lSO5WWbaZ?usp=drive_link
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-part2-qa.pdf?VersionId=6UAH5lttGIAXUgLKJyX63XS6wVZ3jkFY
+  - type: exercise
+    title: Optional Part 2 Learning Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-part2-exercise.pdf?VersionId=ADQfv3DOPL0dQ.Uku3fjGG8z9rftTqYX
+  - type: slides
+    title: Diapositivas de la Presentación de parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-part2-slides-esp.pdf?VersionId=ERqNEU2lr0yqDcSVsJgyROIAhWhtF2b_
+- part: 3
+  title: Training & Testing ML Models for Irregularly-Spaced Time Series of Imagery
+  agenda:
+  - Perform the process to set up and train a 1-D convolutional neural network (CNN) model that learns
+    to detect crop-type from a satellite image
+  - Follow steps to monitor model performance during training and how to choose appropriate hyperparameter
+    adjustments
+  - Plot predictions to validate performance after training
+  - To be completed before starting individual learning exercises and the homework assignment.
+  videos:
+  - youtube: vpHREZBTuF8
+    title: 'NASA ARSET: Training & Testing ML Models for Irregularly-Spaced Time Series of Imagery, Part
+      3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-part3-slides.pdf?VersionId=LOyhbN2Gk4f8UiUdNGnNe4WEl_Bq30MQ
+  - type: other
+    title: Part 3 Data
+    url: https://drive.google.com/drive/folders/1d6In_R1KN_ShVbL-5AzakISPIVSl13W1?usp=drive_link
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-part3-qa.pdf?VersionId=lXtnoArj3h8lx0VV9ERuzxwwHzopb9ho
+  - type: exercise
+    title: Optional Part 3 Learning Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-part3-exercise.pdf?VersionId=pl_hKsgcTbS2bI3wgN8bNa8bOOrqk4zo
+  - type: homework
+    title: Homework Assignment
+    url: https://docs.google.com/forms/d/e/1FAIpQLScLJtcNlrLw3H0bpC4Pf3Li_XYzPaqfD7xBnx18FvN-dl31FQ/viewform
+  - type: slides
+    title: Diapositivas de la Presentación de parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-AgML2024-part3-slides-esp.pdf?VersionId=dA635KRXmUcgrMltWI7Fo_2ym9q8.q2n
+  - type: other
+    title: Tarea
+    url: https://docs.google.com/forms/d/e/1FAIpQLScJmNaOPsI3V5dS2SodeD3Ws6u_D8-mPNAVMqlEEQRe-UAdLQ/viewform?usp=sf_link

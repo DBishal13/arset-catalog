@@ -1,0 +1,141 @@
+id: applications-gpm-imerg-reanalysis-assessing-extreme-dry-wet-periods
+title: Applications of GPM IMERG Reanalysis for Assessing Extreme Dry and Wet Periods
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/applications-gpm-imerg-reanalysis-assessing-extreme-dry-wet-periods
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2020-01-28'
+end_date: '2020-02-04'
+published: '2020-01-28'
+last_updated: '2026-01-21'
+summary: This ARSET training focuses on the analysis and interpretation of long-term IMERG data for extreme
+  dry and wet period monitoring and management.
+description: 'It is well recognized that long-term precipitation measurements are necessary for understanding
+  and monitoring regional precipitation characteristics. This includes characteristics crucial for monitoring
+  water resources and hazards like floods and droughts. The Tropical Rainfall Measuring Mission (TRMM)
+  was the first NASA mission dedicated to observing precipitation. It operated from November 1997 to April
+  2015. The Global Precipitation Measurement (GPM) Mission launched in February 2014 as a follow-on to
+  TRMM.
+
+
+  Both TRMM and GPM satellites, together with additional national and international satellites, were used
+  to produce multi-satellite products such as TMPA and IMERG. Until recently, these two separate products
+  covered different time periods. There was a lack of long-term, continuous precipitation time series
+  data.
+
+
+  Recently, GPM-IMERG retrospectively analyzed TRMM-TMPA data to produce a consistent, combined precipitation
+  time series from 2000-present. This extended IMERG data product is available at half-hourly resolution
+  and 0.1x0.1 degree spatial resolution. The product will be useful for deriving long-term mean precipitation
+  as reference. It will also help with monitoring extreme precipitation at regional scale.
+
+
+  Past Applied Remote Sensing Training Program (ARSET) trainings on water resources and flood management
+  covered TMPA and IMERG data and their applications in detail. This advanced training focuses on the
+  analysis and interpretation of the new long-term IMERG data, focused on extreme dry and wet period monitoring
+  and management. The sessions include lectures and hands-on exercises to derive regional precipitation
+  statistics.'
+objectives:
+- Derive regional precipitation statistics (mean, standard deviation, anomalies, percentile values)
+- Calculate and interpret the Standardized Precipitation Index (SPI) for assessing extreme dry and wet
+  periods
+audience:
+- Local, regional, state, federal, and international entities, including public and private sector organizations,
+  engaged in water resources and disaster management.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+- drought
+- water-resources
+satellites:
+- gpm
+datasets:
+- gpm-imerg
+sessions:
+- part: 1
+  title: Calculation of Precipitation Statistics Using IMERG
+  videos:
+  - youtube: 6sbuIKunCGU
+    title: 'NASA ARSET: Calculation of Precipitation Statistics Using IMERG, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part1-slides.pdf?VersionId=m2q0ddQInN3Z2_zvjLxNvlarsH.x0xCB
+  - type: exercise
+    title: Part 1 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part1-exercise.pdf?VersionId=9N4u6XPti0j.mnCWAHKQFnIcT3dSdtT4
+  - type: data
+    title: Part 1 Data
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part1-data.zip?VersionId=u0.pDpS5i9ce2qFigb4L9ptPFreNb9Vk
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part1-qa.pdf?VersionId=TbPCTyGlyvzXrNXStocix1V2kZrFzth9
+  - type: homework
+    title: Part 1 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSe5Xz_iYtcRRN1QVN8wz0A7AqPqrYsukJIPiTK9FrWMjS85Rg/viewform?usp=sf_link
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part1-slides-esp.pdf?VersionId=ydGsqAT9A.dRqED2WrXPOb3jkxZfSkii
+  - type: exercise
+    title: Ejercicio de Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part1-exercise-esp.pdf?VersionId=Hlkitb4X0Ylxhyb.b9RnpcNWhEyTZEBQ
+  - type: data
+    title: Datos de Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part1-data.zip?VersionId=u0.pDpS5i9ce2qFigb4L9ptPFreNb9Vk
+  - type: other
+    title: Tarea de Parte 1
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdTr4Yaw9nvb1S2Sht0hWYUFVcLLBDUH-K0b3xCUAapvLvpUQ/viewform?usp=sf_link
+- part: 2
+  title: Calculate Standardized Precipitation Index (SPI) Based on IMERG to Monitor Wet and Dry Conditions
+  videos:
+  - youtube: Gok9zsA_RFk
+    title: 'NASA ARSET: Calculate SPI based on IMERG to Monitor Wet and Dry Conditions, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part2-slides.pdf?VersionId=Uu37FPhNeHuOyLwI8SEJLKTALBcz0nSM
+  - type: other
+    title: Part 2 Data
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part2-data.pdf?VersionId=59HY1T5mkyk788iSbzunVfGiVBRv9Ap7
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part2-qa.pdf?VersionId=bBVndQhanfiKIJLAN7VlBXRE_WbUTClz
+  - type: homework
+    title: Part 2 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfkbJPw06UzJPB9k_T5uiUHOuB887gI8A4YmsZiA9T78wKIrg/viewform
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part2-slides-esp.pdf?VersionId=zex8QnErXYe70BO8puPRtotpgIZrK0Bs
+  - type: other
+    title: Datos de Parte 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part2-data-esp.pdf?VersionId=zrkpCCxGZ0SLf9_0zlX1RemRpfO0BZ2X
+  - type: other
+    title: Tarea de Parte 2
+    url: https://docs.google.com/forms/d/e/1FAIpQLSezixgkfbO-4KDt7t5T6qNXCwNSARBIQbrGmTu8nwrnWcLyCA/viewform
+- part: 3
+  title: Flood and Drought Risk Assessment Based on SPI
+  videos:
+  - youtube: Z8qx2Dg11y0
+    title: 'NASA ARSET: Flood and Drought Risk Assessment Based on SPI, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part3-slides.pdf?VersionId=vUhsglhJK3J4zlMXJ.rrmkFXFm4X.yXw
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part3-qa.pdf?VersionId=1Yw4SIY1KxXBco4GT8Israt6gHQoCwBo
+  - type: homework
+    title: Part 3 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSeJ-c64PMvwBDr_JQEi6cdFfOHqsImVXk7hlczp4BA-xGsSUA/viewform
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 3
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/ARSET-IMERG2020-part3-slides-esp.pdf?VersionId=okS.DLg1Nx6dd2exzJ5_JDH641WZocKn
+  - type: other
+    title: Tarea de Parte 3
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdSgZPKqzNSqURGRTHABUNZPN4sFV7_vsQ-J5WBJ2oC3-t-XA/viewform

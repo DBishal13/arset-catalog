@@ -1,0 +1,124 @@
+id: introduction-plankton-aerosol-cloud-ocean-ecosystem-pace-hyperspectral-observations
+title: Introduction to Plankton, Aerosol, Cloud, Ocean Ecosystem (PACE) Hyperspectral Observations for
+  Water Quality Monitoring
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-plankton-aerosol-cloud-ocean-ecosystem-pace-hyperspectral-observations
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2024-09-25'
+end_date: '2024-10-09'
+published: '2024-09-25'
+last_updated: '2026-01-07'
+summary: This ARSET training provides an overview of past and current hyperspectral sensors and NASA's
+  PACE mission.
+description: 'Water quality monitoring in coastal ocean estuaries and inland lakes is critical for ecosystems
+  and fisheries management and safe drinking water. Remote sensing of water quality parameters has conventionally
+  used data from multispectral sensors (e.g., Aqua Moderate Resolution Imaging Spectroradiometer (MODIS),
+  Landsat Operational Land Imager (OLI), Sentinel-3 Ocean and Land Colour Instrument (OLCI), Sentinel-2
+  Multispectral Imager (MSI)) with a limited number of spectral bands.
+
+
+  There have been research missions with hyperspectral sensors (e.g., EO-Hyperion, HICO) that have demonstrated
+  that hyperspectral data (bandwidth <10 nm) can capture more detailed information about water surface
+  reflectance and enable the detection of a wide variety of water pollutants. Plankton, Aerosol, Cloud,
+  ocean, Ecosystem (PACE), a new NASA mission, was launched on 8 February 2024. PACE – Ocean Color Instrument
+  (OCI) collects global, hyperspectral observations for water quality monitoring.
+
+
+  This three-part introductory training will provide an overview of past and current hyperspectral sensors.
+  Specifically, the training will provide information on NASA’s PACE mission, its sensors and data products,
+  webtools to access data, and software for processing hyperspectral data and water quality parameters
+  derived from PACE/OCI. The training will also highlight some advantages and limitations of PACE data.
+  This will be the first ARSET training focusing on the use of hyperspectral data for water quality applications.'
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+- health-air-quality
+satellites:
+- aqua
+- landsat-8
+- landsat-9
+- pace
+- sentinel-2
+- terra
+tools:
+- jupyter
+- python
+instructors:
+- amita-mehta
+- antonio-mannino
+- morgaine-mckibben
+- carina-poulin
+- anna-windle
+sessions:
+- part: 1
+  title: Introduction to the PACE Mission for Water Quality Monitoring
+  agenda:
+  - Review past and current hyperspectral missions useful for water quality applications
+  - Identify key features of the NASA PACE hyperspectral mission satellite and instruments useful for
+    monitoring water quality of large lakes and estuaries
+  - Identify advantages and limitations of using PACE/OCI data for water quality monitoring
+  videos:
+  - youtube: CoqJUeyXgAA
+    title: 'NASA ARSET: Introduction to the PACE Mission for Water Quality Monitoring, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-PACE2024-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-PACE2024-part1-qa.pdf
+- part: 2
+  title: Overview, Access, and Analysis of PACE Ocean Color Data Products
+  agenda:
+  - Explore the current and planned PACE data products for water quality monitoring
+  - Identify how to access PACE/OCI level 1, 2, and 3 data
+  - Identify applications and the usability of PACE data for monitoring water quality
+  - Analyze and visualize available OCI Remote Sensing Reflectances and Level-2 and -3 water quality parameters
+    using NASA’s open source SeaDAS software
+  videos:
+  - youtube: GQxKsZhgSrM
+    title: Overview, Access, and Analysis of PACE Ocean Color Data Products, Part 2/3
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-PACE2024-part2-slides.pdf
+  - type: data
+    title: Part 2 Data
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-PACE2024-part2-data.zip
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-PACE2024-part2-qa.pdf
+- part: 3
+  title: Access and Visualization of PACE/OCI Data using Python/Jupyter Notebook Software
+  agenda:
+  - Access OCI Remote Sensing Reflectances and Level 2 and 3 Water Quality Parameters from EarthData using
+    open source Python software/Jupyter Notebooks
+  - Visualize OCI Remote Sensing Reflectances and Level 2 and 3 Water Quality Parameters using open source
+    Python software/Jupyter Notebooks
+  - Identify steps to customize the provided Jupyter Notebook software for other areas of interest and
+    timeframes
+  videos:
+  - youtube: ef6AVyDsdmU
+    title: 'NASA ARSET: Access & Visualization of PACE/OCI Data using Python/Jupyter Notebook Software,
+      Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-PACE2024-part3-slides.pdf
+  - type: notebook
+    title: Part 3 Data (Jupyter Notebook)
+    url: https://drive.google.com/drive/folders/1DQyxH1hXcAYagcfoVCjcO81hJN1SVM2V
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-PACE2024-part3-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLScAj7yEOP3nzui-wgGmOK6fe5Wu2eKlztzM1mhLJIrE9WBbRA/viewform

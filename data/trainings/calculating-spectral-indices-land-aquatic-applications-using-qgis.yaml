@@ -1,0 +1,46 @@
+id: calculating-spectral-indices-land-aquatic-applications-using-qgis
+title: Calculating Spectral Indices for Land and Aquatic Applications Using QGIS
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/calculating-spectral-indices-land-aquatic-applications-using-qgis
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2025-02-27'
+end_date: '2025-02-27'
+published: '2025-02-27'
+last_updated: '2026-09-16'
+summary: This ARSET training provides an overview of spectral indices for land and aquatic applications
+  as they are calculated with the QGIS platform.
+description: 'This training will provide an overview of spectral indices for land and aquatic applications
+  as they are calculated with a QGIS platform. Specifically, this training will begin with an introduction
+  to the Normalized Difference Vegetation Index (NDVI), along with its calculation, uses, and applications
+  in diverse thematic areas (agriculture, disasters, etc.). We will review additional land-based indices
+  such as the Enhanced Vegetation Index (EVI), Soil-Adjusted Vegetation Index (SAVI), and Normalized Burn
+  Ratio (NBR).
+
+
+  Finally, we will concentrate on spectral indices primarily used in aquatic ecosystems, such as the Normalized
+  Difference Chlorophyll Index (NDCI), Normalized Difference Aquatic Vegetation Index (NDAVI), Floating
+  Algal Index (FAI), and Normalized Difference Turbidity Index (NDTI) for aquatic applications.
+
+
+  Not only will these sessions discuss the correct circumstances under which to use these indices, but
+  participants will also take part in hands-on indices calculation over relevant study areas. Case studies
+  using indices for land and aquatic applications will be highlighted.'
+prerequisites:
+- fundamentals-remote-sensing
+- spectral-indices-land-aquatic-applications
+applications:
+- agriculture
+- disasters
+- ecological-conservation
+datasets:
+- modis-vegetation-indices
+tools:
+- qgis
+videos:
+- youtube: B3_IGZLjCo8
+  title: 'NASA ARSET: Calculating Spectral Indices for Land and Aquatic Applications Using QGIS'
+  channel: NASA Video

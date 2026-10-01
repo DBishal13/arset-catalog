@@ -1,0 +1,105 @@
+id: using-google-earth-engine-land-monitoring-applications
+title: Using Google Earth Engine for Land Monitoring Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/using-google-earth-engine-land-monitoring-applications
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2021-06-16'
+end_date: '2021-06-30'
+published: '2021-06-16'
+last_updated: '2026-02-25'
+summary: This ARSET training covers the Google Earth Engine Code Editor and hands-on exercises for processes
+  integral to optical imagery analysis.
+description: 'Google Earth Engine (GEE) for remote sensing applications is quickly becoming one of the
+  most utilized tools in the scientific and decision-making community. GEE provides unparalleled access
+  to large-scale data analysis through cloud computing technology. The online interface allows users to
+  access and analyze stores of NASA Earth data without the need for any locally stored data or software.
+
+
+  This training, led by NASA''s Applied Remote Sensing Training (ARSET) program, covers the GEE Code Editor,
+  hands-on exercises on change detection, time series analysis, land cover classification, and accuracy
+  assessment of optical imagery. These processes are an integral part of optical imagery analysis for
+  many applications, including monitoring forest disturbance, wildfire mapping, identifying land cover
+  degradation, mapping ecosystem connectivity, and identification of land surface changes due to urban
+  growth.'
+objectives:
+- Navigate the GEE interface to explore remote sensing datasets relevant to land monitoring
+- Execute JavaScript commands to retrieve satellite data and process imagery for analysis
+- Complete a supervised land classification along with an accuracy assessment in GEE
+- Apply algorithms to derive a time series of environmental parameters and calculate differences between
+  years to detect landscape changes
+- Illustrate the capabilities of cloud-based raster computing for land management applications.
+audience:
+- This training is designed for local, regional, state, federal, and non-governmental organizations involved
+  in land management, conservation, biodiversity, and forest monitoring.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+- wildland-fires
+satellites:
+- landsat-8
+- landsat-9
+tools:
+- google-earth-engine
+- python
+sessions:
+- part: 1
+  title: Google Earth Engine Basics and General Applications
+  agenda:
+  - Introduction to Google Earth Engine Functionalities and Available Data Types
+  - Basics Functions in GEE JavaScript API Activity
+  - Python API Demonstration
+  - Q&A
+  videos:
+  - youtube: -BwqcjgHh6A
+    title: 'NASA ARSET: Google Earth Engine Basics and General Applications, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-GEE2021-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-GEE2021-part1-qa.pdf
+- part: 2
+  title: Land Cover Classification and Accuracy Assessment in Google Earth Engine
+  agenda:
+  - Land Cover Classification and Accuracy Assessment Overview
+  - Landsat Data Retrieval and Imagery Preparation
+  - Supervised Land Cover Classification
+  - Accuracy Assessment of Land Classifications
+  - Q&A
+  videos:
+  - youtube: JFvxudueT_k
+    title: 'NASA ARSET: Land Cover Classification and Accuracy Assessment in Google Earth Engine, Part
+      2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-GEE2021-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-GEE2021-part2-qa.pdf
+- part: 3
+  title: Time Series Analysis and Change Detection in Google Earth Engine
+  agenda:
+  - Overview of Time Series and Change Detection
+  - Environmental Parameter Calculations
+  - Time Series Display of Environmental Data
+  - Change Detection Calculation and Mapping
+  - Q&A
+  videos:
+  - youtube: RqVselZ5hKM
+    title: 'NASA ARSET: Time Series Analysis and Change Detection in Google Earth Engine, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSEt-GEE2021-part3-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/ARSET-GEE2021-part3-qa.pdf

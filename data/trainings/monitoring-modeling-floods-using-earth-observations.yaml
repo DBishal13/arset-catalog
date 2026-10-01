@@ -1,0 +1,90 @@
+id: monitoring-modeling-floods-using-earth-observations
+title: Monitoring and Modeling Floods Using Earth Observations
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-modeling-floods-using-earth-observations
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2022-09-14'
+end_date: '2022-09-21'
+published: '2022-09-14'
+last_updated: '2026-07-16'
+summary: This ARSET training focuses on developments and updates in flood monitoring tools and flood modeling
+  techniques.
+description: 'Studies have shown that globally, riverine and coastal floods are increasing in intensity
+  and duration. In addition, the number of people living in flood-prone areas has increased substantially
+  during the last two decades. Therefore, monitoring and predicting floods in support of early warning,
+  response, and relief operations have become major foci for disaster management activities worldwide.
+  Remote sensing observations from optical and synthetic aperture radar (SAR) sensors are routinely used
+  for detecting and mapping flooding. Moreover, empirical methodologies developed using remote sensing
+  observations of rainfall, terrain, soil moisture, and landcover, as well as weather modeling data, have
+  been used for flood monitoring. Sophisticated and complex land hydrology and runoff routing models are
+  also being used for mapping and predicting riverine and urban flooding.
+
+
+  NASA''s Applied Remote Sensing Training Program (ARSET) has offered several trainings on flood monitoring
+  based on optical and SAR observations in the past. This training focuses on developments and updates
+  in flood monitoring tools and flood modeling techniques. Specifically, an overview of the Hydrological
+  Modeling and Analysis Platform (HyMAP), a routing model used with NASA’s Land Information System (LIS),
+  and examples of flood modeling cases are presented in this training.'
+objectives:
+- Identify and use observation-based flood monitoring and mapping tools
+- Understand and plan for using hydrologic and flood routing modeling techniques
+audience:
+- Local, city, state, federal, and private institutions involved in disaster management, water resources
+  management, urban planning, dams and hydropower management.
+prerequisites:
+- fundamentals-remote-sensing
+- satellite-remote-sensing-flood-monitoring-management
+applications:
+- disasters
+- ecological-conservation
+- water-resources
+instructors:
+- amita-mehta
+- sean-mccartney
+- erika-podest
+- caroline-williams
+sessions:
+- part: 1
+  title: Overview of Flood Monitoring Tools Based on Remote Sensing Observations
+  date: '2022-09-14'
+  agenda:
+  - Flood monitoring examples using remote sensing observations
+  - Overview of the Hydrologic Remote Sensing Analysis for Floods (or HYDRAFloods)
+  - Q&A
+  videos:
+  - youtube: qIaw0IgtkfM
+    title: Overview of Flood Monitoring Tools based on Remote Sensing Observations, Part 1/2
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Floods2022-part1-slides.pdf
+  - type: other
+    title: HYDRAFloods Code Tutorial
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Floods2022-part1-tutorial.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Floods2022-part1-qa.pdf
+- part: 2
+  title: Overview of Flood Modeling
+  date: '2022-09-21'
+  agenda:
+  - Overview and flood case demonstration using LIS-HyMAP
+  - Q&A
+  videos:
+  - youtube: oMPSToY2xDs
+    title: Overview of Flood Modeling, Part 2/2
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Floods2022-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Floods2022-part2-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-Floods2022-HomeworkPDF.pdf

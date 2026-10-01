@@ -1,0 +1,86 @@
+id: land-cover-classification-satellite-imagery
+title: Land Cover Classification with Satellite Imagery
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/land-cover-classification-satellite-imagery
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2017-01-31'
+end_date: '2017-02-07'
+published: '2017-01-31'
+last_updated: '2026-02-09'
+summary: This ARSET training focuses on using satellite imagery for land cover classification.
+description: Land cover classification is an important first step to assessing land cover and land use.
+  This advanced webinar hosted by NASA's Applied Remote Sensing Training Program (ARSET) provides lectures
+  and hands-on activities focused on using satellite imagery for land cover classification. Participants
+  can learn how to acquire Landsat imagery, display it in an open-source geographic information system
+  (GIS), analyze spectral signatures of land cover types, and conduct a supervised land cover classification.
+objectives:
+- Understand how to access and download Landsat imagery
+- Become familiar with Landsat bands and color combinations
+- 'Learn the basic steps for conducting a supervised land cover classification by: Creating training sites
+  Analyzing differences in spectral signatures'
+- Creating training sites
+- Analyzing differences in spectral signatures
+- Understand the differences between an unsupervised classification and a supervised classification
+audience:
+- This training is intended for local, regional, state, federal, and international organizations interested
+  in assessing vegetation condition using satellite imagery.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+satellites:
+- landsat-8
+- landsat-9
+tools:
+- qgis
+sessions:
+- part: 1
+  title: Introduction to Land Cover Classification and QGIS
+  date: '2017-01-31'
+  videos:
+  - youtube: ZtSlipKIH8E
+    title: 'NASA ARSET: Introduction to Land Cover Classification and QGIS, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Session%20One%20-%20Introduction%20to%20Land%20Cover%20Classification%20and%20QGIS.pdf?VersionId=kwD15FAJ9gbwuhYVf5xADoS2r03xmSXn
+  - type: exercise
+    title: 'Part 1 Exercise: Creating a Supervised Land Cover Classification'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/supervised_exercise_v2.pdf?VersionId=.BVAKEn5E30_X0H1ThkA3ZRdj703WXeN
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Session%20One%20-%20Introduction%20to%20Land%20Cover%20Classification%20and%20QGIS%20(Spanish).pdf?VersionId=7WB496dbhf8ssZmOcppu5E9CXvilsGs4
+  - type: exercise
+    title: 'Ejercicio de Parte 1: Creación de una clasificación supervisada de la cobertura del suelo'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Exercise%201%20-%20Creating%20a%20Supervised%20Land%20Cover%20Classification%20(Spanish).pdf?VersionId=WntNQ6myl0iF1DfgDEBtI0gh9lML97C_
+- part: 2
+  title: Improving a Supervised Land Cover Classification
+  date: '2017-02-07'
+  videos:
+  - youtube: 6Tv3QxGpMro
+    title: 'NASA ARSET: Improving a Supervised Land Cover Classification, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/week2_final.pdf?VersionId=_FAIAP.ugcnZz9A_VXgk0dfrko9HcVEY
+  - type: exercise
+    title: 'Part 2 Exercise: Analyzing Training Sites to Improve Supervised Classifications'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/supervised_exercise2_final.pdf?VersionId=IyFv0nX5YKf_XkYnLXYgJj0HJHJPXk6M
+  - type: homework
+    title: Part 2 Homework
+    url: https://goo.gl/forms/zMNeYX9X0L8rrIGW2
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/week2_final_span.pdf
+  - type: exercise
+    title: 'Ejercicio de Parte 2: Análisis de sitios de entrenamiento para mejorar las clasificaciones
+      supervisadas'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/exercise2_span.pdf?VersionId=jwxqz8d3n7lbY.lcgX5LyLHcCwjVvW4p
+  - type: other
+    title: Tarea de la Parte 2
+    url: https://goo.gl/forms/u3SN8AEwetPBDpqE2

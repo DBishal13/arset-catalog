@@ -1,0 +1,135 @@
+id: introduction-remote-sensing-harmful-algal-blooms
+title: Introduction to Remote Sensing of Harmful Algal Blooms
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-remote-sensing-harmful-algal-blooms
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2017-09-05'
+end_date: '2017-09-26'
+published: '2017-09-05'
+last_updated: '2026-03-03'
+summary: This ARSET training covers how to use remote sensing to identify impaired water quality from
+  harmful algal blooms.
+description: 'Harmful algal blooms (HABs) can have a negative impact on the ecosystem and human health.
+  Satellite remote sensing is able to collect data frequently and over a large area to identify impaired
+  water quality from HABs.
+
+
+  This data can help decision makers decide where to take water samples, determine what toxins are in
+  the water, decide whether they need to change or move drinking water intakes, and decide whether a fishery
+  needs to be closed. Remote sensing data also enables individuals and organizations to have more flexible
+  plans for water sampling and leads to a more efficient and appropriate allocation of resources for protecting
+  human health.'
+objectives:
+- Identify NASA’s Earth Science remote sensing data products for the identification and monitoring of
+  HABs
+- Describe how coupled remote sensing and modeling approaches are used in decision support tools
+- Use a selection of NASA Earth Science data tools to monitor HABs
+audience:
+- Local, regional, state, federal, and international organizations interested in using satellite imagery
+  for coastal and ocean applications.
+applications:
+- ecological-conservation
+instructors:
+- clarissa-anderson
+- wilson-salls
+- epa-cyan-project
+sessions:
+- part: 1
+  title: Overview of Harmful Algal Blooms
+  date: '2017-09-05'
+  videos:
+  - youtube: w7yYkF8pbvg
+    title: 'NASA ARSET: Overview of Harmful Algal Blooms, Part 1/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part1-qa.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part1-slides-esp.pdf
+- part: 2
+  title: Platforms and Sensors for Ocean Observations, Data Access, and Processing Tools
+  date: '2017-09-12'
+  videos:
+  - youtube: UFDEllzDxE4
+    title: 'NASA ARSET: Platforms and Sensors for Ocean Observations, Data Access, & Processing Tools,
+      Part 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part2-qa.pdf
+  - type: homework
+    title: Homework Assignment 1
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdLLkIKA5MyIasebKPK_Oyxjff0EJCkP8FpD1cGpiKzqHJtPw/viewform?usp=sf_link
+  - type: slides
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part2-slides-esp.pdf
+- part: 3
+  title: Understanding HABs in the Coastal Environment
+  date: '2017-09-19'
+  videos:
+  - youtube: TH7y0YzPNSM
+    title: 'NASA ARSET: Understanding HABs in the Coastal Environment, Part 3/4'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Southern California Coastal Ocean Observing System
+    url: http://www.sccoos.org/
+  - type: slides
+    title: Part 3 Presentation slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part3.1-slides.pdf
+  - type: slides
+    title: Presentation - C-HARM System
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part3.2-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part3-qa.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de la Parte 3
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part3.1-slides-esp.pdf
+  - type: slides
+    title: Diapositivas de la Presentación - C-HARM System
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part3.2-slides-esp.pdf
+- part: 4
+  title: Large Scale Monitoring Using Remote Sensing and Citizen Science
+  date: '2017-09-26'
+  videos:
+  - youtube: ffJ8-Pa7PuQ
+    title: 'NASA ARSET: Large Scale Monitoring Using Remote Sensing and Citizen Science, Part 4/4'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: EPA CyAN Project
+    url: https://www.epa.gov/water-research/cyanobacteria-assessment-network-cyan
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part4.1-slides.pdf
+  - type: slides
+    title: Presentation Slides - Large-Scale Monitoring
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part4.2-slides.pdf
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part4-qa.pdf
+  - type: homework
+    title: Homework Assignment 2
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdTYecmhYAKZF-Dvn9Wx8S0lCFFUwC8azUXGg8A5tXv7-1FUQ/viewform?usp=sf_link
+  - type: slides
+    title: Diapositivas de la Presentación de la Parte 4
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part4.1-slides-esp.pdf
+  - type: slides
+    title: Diapositivas de la Presentación - Large-Scale Monitoring
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/ARSET-HABs2017-part4.2-slides-esp.pdf
+  - type: other
+    title: Tarea 2
+    url: https://docs.google.com/forms/d/e/1FAIpQLSeT0oNh9WB03PIfcsXU8LMs48BcZNMVbu1691fl8Um0Ln392w/viewform?usp=sf_link

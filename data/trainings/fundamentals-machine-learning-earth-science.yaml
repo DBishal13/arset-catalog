@@ -1,0 +1,129 @@
+id: fundamentals-machine-learning-earth-science
+title: Fundamentals of Machine Learning for Earth Science
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/fundamentals-machine-learning-earth-science
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2023-04-20'
+end_date: '2023-05-04'
+published: '2023-04-20'
+last_updated: '2026-09-21'
+summary: This training provides an overview of machine learning and how to apply algorithms and techniques
+  to Earth science data.
+description: 'Artificial intelligence and machine learning have grown in popularity in recent decades
+  as a result of advances in high-performance computing and open-source software. At its core, machine
+  learning provides a statistical inference based on the inputs provided by the user, in which algorithms
+  learn relationships between input data and output results. The complexity of these algorithms allows
+  for the discovery of patterns and trends invisible to the human analyst, making it important to create
+  analysis-appropriate input for these models to ensure that they answer the questions we are asking.
+
+
+  This Applied Remote Sensing Training Program (ARSET) training provides attendees with an overview of
+  machine learning in regards to Earth science and demonstrates how to apply these algorithms and techniques
+  to remote sensing data in a meaningful way. Attendees are also provided with end-to-end case study examples
+  for generating a simple random forest model for land cover classification from optical remote sensing.
+  We present additional case studies to apply the presented workflows using additional NASA data.'
+objectives:
+- Recognize the most common machine learning methods used for processing Earth science data
+- Describe the benefits and limitations of machine learning for Earth science analysis
+- Explain how to apply basic machine learning algorithms and techniques in a meaningful manner to remote
+  sensing data
+- Use an analysis-appropriate training dataset to evaluate conditions and solutions for a given case study
+- Complete basic procedures to interpret, refine, and evaluate the accuracy of the results of machine
+  learning analysis
+audience:
+- Research and applied scientists interested in learning how to apply basic machine learning techniques
+  to Earth science data (e.g., satellite data such as Moderate Resolution Imaging Spectroradiometer (MODIS),
+  Landsat, Sentinel-2, etc.).
+prerequisites:
+- fundamentals-remote-sensing-0
+applications:
+- ecological-conservation
+satellites:
+- aqua
+- terra
+tools:
+- jupyter
+instructors:
+- jordan-a-caraballo-vega
+- caleb-spradlin
+- jian-li
+- jules-kouatchou
+sessions:
+- part: 1
+  title: Overview of Machine Learning
+  agenda:
+  - Overview of machine learning
+  - Importance of machine learning targeted towards Earth Science
+  - Usability of machine learning
+  - Software to support machine learning
+  - Machine Learning Applications
+  - 'Hands-on Jupyter notebook exercise: Load and visualize data'
+  - Post-session assignment
+  - Q&A session
+  videos:
+  - youtube: U-uJGnhD-zg
+    title: 'NASA ARSET: Overview of Machine Learning, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-IntroML2023-part1-slides.pdf?VersionId=zxBEVntQ5y.WFvOsrLQacoFjRCN4sBHT
+  - type: notebook
+    title: Machine Learning Fundamentals GitHub
+    url: https://github.com/NASAARSET/ARSET_ML_Fundamentals
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-IntroML2023-part1-qa.pdf?VersionId=ySdhvB8nRevzTEeSdiD0wwNVXTSIXrtG
+- part: 2
+  title: Training Data and Land Cover Classification Example
+  agenda:
+  - Download the training data
+  - Exploratory data analysis
+  - Extracting training data from tabular dataset
+  - Extracting training data from raster dataset
+  - Training and inference of tabular and raster dataset
+  - Metrics and model evaluation
+  - 'Hands-on Jupyter notebook exercise: MODIS water classification case study'
+  - Post-session assignment
+  - Q&A session
+  videos:
+  - youtube: 5RIoU9ImnH0
+    title: 'NASA ARSET: Training Data and Land Cover Classification Example, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-IntroML2023-part2-slides.pdf?VersionId=cMDVEORa7mQJZJ.R2X2cfvogEiZq_1G2
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-IntroML2023-part2-qa.pdf?VersionId=6OnKBcPP6LBQ5dcgHKq4EBT6_Iq2iT_D
+- part: 3
+  title: Model Tuning, Parameter Optimization, and Additional Machine Learning Algorithms
+  agenda:
+  - Overview of model tuning
+  - Overview of parameter optimization
+  - Exercise to optimize existing model
+  - Overview of model explainability and interpretability
+  - Overview of additional machine learning algorithms
+  - 'Hands-on Jupyter notebook exercise: Improvements to MODIS water classification model'
+  - Post-session assignment
+  - Q&A session
+  videos:
+  - youtube: M369bW8FJpQ
+    title: 'NASA ARSET: Model Tuning, Parameter Optimization, & Additional Machine Learning Algorithms,
+      Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-IntroML2023-part3-slides.pdf?VersionId=ZiGo6LOZaIFnpcW.rjsBGudaQ6gRdrrp
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-IntroML2023-part3-qa.pdf?VersionId=.DwDbGfU4WU1Uzs1iHgMlnh0aH0Mtf78
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-09/ARSET-IntroML2023-HomeworkPDF.pdf

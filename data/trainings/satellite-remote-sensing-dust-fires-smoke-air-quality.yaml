@@ -1,0 +1,44 @@
+id: satellite-remote-sensing-dust-fires-smoke-air-quality
+title: Satellite Remote Sensing of Dust, Fires, Smoke, and Air Quality
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/satellite-remote-sensing-dust-fires-smoke-air-quality
+level: advanced
+format: in-person
+languages:
+- en
+start_date: '2018-07-10'
+end_date: '2018-07-12'
+published: '2018-07-10'
+last_updated: '2026-05-19'
+summary: This ARSET training covers available satellite data, products, and tools, and how to apply them
+  to identify, track, and measure an air quality event.
+description: 'In August 2017, Washington state registered as having the worst air quality in the U.S.
+  as a result of smoke (according to the Dept. of Ecology, Washington State). Fires, smoke, and dust can
+  all contribute to poor air quality that can affect vulnerable populations.
+
+
+  NASA satellite data can be used to model, monitor, and track regional air quality. This training helped
+  attendees become familiar with available satellite data, products, and tools, and how to apply them
+  to identify, track, and measure an air quality event. This training was hosted in partnership with the
+  U.S. EPA - Region 10, Seattle, WA, and the U.S. Forest Service, Pacific Northwest Research Station,
+  Seattle, WA.'
+objectives:
+- Evaluate an air quality event in a case study, incorporating data portals, visualization tools, and
+  satellite data
+- Describe specific data products and online tools, as well as their applications, including data from
+  MODIS, OMI, VIIRS, CALIPSO, GOES-16, Worldview, IDEA, and Giovanni
+- Describe the strengths and weaknesses of the data products and tools discussed.
+prerequisites:
+- introduction-satellite-remote-sensing-air-quality-applications
+applications:
+- ecological-conservation
+- health-air-quality
+satellites:
+- aqua
+- goes-r-series
+- noaa-20
+- suomi-npp
+- terra
+tools:
+- giovanni
+- worldview

@@ -1,0 +1,122 @@
+id: disaster-assessment-using-synthetic-aperture-radar
+title: Disaster Assessment Using Synthetic Aperture Radar
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/disaster-assessment-using-synthetic-aperture-radar
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2022-10-19'
+end_date: '2022-10-27'
+published: '2022-10-19'
+last_updated: '2026-07-16'
+summary: This ARSET training focuses on the use of SAR to assess areas at risk from disasters due to landslides
+  through the use of interferometric SAR (InSAR).
+description: Synthetic Aperture Radar (SAR) sensors are ideal for monitoring certain disasters or areas
+  that are vulnerable to disasters because the signal can “see” the surface of Earth during day or night
+  and under nearly all weather conditions. In addition, the signal can penetrate through vegetation and
+  is sensitive to surface roughness and small displacements of the land surface. This training, led by
+  NASA's Applied Remote Sensing Training Program (ARSET), focuses on the use of SAR to assess areas at
+  risk from disasters due to landslides through the use of interferometric SAR (InSAR). This is accomplished
+  by measuring small movements (on the order of centimeters) of the land surface that are caused by gradual
+  landslide motion, and how these movements vary with time. The sessions also characterize the extent
+  of oil spills and their impacts, and inundation extent. SAR data is sensitive to surface roughness,
+  allowing for identifying areas where there are oil spills. The SAR signal can penetrate through vegetation
+  and detect inundation driven by large precipitation events or by natural events. This training includes
+  theoretical portions for each disaster as related to the SAR signal interaction with surface conditions
+  and demonstrations using Google Earth Engine, Jupyter Notebooks, and the SNAP Toolbox, all freely and
+  openly available tools.
+audience:
+- Disaster management agencies, including domestic and international government agencies (e.g., the Federal
+  Emergency Management Agency (FEMA) and equivalent government organizations outside the U.S.) as well
+  as aid organizations (e.g., Red Cross, United Nations).
+prerequisites:
+- fundamentals-remote-sensing
+- introduction-synthetic-aperture-radar
+- radar-remote-sensing-land-water-disaster-applications
+- sar-disasters-hydrological-applications
+applications:
+- disasters
+- water-resources
+satellites:
+- sentinel-1
+tools:
+- esa-snap
+- google-earth-engine
+- jupyter
+sessions:
+- part: 1
+  title: Floods
+  date: '2022-10-19'
+  agenda:
+  - How to map flood extent and assess the increase/recession of flood waters using Sentinel-1 data on
+    Google Earth Engine.
+  - Q&A
+  videos:
+  - youtube: Uz44ppuT8xw
+    title: 'NASA ARSET: Floods, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Google Earth Engine
+    url: https://earthengine.google.com/
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-DisasterAssessment2022-part1-slides_0.pdf?VersionId=4Mil20TAFi7dTKFNqLTkkAC2.A1f0tQd
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-DisasterAssessment2022-part1-qa.pdf?VersionId=qe6brFOnJeMAAMqx13U7ZZL7eYnMlFCo
+- part: 2
+  title: Landslides
+  date: '2022-10-20'
+  agenda:
+  - Mapping the motion of the Portuguese Bend Landslide on the Palos Verdes peninsula in California through
+    InSAR using Sentinel-1 geocoded unwrapped (GUNW) products with ARIA-tools and MintPy.
+  - Q&A
+  videos:
+  - youtube: UV1Th-dYVak
+    title: 'NASA ARSET: Landslides, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Install Anaconda
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-DisasterAssessment2022-part2-AnacondaInstall.pdf?VersionId=nsFEkXdTV7_ops11KxwKW.3FnAwdmoo6
+  - type: notebook
+    title: instructions found in our GitHub
+    url: https://github.com/nisar-solid/ATBD/blob/main/docs/installation.md
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-DisasterAssessment2022-part2-slides.pdf?VersionId=n4B_InIfwLeQLmJWSDPpvpX39b287cRx
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-DisasterAssessment2022-part2-qa.pdf?VersionId=n0PLFVGD0.DJ6Sj_zOlDPvYgFLEkxi_v
+- part: 3
+  title: Oil Spills
+  date: '2022-10-27'
+  agenda:
+  - How to detect marine surface oil slicks using satellite images (primarily SAR) and how this can aid
+    clean-up efforts. We will derive slick characteristics using single, dual and quad-polarimetric SAR
+    data as well as touch on how satellite detection can be used in conjunction with drift modeling to
+    determine the spread of the oil slick.
+  - Q&A
+  videos:
+  - youtube: iyHPQa2VGOI
+    title: 'NASA ARSET: Oil Spills, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: SNAP
+    url: http://step.esa.int/main/download/snap-download/
+  - type: data
+    title: zipped Sentinel 1 image
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/S1A_IW_GRDH_1SDV_20181009T171427_20181009T171452_024062_02A131_E887.zip
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-DisasterAssessment2022-part3-slides.pdf?VersionId=wdmw..MLi.fvW3RJ0Hrdy7FQl.pztFTu
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-DisasterAssessment2022-part3-qa.pdf?VersionId=C7cBlraWDOKD3MwYRGn2HB72YKqAH25S
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-DisasterAssessment2022-HomeworkPDF.pdf

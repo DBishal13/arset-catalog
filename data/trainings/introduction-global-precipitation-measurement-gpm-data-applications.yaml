@@ -1,0 +1,52 @@
+id: introduction-global-precipitation-measurement-gpm-data-applications
+title: Introduction to Global Precipitation Measurement (GPM) Data and Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-global-precipitation-measurement-gpm-data-applications
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2015-03-17'
+end_date: '2015-03-31'
+published: '2026-03-02'
+last_updated: '2026-03-02'
+summary: This ARSET training introduces participants to data and applications of the Global Precipitation
+  Measurement mission.
+description: 'This training introduces participants to data and applications of the Global Precipitation
+  Measurement (GPM) mission. GPM is an international satellite mission that provides next-generation observations
+  of rain and snow worldwide every three hours.
+
+
+  Precipitation is the most important source of freshwater, and accurate measurements are crucial in planning
+  water resources for drinking water, agriculture, hydro-power, health, ecosystems, and flood management.
+  The NASA Tropical Rainfall Measuring Mission (TRMM) was designed specifically for precipitation remote
+  sensing. Combined with data from other national and international satellites, TRMM provides near-real
+  time measurements as well as 15 years of historical measurements that can be used for a variety of societal
+  applications. The TRMM satellite ceased to collect data on April 15, 2015.
+
+
+  NASA launched the GPM Mission in February 2014 to ensure continued availability of improved quality,
+  near-global precipitation data for societal applications and environmental decision support.'
+audience:
+- Intended primarily for applied professionals engaged in environmental management.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- agriculture
+- disasters
+- ecological-conservation
+- water-resources
+satellites:
+- gpm
+datasets:
+- gpm-imerg
+sessions:
+- part: 1
+  title: Course Overview
+  date: '2015-03-17'
+- part: 2
+  title: TRMM/GPM Data Products & Data Access Tools
+  date: '2015-03-24'
+- part: 3
+  title: GPM-IMERG Data, Demonstration of Data Access and GIS Applications
+  date: '2015-03-31'

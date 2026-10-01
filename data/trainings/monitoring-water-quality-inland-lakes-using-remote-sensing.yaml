@@ -1,0 +1,125 @@
+id: monitoring-water-quality-inland-lakes-using-remote-sensing
+title: Monitoring Water Quality of Inland Lakes using Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/monitoring-water-quality-inland-lakes-using-remote-sensing
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2023-07-18'
+end_date: '2023-07-25'
+published: '2023-07-18'
+last_updated: '2026-02-03'
+summary: This ARSET training focuses on using remote sensing observations for assessing water quality
+  parameters in inland lakes.
+description: This advanced-level training led by NASA's Applied Remote Sensing Training Program (ARSET)
+  focuses on using remote sensing observations from Landsat 8 and 9, Sentinel-2, and Sentinel-3A and -3B
+  for assessing water quality parameters including chlorophyll-a concentration, turbidity, and total suspended
+  solids (TSS) in inland lakes. This training also highlights the importance of in situ measurements of
+  these parameters, coincident with satellite observations, in developing methodologies for operational
+  water quality monitoring. Participants perform hands-on exercises in Google Earth Engine (GEE) to access
+  satellite data and develop methodologies to assess water quality parameters. In addition, we provide
+  an overview of Cyanobacteria Assessment Network (CyAN), an early warning system to assess algal blooms
+  in freshwater lakes.
+prerequisites:
+- fundamentals-remote-sensing
+- integrating-remote-sensing-water-quality-monitoring-program
+satellites:
+- landsat-8
+- landsat-9
+- sentinel-2
+tools:
+- google-earth-engine
+instructors:
+- amita-mehta
+- sean-mccartney
+- bridget-seegers
+- blake-schaeffer
+sessions:
+- part: 1
+  title: Overview of Remote Sensing Observations to Assess Water Quality
+  agenda:
+  - Describe state-of-the art, high spatial and spectral resolution observations and their access using
+    GEE
+  - Describe open source, in situ measurements of water quality parameters
+  - Provide information about upcoming NASA missions useful for water quality monitoring
+  - Introduction to GEE
+  - Access Landsat 8 and Sentinel-2 surface reflectance data using GEE
+  - Access Sentinel-3 top of the atmosphere reflectance data using GEE
+  - Explore and download in situ measurements of water quality parameters (chlorophyll-a concentration,
+    turbidity, and TSS) for selected lakes
+  videos:
+  - youtube: UaDybXuIW1c
+    title: 'NASA ARSET: Overview of Remote Sensing Observations to Assess Water Quality, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-InlandWQ2023-part1-slides.pdf?VersionId=Aa9lPiOp6tImR4PVvP6FATKgHHquEhn3
+  - type: qa
+    title: Part 1 Q&A Document
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-InlandWQ2023-part1-qa.pdf?VersionId=6oHe5O7MmjsQwWaK8LHOSa02mL6L..lZ
+  - type: exercise
+    title: Part 1 Exercise Instructions
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-InlandWQ2023-part1-exercise-instructions.pdf?VersionId=E_omGAikszoUA0H5vY_v1G5akpM7kG_q
+  - type: other
+    title: Part 1 GEE Code Links
+    url: https://www.earthdata.nasa.gov/media/39998/edit
+  - type: exercise
+    title: Part 1 Sample Data
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-InlandWQ2023-part1-exercise-data.csv?VersionId=EUd_Sx2bpNrCS7ugaDbeeWj0i_jsY0KL
+  - type: slides
+    title: Diapositivas de la Presentación de parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-InlandWQ2023-part1-slides-esp.pdf
+- part: 2
+  title: Cyanobacteria Assessment Network (CyAN)
+  agenda:
+  - Overview and Applications of CyAN
+  - Explore CyAN website
+  videos:
+  - youtube: eFQz6qmbsok
+    title: 'NASA ARSET: Cyanobacteria Assessment Network (CyAN), Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-InlandWQ2023-part2-slides.pdf?VersionId=j54DTeekTYa3Lff.B5Y6SUbcNVk22zIh
+  - type: qa
+    title: Part 2 Q&A Document
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-InlandWQ2023-part2-qa.pdf?VersionId=lHjn64XOx9kJzkrqRWhnjalhQ5YbCiGV
+  - type: exercise
+    title: Part 2 CyAN Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-InlandWQ2023-part2-exercise.pdf?VersionId=rmGjrFHLb4Olr7HtJHM7pcVqVTYWg_WW
+  - type: slides
+    title: Diapositivas de la Presentación de parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-InlandWQ2023-part2-slides-esp.pdf
+- part: 3
+  title: Assess Water Quality using Satellite and In Situ Observations
+  agenda:
+  - A brief review of methodologies to assess water quality from remote sensing
+  - Benefits and limitations of various satellite sensors for water quality monitoring
+  - Training summary
+  - Calculate spectral indices as indicators of water quality from Landsat, Sentinel-2, and Sentinel-3
+    observations
+  - Develop statistical coefficients to derive water quality parameters based on remote sensing and in
+    situ data
+  videos:
+  - youtube: tetTo4i_Etg
+    title: 'NASA ARSET: Assess Water Quality using Satellite and In Situ Observations, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Part 3 GEE Code Links
+    url: https://code.earthengine.google.com/678296105170823e649c65ff1f51c931
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-InlandWQ2023-part3-slides.pdf
+  - type: qa
+    title: Part 3 Q&A Document
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-InlandWQ2023-part3-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdwQJW6W_6Mwo9afQ7tcmT1FwyZJCLE0ixFDf2riYQw-__17g/viewform?usp=sf_link.
+  - type: slides
+    title: Diapositivas de la Presentación de parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-InlandWQ2023-part3-slides-esp.pdf

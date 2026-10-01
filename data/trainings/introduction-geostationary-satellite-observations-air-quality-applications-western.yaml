@@ -1,0 +1,46 @@
+id: introduction-geostationary-satellite-observations-air-quality-applications-western
+title: Introduction to Geostationary Satellite Observations for Air Quality Applications in the Western
+  U.S.
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-geostationary-satellite-observations-air-quality-applications-western
+level: intermediate
+format: in-person
+languages:
+- en
+start_date: '2025-08-05'
+end_date: '2025-08-07'
+published: '2025-08-05'
+last_updated: '2026-03-31'
+summary: This in-person ARSET training provides an overview of TEMPO observations and highlights examples
+  of air quality applications in the Western U.S.
+description: 'The Tropospheric Emissions: Monitoring of Pollution (TEMPO) mission is the first space-based
+  instrument to continuously measure daytime air quality over North America — from the Atlantic Ocean
+  to the Pacific and from Central Canada to Mexico City. These data are essential for understanding diurnal
+  changes in air quality and monitoring real-time movement of smoke and dust.
+
+
+  This three-day in-person Applied Remote Sensing Training Program (ARSET) training provided an overview
+  of TEMPO observations, showed users how to access and visualize the data, while also highlighting examples
+  of air quality applications in the Western U.S. We also covered other missions and datasets that can
+  complement TEMPO for additional insights that support air quality forecasting and management.
+
+
+  This in-person training was held in collaboration with the TEMPO applications team and the Atmospheric
+  Science Data Center (ASDC), and it was hosted by the Western States Air Resources Council (WESTAR) at
+  Colorado State University.'
+objectives:
+- Identify TEMPO capabilities and available data products;
+- Describe the strengths and limitations of TEMPO compared with existing satellite and ground-based remote
+  sensing tools and with in situ observations for measuring air quality;
+- Recall TEMPO data distribution interfaces and be able to visualize data online as well as download files;
+- Apply data toward primary air quality challenges using visualization tools and Python codes.
+prerequisites:
+- fundamentals-remote-sensing
+- inside-look-how-nasa-measures-air-pollution
+- accessing-analyzing-air-quality-data-from-geostationary-satellites
+applications:
+- health-air-quality
+satellites:
+- tempo
+tools:
+- python

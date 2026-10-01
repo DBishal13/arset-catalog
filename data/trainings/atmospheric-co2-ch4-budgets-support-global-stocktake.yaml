@@ -1,0 +1,117 @@
+id: atmospheric-co2-ch4-budgets-support-global-stocktake
+title: Atmospheric CO2 and CH4 Budgets to Support the Global Stocktake
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/atmospheric-co2-ch4-budgets-support-global-stocktake
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2022-05-11'
+end_date: '2022-05-25'
+published: '2022-05-11'
+last_updated: '2026-03-03'
+summary: This ARSET training introduces bottom-up and top-down methods for tracking emissions and removals
+  of carbon dioxide and methane from the atmosphere.
+description: 'To support the 2023 Global Stocktake (GST), parties to the Paris Agreement compiled inventories
+  of anthropogenic greenhouse gas (GHG) emissions and removals to assess their collective progress towards
+  the long-term objectives of the Agreement. The Global Stocktake is the process of monitoring the implementation
+  of the Paris Agreement. The outcome of the GST provides Parties with the information needed to update
+  and enhance their nationally determined contributions (NDCs) to the global response to climate change
+  and strengthen international cooperation for climate action.
+
+
+  This three-part training hosted by NASA''s Applied Remote Sensing Training Program (ARSET) introduces
+  bottom-up and top-down methods for tracking emissions and removals of carbon dioxide (CO2) and methane
+  (CH4) from the atmosphere. This training explores how to combine this information to produce a more
+  complete and transparent global stocktake and support efforts to reduce net emissions and mitigate their
+  impact on the climate.
+
+
+  Demonstrations show how top-down atmospheric budgets of CO2 and CH4 can be derived from atmospheric
+  measurements and inverse models to produce a transparent description of their emissions and removals.
+  Participants are introduced to pilot products and how information contained in these top-down atmospheric
+  products can supplement bottom-up inventory products to assess the accuracy and completeness of emissions
+  reports on regional, national, and local scales.'
+objectives:
+- Recognize the need to monitor CO2, CH4, and other greenhouse gases to support efforts to reduce net
+  emissions and mitigate their impact on climate
+- Describe how top-down CO2 and CH4 budgets can be derived using atmospheric measurements and inverse
+  models
+- Relate how the products and methods described can be combined with bottom-up inventories to identify
+  opportunities for improving GHG inventories to support future GSTs.
+audience:
+- This webinar series is intended for stakeholders at local, regional, and national levels who are interested
+  in managing greenhouse gas emissions to meet the climate change mitigation goals of the Paris Agreement,
+  national inventory developers, and researchers who are interested in developing top-down atmospheric
+  greenhouse gas budgets and working with the inventory development and assessment communities to support
+  the global stocktake process.
+prerequisites:
+- fundamentals-remote-sensing
+- introduction-nasa-resources-climate-change-applications
+applications:
+- climate-resilience
+instructors:
+- dan-cusworth
+sessions:
+- part: 1
+  title: Tracking Greenhouse Gases
+  agenda:
+  - Paris Agreement and mitigation objectives
+  - Global Stocktake
+  - Bottom-up and top-down emissions inventories
+  videos:
+  - youtube: aYcz80Ycir0
+    title: 'NASA ARSET: Tracking Greenhouse Gases, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-GlobalStocktake2022-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-GlobalStocktake2022-part1-qa.pdf
+- part: 2
+  title: Creating Top-Down Atmospheric Budgets of CO2 and CH4 on Policy-Relevant Scales
+  agenda:
+  - Emission and removal of CO2 and CH4
+  - Space-based, airborne, and ground-based measurements of CO2 and CH4
+  - Inverse modeling
+  videos:
+  - youtube: dxsGsrvYGzU
+    title: 'NASA ARSET: Creating Top-Down Atmospheric Budgets of CO2 and CH4 on Policy-Relevant Scales,
+      Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-GlobalStocktake2022-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-GlobalStocktake2022-part2-qa.pdf
+  - type: data
+    title: Part 2 CSV File
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-GlobalStocktake2022-part2-csv.csv
+  - type: other
+    title: Part 2 Excel File
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-GlobalStocktake2022-part2-csv-excel.xls
+- part: 3
+  title: Top-Down Budgets and Bottom-Up Inventories to Support the Global Stocktake
+  agenda:
+  - Best practices for use in assessing progress towards Paris Agreement goals
+  - Strengths, weaknesses, and future opportunities
+  - Case studies
+  videos:
+  - youtube: y9ZCf9Dt2Z4
+    title: 'NASA ARSET:  Top-Down Budgets and Bottom-Up Inventories to Support the Global Stocktake, Part
+      3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-GlobalStocktake2022-part3-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-09/ARSET-GlobalStocktake2022-part3-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfCpZT4Ajc5hUGOP5a6qrGkhny3MtitDen5OxTzFNMwM8LN2g/viewform?usp=sf_link

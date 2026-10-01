@@ -1,0 +1,122 @@
+id: advanced-nasa-earth-observations-tools-active-fire-smoke-post-fire-monitoring
+title: Advanced NASA Earth Observations and Tools for Active Fire, Smoke, and Post-Fire Monitoring
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/advanced-nasa-earth-observations-tools-active-fire-smoke-post-fire-monitoring
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2026-01-14'
+end_date: '2026-01-21'
+published: '2025-11-12'
+last_updated: '2026-07-06'
+summary: This ARSET training introduces participants to several capabilities within FIRMS that were not
+  included in the previous ARSET training.
+description: 'Satellite observations can be used to detect active fires as well as monitor the impacts
+  of fires on air quality and ecosystems. Monitoring post-fire impacts to vegetation is essential for
+  evaluating burn severity, which informs post-fire debris flow risk; understanding patterns in ecosystem
+  recovery; and identifying areas that require restoration intervention. Wildfire smoke monitoring is
+  also critical for air quality and public health applications, as exposure to fine particulate matter
+  within smoke can cause respiratory issues and other health complications.
+
+
+  Along with active fires, satellite sensors can detect static thermal anomalies (STA) from natural heat
+  sources, such as volcanoes, or industrial heat sources such as mineral processing plants, gas flares,
+  and waste incinerators. Multiple sources of satellite imagery and derived data products relevant to
+  smoke, post-fire conditions, and STA identification are available within NASA''s Fire Information for
+  Resource Management System (FIRMS).
+
+
+  This two-part training led by NASA''s Applied Remote Sensing Training (ARSET) program will introduce
+  participants to several capabilities within FIRMS that were not included in the previous ARSET training,
+  Introduction to NASA Earth Observations and Tools for Wildfire Monitoring and Management. Participants
+  will learn how to use the FIRMS aerosol index indices, burned area products, post-fire indices and imagery,
+  static thermal anomaly information, and how to use Jupyter Notebooks to ingest and visualize active
+  fire detection data.'
+objectives:
+- Access relevant post-fire imagery in the FIRMS Burned Area Mode to assess burned area, burn severity,
+  and other factors for an event of interest.
+- Identify and track wildfire smoke over time using Corrected Reflectance, OMPS Aerosol Index, and PyroCB
+  layers available in the FIRMS Smoke/Aerosols Mode. Understand when to use the PyroCb layer.
+- Use relevant data in FIRMS to identify STA associated with industrial or natural sources that are not
+  vegetation fires.
+- Use Jupyter Notebooks to access and visualize FIRMS data for different case studies.
+prerequisites:
+- introduction-nasa-earth-observations-tools-wildfire-monitoring-management
+- spectral-indices-land-aquatic-applications
+applications:
+- ecological-conservation
+- health-air-quality
+- wildland-fires
+satellites:
+- noaa-20
+- suomi-npp
+tools:
+- jupyter
+sessions:
+- part: 1
+  title: Post-Fire Imagery and Smoke Monitoring
+  date: '2025-11-12'
+  agenda:
+  - Introduction
+  - Use of FIRMS to Inform Post-Fire Assessments
+  - Exploring the Smoke and Aerosols Mode of FIRMS
+  - Summary
+  - Q&A Session
+  videos:
+  - youtube: dk4TWK0aOUI
+    title: 'NASA ARSET: Post-Fire Imagery and Smoke Monitoring Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/AdvFIRMS_Part1_BB_MFC_DD_JO.pdf?VersionId=_b9T2QWdP0ahe_j7EV1gEVclTsYOuxTg
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/arset-2025-advfirms-part1-qa.pdf?VersionId=_Jaqlcld1GX7BJAXq1iwfTbeUVm8OlCT
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-02/arset-2026-advfirms-part1-qa.pdf
+- part: 2
+  title: Data Analysis and Visualization
+  date: '2025-11-19'
+  agenda:
+  - Introduction
+  - Jupyter Notebooks
+  - Static Thermal Anomalies (STA)
+  - Summary
+  - Q&A Session
+  videos:
+  - youtube: iNWlKhZSykU
+    title: 'NASA ARSET: Data Analysis and Visualization Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/AdvFIRMS_Part2_MFC_JO.pdf?VersionId=MgYtI2u8mL5RdkWYUZ9Nh1i7ft6YQ4Iu
+  - type: notebook
+    title: demonstration provided in Part 2
+    url: https://github.com/NASAARSET/LANCE_FIRMS_2025
+  - type: other
+    title: https://firms.modaps.eosdis.nasa.gov/api/map_key/
+    url: https://firms.modaps.eosdis.nasa.gov/api/map_key/
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/arset-2025-advfirms-part2-qa.pdf?VersionId=lKzbmPrSwOPdT2FxZqydueHVyUx5L75V
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-02/arset-2026-advfirms-part2-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-04/arset-2026-advfirms-homework.pdf
+videos:
+- youtube: YETICnwRVP0
+  title: NASA FIRMS Update – Static Thermal Anomalies
+  channel: NASA Earthdata
+- youtube: tUrophmxrd4
+  title: 'NASA ARSET: Análisis y Visualización de Datos, Parte 2/2'
+  language: es
+- youtube: 9bDbXVdd0Kk
+  title: 'NASA ARSET: Imágenes Satelitales Posteriores a un Incendio y Monitoreo del Humo, Parte 1/2'
+  language: es

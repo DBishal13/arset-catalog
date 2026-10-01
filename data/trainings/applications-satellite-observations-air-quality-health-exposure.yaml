@@ -1,0 +1,28 @@
+id: applications-satellite-observations-air-quality-health-exposure
+title: Applications of Satellite Observations for Air Quality and Health Exposure
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/applications-satellite-observations-air-quality-health-exposure
+level: introductory
+format: in-person
+languages:
+- en
+start_date: '2019-10-09'
+end_date: '2019-10-11'
+published: '2019-10-09'
+last_updated: '2026-02-11'
+summary: This ARSET training covers the applications of Earth observations for air quality-related decision-making
+  activities.
+description: 'This ARSET training covered the applications of Earth observations for air quality-related
+  decision-making activities. Lectures and exercises highlighted applications related to air quality monitoring,
+  forecasting, smoke, fire, PM2.5 monitoring, image interpretation, and data access for modeling efforts.
+  Data sources included:
+
+
+  To conclude the training, participants completed a case study that incorporated all data portals, tools,
+  and relevant data. Participants applied this to properly identify, track, and measure air quality events
+  of their choosing. This allowed them to assess the strengths and weaknesses of these data products.'
+audience:
+- This training is appropriate for air quality and health professionals, as well as decision makers from
+  local, state, and federal agencies, nongovernmental organizations, and the private sector.
+applications:
+- health-air-quality

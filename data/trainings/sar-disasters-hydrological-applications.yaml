@@ -1,0 +1,94 @@
+id: sar-disasters-hydrological-applications
+title: SAR for Disasters and Hydrological Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/sar-disasters-hydrological-applications
+level: advanced
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2019-12-03'
+end_date: '2019-12-05'
+published: '2019-12-03'
+last_updated: '2026-07-23'
+summary: This ARSET training focuses on using interferometric synthetic aperture radar for characterizing
+  landslides and generating a digital elevation model.
+description: 'This training, led by NASA''s Applied Remote Sensing Training program (ARSET), builds on
+  the skills taught in previous synthetic aperture radar (SAR) courses in terms of the use of Google Earth
+  Engine for flood mapping with radar data. This training presents two new topics: the use of InSAR for
+  characterizing landslides and the generation of a digital elevation model (DEM).'
+objectives:
+- Create a flood map using Google Earth Engine
+- Generate a map characterizing areas where landslides have occurred
+- Generate a DEM
+audience:
+- The target audience for this training are local, regional, state, federal, and international organizations
+  interested in using SAR for disaster or hydrological applications.
+prerequisites:
+- introduction-synthetic-aperture-radar
+- radar-remote-sensing-land-water-disaster-applications
+- sar-landcover-applications
+applications:
+- disasters
+satellites:
+- sentinel-1
+tools:
+- google-earth-engine
+sessions:
+- part: 1
+  title: SAR for Flood Mapping Using Google Earth Engine
+  date: '2019-12-03'
+  videos:
+  - youtube: 4Y2giuRPCuc
+    title: 'NASA ARSET:  SAR for Flood Mapping Using Google Earth Engine, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Sentinel-1
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/arset-SARdisasters2019-part1-slides.pdf?VersionId=Z9L_13mLSsfAnNzGXPCBzbCz9CeBxuUA
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/arset-SARdisasters2019-part1-qa.pdf?VersionId=nP7s5INZarBCrWn2mKHXmXVPWoDJW_tg
+  - type: other
+    title: Google Earth Engine
+    url: https://earthengine.google.com/
+- part: 2
+  title: Interferometric SAR for Landslide Observations
+  date: '2019-12-04'
+  videos:
+  - youtube: biqoDH9VsiA
+    title: 'NASA ARSET: Interferometric SAR for Landslide Observations, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/arset-SARdisasters2019-part2-slides.pdf?VersionId=oDhGm6sy4A3gmUp..WxcGkLaW0Q3FNjd
+  - type: other
+    title: Part 2 Data
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/arset-SARdisasters2019-part2-data.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/arset-SARdisasters2019-part2-qa.pdf?VersionId=Wq92BQlhOop5lm5eifuDajyJBVoEPX_R
+- part: 3
+  title: Generating a Digital Elevation Model (DEM)
+  date: '2019-12-05'
+  videos:
+  - youtube: 9PbFbHqRufQ
+    title: 'NASA ARSET: Generating a Digital Elevation Model (DEM), Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/arset-SARdisasters2019-part3-slides.pdf?VersionId=nuxazxQH0SCZZwLBI6tG1IJytkp_5E27
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/arset-SARdisasters2019-part3-qa.pdf?VersionId=ar8g854JFPvUgjW.to43.c727620GyRK
+  - type: other
+    title: Part 3 Software Instructions
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/arset-SARdisasters2019-part3-software.pdf?VersionId=GD6mG.lMKWCwTvUw6_w3K6KV2fA.N8.O
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-SARDisasters2019-HomeworkPDF.pdf

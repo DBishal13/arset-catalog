@@ -50,7 +50,8 @@ pip install -r requirements.txt
 | Command | What it does |
 | --- | --- |
 | `python -m arset track` | Finds new trainings, recordings and materials. Writes drafts and `inbox/REPORT.md`. Add `--dry-run` to only report, or `--all` to re-scrape every training. |
-| `python -m arset add <url> ...` | Adds one or more trainings from Earthdata page URLs. Use it to backfill older trainings. |
+| `python -m arset add <url> ...` | Adds or refreshes specific trainings from their Earthdata page URLs. |
+| `python -m arset backfill --wayback --youtube state/youtube_arset_videos.txt` | Finds older trainings and attaches their recordings. See [Backfilling older trainings](#backfilling-older-trainings). |
 | `python -m arset validate` | Checks every record against its schema and that every reference exists. |
 | `python -m arset build` | Writes `build/catalog.json`, `build/arset.sqlite` and the website in `build/site/`. |
 | `python -m arset serve` | Builds, then serves the site at http://127.0.0.1:8000/. |
@@ -59,12 +60,15 @@ pip install -r requirements.txt
 
 ## Website
 
-`python -m arset serve` builds the site and serves it at http://127.0.0.1:8000/. The site has:
+`python -m arset serve` builds the site and serves it at http://127.0.0.1:8000/. It is plain HTML, CSS and JavaScript in `site/`, with no framework or build step. The site has:
 
-- **Trainings.** Search and filters for application, satellite, level, language and timing. Trainings are grouped as upcoming, self-paced or past. Filter settings are kept in the URL, so you can share a filtered view.
-- **A page for each training.** It shows the sessions with their YouTube players (a player only loads when you click its thumbnail), slides, homework and agenda, and a sidebar with instructors, satellites, datasets, tools and prerequisites.
-- **Instructors, satellites, datasets, tools and applications.** Each record has a page listing every training that uses it.
+- **Home.** A search box, the next live training with a countdown, topic tiles, the latest recordings and the satellites used.
+- **Trainings.** Filters for timing, level, application, language and satellite, shown as a grid or as a timeline. Filter settings are kept in the URL, so you can share a filtered view.
+- **A page for each training.** The sessions appear as a timeline with recordings (which play in a pop-up), slides, homework and agendas. There's an "Add to calendar" download for upcoming trainings, and a sidebar with instructors, satellites, datasets, tools and prerequisites.
+- **Instructors, satellites, datasets, tools and applications.** Each record has a page showing its trainings and recordings. The satellites page also has a launch timeline.
+- **Search everywhere.** Press Ctrl+K (or /) to search every record type.
 - **Review.** Draft records and unassigned inbox videos.
+- **Light and dark themes**, with a toggle in the header.
 
 The catalog is embedded in `build/site/data.js`. You can also open `build/site/index.html` directly by double-clicking it, but YouTube may refuse to play embedded videos on a `file://` page, so use `serve` if you want the players.
 
@@ -83,16 +87,19 @@ The GitHub Action in `.github/workflows/track.yml` runs the tracker twice a week
 
 ## Backfilling older trainings
 
-The listing pages only show current trainings. To add older ones, pass their URLs to `add`:
+The listing pages only show current trainings. Earthdata's full paginated catalog is behind a human-verification check that scripts can't pass, so `backfill` uses three other sources:
 
-```
-python -m arset add https://www.earthdata.nasa.gov/learn/trainings/introduction-synthetic-aperture-radar
-```
+1. **`--wayback`.** The Internet Archive's URL index gives every `earthdata.nasa.gov/learn/trainings/<slug>` page it has captured, plus the pre-2024 `appliedsciences.nasa.gov/join-mission/training/english/...` URLs, which still redirect to their Earthdata pages. The index and the resolved redirects are cached in `state/`, because the archive rate-limits.
+2. **Links between pages.** Every page scraped queues the other trainings it links to, such as its prerequisites.
+3. **`--youtube FILE`.** This reads the descriptions of the videos listed in `FILE` (lines of `videoId|title`), follows any training links in them, and attaches each video to the training it points to, when that training's page doesn't embed it already. `state/youtube_arset_videos.txt` lists the ARSET recordings on the NASA Video and NASA ARSET channels. To refresh it, install [yt-dlp](https://github.com/yt-dlp/yt-dlp) (`pip install yt-dlp`) and run:
 
-Good places to find them:
-- `python -m arset validate` warns about every prerequisite that isn't in the catalog yet.
-- The ARSET resource guide, linked from the program page.
-- `inbox/videos.yaml`, which holds older uploads from the ARSET YouTube channel.
+   ```
+   python -m yt_dlp --flat-playlist --print "%(id)s|%(title)s" https://www.youtube.com/@NASAgovVideo/videos | grep -i arset
+   ```
+
+Trainings already in the catalog are skipped unless you pass `--refresh`. Every page is fetched with a short pause between requests. A full `--wayback` run takes about half an hour, and the YouTube step takes about a second per uncached video.
+
+To add a single training, use `python -m arset add <url>`.
 
 ## Using the build output
 

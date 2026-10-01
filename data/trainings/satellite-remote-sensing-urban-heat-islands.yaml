@@ -1,0 +1,146 @@
+id: satellite-remote-sensing-urban-heat-islands
+title: Satellite Remote Sensing for Urban Heat Islands
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/satellite-remote-sensing-urban-heat-islands
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2020-11-10'
+end_date: '2020-11-24'
+published: '2020-11-10'
+last_updated: '2026-07-23'
+summary: This ARSET training covers the use of remote sensing in determining and explaining urban heat
+  islands, and ways to mitigate the effects.
+description: 'The rapid growth of urban populations, the urban heat island (UHI) effect, and a potential
+  increase in the frequency and duration of heat waves due to climate change raise a series of issues
+  about the increased health risks of sensitive urban populations to extreme heat and the effective means
+  of mitigating impacts of heat waves.
+
+
+  According to the U.S. Environmental Protection Agency (EPA), urban heat islands affect energy consumption,
+  elevate greenhouse gas emissions, and impair water quality by increasing the temperature of urban water
+  runoff. This Applied Remote Sensing Training program (ARSET) training is in collaboration with the National
+  Integrated Heat Health Information System (NIHHIS) and the Global Heat Health Information Network (GHHIN).
+
+
+  This training addresses the use of remote sensing in determining where "hot spots" of land surface temperature
+  are located in urban areas, why these areas are experiencing increased temperature, which populations
+  are most vulnerable, and ways to mitigate the effects through adaptive land use planning.'
+objectives:
+- Define what an urban heat island (UHI) is and why it matters to urban planners and public health experts
+- Identify which satellites and sensors can be used for assessing UHI
+- Give examples of populations that are especially susceptible to heat stress
+- Summarize the limitations of satellite data for understanding UHI
+- Recognize new methods that incorporate conventional satellite remote sensing data and in situ observations
+  of temperature and humidity from community science and urban field campaigns
+- List what landscape features help to explain variations in urban heat islands
+- Compute land surface temperature from Landsat 4, 5, 7, and 8 within Google Earth Engine.
+audience:
+- Community, municipal, city, state, federal, and private institutions involved in urban planning, health
+  care, energy supply and demand management, and climate mitigation.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- ecological-conservation
+- health-air-quality
+satellites:
+- goes-r-series
+- landsat-8
+- landsat-9
+tools:
+- google-earth-engine
+instructors:
+- sean-mccartney
+- amita-mehta
+- vivek-shandas
+- george-xian
+- kevin-gallo
+- nasa-develop-team
+sessions:
+- part: 1
+  title: Land Surface Temperature (LST)-Based Urban Heat Island Mapping
+  agenda:
+  - Overview of ARSET
+  - Background on UHI
+  - Satellites and sensors for monitoring UHI
+  - Limitations of satellite data
+  - Demonstration of converting Landsat 4-8 thermal data to LST
+  - Q&A Session
+  videos:
+  - youtube: KYV2j3kwj2A
+    title: 'NASA ARSET: Land Surface Temperature-Based Urban Heat Island Mapping, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/UHI_Part1_v5.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/UHI%20Q&A%20Doc%20Part%201.pdf
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/UHI_Part1_Span.pdf
+- part: 2
+  title: Integrating In-Situ Observations with Satellite Imagery
+  agenda:
+  - Review previous session and introduce guest speaker
+  - Background with case studies integrating in situ observations with satellite imagery in select U.S.
+    cities
+  - Q&A Session
+  videos:
+  - youtube: fIQJx3_xlEQ
+    title: 'NASA ARSET: Integrating In-Situ Observations with Satellite Imagery, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/UHI_Part2_v2.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/UHI%20Q&A%20Doc%20Part%202_0.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-UHI2020-HomeworkPDF.pdf
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/UHI_Part2_v3_Span.pdf
+  - type: other
+    title: Tarea
+    url: https://forms.gle/ACWtG53MupgKRKfE6
+- part: 3
+  title: Mitigating UHI via Long-Term Urban Climate Monitoring
+  agenda:
+  - Review previous sessions and introduce guest speakers
+  - United States Geological Survey (USGS)/National Oceanographic and Atmospheric Administration (NOAA)
+    case studies using Landsat ARD-LST to assess UHI in select U.S. cities and diurnal effects of UHI
+    using GOES LST with land cover
+  - DEVELOP case study of UHI and land cover in Huntsville, Alabama
+  - Q&A Session
+  videos:
+  - youtube: GbmrMWHkaWg
+    title: 'NASA ARSET: Mitigating UHI via Long-Term Urban Climate Monitoring, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: 'Part 3 Presentation Slides: Kevin Gallo'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/UHI_Part3_K_Gallo_v4.pdf
+  - type: slides
+    title: 'Part 3 Presentation Slides: NASA Develop'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/UHI_Part3_DEVELOP_v3.pdf
+  - type: slides
+    title: 'Part 3 Presentation Slides: George Xian'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/UHI_Part3_Xian.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/UHI%20Q&A%20Doc%20Part%203.pdf
+  - type: other
+    title: 'Diapositivas de la Presentación de la Parte 3: Kevin Gallo'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/UHI_Part3_K_Gallo_v4_Span.pdf
+  - type: other
+    title: 'Diapositivas de la Presentación de la Parte 3: NASA DEVELOP'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/UHI_Part3_DEVELOP_v3_Span.pdf
+  - type: other
+    title: 'Diapositivas de la Presentación de la Parte 3: George Xian'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-10/UHI_Part3_Xian_Span.pdf

@@ -1,0 +1,162 @@
+id: application-nasa-sport-land-information-system-sport-lis-soil-moisture-data-drought
+title: Application of NASA SPoRT-Land Information System (SPoRT-LIS) Soil Moisture Data for Drought
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/application-nasa-sport-land-information-system-sport-lis-soil-moisture-data-drought
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2023-05-17'
+end_date: '2023-05-31'
+published: '2023-05-17'
+last_updated: '2026-03-03'
+summary: This training will cover how soil moisture is modeled within LIS in to improve drought monitoring.
+description: 'This training hosted by NASA''s Applied Remote Sensing Training Program (ARSET) focuses
+  on introducing the NASA Land Information System (LIS) output of soil moisture at various depths for
+  drought analysis and monitoring. Traditional drought applications and indices focus on sensible weather
+  (temperature, wind, etc.) and precipitation trends and their impacts on the hydrologic system.
+
+
+  As a result of the NASA Short-term Prediction Research and Transition Center (SPoRT) program and its
+  research-to-operations (R2O) work, this training demonstrates how LIS output of soil moisture from a
+  land surface model (LSM) can be included in traditional drought monitoring applications. The NASA SPoRT
+  Program has implemented a version of NASA LIS (SPoRT-LIS) that utilizes near real-time Green Vegetation
+  Fraction (GVF) from Suomi NPP Visible Infrared Imaging Radiometer Suite (VIIRS) retrievals, as opposed
+  to static, climatology values of GVF.
+
+
+  Near real-time forcing of the LSM by the Multi-Radar Multi-Sensor (MRMS) precipitation and the Global
+  Data Assimilation System (GDAS) sensible weather data provide near real-time, observation-driven products
+  with ~2–8 hours latency. Each of these enable a more accurate depiction of vegetation and soil moisture
+  impacts related to both long-term and short-term drought events, including rapid-onset flash drought
+  events.
+
+
+  Research-to-Operations work at SPoRT has led to the development of value-added products such as the
+  derived percentile products for soil moisture. For example, low percentile values from SPoRT-LIS have
+  been shown to correspond well to areas experiencing short-term drought within the U.S. Drought Monitor
+  (USDM). Via Operations-to-Research (O2R) activities with end-users, soil moisture changes on various
+  timescales pertinent to drought applications have been added to the SPoRT-LIS output data suite.
+
+
+  This training improves the user’s understanding of how soil moisture is modeled within LIS to improve
+  the interpretation and application of this output for drought monitoring. Conducted by experts in LIS
+  and operational drought monitoring, the overall course enables users to interpret SPoRT-LIS soil moisture
+  percentile products for drought applications.
+
+
+  Examples from operational applications as well as practice exercises (for using LIS data for drought
+  monitoring) are included in this course. Access to the SPoRT-LIS products via online viewer, in GIS
+  formats, and GIS-based display tools, are also included. Moreover, self-paced microlessons are available
+  to help users confirm their understanding and improve their skill via homework lessons between live
+  sessions.'
+objectives:
+- Apply LIS output to efficiently analyze drought over large spatial areas in conjunction with current
+  practices and to integrate this capability with existing data.
+- Identify the NASA/LIS basics regarding the framework, input forcing, static fields, LSM structure, and
+  output most relevant to drought.
+- Summarize the derived soil moisture percentile products and how these are created.
+- Apply SPoRT-LIS output and/or derived products to both complement existing data and overcome limitations
+  to monitoring drought over large areas.
+- Recognize ‘best practices’ for LIS impact related to drought.
+- Configure LIS output file for viewing within a Geographic Information Systems (GIS)-based display tool
+  and for tailored output products and graphics.
+applications:
+- climate-resilience
+- drought
+- water-resources
+satellites:
+- noaa-20
+- suomi-npp
+tools:
+- jupyter
+- qgis
+instructors:
+- christopher-hain
+- jonathan-case
+- sujay-kumar
+- kris-white
+- richard-heim
+- barrett-smith
+- corey-davis
+- matt-smith
+- ryan-wade
+- rob-junod
+sessions:
+- part: 1
+  title: Foundational Understanding of LIS (Static, Forcing, Models, Output)
+  agenda:
+  - Introduction and Drought Background
+  - NASA LIS Framework and Output (30 minutes)
+  - SPoRT LIS-CONUS version, Derived Percentiles, Forecasts (30 minutes)
+  - Q&A Session (30 minutes)
+  videos:
+  - youtube: yA7gX95oOBU
+    title: 'NASA ARSET: Foundational Understanding of LIS (static, forcing, models, output), Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-SPoRT2023-part1-slides.pdf
+  - type: qa
+    title: Part 1 Q&A Document
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-SPoRT2023-part1-qa.pdf
+  - type: other
+    title: Details of RSM and Other Output for Drought
+    url: https://rise.articulate.com/share/_hgJDoh3tg8j7T9IwiNnPeHawZyaT6Tb
+  - type: other
+    title: SPoRT-LIS Derived Percentiles Important for Drought
+    url: https://rise.articulate.com/share/IuMpOoQCl0rpwZSo-jLQvRDjxOc_A-hB
+- part: 2
+  title: Early and Established Applications of LIS for Drought Analysis in Operations
+  agenda:
+  - SPoRT-LIS Early Use and Value in Local Operations; Application of Percentile and Differences (25-30
+    minutes)
+  - US Drought Monitor Application of SPoRT-LIS with Existing Data and Methods (15-20 minutes)
+  - State/Regional Climate Application of SPoRT-LIS for Drought Trend Assessments (15-20 minutes)
+  - Q&A Session (20-30 minutes)
+  videos:
+  - youtube: 5W_w5ZKX_BI
+    title: 'NASA ARSET: Early and Established Applications of LIS for Drought Analysis in Operations,
+      Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-SPoRT2023-part2-slides_0.pdf
+  - type: qa
+    title: Part 2 Q&A Document
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-SPoRT2023-part2-qa.pdf
+  - type: other
+    title: Drought Analysis Application in CONUS and International Domain Example
+    url: https://rise.articulate.com/share/IW6zxBoi7FmM9zSBGHOxnLrWBtAmpxuq
+  - type: other
+    title: Best Practices with SPoRT-LIS
+    url: https://rise.articulate.com/share/x82ZWIYbo7tX5_4C-MnIJIqbkxuvahiB
+- part: 3
+  title: Access Data at Organization and Individual Levels
+  agenda:
+  - Display of SPoRT-LIS CONUS Output via SPoRT Web Viewer
+  - Acquire and Display SPoRT-LIS CONUS GEOTIFF via QGIS
+  - Display and Differencing of SPoRT-LIS within Google Colab/Jupyter
+  - Q&A Session (20-30 minutes)
+  videos:
+  - youtube: myCgQ_EzCEA
+    title: 'NASA ARSET: Access Data at Organization and Individual Levels, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-SPoRT2023-part3-slides.pdf
+  - type: qa
+    title: Part 3 Q&A Document
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-07/ARSET-SPoRT2023-part3-qa.pdf
+  - type: notebook
+    title: Starter Guide for ingest/display
+    url: https://github.com/NASAARSET/SPoRT-LIS
+  - type: other
+    title: QGIS
+    url: https://www.qgis.org/en/site/
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSeuSCWqNdkR42KH4XBuzCuJtchYXzEqNmEN8Bk4RLLFuwSt6A/viewform?usp=sf_link

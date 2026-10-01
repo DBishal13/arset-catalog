@@ -1,0 +1,117 @@
+id: using-earth-observations-monitor-water-budgets-river-basin-management
+title: Using Earth Observations to Monitor Water Budgets for River Basin Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/using-earth-observations-monitor-water-budgets-river-basin-management
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2019-03-13'
+end_date: '2019-04-03'
+published: '2019-03-13'
+last_updated: '2026-01-27'
+summary: This ARSET training introduces using satellite data and Earth system modeling data sources to
+  estimate surface water budgets.
+description: Rivers are a major source of freshwater. They support aquatic and terrestrial ecosystems,
+  provide transportation, and generate hydropower. Managing river basin watersheds is critical for developing
+  policies for sustainable water allocation and development. This introductory training series led by
+  NASA's Applied Remote Sensing Training program (ARSET) addresses how to use satellite data and Earth
+  system modeling data sources to estimate surface water budgets.
+objectives:
+- Remote sensing and Earth system modeling data sources relevant for river basin watershed management
+- Estimating surface water budgets and their temporal variability in sub-watersheds within river basins
+audience:
+- The content of this training was developed for local, regional, state, federal, and international organizations
+  engaged in the management of water resources, river basins, floods, droughts, land development, river
+  transportation, hydroelectric power, and reservoirs.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+- water-resources
+sessions:
+- part: 1
+  title: Overview of Remote Sensing Data for River Basin Monitoring
+  date: '2019-03-13'
+  videos:
+  - youtube: 8rLiHMb4OBw
+    title: 'NASA ARSET: Overview of Remote Sensing Data for River Basin Monitoring, Session 1/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/RiverBasin_WB_Session1.pdf?VersionId=.0zBs1pt2.RBAs2D2d0E0XNduW7KhPLp
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/River%20Basin%20Q&A%20Doc%20Session%201.pdf?VersionId=jG7CuhRQNaBs3imczhPJs3f_yiYcunKw
+  - type: other
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/RiverBasin_WB_Session1_span.pdf?VersionId=.yxIJxWyHX8rPnSn4lBVxsHsi2Kw94Ow
+- part: 2
+  title: Applications of Remote Sensing for River Basin Monitoring, Nile Basin
+  date: '2019-04-20'
+  videos:
+  - youtube: t09kon01dq8
+    title: 'NASA ARSET: Applications of Remote Sensing for River Basin Monitoring, Nile Basin, Session
+      2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/RiverBasin_WB_Session2.pdf?VersionId=dENN.ssljDPJLbJrAuNyTcht3i3aWFj0
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/River%20Basin%20Q&A%20Doc%20Session%202.pdf?VersionId=P3T1MisGo2Oe5EZ.0xaw8jfHskcKXxq3
+  - type: homework
+    title: Part 2 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfkhpecanLCDFsufMZK8644iU6vrRcjx9SGFI7OJggrNYqIAA/viewform
+  - type: other
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/RiverBasin_WB_Session2_Spanish.pdf?VersionId=_JIdDhhsqUd.xvLp7.FiBbh5rGbdnCz_
+  - type: other
+    title: Tarea de Parte 2
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdPV0HDfZWXjYDJtiATCXl038TywERequIvYq8moRNoHnqzQQ/viewform
+- part: 3
+  title: Applications of Remote Sensing for River Basin Monitoring, Mekong Basin
+  date: '2019-03-27'
+  videos:
+  - youtube: V1jgEc6wqm4
+    title: 'NASA ARSET: Applications of Remote Sensing for River Basin Monitoring, Mekong Basin, Session
+      3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/RiverBasin_WB_Session3.pdf?VersionId=IY.ZJ8KctkJup8dWiH5nw3wgmgfw8ze7
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/River%20Basin%20Q&A%20Doc%20Session%203.pdf?VersionId=12EtivxFDbySg9ZR9w0dMqwX.ENA2xxR
+  - type: other
+    title: Diapositivas de la Presentación de Parte 3
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/RiverBasin_WB_Session3_Spanish.pdf?VersionId=9KlaeZEMQHSH4RxtxwKiR4tJhBWQEg0O
+- part: 4
+  title: Surface Water Budget Estimation Based on Remote Sensing
+  date: '2019-04-03'
+  videos:
+  - youtube: 7A_SHnPbAGY
+    title: 'NASA ARSET: Surface Water Budget Estimation Based on Remote Sensing, Session 4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/RiverBasin_WB_Session4.pdf?VersionId=jkZSCnvAN_oNVZfs22C_L7qInaBxkMBO
+  - type: data
+    title: Part 4 Data
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/RiverBasin_Data_Session%204_WB.zip?VersionId=HoARm5vJIaOYXJyPgm4d5UtW299ylI0l
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/River%20Basin%20Q&A%20Doc%20Session%204.pdf?VersionId=N7Ny3nj7m7TD7yNAg_KrcOukCb_MaRxF
+  - type: homework
+    title: Part 4 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLScWgbaY60MuFftQl0T0zgr8Q8G4Kjh49xXLxdmkbNd0OIiapA/viewform?usp=sf_link
+  - type: other
+    title: Diapositivas de la Presentación de Parte 4
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/RiverBasin_WB_Session4_Spanish.pdf?VersionId=xLncObxNy1xIyUL.0YtnV394xIViSQGW
+  - type: other
+    title: Tarea de Parte 4
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdb1QW2gE01EqytrD9fX2mLCn4DfgLBpPgkheSNox7d5SMJaQ/viewform?usp=sf_link

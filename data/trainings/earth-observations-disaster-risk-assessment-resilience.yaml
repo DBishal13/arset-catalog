@@ -1,0 +1,125 @@
+id: earth-observations-disaster-risk-assessment-resilience
+title: Earth Observations for Disaster Risk Assessment & Resilience
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/earth-observations-disaster-risk-assessment-resilience
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2019-08-06'
+end_date: '2019-08-15'
+published: '2019-08-06'
+last_updated: '2026-07-23'
+summary: This ARSET training focuses on Earth observation data useful for disaster risk assessment.
+description: 'According to a UN report (PDF, 3.7 MB), between 1998 and 2017 the U.S. alone lost $944.8
+  billion USD from disasters. Between 1978 and 2017, losses from extreme weather events rose by 251 percent.
+  It is critical to develop disaster management strategies to reduce and mitigate disaster risks.
+
+
+  A major factor in regional risk assessment is evaluating the vulnerability of lives and property to
+  disasters. Environmental information about disasters, their spatial impact, and their temporal evolution
+  can play an important role as well.
+
+
+  This training series hosted by NASA''s Applied Remote Sensing Training Program (ARSET) focuses on Earth
+  observation (EO) data useful for disaster risk assessment. The series covers disasters including tropical
+  cyclones, flooding, wildfires, and heat stress. The training also covers access of socioeconomic and
+  disaster damage data. Sessions 3 and 4 cover case studies and operational applications of EO for disaster
+  risk assessment.
+
+
+  Relevant UN Sustainable Development Goal: Target 13.1: Strength, resilience, and adaptive capacity to
+  climate-related hazards and disasters in all countries.'
+objectives:
+- Learn about available NASA remote sensing and socioeconomic data and how to combine them for assessing
+  risk
+- Understand how to apply these data for assessing risk from floods and tropical cyclones in specific
+  regions
+- Learn how operational agencies are using NASA data for risk management
+audience:
+- The audience for this training are local, regional, state, federal, and international entities, including
+  public and private sector organizations, engaged in disaster management, emergency responders, urban
+  and infrastructure planners.
+prerequisites:
+- fundamentals-remote-sensing
+- remote-sensing-disasters-scenarios
+applications:
+- climate-resilience
+- disasters
+- wildland-fires
+sessions:
+- part: 1
+  title: NASA Remote Sensing and Socioeconomic Data for Disaster Risk Assessment
+  date: '2019-08-06'
+  videos:
+  - youtube: OS-0GYDniqM
+    title: 'NASA ARSET: NASA Remote Sensing and Socioeconomic Data for Disaster Risk Assessment, Part
+      1/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: 'Part 1 Presentation Slides: Introduction'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisasterRisk_Part1.pdf
+  - type: slides
+    title: 'Part 1 Presentation Slides: SEDAC'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisasterRisk_Part1_SEDAC.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisasterRisk_Q&A1.pdf
+- part: 2
+  title: Assessing the Risk of Floods and Cyclones Using NASA Data
+  date: '2019-08-08'
+  videos:
+  - youtube: c84N22jegU4
+    title: 'NASA ARSET: Assessing the Risk of Floods and Cyclones Using NASA Data, Part 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisasterRisk_Part2.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisasterRisk_Q&A2.pdf
+  - type: homework
+    title: Part 2 Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-DisasterRisk2019-Part2-HomeworkPDF.pdf
+- part: 3
+  title: 'Part Three: Disaster Risk Assessment Case Studies Using Remote Sensing Data'
+  date: '2019-08-13'
+  videos:
+  - youtube: EjJ0QTqi0ss
+    title: 'NASA ARSET: Disaster Risk Assessment Case Studies Using Remote Sensing Data, Part 3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: 'Part 3 Presentation Slides: New York State Dept. of Health'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisasterRisk_Part3_NYS.pdf
+  - type: slides
+    title: 'Part 3 Presentation Slides: World Resources Institute'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisasterRisk_Part3_WRI.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisasterRisk_Q&A3.pdf
+- part: 4
+  title: Operational Application of Remote Sensing for Disaster Management
+  date: '2019-08-15'
+  videos:
+  - youtube: wt6j4qP2bn8
+    title: 'NASA ARSET: Operational Application of Remote Sensing for Disaster Management, Part 4/4'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Pacific Disaster Center
+    url: https://www.pdc.org/
+  - type: slides
+    title: 'Part 4 Presentation Slides: Introduction'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisasterRisk_Part4.pdf
+  - type: slides
+    title: 'Part 4 Presentation Slides: Pacific Disaster Center'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisasterRisk_Part4_PDC.pdf
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/DisasterRisk_Q&A4.pdf
+  - type: homework
+    title: Part 4 Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-DisasterRisk2019-Part4-HomeworkPDF.pdf

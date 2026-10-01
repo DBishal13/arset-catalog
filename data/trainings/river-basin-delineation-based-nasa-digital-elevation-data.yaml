@@ -1,0 +1,68 @@
+id: river-basin-delineation-based-nasa-digital-elevation-data
+title: River Basin Delineation Based on NASA Digital Elevation Data
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/river-basin-delineation-based-nasa-digital-elevation-data
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2019-11-26'
+end_date: '2019-11-26'
+published: '2019-11-26'
+last_updated: '2026-03-02'
+summary: This ARSET training focuses on describing NASA digital elevation data and its application in
+  deriving river basin information using HydroSHEDS.
+description: 'River basins (known as watersheds in North America) are areas of land that drain precipitation,
+  surface water, and underlying groundwater into a river and its tributaries, eventually reaching a common
+  outlet such as a lake, reservoir, river, or estuary. The drainage pattern is from smaller sub-basins
+  to larger sub-basins, and from higher elevation to lower elevation.
+
+
+  Land surface processes, precipitation, stormwater, and wastewater runoff within basins have a substantial
+  impact on the quantity and quality of the water draining into tributaries. Surface topography and elevation
+  generally determine boundaries or drainage divides between sub-basins. Delineation is crucial for assessing
+  the contribution to water quality and quantity in the river system, and for planning better land and
+  water management practices.
+
+
+  This lightning-style training led by NASA''s Applied Remote Sensing Training Program (ARSET) was focused
+  on describing NASA digital elevation data and its application in deriving river basin information by
+  using hydrological data and maps based on the SHuttle Elevation Derivatives at multiple Scales (HydroSHEDS)
+  database. Exercises with instructions for river basin delineation using HydroSHEDS were provided.'
+objectives:
+- Delineate a river sub-basin
+- Determine flow direction in the area of their interest using HydroSHEDS.
+audience:
+- Local, regional, state, federal, and international entities, including public and private sector organizations,
+  engaged in water resources, floods, river basin management, and water quality management.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- water-resources
+sessions:
+- part: 1
+  title: River Basin Delineation Based on NASA Digital Elevation Data
+  date: '2019-11-26'
+  agenda:
+  - Overview of NASA Digital Elevation Data
+  - Demonstration of HydroSHEDS for river basin delineation
+  videos:
+  - youtube: YijXxj5FUUI
+    title: 'NASA ARSET: River Basin Delineation Based on NASA Digital Elevation Data, Part 1/1'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-01/Riverbasin_Final.pdf
+  - type: exercise
+    title: Part 1 HydroSHEDS Exercise
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-01/HydroSHEDS%20Tutorial.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-01/Q&A%20Doc%20River%20Basin%20Lightning.pdf
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-01/Riverbasin_Final_Span.pdf
+  - type: other
+    title: Tutorial de HydroSHEDS de la Parte 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-01/HydroSHEDS%20Tutorial_span.pdf

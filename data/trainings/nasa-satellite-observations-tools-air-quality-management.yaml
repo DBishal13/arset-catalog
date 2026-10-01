@@ -1,0 +1,50 @@
+id: nasa-satellite-observations-tools-air-quality-management
+title: NASA Satellite Observations and Tools for Air Quality Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/nasa-satellite-observations-tools-air-quality-management
+level: introductory
+format: in-person
+languages:
+- en
+start_date: '2026-08-10'
+end_date: '2026-08-10'
+published: '2026-08-05'
+last_updated: '2026-08-07'
+summary: This ARSET training will provide information and hands-on demonstrations for visualizing aerosol
+  and trace gas pollutant data from satellites.
+description: 'This training will be conducted in-person at the 2026 National Air Quality Conference in
+  Omaha, NE. There will not be an option to attend remotely.
+
+
+  New satellite instrument technology and data products continually advance the observing capabilities
+  for remote detection and monitoring of aerosol and trace gas pollutants relevant for air quality monitoring,
+  forecasting, and management in the United States.
+
+
+  This training workshop, led by NASA''s Applied Remote Sensing Training (ARSET) program, will introduce
+  participants to how satellite remote sensing works to detect aerosol and trace gas pollutants. The training
+  will also introduce participants to resources and tools from NASA and partner organizations for accessing
+  and visualizing these data. Participants will be guided through case studies of how these tools can
+  be used to examine aerosol and trace gas pollutants.
+
+
+  Participants without prior experience in remote sensing data are strongly encouraged to complete the
+  ARSET Fundamentals of Remote Sensing online course prior to this training. Participants should plan
+  to attend for the entire four-hour duration of the workshop and bring laptops to participate in hands-on
+  exercises.'
+objectives:
+- Describe the basic capabilities and limitations of satellite data for assessing aerosol and trace gas
+  air pollutants.
+- Identify satellite sensors and data products most applicable for detecting the presence and amount of
+  key aerosol and trace gas pollutants over the U.S.
+- Access relevant data products for trace gas and aerosol pollutants using NASA Worldview and NOAA AerosolWatch.
+- Interpret data visualizations of satellite data for trace gas and aerosol pollutants.
+- Locate additional resources and training materials.
+applications:
+- health-air-quality
+tools:
+- worldview
+instructors:
+- carl-malings
+- caterina-mogno
+- aaron-naeger

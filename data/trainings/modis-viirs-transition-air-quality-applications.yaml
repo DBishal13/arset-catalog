@@ -1,0 +1,79 @@
+id: modis-viirs-transition-air-quality-applications
+title: MODIS to VIIRS Transition for Air Quality Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/modis-viirs-transition-air-quality-applications
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2020-10-22'
+end_date: '2020-10-22'
+published: '2020-10-22'
+last_updated: '2026-02-17'
+summary: This ARSET training covers how to access VIIRS data products, the differences between VIIRS and
+  MODIS, and its air quality applications.
+description: 'With the end of the Moderate Resolution Imaging Spectroradiometer (MODIS) data record approaching,
+  it is important that current MODIS users transition to Visible Infrared Imaging Radiometer Suite (VIIRS)
+  data and visualization tools. As they make this transition, users also need information regarding which
+  MODIS geophysical parameters will be available with VIIRS and vice-versa, and the differences between
+  them.
+
+
+  This training, led by NASA''s Applied Remote Sensing Training (ARSET) program, teaches participants
+  how to access VIIRS data products, the differences involved in using VIIRS as opposed to MODIS, and
+  how to apply VIIRS aerosol optical depth observations for air quality applications.'
+objectives:
+- Access NASA VIIRS aerosol products through Earthdata
+- Describe the differences between the MODIS and VIIRS instruments and aerosol optical depth (AOD) products
+- Understand how VIIRS AOD observations can be used for modeling and monitoring of air pollution transport
+audience:
+- This webinar is designed for MODIS end-users from all around the world, both applied and those involved
+  in research.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- health-air-quality
+satellites:
+- aqua
+- noaa-20
+- suomi-npp
+- terra
+datasets:
+- modis-maiac-aod
+tools:
+- python
+sessions:
+- part: 1
+  title: Part 1
+  date: '2020-10-22'
+  agenda:
+  - Review of MODIS and corresponding VIIRS air quality-related parameters
+  - Discussion of similarities and differences between MODIS and VIIRS
+  - VIIRS air quality products from NASA and NOAA
+  - Access and visualization of NASA VIIRS data products
+  - VIIRS Aerosol Optical Depth (AOD) – data analysis using python scripts
+  - Examples of air quality applications of VIIRS data
+  videos:
+  - youtube: mu6K4KopEyA
+    title: 'NASA ARSET: MODIS to VIIRS Transition for Air Quality Applications, Part 1/1'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-MODISVIIRS2020-part1-slides.pdf?VersionId=8aIXfFHHcZWr1KDsnYZCuLuI_Aqu4lcX
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-MODISVIIRS2020-part1-qa.pdf?VersionId=nLFWqLoLijzZn2.uncHpkeUE3HZd3nYK
+  - type: homework
+    title: Homework
+    url: https://forms.gle/9z4ShZZKiorm5bXd6
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-MODISVIIRS2020-part1-slides-esp.pdf?VersionId=26LlaTuvdBOg4yfZ.2zKqa8u3wJBzokx
+  - type: other
+    title: Tarea
+    url: https://docs.google.com/forms/d/e/1FAIpQLSft9lhSWw_GWk610gNzbPtifYqYub4mAOTTjo5wfXqbKToM7Q/viewform?usp=sf_link
+videos:
+- youtube: VpUzhXs8TX8
+  title: NASA ARSET: How NASA Measures Particulate Matter (Aerosols), Part 2/2
+  channel: NASA Video

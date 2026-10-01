@@ -1,0 +1,112 @@
+id: transforming-earth-observation-data-building-infrastructure-data-sets-disaster-risk
+title: Transforming Earth Observation Data into Building Infrastructure Data Sets for Disaster Risk Modeling
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/transforming-earth-observation-data-building-infrastructure-data-sets-disaster-risk
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2023-10-03'
+end_date: '2023-10-10'
+published: '2023-10-03'
+last_updated: '2026-07-10'
+summary: This ARSET training covers the basics of natural hazard risk modeling and exposure development.
+description: 'Climate change is not only changing the location, frequency, and severity of environmental
+  extremes and hazards, but also the baseline spatial and temporal patterns that have served as the basis
+  for land use planning, the design of infrastructure, and the development of construction standards and
+  practices.
+
+
+  To anticipate the emerging impacts on communities, we must improve understanding of exposed assets,
+  including the built infrastructure and its characteristics such as structure type, use, occupance, compliance
+  with engineering standards, and replacement cost. Geographic Information Systems (GIS) databases track
+  exposure on a wide variety of scales, formats, and levels of detail, yet aggregating these data for
+  risk assessment typically results in skewed datasets that present a view of risk that is limited to
+  known assets.
+
+
+  In this short course, led by NASA''s Applied Remote Sensing Training (ARSET) program, we cover the basics
+  of natural hazard risk modeling and exposure development with a focus on fusing data from multiple datasets
+  expressly for the purposes of risk assessment. We also present examples applying the techniques to applications
+  related to flood risk assessment, climate adaptation, and earthquake modeling.'
+objectives:
+- Recognize what building vulnerability is and why it is important for risk modeling
+- Identify the core elements of natural hazard risk modeling and asset loss estimation
+- Identify fundamental approaches for developing building-exposure models using Earth observation (EO)
+  data and tools
+- Apply a basic procedure to model built infrastructure exposure and vulnerability characteristics from
+  Earth Observation data
+- Evaluate building-specific exposure data sets to identify key components for fit, validity, consistency
+  and rectify bias
+- Evaluate the appropriate use of modeled building exposure data to a given community
+- Apply strategies to identify and address equity and bias considerations
+- Apply approaches to validate building data with imagery for regional datasets
+- Document your exposure development process through metadata so that others can understand the process
+  used, its limitations, and how to update if necessary.
+audience:
+- This training is for advanced-level students interested in risk assessment and climate change adaptation,
+  emergency managers, risk modelers, GIS analysts, EO researchers and analysts, structural engineers,
+  and climate adaptation researchers and planners.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- disasters
+sessions:
+- part: 1
+  title: Development of Regional Exposure Data With Earth Observations
+  agenda:
+  - What is exposure data, and how is it used in the loss estimation process?
+  - The basic process of developing exposure data​
+  - Structural mapping scheme development​ and building sampling
+  - 'Case Study: Walkthrough of building exposure data for Tunisia'
+  videos:
+  - youtube: RBSmMTkVvzc
+    title: 'NASA ARSET: Development of Regional Exposure Data with Earth Observations, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-DisasterRisk2023-part1-slides.pdf?VersionId=TRyabFjJGSEMp9BzeRKKvSHnOAexZrf0
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-DisasterRisk2023-part1-qa.pdf?VersionId=Ng6sOWhXG1Iz6iMV9N44EoLZ2SLSHd4z
+- part: 2
+  title: Development of Site-specific Exposure Data With Earth Observations
+  agenda:
+  - Developing a building-level exposure data set for the HAZUS Flood Study in New York
+  - Using Earth Observations to develop a building structures dataset
+  - 'Case study: Sampling from streetview to characterize vulnerability'
+  videos:
+  - youtube: R5JdP8msTbE
+    title: 'NASA ARSET: Development of Site-specific Exposure Data with Earth Observations, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-DisasterRisk2023-part2-slides.pdf?VersionId=po5lJlk8gCqhTFz2ZyFKVfeS_UupZCkM
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-DisasterRisk2023-part2-qa.pdf?VersionId=6FCMWKDjIE6g.JloUDOhRr0Y2uLZn7Sn
+- part: 3
+  title: Assessing Utility and Communicating Uncertainty
+  agenda:
+  - Exposure data best practices
+  - Developing and understanding metadata​
+  - Equity and bias considerations
+  - 'Case study: Assessing climate change impacts with building exposure data in Antigua and Barbuda'
+  videos:
+  - youtube: BrOsXIWNu88
+    title: 'NASA ARSET: Assessing Utility and Communicating Uncertainty, Part 3 of 3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-DisasterRisk2023-part3-slides.pdf?VersionId=HXnU6FfejeBMAMGHLoYh58o1i1dR900H
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-DisasterRisk2023-part3-qa.pdf?VersionId=ETZpDpIf2uusx89vkZA1.Zh1Xzdj6mLY
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-EOData2023-HomeworkPDF.pdf

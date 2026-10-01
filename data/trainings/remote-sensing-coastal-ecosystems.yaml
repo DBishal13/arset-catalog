@@ -1,0 +1,104 @@
+id: remote-sensing-coastal-ecosystems
+title: Remote Sensing of Coastal Ecosystems
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/remote-sensing-coastal-ecosystems
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2020-08-25'
+end_date: '2020-09-08'
+published: '2020-08-25'
+last_updated: '2026-02-11'
+summary: This ARSET training covers some of the difficulties associated with remote sensing of coastal
+  ecosystems.
+description: 'Coastal and marine ecosystems serve key roles for carbon storage, nutrients and materials
+  cycling, and reservoirs of biodiversity. They also provide ecosystems services such as sustenance for
+  millions of people, coastal protection against wave action, and recreational activities.
+
+
+  Remote sensing of coastal and marine ecosystems is particularly challenging. Up to 90% of the signal
+  received by the sensors in orbit comes from the atmosphere. Additionally, dissolved and suspended constituents
+  in the water column attenuate most of the light received through absorption or scattering. When it comes
+  to retrieving information about shallow water ecosystems, even in the clearest waters under the clearest
+  skies, less than 10% of the signal originates from the water and its bottom surface.
+
+
+  Users, particularly those with little remote sensing experience, stand to benefit from this Applied
+  Remote Sensing Training Program (ARSET) training covering some of the difficulties associated with remote
+  sensing of coastal ecosystems, particularly beaches and benthic communities such as coral reefs and
+  seagrass.'
+objectives:
+- Identify the different water column components and how they affect the remote sensing signal of shallow-water
+  ecosystems
+- Outline existing satellite sensors used for ocean color and shallow-water ecosystem characterization
+- Understand the interaction between water constituents, the electromagnetic spectrum, and the remote
+  sensing signal
+- Recognize the different processes used to remove the water column attenuation from the remotely-sensed
+  signal to characterize benthic components
+- Summarize techniques for characterizing shoreline beach environments with remotely-sensed data and field
+  methods for beach profiling
+audience:
+- Local, regional, state, federal, and non-governmental environmental managers, researchers, and students.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+sessions:
+- part: 1
+  title: Overview of Coastal Ecosystems and Remote Sensing
+  agenda:
+  - Introduction to coastal and marine ecosystems
+  - Overview of sensors for remote sensing of coastal areas
+  - Q&A
+  videos:
+  - youtube: Q2MDct5CoTQ
+    title: 'NASA ARSET: Overview of Coastal Ecosystems and Remote Sensing, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/Coastal_Part1.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/Intro%20to%20Coastal%20Q&A%20Doc%20Part%201_0.pdf
+- part: 2
+  title: Penetration of Light in the Water Column
+  agenda:
+  - Apparent and inherent optical properties
+  - Field bio-optical measurements
+  - Water column corrections
+  - Deriving bathymetry and benthic characterization from multispectral data
+  - Validation and calibration of ocean color data
+  - Q&A
+  videos:
+  - youtube: 2pfoEFnsyEQ
+    title: NASA ARSET: Penetration of Light in the Water Column, Part 2/3
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/Coastal_Session2_Eng_Final.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/Q&A%20Doc%20Part%202_0.pdf
+- part: 3
+  title: Remote Sensing of Shorelines
+  agenda:
+  - Geophysical components of shorelines
+  - The parts of a beach
+  - Field-based measurements in shorelines for image validation
+  - Image processing and analysis for shoreline characterization
+  - Q&A
+  videos:
+  - youtube: hJBrbbK5Nyk
+    title: NASA ARSET: Remote Sensing of Shorelines, Part 3/3
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/Coastal_Session3_Eng_Final_Juan.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-11/Q&A%20Doc%20Part%203_0.pdf

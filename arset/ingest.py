@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+from dataclasses import dataclass
 
 from . import scrape, tagging, youtube
 from .catalog import SCHEMAS, Catalog, iter_materials, iter_videos, slugify
@@ -17,14 +18,40 @@ def _ordered(record: dict) -> dict:
     return known | {k: v for k, v in record.items() if k not in known}
 
 
-def scrape_training(cat: Catalog, url: str) -> tuple[dict, list[dict], bool]:
-    """Fetch and parse a page. Returns (record, instructors, is_arset); videos are not enriched yet."""
+@dataclass
+class Scraped:
+    record: dict  # draft training record; videos not enriched yet
+    people: list[dict]  # instructors as listed on the page
+    is_arset: bool
+    linked: list[str]  # slugs of other trainings the page links to
+
+
+def scrape_training(cat: Catalog, url: str) -> Scraped:
     record = scrape.parse_training(scrape.fetch(url), url)
     is_arset = record.pop("_is_arset")
     people = record.pop("_instructors")
+    linked = record.pop("_linked")
     record["instructors"] = [slugify(p["name"]) for p in people] or None
     record.update(tagging.suggest(cat, tagging.training_text(record)))
-    return _ordered({k: v for k, v in record.items() if v}), people, is_arset
+    return Scraped(_ordered({k: v for k, v in record.items() if v}), people, is_arset, linked)
+
+
+def add_new(cat: Catalog, scraped: Scraped) -> list[str]:
+    """Save a scraped training that is not in the catalog yet. Returns ids of instructors created."""
+    enrich_videos(scraped.record)
+    created = ensure_instructors(cat, scraped.people)
+    cat.save("training", scraped.record)
+    return created
+
+
+def update_existing(cat: Catalog, existing: dict, scraped: Scraped, save: bool = True) -> list[str]:
+    """Merge a re-scraped page into its record; create stubs for instructors it now references."""
+    changes = merge(existing, scraped.record)
+    if changes and save:
+        referenced = set(existing.get("instructors") or [])
+        ensure_instructors(cat, [p for p in scraped.people if slugify(p["name"]) in referenced])
+        cat.save("training", existing)
+    return changes
 
 
 def ensure_instructors(cat: Catalog, people: list[dict]) -> list[str]:

@@ -1,0 +1,86 @@
+id: geostationary-remote-sensing-trace-gases-air-quality-applications-north-america
+title: Geostationary Remote Sensing of Trace Gases for Air Quality Applications in North America
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/geostationary-remote-sensing-trace-gases-air-quality-applications-north-america
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2026-01-20'
+end_date: '2026-01-22'
+published: '2025-12-02'
+last_updated: '2026-06-03'
+summary: This training will provide an overview of TEMPO capabilities and available trace gas data products,
+  and illustrate how TEMPO data can be visualized.
+description: 'The Tropospheric Emissions: Monitoring of POllution (TEMPO) mission is the first space-based
+  instrument to continuously measure daytime air quality over North America, from the Atlantic Ocean to
+  the Pacific and from Central Canada to Mexico City. These data are essential for understanding diurnal
+  changes in air quality and monitoring real-time movement of pollutant plumes, such as wildfire smoke
+  and urban emissions. This training, led by NASA''s Applied Remote Sensing Training Program (ARSET),
+  will provide an overview of TEMPO capabilities and available trace gas data products, and illustrate
+  how TEMPO data can be visualized using NASA Worldview online. These capabilities will be demonstrated
+  through hands-on exercises where participants will look at TEMPO data events and learn how to interpret
+  TEMPO observations to better understand the scope and potential air quality impact of these types of
+  hazards.'
+objectives:
+- Describe the basic characteristics of TEMPO and its benefits and limitations compared to other air-quality-relevant
+  missions and instruments
+- Identify available trace gas data products from TEMPO and their associated characteristics
+- Visualize hourly TEMPO trace gas data products using NASA Worldview for current and historical events
+- Evaluate TEMPO trace gas products in Worldview to anticipate short-term air quality risks, such as high
+  concentrations of ozone precursors
+- Distinguish uses for TEMPO trace gas data products given cloud and solar zenith angle thresholds
+- Determine the spatial patterns, temporal trends, and likely sources of trace gases related to wildfire
+  smoke and urban area air pollution events using TEMPO data via Worldview
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- health-air-quality
+- wildland-fires
+satellites:
+- tempo
+tools:
+- worldview
+sessions:
+- part: 1
+  title: North American Geostationary Trace Gas Data Products for Air Quality
+  agenda:
+  - About ARSET
+  - Training Overview
+  - Part 1 Introduction
+  - Overview of the TEMPO Mission
+  - TEMPO Trace Gas Data Products
+  - TEMPO Data Walkthrough in Worldview
+  - Part 1 Summary
+  - Q&A Session
+  videos:
+  - youtube: 3zlqrftGU7c
+    title: 'NASA ARSET: North American Geostationary Trace Gas Data Products for Air Quality, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-01/arset-2026-tempo-part1.pdf
+- part: 2
+  title: Case Studies in Trace Gas Monitoring with North American Geostationary Sensors
+  agenda:
+  - Part 2 Introduction
+  - 'Case 1: Colorado Front Range Fires'
+  - Case 1 Exercise in Worldview
+  - 'Case 2: Urban Air Quality Levels and Sources'
+  - Case 2 Exercise in Worldview
+  - Training Summary
+  - Q&A Session
+  videos:
+  - youtube: v-g1-gua5jg
+    title: 'NASA ARSET: Case Studies in Trace Gas Monitoring with North American Geostationary Sensors,
+      Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-01/arset-2026-tempo-part2.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-04/arset-2026-tempo-homework.pdf

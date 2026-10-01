@@ -1,0 +1,144 @@
+id: nasa-atmospheric-composition-ground-networks-supporting-air-quality-climate
+title: NASA Atmospheric Composition Ground Networks Supporting Air Quality and Climate Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/nasa-atmospheric-composition-ground-networks-supporting-air-quality-climate
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2024-08-08'
+end_date: '2024-08-22'
+published: '2024-08-08'
+last_updated: '2026-01-08'
+summary: This ARSET training provides an overview of aerosol and trace gas measurements using active and
+  passive techniques for ground based remote sensing.
+description: 'In this five-part, online, intermediate-level training, multiple NASA networks provide training
+  on their atmospheric composition ground networks. These networks provide data relevant to aerosol and
+  trace gas column concentrations and vertical structure, supporting applications in air quality and climate.
+  Surface networks from NASA and other international contributions form the backbone of long-term atmospheric
+  composition observations globally and provide continuity and validation across typically shorter satellite
+  mission lifetimes.
+
+
+  This online training provides a basic understanding of aerosol and trace gas measurements using both
+  active and passive techniques for ground based remote sensing. It also teaches users how to select,
+  access, and incorporate relevant data from these ground networks into their work. Finally, it demonstrates
+  an application comparing ground-based and satellite remote sensing products. The training includes lectures,
+  hands-on exercises, and a homework assignment.
+
+
+  [Optional]: To follow along with the demonstrations for this training, please review optional prerequisites
+  listed under each training part below. Please also register for an Earthdata account.'
+objectives:
+- Identify the basic characteristics, capabilities, and limitations of the NASA instruments used for ground-based
+  active and passive remote sensing of aerosols, ozone, and NO2.
+- Recognize how the ground networks presented in the training sustain global long-term observations, support
+  air quality and climate applications, and complement satellite observations.
+- Access relevant atmospheric composition data from appropriate NASA ground networks for given locations
+  and application purposes.
+- Compare and jointly analyze specific ground-based atmospheric composition data products with relevant
+  satellite remote sensing data (e.g., satellite aerosol data products) for a given location and time.
+prerequisites:
+- inside-look-how-nasa-measures-air-pollution
+applications:
+- climate-resilience
+- health-air-quality
+sessions:
+- part: 1
+  title: Introduction to the Aerosol Robotic Network (AERONET)
+  agenda:
+  - Identify the basic characteristics of the AERONET instruments used by NASA for ground-based passive
+    remote sensing of aerosols.
+  - Recognize how the AERONET network sustains global long-term observations, supports air quality and
+    climate applications, and complements satellite observations.
+  videos:
+  - youtube: x0Gg8COznJ8
+    title: 'NASA ARSET: Introduction to the Aerosol Robotic Network (AERONET), Part 1/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-GroundNetworks2024-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-GroundNetworks2024-part1-qa.pdf
+- part: 2
+  title: Hands-On Analysis of AERONET Data
+  agenda:
+  - Access relevant AERONET data for given locations and application purposes.
+  videos:
+  - youtube: wSCFtOjQw0o
+    title: 'NASA ARSET: Hands-On Analysis of AERONET Data, Part 2/5'
+    channel: NASA Video
+  materials:
+  - type: notebook
+    title: Google Colab
+    url: https://colab.research.google.com
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-GroundNetworks2024-part2-slides.pdf
+  - type: notebook
+    title: Part 2 Demonstration Github
+    url: https://github.com/pawanpgupta/AERONET/tree/Python
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-GroundNetworks2024-part2-qa.pdf
+- part: 3
+  title: Introduction to the Pandora Instrument and the Pandonia Global Network
+  agenda:
+  - Identify the basic characteristics of the Pandora instruments used by NASA for ground-based passive
+    remote sensing of trace gases.
+  - Recognize how the Pandonia Global Network sustains global long-term observations, supports air quality
+    and climate applications, and complements satellite observations.
+  - Access relevant Pandora and Pandonia Global Network data for a given location and application purpose.
+  videos:
+  - youtube: qeMZa6BiQ2g
+    title: 'NASA ARSET: Introduction to the Pandora Instrument and the Pandonia Global Network, Part 3/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-GroundNetworks2024-part3-slides.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-GroundNetworks2024-part3-qa.pdf
+- part: 4
+  title: Introduction to the Tropospheric Ozone LiDAR Network (TOLNet)
+  agenda:
+  - Identify the basic characteristics of the TOLNet instruments used by NASA for ground-based active
+    remote sensing of tropospheric ozone.
+  - Recognize how TOLNet supports air quality and climate applications and complements satellite observations.
+  - Access relevant TOLNet data for a given location and application purpose.
+  videos:
+  - youtube: zS3T-4Pnde8
+    title: 'NASA ARSET: Introduction to the Tropospheric Ozone LiDAR Network (TOLNet), Part 4/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-GroundNetworks2024-part4-slides.pdf
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-GroundNetworks2024-part4-qa.pdf
+- part: 5
+  title: Introduction to the Micro-Pulse LiDAR Network (MPLNET)
+  agenda:
+  - Identify the basic characteristics of the MPLNET instruments used by NASA for ground-based active
+    remote sensing of aerosols, clouds, and the planetary boundary layer.
+  - Recognize how MPLNET sustains global long-term observations, supports air quality and climate applications,
+    and complements satellite observations.
+  - Access relevant MPLNET data for a given location and application purpose.
+  videos:
+  - youtube: 3qfXlMonG0s
+    title: 'NASA ARSET: Introduction to the Micro-Pulse LiDAR Network (MPLNET), Part 5/5'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 5 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-GroundNetworks2024-part5-slides.pdf
+  - type: transcript
+    title: Part 5 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-GroundNetworks2024-part5-qa.pdf
+  - type: homework
+    title: Homework (Due September 5th 2024)
+    url: https://docs.google.com/forms/d/e/1FAIpQLScRI0bpojxJYVfmEgEJXvvEIVQK24sCQyVUH6yxHIHIWBCtoA/viewform?usp=sf_link

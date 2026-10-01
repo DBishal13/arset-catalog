@@ -1,0 +1,31 @@
+id: nasa-arset-national-association-conservation-districts-workshop-series
+title: NASA ARSET National Association of Conservation Districts Workshop Series
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/nasa-arset-national-association-conservation-districts-workshop-series
+level: introductory
+format: in-person
+languages:
+- en
+start_date: '2026-07-19'
+end_date: '2026-07-20'
+published: '2026-07-14'
+last_updated: '2026-07-17'
+summary: These introductory, in-person ARSET workshops explore Earth observation data and web tools for
+  agriculture and conservation district monitoring.
+description: Curious about how satellite data is transforming agriculture? Join NASA's Applied Remote
+  Sensing Training Program (ARSET) for a workshop on Earth observations for agricultural applications.
+  This training is open to everyone, regardless of your background; no prior experience is required. Whether
+  you’re a professional or completely new to remote sensing, we encourage you to attend.
+objectives:
+- Recognize the different agricultural applications of NASA satellites and sensors;
+- Access NASA Earth observation data products through Worldview and explore the data layers;
+- Download data products through Earthdata search and AppEEARS;
+- Identify data products and web tools related to regional and conservation district needs for rangeland
+  management, vegetation health, and water quality and quantity monitoring; and
+- Calculate and analyze vegetation indices within GIS software using analysis ready optical imagery.
+applications:
+- agriculture
+tools:
+- appeears
+- earthdata-search
+- worldview

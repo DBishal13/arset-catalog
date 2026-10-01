@@ -60,6 +60,39 @@ def test_sessions(record):
     assert "Q&A Session" in part2["agenda"]
 
 
+OLD_FIXTURE = Path(__file__).parent / "fixtures" / "training_geostationary_aq_2022.html"
+OLD_URL = "https://www.earthdata.nasa.gov/learn/trainings/accessing-analyzing-air-quality-data-from-geostationary-satellites"
+
+
+def test_older_page_layout():
+    """Pre-2024 pages list materials and instructors under h4 headings inside each part."""
+    r = scrape.parse_training(OLD_FIXTURE.read_text(encoding="utf-8"), OLD_URL)
+    parts = r["sessions"]
+    assert [s["part"] for s in parts] == [1, 2, 3]
+    assert parts[0]["date"] == "2022-10-11"
+    assert [(m["type"], m["title"]) for m in parts[0]["materials"]] == [
+        ("slides", "Part 1 Presentation Slides"),
+        ("transcript", "Part 1 Q&A Transcript"),
+        ("slides", "Part 1 Presentation Slides (TEMPO)"),
+    ]
+    assert any(m["title"] == "GEMS Data" for m in parts[2]["materials"])
+    assert all("Pawan Gupta" not in a for s in parts for a in s.get("agenda", []))
+    people = {p["name"]: p for p in r["_instructors"]}
+    assert {"Pawan Gupta", "Melanie Follette-Cook", "Sarah Strode", "Aaron Naeger", "Jhoon Kim"} <= set(people)
+    assert people["Aaron Naeger"]["title"] == "Guest Instructor"
+    assert people["Sujung Go"]["affiliation"] == "UMBC/NASA GSFC"
+
+
+@pytest.mark.parametrize("text, names", [
+    ("Pawan Gupta, Melanie Follette-Cook, and Sarah Strode", ["Pawan Gupta", "Melanie Follette-Cook", "Sarah Strode"]),
+    ("Sujung Go (UMBC/NASA GSFC), and Jhoon Kim", ["Sujung Go", "Jhoon Kim"]),
+    ("Amita Mehta and Sean McCartney", ["Amita Mehta", "Sean McCartney"]),
+    ("Materials will be posted after the session.", []),
+])
+def test_people_from_text(text, names):
+    assert [p["name"] for p in scrape.people_from_text(text, "ARSET Instructor")] == names
+
+
 def test_instructors(record):
     names = [p["name"] for p in record["_instructors"]]
     assert names == ["Erika Podest", "Nick Parazoo", "Jackie Ryan"]

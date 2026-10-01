@@ -1,0 +1,56 @@
+id: qa-session-radar-remote-sensing
+title: A Q&A Session on Radar Remote Sensing
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/qa-session-radar-remote-sensing
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2019-07-17'
+end_date: '2019-07-17'
+published: '2019-07-17'
+last_updated: '2026-01-29'
+summary: This ARSET training involves a Q&A on using synthetic aperture radar (SAR) data.
+description: 'In recent years, the Earth Observations community has seen an increase in the availability
+  and application of synthetic aperture radar (SAR) data for disasters, water, and land cover applications
+  such as deforestation, crops, flooding, and earthquakes.
+
+
+  Previous Applied Remote Sensing Training Program (ARSET) online trainings focused on building the skills
+  needed to acquire and understand SAR data, including polarimetric and interferometric SAR (PolSAR and
+  InSAR), as well as their potential applications. The demand for guidance using SAR is extensive. This
+  question and answer session provided participants with the opportunity to ask questions to a panel of
+  experts.
+
+
+  This Q&A-type training builds on ARSET''s previous webinars Introduction to Synthetic Aperture Radar
+  and Radar Remote Sensing for Land, Water, and Disasters Applications. The session is also designed to
+  prepare participants for future advanced SAR trainings.
+
+
+  This session was created in partnership with Franz Meyer, Chief Scientist, Alaska Satellite Facility
+  at the University of Alaska Fairbanks (UAF).'
+audience:
+- Remote sensing users from local, regional, state, federal, and international organizations interested
+  in using SAR for terrestrial applications such as inundation mapping, ecosystem monitoring, hazard response,
+  land cover land use change studies, or surface deformation.
+prerequisites:
+- introduction-synthetic-aperture-radar
+- radar-remote-sensing-land-water-disaster-applications
+applications:
+- agriculture
+- disasters
+- ecological-conservation
+sessions:
+- part: 1
+  title: Part 1
+  date: '2019-07-17'
+  videos:
+  - youtube: 6iN_-obEBJ0
+    title: 'NASA ARSET: A Q&A Session on Radar Remote Sensing'
+    channel: NASA Video
+  materials:
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/RadarQ&A.pdf

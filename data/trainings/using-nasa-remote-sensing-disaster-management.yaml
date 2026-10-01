@@ -1,0 +1,83 @@
+id: using-nasa-remote-sensing-disaster-management
+title: Using NASA Remote Sensing for Disaster Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/using-nasa-remote-sensing-disaster-management
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2016-06-09'
+end_date: '2016-06-30'
+published: '2016-06-09'
+last_updated: '2026-03-02'
+summary: This ARSET training provides an overview of NASA remote sensing data and applications for disaster
+  management.
+description: NASA remote sensing and modeling resources are useful for managing a variety of disasters
+  – including earthquakes, tsunamis, volcanoes, floods, landslides, wildfires, and oil spills – and particularly
+  in regions with very little in situ data. This introductory course led by NASA's Applied Remote Sensing
+  Training program (ARSET) provides an overview of the agency's remote sensing data and applications for
+  disaster management.
+audience:
+- This training is designed for national and international entities involved in disaster and water resources
+  management, decision support activities, and relief and humanitarian activities.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+- wildland-fires
+sessions:
+- part: 1
+  title: Monitoring Volcanoes, Earthquakes, and Tsunamis Using NASA Remote Sensing and Models
+  date: '2016-06-09'
+  videos:
+  - youtube: YahCfZZyNDs
+    title: 'NASA ARSET:  Monitoring Volcanoes, Earthquakes, and Tsunamis, Session 1/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/disastermgmtpart1.pdf?VersionId=..vV7dbpFF_dMm5ba3ryr.oNd2VDeIjn
+- part: 2
+  title: Overview of Remote Sensing for Wildfire Applications
+  videos:
+  - youtube: TL5ER46ebnk
+    title: 'NASA ARSET:  Overview of Remote Sensing for Wildfire Applications, Session 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/disastermgmtpart2.pdf?VersionId=p1RZU3tfFMpA_FqwRBu5DB6wio94DxZL
+- part: 3
+  title: Observing Oil Spills Using Remote Sensing Measurements
+  date: '2016-06-23'
+  videos:
+  - youtube: PWna23H0oa8
+    title: 'NASA ARSET: Observing Oil Spills Using Remote Sensing Measurements, Session 3/4'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: SAR
+    url: https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/sar
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/disastermgmtpart3.pdf
+  - type: other
+    title: 'Part 3 Assignment: Earthquakes, Tsunamis, Volcanoes, and Wildfire Disasters'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/disastermgmtassignment1.pdf?VersionId=TTRd_T3QGpV8t2ljgT_Jd07_UpUQN53L
+- part: 4
+  title: Monitoring Storms, Floods, and Landslides Using Remote Sensing Observations
+  date: '2016-06-23'
+  videos:
+  - youtube: nARwVopZB1I
+    title: 'NASA ARSET: Monitoring Storms, Floods, and Landslides, Session 4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: 'Part 4 Presentation Slides: Landslides'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/disastermgmtpart4a.pdf?VersionId=mvJfZVq8FyDO4UG4sM5D0jTRtLOD6.33
+  - type: slides
+    title: 'Part 4 Presentation Slides: Storms and Floods'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/disastermgmtpart4b.pdf?VersionId=1GjmtEv7T1uyGoac8HHiABlmm.ggLLLH
+  - type: slides
+    title: 'Part 4 Assignment: Oil Spills, Storms, Floods, and Landslide Disasters'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/disastermgmtassignment2.pdf?VersionId=UrMYDB5x7fBOJD.09W4HteMV9_YbvaYs

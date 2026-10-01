@@ -1,0 +1,84 @@
+id: sea-level-change-tools-planning-decision-support
+title: Sea Level Change Tools for Planning and Decision Support
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/sea-level-change-tools-planning-decision-support
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2025-06-10'
+end_date: '2025-06-17'
+published: '2025-06-10'
+last_updated: '2026-06-11'
+summary: This ARSET training focuses on NASA products available to assess sea level change.
+description: 'Global sea level has been rising at a rate of 3 mm/yr, and this rate is projected to continue
+  to increase sea level over the next century. Scientists use observations from the ground, air, and space,
+  along with theoretical models and scenarios of future emissions, to monitor and study past, present,
+  and future sea level rise. This information is a fundamental basis for mitigation, adaptation, and risk
+  management planning in all parts of the world and across many elements of society and ecosystems.
+
+
+  This two-part introductory training series hosted by NASA''s Applied Remote Sensing Training program
+  (ARSET) focuses on NASA products and tools available to assess historical sea level rise, access and
+  understand projections of sea level, and investigate impacts. Participants are exposed to the causes
+  behind regional and global sea level changes and explore climate and analysis tools to access, visualize,
+  and perform statistical analysis using NASA data.'
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- disasters
+- ecological-conservation
+instructors:
+- sean-mccartney
+- angelica-rodriguez
+- denis-felikson
+- phil-thompson
+- robert-kopp
+sessions:
+- part: 1
+  title: Overview of Sea Level Change – Regional to Global
+  agenda:
+  - Sea level change overview
+  - Processes contributing to sea level Change
+  - Impacts of sea level change
+  - NASA’s unique capabilities in both remote sensing and modeling
+  - Summary and Q&A
+  videos:
+  - youtube: HFq_a4VEHfo
+    title: 'NASA ARSET: Overview of Sea Level Change – Regional to Global, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Sea Level Explorer
+    url: https://earth.gov/sealevel
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-sealevelchange-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-06/SLC_Part1_QA.pdf
+- part: 2
+  title: Assessment Tools for Sea Level Change
+  agenda:
+  - Summary and Q&A
+  videos:
+  - youtube: LJXFd3fthlA
+    title: 'NASA ARSET: Assessment Tools for Sea Level Change, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Sixth Assessment Report (AR6) Projections Tool
+    url: https://sealevel.nasa.gov/data_tools/17/
+  - type: other
+    title: Pacific Islands Flooding Analysis Tool
+    url: https://sealevel.nasa.gov/data_tools/19/
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-sealevelchange-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-06/SLC_Part2_QA.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/ARSET-sealevelchange-homework.pdf

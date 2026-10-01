@@ -1,0 +1,70 @@
+id: lidar-profiling-satellite-observations-air-quality-applications
+title: Lidar Profiling Satellite Observations for Air Quality Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/lidar-profiling-satellite-observations-air-quality-applications
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2025-06-04'
+end_date: '2025-06-11'
+published: '2025-06-04'
+last_updated: '2026-01-08'
+summary: This ARSET training introduces users to lidar remote sensing, highlighting strengths, limitations
+  and differences compared to passive remote sensors.
+description: 'Active remote sensing observations, like those from light detection and ranging (lidar),
+  can provide information on the vertical structure of atmospheric trace gases, aerosols, and clouds,
+  complementing passive remote sensors. Lidar transmits laser pulses and measures laser light scattered
+  back to determine the altitude of gases, aerosols, and clouds with high accuracy.
+
+
+  This training introduces data users to the fundamentals of lidar remote sensing, highlighting strengths,
+  limitations and differences when compared to passive remote sensors. Case studies will be used to demonstrate
+  how to interpret lidar imagery from a variety of past and current spaceborne lidars, including the Cloud-Aerosol
+  Lidar with Orthogonal Polarization (CALIOP), the Cloud-Aerosol Transport System (CATS), the Ice, Cloud,
+  and Elevation Satellite, version 2 (ICESat-2), and the Earth Cloud Aerosol Radiation Experiment (EarthCARE)
+  and provide instruction on how to acquire lidar data for analysis by the user.'
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- health-air-quality
+satellites:
+- icesat-2
+sessions:
+- part: 1
+  title: Introduction to Lidar Measurements and Missions
+  agenda:
+  - Use of Lidar in Atmospheric Sciences
+  - How do lidars work?
+  - Past and Existing Lidar Missions
+  videos:
+  - youtube: vJV50ThHc-U
+    title: 'NASA ARSET: LiDAR Profiling Satellite Observations for Air Quality Applications, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/arset-lidar-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-06/Q&APart1LidarProfiling.pdf
+- part: 2
+  title: Observations to Feature Type – Theory and Real World Examples
+  agenda:
+  - Observations to Feature Type – Theory
+  - Observations to Feature Type – Real World Example
+  - Finding and Using Lidar Data
+  videos:
+  - youtube: -6YsozJoNLk
+    title: 'NASA ARSET: LiDAR Profiling Satellite Observations for Air Quality Applications, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-06/ActiveRemoteSensingAQ_Part%202.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-06/Q&A_Part2_Lidar.pdf
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfUJgdM57o-MVRBg1X2V8aWRI4toNnadD6aB7_zv-PgpZzlig/viewform

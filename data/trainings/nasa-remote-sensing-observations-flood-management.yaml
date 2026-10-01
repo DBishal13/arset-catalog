@@ -1,0 +1,86 @@
+id: nasa-remote-sensing-observations-flood-management
+title: NASA Remote Sensing Observations for Flood Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/nasa-remote-sensing-observations-flood-management
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2015-06-08'
+end_date: '2015-06-28'
+published: '2015-06-08'
+last_updated: '2026-03-02'
+summary: This ARSET training introduces remote sensing resources available for monitoring extreme precipitation
+  and flooding as well as flood mapping tools.
+description: This training hosted by NASA's Applied Remote Sensing Training program (ARSET) introduces
+  remote sensing resources available for monitoring extreme precipitation and flooding as well as flood
+  mapping tools for flood management and planning.
+audience:
+- This training is for individuals in local, regional, state, federal, and international organizations,
+  non-governmental organizations, and other applied professionals interested in flood management.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+- water-resources
+satellites:
+- aqua
+- gpm
+- terra
+sessions:
+- part: 1
+  title: NASA Remote Sensing Data for Flood Management and an Intro to Flood Monitoring Tools
+  date: '2015-06-08'
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Flood_Week1_8June2015_Final.pdf?VersionId=j0yEUd4hNSqfUkmbI_sskH2uxZXK0N..
+  - type: other
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Flood_Week1_8June2015_span.pdf?VersionId=KSEOIBDMJ4.sZVd0aYCqiYVhon8_kJ2S
+- part: 2
+  title: Overview of TRMM-based Flood Monitoring Tools
+  date: '2015-06-15'
+  materials:
+  - type: other
+    title: GPM
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/gpm
+  - type: other
+    title: TRMM
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/trmm
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Flood_Week2_15June2015_Final.pdf?VersionId=3pyZEtSoN_Mr3wPADPzXJrnpaOAIjVvY
+  - type: exercise
+    title: Part 2 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Flood_Monitoribg_exercise.pdf?VersionId=_CTg341MDJH3RwFa4coGZSlAjyz_UMa2
+  - type: other
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Flood_Week2_15June2015_Final.pdf
+- part: 3
+  title: Regional Flood Management Over Africa and Demonstration of MODIS-based Inundation Mapping
+  date: '2015-06-22'
+  materials:
+  - type: other
+    title: MODIS
+    url: https://www.earthdata.nasa.gov/data/instruments/modis
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Flood_Week3_22June2015.pdf?VersionId=TG4HmLBHGymryVEja.JqAAtpha3BjQTw
+  - type: other
+    title: Diapositivas de la Presentación de Parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Flood_Week3_22June2015.Spanish.pdf?VersionId=3wgLq.jyCO39_ypO9MbP6NS8lTInRSxF
+- part: 4
+  title: Floodplain Management of the Mekong River, Demonstration of Select Flooding Cases Using Multiple
+    Web Tools and GIS
+  date: '2015-06-29'
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Flood_Week4_29June2015_2.pdf?VersionId=TPZ8ItmVpNkNhNY8lHsCiIhoNXeeqLo5
+  - type: homework
+    title: Homework
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/hw(English)%20(1).pdf?VersionId=uzIn_1kZAC4SoGaAeCQj5XOJOV0fN4Z3
+  - type: other
+    title: Tarea
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/hw(Spanish).pdf?VersionId=XQt2srtxW022wEG7lISiCplBfzc.NIZj

@@ -1,0 +1,131 @@
+id: assessing-extreme-weather-statistics-using-nasa-earth-exchange-global-daily
+title: Assessing Extreme Weather Statistics using NASA Earth eXchange Global Daily Downscaled Projections
+  (NEX-GDDP-CMIP6)
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/assessing-extreme-weather-statistics-using-nasa-earth-exchange-global-daily
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2025-09-10'
+end_date: '2025-09-17'
+published: '2025-09-10'
+last_updated: '2026-06-05'
+summary: This ARSET training focuses on assessing projected statistics of extreme heat and cold wave events
+  and extreme precipitation excess and deficit events.
+description: 'According to the World Meteorological Organization, the frequency and intensity of extreme
+  weather events, including heat and cold waves, heavy precipitation and droughts, and wildfires, have
+  increased fivefold in the last 50 years. While current Earth observations from NASA allow monitoring
+  of these extreme events for developing regional adaptation and mitigation strategies, it is crucial
+  to assess how these events will unfold over the coming decades.
+
+
+  The typical spatial resolution of current Global Climate Models (GCMs) from various international institutions
+  is larger than 1x1 degree latitude-longitude. For regional applications, higher spatial resolution GCM
+  data is required. NASA Earth eXchange Global Daily Downscaled Projections (NEX-GDDP-CMIP6) provide global,
+  high resolution, bias-corrected projections of daily minimum and maximum temperatures, precipitation,
+  humidity, windspeed, and surface radiation from the Coupled Model Intercomparison Project Phase 6 (CMIP6)
+  GCMs at 0.25x0.25 degree resolution.
+
+
+  This two-part training, offered by NASA''s Applied Remote Sensing Training Program (ARSET), focuses
+  on evaluating projected statistics of extreme heat and cold wave events, and extreme precipitation excess
+  and deficit events, from NEX-GDDP-CMIP6 at regional scale during the 21st century to assess regional
+  risk.'
+objectives:
+- Identify available daily, high-resolution geophysical parameters from NASA Earth eXchange – Global Daily
+  Downscaled Projections – Coupled Model Intercomparison Project Phase 6 (NEX-GDDP-CMIP6) to assess extreme
+  weather statistics at a regional scale.
+- Access daily temperature and precipitation data for a region of interest to calculate and analyze weather
+  statistics using NEX-GDDP-CMIP6 data in Google Earth Engine.
+- Visualize maps of extreme weather statistics for a region of interest using NEX-GDDP Dashboard.
+- Customize provided Python/Jupyter notebook scripts to calculate extreme weather statistics for a region
+  of interest.
+- Assess projected statistics of extreme heat and cold wave events, and excess and deficit precipitation
+  events from NEX-GDDP-CMIP6 at regional scale during the 21st century to evaluate risk for a region of
+  interest.
+prerequisites:
+- fundamentals-remote-sensing-0
+- drought-monitoring-prediction-projection-using-nasa-earth-system-data
+- selecting-climate-change-projection-sets-mitigation-adaptation-risk-management
+applications:
+- climate-resilience
+- drought
+- water-resources
+- wildland-fires
+tools:
+- google-earth-engine
+- jupyter
+- python
+instructors:
+- amita-mehta
+- bridget-thrasher
+- sean-mccartney
+- alexander-goodman
+- aashish-panta
+sessions:
+- part: 1
+  title: NEX-GDDP-CMIP6 Overview, Data Access and Application using Google Earth Engine
+  date: '2025-09-10'
+  agenda:
+  - About ARSET
+  - Training Overview
+  - Part 1 introduction
+  - Overview of NEX-GDDP-CMIP6 Data
+  - Online Access and Analysis using Google Earth Engine
+  - Hands-on Exercise
+  - Part 1 Summary
+  - Q&A session
+  videos:
+  - youtube: SxSA76J9NvI
+    title: 'NASA ARSET: NEX-GDDP-CMIP6 Overview, Data Access and Application using Google Earth Engine
+      Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 presentation slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-ExtremeEvents2025-part1-slides.pdf
+  - type: other
+    title: Annual mean temperature and precipitation maps and time series
+    url: https://code.earthengine.google.com/29fc8d6adb7a931ce107426c4acc826b
+  - type: other
+    title: Extreme cold events during winter seasons
+    url: https://code.earthengine.google.com/12de7073eca954619cacfe7bac3fe7f8
+  - type: other
+    title: Extreme hot events during summer seasons
+    url: https://code.earthengine.google.com/273a83d657eb8df7bb131d27d7ae768c
+  - type: other
+    title: Extreme dry and wet events during summer seasons
+    url: https://code.earthengine.google.com/111119a476cf183ceb5910374a588e8e
+  - type: qa
+    title: Part 1 Q&A document
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-ExtremeEvents2025-part1-qa.pdf?VersionId=kN0QPKBUMr.05mQ4G9y1H.tFe9Xznpb7
+- part: 2
+  title: Extreme Event Statistics during 21st Century using NEX-GDDP Data
+  date: '2025-09-17'
+  agenda:
+  - Training Overview
+  - Part 2 introduction
+  - GDDP Data Access for a Region of Interest using Python/Jupyter Notebook Code
+  - Calculations of Extreme Events Statistics
+  - Hands-on Exercise
+  - Part 2 Summary & Training Summary
+  - Q&A session
+  videos:
+  - youtube: L9UTzIeIhKs
+    title: 'NASA ARSET: Extreme Event Statistics during 21st Century using NEX-GDDP Data, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 presentation slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-ExtremeEvents2025-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/ARSET-ExtremeEvents2025-part2-qa.pdf?VersionId=DDbgIA3SriOenlkA6Aog_7VwAurmLxGP
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/ARSET-ExtremeEvents2025-HomeworkPDF.pdf
+videos:
+- youtube: VWAHDPSQosw
+  title: 'NASA ARSET: NEX-GDDP-CMIP6 Overview, Data Access and Application using Google Earth Engine Part
+    1/2'

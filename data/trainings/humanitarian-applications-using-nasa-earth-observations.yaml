@@ -1,0 +1,131 @@
+id: humanitarian-applications-using-nasa-earth-observations
+title: Humanitarian Applications Using NASA Earth Observations
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/humanitarian-applications-using-nasa-earth-observations
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2022-06-14'
+end_date: '2022-06-23'
+published: '2022-06-14'
+last_updated: '2026-07-16'
+summary: This ARSET training focuses on using NASA data products for monitoring human settlements and
+  landscapes during armed conflict and forced displacement.
+description: 'Conflict, war, and forced displacement affect millions of people each year and have immediate
+  and long-term consequences for human health and development, in addition to causing the degradation
+  of natural and managed landscapes. Analysis with NASA satellite imagery can help target humanitarian
+  response and relief by offering a timely understanding of region-specific environmental conditions and
+  change, and capturing contextual information over broad geographic regions and time spans.
+
+
+  This Applied Remote Sensing Training program (ARSET) training focuses on using NASA data products for
+  monitoring human settlements and landscapes during armed conflict and forced displacement. It is the
+  first training dedicated to humanitarian applications of NASA satellite imagery with topics including
+  monitoring urban damage, mapping refugee settlement dynamics, and gauging climate hazards at refugee
+  settlements. For each topic, we discuss relevant satellite sensors and methodologies, data access and
+  analysis using Google Earth Engine, as well as assumptions, opportunities, and limitations of various
+  remote sensing-based approaches in humanitarian applications.
+
+
+  This training supports quantitative and visual understanding of short- and long-term conflict effects
+  that are evident in satellite imagery, complements analysis of georeferenced humanitarian data, and
+  builds on previous ARSET trainings associated with cropland monitoring, human settlement detection,
+  disaster risk assessment, nighttime lights, and Google Earth Engine.'
+objectives:
+- Conceptualize landscape- and settlement-level monitoring with satellite remote sensing
+- Select a range of satellite image data (i.e., optical, radar, nighttime lights, etc.) for humanitarian
+  applications
+- Recognize the value of time series analysis for monitoring acute and long-term changes in humanitarian
+  contexts
+- Identify opportunities and limitations of using satellite data in humanitarian applications
+- Integrate satellite-derived humanitarian data with other open-access geospatial products on population,
+  building footprints, infrastructure, etc.
+audience:
+- This training is primarily intended for stakeholders, academics, researchers, non-governmental organizations
+  (NGOs), international agencies, and government ministries involved in humanitarian response and decision
+  support activities.
+prerequisites:
+- fundamentals-remote-sensing-0
+- introduction-synthetic-aperture-radar
+applications:
+- agriculture
+- climate-resilience
+- disasters
+- ecological-conservation
+tools:
+- google-earth-engine
+sessions:
+- part: 1
+  title: Monitoring Urban Damage With Multi-Sensor Satellite Imagery
+  agenda:
+  - Detect locations of urban change during armed conflict
+  - Understand different strengths and limitations of optical, radar, and nighttime lights data for monitoring
+    acute urban changes
+  - Leverage full time series of satellite data for long-term analysis
+  videos:
+  - youtube: R5Pbrd9a6gk
+    title: 'NASA ARSET: Monitoring Urban Damage with Multi-Sensor Satellite Imagery, Part 1/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Humanitarian2022-part1-slides.pdf?VersionId=98ybyCgHUuGMy.L6USvr3BI2zeMtD87E
+  - type: transcript
+    title: Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Humanitarian2022-part1-qa.pdf?VersionId=VMYjHyR0ot7VsQ7zkb1LANuOzG8QpoWF
+- part: 2
+  title: Mapping Refugee Settlement Growth and Population Change
+  agenda:
+  - Examine built-up land cover changes associated with refugee settlement establishment
+  - Map rapid expansion of refugee settlements using time series data
+  - Analyze satellite data-informed demographic products and compare to official population estimates
+  videos:
+  - youtube: 3yEelQADHxc
+    title: 'NASA ARSET: Mapping Refugee Settlement Growth and Population Change, Part 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Humanitarian2022-part2-slides.pdf?VersionId=sEkyKXc3a9u30iRqq5qvMII0OaIiqGkc
+  - type: transcript
+    title: Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Humanitarian2022-part2-qa.pdf?VersionId=UmVtJx9c.UC96_ApfignkCmG1oPchk9f
+- part: 3
+  title: Detecting Agricultural and Vegetation Changes In and Surrounding Refugee Settlements
+  agenda:
+  - Map vegetation conversions within and surrounding refugee settlements
+  - Visualize and measure changes in agricultural conditions over time
+  - Measure changes in land degradation metrics before and following settlement establishment
+  videos:
+  - youtube: 3UPjH_tSJ_M
+    title: 'NASA ARSET: Detecting Agricultural & Vegetation Changes Surrounding Refugee Settlements, Part
+      3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Humanitarian2022-part3-slides.pdf?VersionId=0YfJfs6RhsSpKL8MB20jAwy9.ufOmssO
+  - type: transcript
+    title: Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Humanitarian2022-part3-qa.pdf?VersionId=Og4umo7g.10bYaPed4bAzgyqBXR3vFIq
+- part: 4
+  title: Assessing Climate Hazards at Refugee Camps
+  agenda:
+  - Use multi-criteria hazard analysis to estimate climate hazard potential across multiple sites
+  - Evaluate how different satellite products influence climate hazard assessment
+  - Compare climate hazard profiles to known hazard events
+  videos:
+  - youtube: JxPZyXLsdTg
+    title: 'NASA ARSET: Assessing Climate Hazards at Refugee Camps, Part 4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Humanitarian2022-part4-slides.pdf?VersionId=zkRTuOwzb6T0wu12M4pnVaxgRYkOvoBc
+  - type: transcript
+    title: Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Humanitarian2022-part4-qa.pdf?VersionId=bcuT_Ma7jbtt7gbnzCrNRWcZm6dhe4eg
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-Humanitarian2022-HomeworkPDF.pdf

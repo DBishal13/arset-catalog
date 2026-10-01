@@ -1,0 +1,93 @@
+id: introduction-lightning-observations-applications
+title: Introduction to Lightning Observations and Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-lightning-observations-applications
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2024-03-26'
+end_date: '2024-04-02'
+published: '2024-03-26'
+last_updated: '2025-10-15'
+summary: This ARSET training focuses on global and regional lightning data products that can be used for
+  disaster risk preparedness.
+description: 'It is well-documented that there are approximately 24,000 worldwide fatalities from lightning
+  each year, with about 10 times more being injured from lightning (NIH-NCBI). In addition, lightning
+  strikes are one of the leading causes of wildfire ignition. During storms, lightning strikes on trees,
+  utility poles, and infrastructure, can damage power lines resulting in power outages. Lightning flashes
+  also generate electromagnetic fields (Sferics) that interfere with electrical devices on ground.
+
+
+  As the intensity and frequency of extreme weather events are likely to increase due to climate change
+  impacts, lightning activity will likely increase as well, causing more power outages, increased risks
+  of wildfire ignition, and increased numbers of injuries and fatalities. Therefore, information about
+  lightning activity is critical for better preparedness against these disasters. This three-part, introductory
+  training focuses on global and regional lightning data products that can be applied to disaster risk
+  preparedness.'
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- disasters
+- wildland-fires
+satellites:
+- goes-r-series
+instructors:
+- amita-mehta
+- dr-steven-goodman
+- dr-timothy-lang
+- dr-christopher-schultz
+sessions:
+- part: 1
+  title: Background and History of Lightning Measurements
+  agenda:
+  - Identify why and how lightning occurs
+  - Identify global patterns of lightning and the potential for resulting damage
+  - Recognize the history of lightning measurements at NASA
+  videos:
+  - youtube: 0RR37KuohEk
+    title: 'NASA ARSET: Background and History of Lightning Measurements, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Lightning2024-part1-slides.pdf?VersionId=rWmshfFy7ezJHL44AlXgpR84xv_1WnQX
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Lightning2024-part1-qa.pdf?VersionId=gVHyK4FkadPU7o7Hf.LYeSzFQaHN6TEu
+  - type: slides
+    title: Diapositivas de la Presentación de parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Lightning2024-part1-slides-esp.pdf?VersionId=507p3FSZI2Y5rq.hKbI9gED8yoGGjPyD
+- part: 2
+  title: Overview of Current Lightning Data Products from Remote Sensing and Ground-Based Measurements
+  agenda:
+  - Identify lightning data production methodologies for selected sensors
+  - Identify available lightning data products
+  videos:
+  - youtube: ke2gPRRdXZY
+    title: 'NASA ARSET: Lightning Data Products from Remote Sensing and Ground-Based Measurements, Part
+      2/3'
+    channel: NASA Video
+- part: 3
+  title: Overview of Geostationary Lightning Mapper (GLM) Lightning Data Access and Applications
+  agenda:
+  - Become familiar with Geostationary Lightning Mapper (GLM)
+  - Recognize the impact of lightning on disaster risks
+  videos:
+  - youtube: nm3EGcR-dC0
+    title: 'NASA ARSET: Introduction to Lightning Observations and Applications, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Lightning2024-part3-slides.pdf?VersionId=7cor2Fj96arZ0U9TyGb0r5tnusa8OHMP
+  - type: transcript
+    title: Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Lightning2024-part3-qa.pdf?VersionId=u_60ft_bUnaSvEOxSdMCKFMlgNRJTXgW
+  - type: slides
+    title: Diapositivas de la Presentación de parte 3
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-06/ARSET-Lightning2024-part3-slides-esp.pdf
+  - type: homework
+    title: Homework (Due April 17, 2024)
+    url: https://forms.gle/23q4tcavNrP2CUXL8

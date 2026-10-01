@@ -1,0 +1,104 @@
+id: remote-sensing-climate-sensitive-infectious-diseases
+title: Remote Sensing for Climate-Sensitive Infectious Diseases
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/remote-sensing-climate-sensitive-infectious-diseases
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2025-10-07'
+end_date: '2025-10-09'
+published: '2025-10-07'
+last_updated: '2026-06-03'
+summary: This ARSET training covers general approaches to apply satellite remote sensing data when studying
+  or forecasting climate-sensitive infectious diseases.
+description: 'Climate-sensitive vector-borne diseases such as malaria impact millions of people each year,
+  causing more than 700,000 deaths annually, according to the World Health Organization (WHO). Satellite
+  remote sensing data can provide valuable insights for monitoring the conditions which support disease
+  vectors.
+
+
+  In this training, participants learn the basic principles of how satellite remote sensing data can be
+  applied to track vector-borne disease outbreaks that are influenced by weather and climate and to provide
+  early warnings for potential outbreaks. Participants will learn about general approaches to apply satellite
+  remote sensing data when studying or forecasting climate-sensitive infectious diseases. These are illustrated
+  with a case study example in forecasting malaria.
+
+
+  Participants will also become familiar with some of the common, freely available NASA remote sensing
+  datasets used in these applications, where and how to access them, and how to decide which datasets
+  are fit for their purpose.'
+objectives:
+- Identify environmental variables and conditions that can be observed from space which are relevant to
+  climate-sensitive infectious disease outbreaks.
+- Identify the steps and tools needed to study climate-sensitive infectious disease outbreaks using remote
+  sensing data.
+- Recognize several remote sensing datasets commonly used to study and forecast climate sensitive infectious
+  diseases, along with their key attributes such as resolution, coverage, latency, and uncertainty.
+- Select appropriate remote sensing datasets for studying climate-sensitive infectious diseases based
+  on the disease characteristics, region of interest, and relevant environmental parameters.
+- Examine the benefits and challenges of using remote sensing data for studying climate-sensitive infectious
+  diseases through the case study of the EPIDEMIA system tracking and forecasting malaria in Ethiopia.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+instructors:
+- tatiana-loboda
+- michael-wimberly
+sessions:
+- part: 1
+  title: How Remote Sensing Can be Used to Study Climate-Sensitive Infectious Diseases
+  date: '2025-10-07'
+  agenda:
+  - Identify environmental variables and conditions that can be observed from space which are relevant
+    to climate-sensitive infectious disease outbreaks.
+  - Identify how satellite observations can improve the assessment and forecasting of climate-sensitive
+    infectious disease outbreaks.
+  - List the steps of a conceptual framework for incorporating remote sensing data into the study of climate-sensitive
+    infectious diseases.
+  - Recognize several remote sensing datasets commonly used to study and forecast climate sensitive infectious
+    diseases, along with their key attributes such as resolution, coverage, latency, and uncertainty.
+  - Select appropriate remote sensing datasets for studying climate-sensitive infectious diseases based
+    on the disease characteristics, region of interest, and relevant environmental parameters.
+  - Examine common benefits and challenges of using remote sensing data for studying climate-sensitive
+    infectious diseases.
+  videos:
+  - youtube: 1WAtjat365o
+    title: 'NASA ARSET: How Remote Sensing Can be Used to Study Climate-Sensitive Infectious Diseases
+      Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/InfectiousDiseases_Part1_Final_NJG.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/arset-2025-infectiousdiseases-part1-qa.pdf?VersionId=GPUFNwLuweAYt6SzBUjGt3hUZl6l0sBk
+- part: 2
+  title: Case Study in the Use of Remote Sensing to Study Climate-Sensitive Infectious Diseases
+  date: '2025-10-09'
+  agenda:
+  - Identify environmental variables and conditions relevant to malaria that can be observed from space.
+  - Recognize why the remote sensing datasets used in this case study were chosen, based on their key
+    attributes.
+  - Recognize the steps taken for accessing and preparing remote sensing data for use in this case study.
+  - Identify the steps used by the EPIDEMIA system for integrating remote sensing data.
+  - Examine the benefits and challenges of using remote sensing data for tracking and forecasting malaria
+    in Ethiopia, and how these were addressed through the case study.
+  - Examine the primary outcomes of the case study and ways its approach might be expanded in the future.
+  videos:
+  - youtube: OLLQXfaW3Cc
+    title: 'NASA ARSET: Case Study - Use of Remote Sensing for Climate-Sensitive Infectious Diseases Part
+      2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/InfectiousDiseases_Part2_Final_NJG.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-10/arset-2025-infectiousdiseases-part2-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/ARSET-ID2025-HomeworkPDF.pdf

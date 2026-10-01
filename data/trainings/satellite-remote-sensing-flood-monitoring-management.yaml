@@ -1,0 +1,37 @@
+id: satellite-remote-sensing-flood-monitoring-management
+title: Satellite Remote Sensing of Flood Monitoring and Management
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/satellite-remote-sensing-flood-monitoring-management
+level: advanced
+format: in-person
+languages:
+- en
+start_date: '2018-11-18'
+end_date: '2018-11-19'
+published: '2018-11-18'
+last_updated: '2026-02-27'
+summary: This ARSET training covers access and use of satellite imagery and data to inform flood-related
+  decisions.
+description: 'Monsoon rains can have an enormous impact in Southern Asia. While the rains can help agriculture,
+  it can also cause extreme flooding. Satellite data can augment decision support for flood warnings,
+  responses, relief, and mitigation activities. This two-day training led by NASA''s Applied Remote Sensing
+  Training Program (ARSET) covered access and use of satellite imagery and data to inform flood-related
+  decisions.
+
+
+  Attendees learned how to track and map flooding, assess affected areas, and integrate satellite data
+  into their own decision-making processes. This training was a pre-conference event for the International
+  Society for Photogrammetry and Remote Sensing (ISPRS) Technical Commission V Symposium on Education
+  & Outreach - Geospatial technology – Pixel to People.'
+objectives:
+- Monitor and map flooding
+- Identify affected areas and populations
+- Make informed, flood-related decisions based on satellite data and imagery.
+audience:
+- Water resources and disasters managers, emergency responders, and individuals from the energy utility,
+  transportation, and insurance sectors.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- agriculture
+- disasters

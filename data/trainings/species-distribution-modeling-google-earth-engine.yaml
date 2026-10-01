@@ -1,0 +1,112 @@
+id: species-distribution-modeling-google-earth-engine
+title: Species Distribution Modeling with Google Earth Engine
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/species-distribution-modeling-google-earth-engine
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2026-07-07'
+end_date: '2026-07-14'
+published: '2026-05-20'
+last_updated: '2026-08-07'
+summary: This ARSET training introduces key concepts in species distribution modeling and provides example
+  workflows in Google Earth Engine.
+description: 'Species distribution models (SDMs), sometimes referred to as ecological niche or habitat
+  suitability models, are a commonly used analytical technique to link known species locations with environmental
+  predictor variables and assess patterns of species occurrence and habitat suitability. SDMs have been
+  successfully used to model the distributions of various species, from butterflies to baleen whales,
+  with a goal of using associations with habitat variables — such as elevation, vegetation greenness,
+  or distance to human settlements — to map the potential distribution to a species across a landscape
+  or seascape.
+
+
+  To implement SDMs, we will fit models using Google Earth Engine (GEE), a cloud-based spatial analysis
+  platform that can simplify the process of accessing and analyzing huge quantities of remotely sensed
+  data.
+
+
+  This course begins by introducing key SDM concepts for participants working in ecology, conservation,
+  or wildlife biology. The course then provides a basic introduction to Google Earth Engine (GEE) and
+  JavaScript coding, before moving on to spatial data manipulation and example workflows for species distribution
+  mapping in GEE.
+
+
+  Participants need no prior experience working with GEE, but we assume participants have a basic understanding
+  of GIS data and concepts, such as rasters (including stacks or multi-band images), vectors, projections,
+  and spatial resolution.'
+objectives:
+- Conduct basic operations and functions in the Google Earth Engine (GEE) web interface using JavaScript
+  code.
+- Identify core concepts and applications of species distribution modeling (SDM).
+- Assess key SDM workflow decisions to ensure occurrence point independence, to select background points,
+  and to choose ecologically relevant predictors.
+- Access and manage analysis-ready spatial data from the GEE catalog as predictor variables.
+- Fit species distribution models using machine learning models (e.g., Random Forest) in GEE using a reproducible
+  code-based workflow.
+- Critically evaluate the appropriateness of the model design and interpret predicted distribution and
+  habitat suitability results.
+audience:
+- NGOs and technicians, GIS officers, and academics
+- Early career scientists and postgraduate students
+prerequisites:
+- visualizing-land-cover-land-use-change-nasa-satellite-imagery
+applications:
+- ecological-conservation
+tools:
+- google-earth-engine
+instructors:
+- jared-stabach
+- grant-connette
+- justin-fain
+- sativa-cruz
+- ramiro-d-crego
+sessions:
+- part: 1
+  title: Foundations of Species Distribution Modeling with GEE
+  date: '2026-07-07'
+  agenda:
+  - Introduction to SDMs and Habitat Suitability
+  - SDMs in GEE
+  - Understanding SDMs (High-level Overview)
+  - Model Inputs
+  - Brief Overview of GEE
+  - Summary and Q&A
+  videos:
+  - youtube: JhJGyzcEung
+    title: 'NASA ARSET: Foundations of Species Distribution Modeling with GEE Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-Species2026-part1-slides.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/SDM%202026%20Part%201%20Q&A.pdf
+- part: 2
+  title: Building, Evaluating, and Interpreting a SDM
+  date: '2026-07-14'
+  agenda:
+  - Building a Machine Learning Model
+  - Model Fitting and Evaluation
+  - Model Tuning
+  - Interpreting Model Outputs
+  - Additional Considerations
+  - Summary and Q&A
+  videos:
+  - youtube: SIsXlfq8kcA
+    title: 'NASA ARSET: Building, Evaluating, and Interpreting a SDM Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-Species2026-part2-slidePH.pdf
+  - type: other
+    title: Optional Activities
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-Species2026-activities%20(1).pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/SDM%202026%20Part%202%20Q&A.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-08/ARSET-Species2026-HomeworkPDF.pdf

@@ -1,0 +1,70 @@
+id: inside-look-how-nasa-measures-air-pollution
+title: An Inside Look at How NASA Measures Air Pollution
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/inside-look-how-nasa-measures-air-pollution
+level: introductory
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2020-05-26'
+end_date: '2020-05-28'
+published: '2020-05-26'
+last_updated: '2026-03-03'
+summary: This ARSET training is tailored to those interested in learning how to access and visualize NASA
+  satellite imagery.
+description: 'This training hosted by NASA''s Applied Remote Sensing Training program (ARSET) is tailored
+  to those interested in learning how to access and visualize NASA satellite imagery. With the world’s
+  eyes and media coverage turned to recent global changes in air pollution, this training provides a primer
+  for the novice and a good refresher course for all others.
+
+
+  Participants learn which pollutants can be measured from space, how satellites make these measurements,
+  the do’s and don’ts of interpreting satellite data, and how to download and create your own visualizations.'
+objectives:
+- List the pollutants that can be observed by NASA satellites
+- Find and download imagery for nitrogen dioxide (NO₂) and aerosols/particles
+- Describe the capabilities and limitations of NASA NO₂ and aerosol measurements.
+audience:
+- Members of the public, journalists, meteorologists, and others new to remote sensing.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- health-air-quality
+sessions:
+- part: 1
+  title: Nitrogen Dioxide (NO 2)
+  date: '2020-05-26'
+  agenda:
+  - What is NO₂?
+  - NASA remote sensing basics
+  - 'Interpreting NO₂ imagery: Dos and don''ts'
+  - Downloading data and creating Imagery
+  videos:
+  - youtube: truE3iCaGt8
+    title: 'NASA ARSET: How NASA Measures Nitrogen Dioxide (NO2), Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-InsideAirPollution2022-Part1-Slides_0.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-InsideAirPollution2022-Part1-qa.pdf
+- part: 2
+  title: Particulate Matter (Aerosols)
+  agenda:
+  - What are aerosols?
+  - 'Interpreting aerosol Imagery: Dos and don''ts'
+  - A tour of NASA resources for generating your own visualizations
+  videos:
+  - youtube: VpUzhXs8TX8
+    title: NASA ARSET: How NASA Measures Particulate Matter (Aerosols), Part 2/2
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-InsideAirPollution2022-Part2-Slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-InsideAirPollution2022-Part2-qa.pdf

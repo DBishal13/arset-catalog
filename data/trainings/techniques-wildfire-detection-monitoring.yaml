@@ -1,0 +1,82 @@
+id: techniques-wildfire-detection-monitoring
+title: Techniques for Wildfire Detection and Monitoring
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/techniques-wildfire-detection-monitoring
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2018-07-12'
+end_date: '2018-07-19'
+published: '2026-03-02'
+last_updated: '2026-07-29'
+summary: This ARSET training highlights satellite remote sensing data useful for local fire managers.
+description: With more frequent and severe droughts, certain areas are experiencing longer fire seasons.
+  Wildfire detection, monitoring, and mitigation is increasingly important in these regions. Satellite
+  remote sensing data is useful for identifying active fires, evaluating burned areas, and assessing fire
+  emissions. This advanced training highlights tools useful for local fire managers. Presentations and
+  exercises introduce participants to tools to identify active fires, visualize fire emissions, and calculate
+  burn severity.
+objectives:
+- Identify active fires, visualize fire emissions, and calculate burn severity
+- Use the QGIS FMT to enter fire information and order imagery
+audience:
+- This training is primarily intended for local, regional, state, federal, and international organizations
+  involved in wildfire management.
+prerequisites:
+- fundamentals-remote-sensing-0
+applications:
+- drought
+- wildland-fires
+tools:
+- qgis
+sessions:
+- part: 1
+  title: Part 1
+  date: '2018-07-12'
+  videos:
+  - youtube: n3UCO2BoALg
+    title: 'NASA ARSET: Using the Fire Mapping Tools to Map Fires, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-FireDetection2018-part1-slides.pdf?VersionId=KsEtLUMoVpGhYnEtPQYYMFG7XcWxyIyz
+  - type: exercise
+    title: Part 1 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-FireDetection2018-part1-exercise.pdf?VersionId=kEpej9S9wseqR.HFtVB1m999FNhNXITY
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-FireDetection2018-part1-qa.pdf?VersionId=cP5SNP7NjUiSgsRG2CFOX8qQ43FhRgb6
+  - type: slides
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-FireDetection2018-part1-slides-esp.pdf?VersionId=r34eGgdnlguZGwq1FnYKO0MomQT.iR3a
+  - type: exercise
+    title: Ejercicio de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-FireDetection2018-part1-exercise-esp.pdf?VersionId=4NKOoJBk5mZn6drL.UuKhqoaABQ9wASX
+- part: 2
+  title: Part 2
+  date: '2018-07-19'
+  videos:
+  - youtube: Gd005hKVrPs
+    title: 'NASA ARSET: Overview of the Global Wildfire Information System (GWIS), Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-FireDetection2018-part2-slides.pdf?VersionId=E6zOyjRv18dpOuFG4HL_o6UtNln8zmZZ
+  - type: exercise
+    title: Part 2 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-FireDetection2018-part2-exercise.pdf?VersionId=6EaD6UDLQHVm_cBYbEXkFqlPR984CIbc
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-FireDetection2018-part2-qa.pdf?VersionId=Ida8hSIBsOhpf6rJEEAdyOHZEzG2ume.
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/arset-firedetection2018-homework.pdf
+  - type: slides
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/AdvancedWildfires_Presentation2_Span_Final_1.pdf?VersionId=KRy2QK.ZUS39hCvbQ8u1bBQwVT2S46PC
+  - type: exercise
+    title: Ejercicio de la Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ARSET-FireDetection2018-part2-exercise-esp.pdf?VersionId=VrIFI.uz4GYlKmf3sy.Pdzk8umFtkqDy

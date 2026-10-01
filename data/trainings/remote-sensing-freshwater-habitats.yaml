@@ -1,0 +1,103 @@
+id: remote-sensing-freshwater-habitats
+title: Remote Sensing for Freshwater Habitats
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/remote-sensing-freshwater-habitats
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2019-09-17'
+end_date: '2019-10-01'
+published: '2019-09-17'
+last_updated: '2026-02-02'
+summary: This ARSET training guides participants through using Earth observations for habitat monitoring,
+  specifically for freshwater fish and other species.
+description: 'Freshwater habitats play an important role in ecological function and biodiversity. Remote
+  sensing of these ecosystems is primarily tied to observations of the drivers of biodiversity and ecosystem
+  health. Remote sensing can be used to understand things such as land use and land cover change in a
+  watershed, habitat connectivity along a water body, water body location and extent, and water quality
+  parameters.
+
+
+  This training series led by NASA''s Applied Remote Sensing Training program (ARSET) guides participants
+  through using NASA Earth observations for habitat monitoring, specifically for freshwater fish and other
+  species. This training also provides a conceptual overview as well as the tools and techniques for applying
+  landscape environmental variables to genetic and habitat diversity in species.
+
+
+  Relevant UN Sustainable Development Goals: 6.6, 14.2'
+objectives:
+- Understand the limitations of using remote sensing for freshwater habitats
+- Find data and models that can be used in their landscape genetics and habitat monitoring work
+- See how remote sensing can be used for habitat restoration, ecological assessments, and climate change
+  assessments relating to freshwater systems
+- Be able to use the Riverscape Analysis Project decision support system
+- Be familiar with the Freshwater Health Index
+audience:
+- This training is for local, regional, state, federal, and non-governmental organizations involved in
+  conservation, habitat restoration, freshwater health, and riparian landscapes.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- ecological-conservation
+sessions:
+- part: 1
+  title: Review of Aquatic Remote Sensing and Freshwater Habitats
+  date: '2019-09-17'
+  agenda:
+  - Identify which NASA satellites and sensors can be used for freshwater monitoring
+  - Understand the limitations of remote sensing of freshwater habitats
+  - Find data and models they can use in landscape genetics and habitat monitoring work
+  videos:
+  - youtube: gLjcfxX-2OQ
+    title: 'NASA ARSET: Review of Aquatic Remote Sensing & Freshwater Habitats, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Freshwater_Habitats_Part%201.pdf?VersionId=bT47rdO5OYwWuqmBR4g4kE4if8N2m3MR
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Q&A%20Doc%20Part%201_0.pdf?VersionId=.uzRJeEXbmIKztwI78UnjdneDkLSCZnK
+- part: 2
+  title: Overview of the Riverscape Analysis Project (RAP)
+  date: '2019-09-24'
+  agenda:
+  - Understand using remote sensing for habitat restoration, ecological assessments, and climate change
+    assessments relating to freshwater systems through case studies
+  - Use the RAP decision-support system for accessing, downloading, and applying remote sensing data
+  videos:
+  - youtube: x9BwaazUumc
+    title: 'NASA ARSET: Overview of the Riverscape Analysis Project (RAP), Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Freshwater_Habitats_Part%202.pdf?VersionId=w.fg.w0fFP0Po1TGJgYJWnOhT5zXLKz4
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Q&A%20Doc%20Part%202_0.pdf?VersionId=8fZus_RdZ39DFPp4BowlmoaNKCFWdd5q
+- part: 3
+  title: Overview of the Freshwater Health Index (FHI)
+  date: '2019-10-01'
+  agenda:
+  - Understand how to evaluate freshwater ecosystem health
+  - Have the ability to use the FHI data and tools to assess freshwater ecosystem health
+  - Identify potential uses of the FHI for their work and decision-making
+  - Use the FHI to identify vulnerabilities to degradation and/or climate change, as well as opportunties
+    for improvement of infrastructure development within a basin
+  videos:
+  - youtube: UMLlhO8y9CI
+    title: NASA ARSET: Overview of the Freshwater Health Index (FHI), Part 3/3
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Freshwater_Habitats_Part%203.pdf?VersionId=v80UWZqslvix1WT4kTEPEnLAst7z6tnF
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Q&A%20Doc%20Part%203_0.pdf?VersionId=8kqIXcJtQHw00mKeDJb_JBY.KxmMnZ5v
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdl4cuD-oxIhh0fz03Dttou_4wjKL-fosNY24UtUIJJeK3OnA/viewform?usp=sf_link

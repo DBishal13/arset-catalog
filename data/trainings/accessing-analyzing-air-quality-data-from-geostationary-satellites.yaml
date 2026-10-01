@@ -1,0 +1,134 @@
+id: accessing-analyzing-air-quality-data-from-geostationary-satellites
+title: Accessing and Analyzing Air Quality Data from Geostationary Satellites
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/accessing-analyzing-air-quality-data-from-geostationary-satellites
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2022-10-11'
+end_date: '2022-10-25'
+published: '2022-10-11'
+last_updated: '2025-12-30'
+summary: This ARSET training provides an overview of geostationary capabilities for monitoring air quality
+  around the world.
+description: 'The next generation of sensors in geostationary orbit offer unprecedented temporal resolution
+  for air quality observations. Low Earth orbit (LEO) satellites such as the Moderate Resolution Imaging
+  Spectroradiometer (MODIS), Visible Infrared Imaging Radiometer Suite (VIIRS), Ozone Monitoring Instrument
+  (OMI), and Tropospheric Monitoring Instrument (TROPOMI) can provide global coverage, but typically observe
+  a given location one to two times per day. Sensors in geostationary orbit (GEO) observe the same geographic
+  region at all times of the day. These datasets are essential for understanding diurnal changes in air
+  quality, monitoring real-time movement of smoke and dust events, and improving model forecasting capabilities
+  via data assimilation.
+
+
+  This Applied Remote Sensing Program (ARSET) training is in partnership with the National Oceanic and
+  Atmospheric Administration (NOAA) and the National Institute Of Environmental Research (NIER, South
+  Korea) on air quality (AQ) data analysis from geostationary satellites.
+
+
+  The training sessions provide an overview of geostationary capabilities for monitoring air quality around
+  the world; introduce geostationary aerosol datasets from GOES-East, GOES-West, Himawari 8, and the Geostationary
+  Environment Monitoring Spectrometer (GEMS); and present data access and Python tools to read and analyze
+  the datasets.'
+objectives:
+- An understanding of aerosol and trace gas datasets from geostationary satellites.
+- The capability to access, visualize, and download datasets.
+- Python scripts to read and analyze air quality datasets.
+audience:
+- This training is intended for AQ forecasters, the AQ modeling and monitoring community, and local, state,
+  and federal agencies.
+prerequisites:
+- fundamentals-remote-sensing-0
+- high-temporal-resolution-air-quality-observations-from-space
+applications:
+- health-air-quality
+satellites:
+- aqua
+- goes-r-series
+- noaa-20
+- sentinel-5p
+- suomi-npp
+- tempo
+- terra
+tools:
+- jupyter
+- python
+- worldview
+instructors:
+- pawan-gupta
+- melanie-follette-cook
+- sarah-strode
+- aaron-naeger
+- sujung-go
+- jhoon-kim
+sessions:
+- part: 1
+  title: Introduction to Geostationary AQ Observations and AQ Products from Himawari
+  date: '2022-10-11'
+  agenda:
+  - Introduction to air quality observations from geostationary satellites.
+  - Differences and similarities between LEO and GEO observations.
+  - GOES and Himawari true color images and loops - Worldview Exercise.
+  - Tour of P-Tree visualization tool for Himawari-8 data.
+  - Future AQ GEO missions.
+  - 'Introduction to the Tropospheric Emissions: Monitoring of Pollution (TEMPO) Mission.'
+  videos:
+  - youtube: ZkCcPGMWlLQ
+    title: 'NASA ARSET: Introduction to Geostationary AQ Observations and AQ Products from Himawari, Part
+      1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Geostationary2022-part1-slides.pdf?VersionId=xrzfi5QZh3k_s.7lWHLHpn7FTK0UzxDm
+  - type: transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Geostationary2022-part1-qa.pdf?VersionId=7VGCxDy5CcpOE_a4ORuVN2OHlIt2MZbt
+    title: Part 1 Q&A Transcript
+  - type: slides
+    title: Part 1 Presentation Slides (TEMPO)
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Geostationary2022-part1-TEMPO-slides.pdf?VersionId=m1rbG1WJQ5bp6pQHHSrICcfqxZts5PvU
+- part: 2
+  title: AQ Products from GOES
+  date: '2022-10-18'
+  agenda:
+  - Introduction to NOAA’s GEO aerosol products - algorithms and validation.
+  - Dataset details (files, frequency, parameters), access from NOAA's GOES-R archive on AWS S3.
+  - Python Jupyter notebooks to read, map, and extract aerosol datasets.
+  - Tour of NOAA Aerosol Watch website.
+  videos:
+  - youtube: _jtKJbDcjoU
+    title: 'NASA ARSET: AQ Products from GOES, Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Geostationary2022-part2-slides.pdf?VersionId=x4EmIWVRkWWCbxBRYML95GvKYJikQj9n
+  - type: other
+    title: Instructions to set up and configure Python
+    url: https://www.star.nesdis.noaa.gov/atmospheric-composition-training/training_ARSET_GEO_2022.php#preTrainingActions
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Geostationary2022-part2-qa.pdf?VersionId=52VOyhbPq2fXUE6aynGiMiiZ39XayuXi
+- part: 3
+  title: AQ Products from GEMS
+  date: '2022-10-25'
+  agenda:
+  - Introduction to the GEMS mission.
+  - GEMS AQ datasets - algorithms and validation.
+  - GEMS AQ data access.
+  - Python Jupyter notebooks exercise to read, map, and analyze GEMS data.
+  videos:
+  - youtube: lPb0wb_lZd8
+    title: 'NASA ARSET: AQ Products from GEMS, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Geostationary2022-part3-slides.pdf?VersionId=qV6ppegylH2x_8EI4bDfab3d92HaYx9W
+  - type: other
+    title: GEMS Data
+    url: https://drive.google.com/drive/folders/1YJe1ZxsEWemg4DZbbhi3XFLkLpuepeJC?usp=sharing
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-08/ARSET-Geostationary2022-part3-qa.pdf?VersionId=KwxfOfMVCx5Xy50FrVJdN.GaA86pQoRF

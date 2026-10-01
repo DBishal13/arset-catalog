@@ -1,0 +1,93 @@
+id: introduction-remote-sensing-coastal-ocean-applications
+title: Introduction to Remote Sensing for Coastal and Ocean Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-remote-sensing-coastal-ocean-applications
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2016-07-06'
+end_date: '2016-07-27'
+published: '2016-07-06'
+last_updated: '2026-01-13'
+summary: This ARSET training introduces remote sensing for coastal and ocean applications.
+description: In this introductory course hosted by NASA's Applied Remote Sensing Training Program (ARSET),
+  participants are provided with an overview of remote sensing for coastal and ocean applications. This
+  includes a background in aquatic remote sensing, data access and tools for processing and analyzing
+  imagery, and examples and live demonstrations of tools that have been developed for NASA and partner
+  organizations. This course covers data products from the Moderate Resolution Imaging Spectroradiometer
+  (MODIS), Visible Infrared Imaging Radiometer Suite (VIIRS), Hyperspectral Imager for the Coastal Ocean
+  (HICO), and other sensors commonly used for ocean applications.
+objectives:
+- A basic understanding of remote sensing in aquatic environments
+- How to access and visualize relevant NASA Earth Science data
+- Techniques for using NASA Earth Science data for coastal and ocean applications in the areas of animal
+  migrations and coral reef health
+audience:
+- This training is for local, regional, state, federal, and international organizations interested in
+  using satellite imagery for coastal and ocean applications. Governmental and non-governmental organizations
+  in the public and private sector engaged in environmental management and monitoring.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- ecological-conservation
+satellites:
+- aqua
+- noaa-20
+- suomi-npp
+- terra
+sessions:
+- part: 1
+  title: Overview of Satellite Remote Sensing of Aquatic Environments
+  date: '2016-07-06'
+  videos:
+  - youtube: kyfPIj27MR8
+    title: NASA ARSET: Overview of Satellite Remote Sensing of Aquatic Environments, Part 1/4
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/coastaloceanspart1.pdf?VersionId=RQWt4GGaf5Lj7ymnDw9mAKWbbwf0joBr
+- part: 2
+  title: Platforms and Sensors for Ocean Observations, Data Access, and Processing Tools
+  date: '2016-07-13'
+  videos:
+  - youtube: IPJ7GM5YVP0
+    title: NASA ARSET: Platforms and Sensors for Observations, Data Access, and Processing Tools, Part
+      2/4
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/coastaloceanspart2.pdf?VersionId=QRXv66dXXxpelV6EulgKIYcvdx8hIzDM
+  - type: slides
+    title: Links from Presentation
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/coastaloceanspart2links.pdf?VersionId=kb6BIbufl0wV0ZlhdkMSOTPnFFXI7Q5v
+  - type: homework
+    title: Part 2 Homework
+    url: http://docs.google.com/forms/d/e/1FAIpQLSfik-OGISHrROZfsvWFGu2kbf1BOFdFBaw9b7r5VJksyM4cGw/viewform
+- part: 3
+  title: Animal Movement
+  date: '2016-07-20'
+  videos:
+  - youtube: nELx8r1iy1Q
+    title: NASA ARSET: Animal Movement, Part 3/4
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/coastaloceanspart3.pdf?VersionId=z48lfcyqvgSbsey3GgbWyjwe_.RspzZN
+- part: 4
+  title: Coral Reefs
+  date: '2016-07-27'
+  videos:
+  - youtube: ks4R3L981bA
+    title: NASA ARSET: Coral Reefs, Part 4/4
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/coastaloceanspart4.pdf?VersionId=4MB4L2ttTFQI2EibQvr5HkLJ1eIJvPmo
+  - type: homework
+    title: Part 4 Homework
+    url: http://docs.google.com/forms/d/e/1FAIpQLSeWcpKWKxr4kgOg9g-nyL_cfPSos7FklsM3ejNR0qqEcDpgjw/viewform

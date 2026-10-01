@@ -1,0 +1,53 @@
+id: satellite-remote-sensing-particulate-matter-air-quality
+title: Satellite Remote Sensing of Particulate Matter Air Quality
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/satellite-remote-sensing-particulate-matter-air-quality
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2015-10-01'
+end_date: '2015-10-22'
+published: '2026-03-02'
+last_updated: '2026-03-02'
+summary: This ARSET training covers specific details on datasets, available tools, and various methods
+  used to address particulate matter air quality.
+description: 'Satellite remote sensing of particulate matter for air quality applications has advanced
+  over the past decade. Many methods, data, and tools have been developed by various groups around the
+  world to convert satellite retrieved aerosol properties into surface level particulate matter mass concentrations
+  for air quality monitoring. Data from several satellites are currently being used for a wide range of
+  air quality applications for both research and operational purposes.
+
+
+  Through a combination of presentations from experts in the field and hands on exercises, this advanced
+  webinar series will cover specific details on datasets, available tools, and various methods used to
+  address particulate matter air quality.'
+objectives:
+- Estimate PM2.5 mass concentration at surface level while using satellite derived aerosol optical depth
+  (AOD) at visible wavelength
+- Perform long term air quality trend analysis
+- Analyze air quality events
+audience:
+- Individuals in local, regional, state, federal, and international organizations, NGOs, and other applied
+  professionals interested in air quality.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- health-air-quality
+datasets:
+- modis-maiac-aod
+sessions:
+- part: 1
+  title: Overview and Intro to Remote Sensing of Aerosols
+  date: '2015-10-01'
+- part: 2
+  title: Introduction to Particulate Matter Air Quality from Space
+  date: '2015-10-08'
+- part: 3
+  title: Advanced Statistical Modeling, Featuring Guest Speaker Yang Liu
+  date: '2015-10-15'
+- part: 4
+  title: Scaling Approach Using CT Models & Applications, Featuring Guest Speaker Randall Martin
+  date: '2015-10-22'
+  agenda:
+  - Project Guidelines

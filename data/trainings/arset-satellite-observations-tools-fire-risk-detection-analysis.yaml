@@ -1,0 +1,203 @@
+id: arset-satellite-observations-tools-fire-risk-detection-analysis
+title: Satellite Observations and Tools for Fire Risk, Detection, and Analysis
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/arset-satellite-observations-tools-fire-risk-detection-analysis
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2021-05-11'
+end_date: '2021-05-27'
+published: '2021-05-11'
+last_updated: '2026-02-27'
+summary: This ARSET training provides lectures and case studies focused on the use of Earth observations
+  for operational fire monitoring.
+description: 'Fires are a growing concern, especially in regions with longer fire seasons, expanded wildland/urban
+  interfaces, and severe and frequent droughts. Anthropogenic fires are commonly used to clear grassland
+  and agricultural land prior to the planting season, and forests are often cleared using fires so the
+  land can be repurposed for other uses. Whether naturally-occurring or anthropogenic, fires produce a
+  significant change in the structure and reflectance of vegetation and soil properties and atmospheric
+  chemistry.
+
+
+  Remote sensing can be used to monitor pre-, during-, and post-fire conditions, including weather and
+  climate conditions, fuel characterization, fire risk, smoke detection, monitoring and forecasting, fire
+  behavior, and the post-fire landscape.
+
+
+  This six-part, intermediate training led by NASA''s Applied Remote Sensing Training Program (ARSET)
+  provides lectures and case studies focused on the use of Earth observations for operational fire monitoring
+  before, during, and after an event.'
+objectives:
+- Terminology regarding type and components of fire
+- Climatic and biophysical conditions pre-, during-, and post-fire
+- The satellites and instruments used in conducting fire science
+- The applications of passive and active remote sensing for fires
+- How to visualize fire emissions and particulate matter
+- The use of tools for active fires, emissions, and burned areas
+- How to acquire data for conducting analysis in a given study area.
+audience:
+- Local, regional, state, federal, and international organizations involved in resource and ecosystem
+  management, health and air quality, disaster risk management, disaster response, and those with an interest
+  in applying remote sensing to fire science.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- agriculture
+- climate-resilience
+- disasters
+- drought
+- ecological-conservation
+- health-air-quality
+- water-resources
+- wildland-fires
+tools:
+- worldview
+sessions:
+- part: 1
+  title: Satellites, Sensors, and Models for Climate and Hydrologic-Based Applications (Pre-Fire)
+  agenda:
+  - Overview of fires, types of fires, and the three components (pre, during, post)
+  - Weather and climate conditions
+  - Temperature anomalies
+  - Soil moisture
+  - Case study
+  - Fire danger rating
+  - Q&A Session
+  videos:
+  - youtube: 6AOyvADNOPk
+    title: 'NASA ARSET: Satellites, Sensors, & Models for Climate & Hydrologic-Based Applications, Part
+      1/6'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-FireRisk2021-part1-slides.pdf?VersionId=Wh4cqUpJ__vCVchvqm_HaMWHbDgPjzYd
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-FireRisk2021-part2-qa.pdf?VersionId=7kmEzMJQaBapoFwff.wbTNo8UjdeAPat
+- part: 2
+  title: Satellites and Sensors for Vegetation-Based Wildfire Applications (Pre-Fire)
+  agenda:
+  - Satellites and sensors for vegetation fire monitoring
+  - Overview of fire risk and fuels mapping
+  - Pre-fire landscape monitoring and pre-fire mapping tools
+  - Demonstration and case study
+  - Q&A Session
+  videos:
+  - youtube: JnYJ2AFMKQo
+    title: 'NASA ARSET: Satellites and Sensors for Vegetation-Based Wildfire Applications (Pre-Fire),
+      Part 2/6'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-FireRisk2021-part2-slides.pdf?VersionId=wicRUSqo5UZ1Pt7IsoTB5p5PL8Bxz7Ph
+  - type: homework
+    title: Pre-Fire Homework
+    url: https://forms.gle/Wov9zprs2FVwdKnYA
+- part: 3
+  title: Satellites and Sensors for Active Fire Monitoring (During-Fire)
+  agenda:
+  - Overview of satellite observations of active fires
+  - Thermal anomalies via fire radiative power
+  - Basics of smoke detection via satellite
+  - Passive and active remote sensing
+  - Polar vs. geostationary satellites
+  - Available sensors
+  - Available smoke datasets
+  - NOAA’s Smoke Detection Product
+  - How NASA is responding to the California wildfires
+  - Global Applications
+  - Q&A Session
+  videos:
+  - youtube: AYehqG1j508
+    title: 'NASA ARSET: Satellites and Sensors for Active Fire Monitoring (During-Fire), Part 3/6'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: FIRMS
+    url: https://www.earthdata.nasa.gov/data/tools/firms
+  - type: other
+    title: Worldview
+    url: https://www.earthdata.nasa.gov/data/tools/worldview
+  - type: other
+    title: LANCE
+    url: https://www.earthdata.nasa.gov/data/projects/lance
+  - type: other
+    title: SEDAC
+    url: https://www.earthdata.nasa.gov/node/10661
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-FireRisk2021-part3-slides.pdf?VersionId=CakMFDfRJGb5vxO9ia8U9aV5o6TN4gJa
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-FireRisk2021-part3-qa.pdf?VersionId=QTenaU4JU5V46QuQA2Br77.l_BYA38Wm
+- part: 4
+  title: Smoke Modeling and Forecasting
+  agenda:
+  - Satellite-based emissions datasets
+  - Contiguous United States - Smoke and air quality forecasting
+  - Global - Smoke and air quality forecasting
+  - Case Studies
+  - Q&A Session
+  videos:
+  - youtube: hx-m1XMJlfc
+    title: 'NASA ARSET: Smoke Modeling and Forecasting, Part 4/6'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-FireRisk2021-part4-slides.pdf?VersionId=mWtU5YS5jUZ8OcI0wQzH3OHASH7nkopZ
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-FireRisk2021-part4-qa.pdf?VersionId=XfhLammuYlXj8eaRTux8SotXJ3rkwzwn
+  - type: homework
+    title: During-Fire Homework
+    url: https://forms.gle/QJFNNuQ8au1D4Gvz9
+- part: 5
+  title: Satellites, Sensors, and Earth System Models for Climate and Hydrology-Based Applications (Post-Fire)
+  agenda:
+  - Precipitation and Runoff
+  - Terrain
+  - Soil Moisture
+  - Burned Area
+  - Landslides
+  - Case Study
+  - Q&A Session
+  videos:
+  - youtube: gQAm3IwinNI
+    title: 'NASA ARSET: Satellites, Sensors, & Models for Climate & Hydrologic-Based Applications, Part
+      5/6'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 5 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-FireRisk2021-part5-slides.pdf?VersionId=cVexOg4Pl6YMR2tca8Q71IWLiE5jkent
+  - type: transcript
+    title: Part 5 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-FireRisk2021-part5-qa.pdf?VersionId=NR6zhbHOKeGe6Z_FgVyTjx0wB0zH3z5C
+- part: 6
+  title: Satellites and Sensors for Vegetation-Based Wildfire Applications (Post-Fire)
+  agenda:
+  - Review of the fire lifecycle dynamics
+  - Burned area and burn severity mapping
+  - Post-fire vegetation regrowth
+  - Demonstration and case study
+  - Q&A Session
+  videos:
+  - youtube: oG-pNayqaEo
+    title: 'NASA ARSET: Satellites and Sensors for Vegetation-Based Wildfire Applications (Post-Fire),
+      Part 6/6'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: 'Part 6: Presentation Slides'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-FireRisk2021-part6-slides.pdf?VersionId=ZTLu6ecqS.9FNQLnVBz2eBJutBXOfEZR
+  - type: transcript
+    title: 'Part 6: Q&A Transcript'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-FireRisk2021-part6-qa.pdf?VersionId=3SJ5WAYqmeRKgbC7.U_5xnCHIzKqgsLw
+  - type: homework
+    title: Post-Fire Homework
+    url: https://forms.gle/RuuyUX91NPKSoT3R6

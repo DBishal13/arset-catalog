@@ -1,0 +1,143 @@
+id: satellite-remote-sensing-agricultural-applications
+title: Satellite Remote Sensing for Agricultural Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/satellite-remote-sensing-agricultural-applications
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2020-04-14'
+end_date: '2020-05-05'
+published: '2020-04-14'
+last_updated: '2026-02-12'
+summary: This ARSET training addresses how to use remote sensing data for agriculture monitoring, specifically
+  drought and crop monitoring.
+description: 'Since the launch of NASA’s first Landsat mission in 1972, satellite imagery has been used
+  for global agricultural monitoring, providing one of the longest operational applications for the Landsat
+  program. Although satellite observations of land began with agricultural monitoring, only in recent
+  years has agricultural remote sensing seen reinvigoration among space agencies, national ministries
+  of agriculture, and global initiatives.
+
+
+  To monitor agricultural systems, NASA utilizes satellite observations to assess a wide variety of geophysical
+  and biophysical parameters, including precipitation, temperature, evapotranspiration, soil moisture,
+  and vegetation health.
+
+
+  Past webinars on land and water resources by NASA''s Applied Remote Sensing Training program (ARSET)
+  cover remote sensing-derived parameters relevant to agriculture within a broader scope. This four-part,
+  introductory ARSET webinar focuses on data products, data access, and case-studies demonstrating how
+  remote sensing data can be used for decision-making among the agriculture and food security communities.
+
+
+  This training addresses how to use remote sensing data for agriculture monitoring, specifically drought
+  and crop monitoring. It also provides end-users the ability to evaluate which regions of the world have
+  agricultural productivity above or below long-term trends. This informs decisions pertaining to market
+  stability and humanitarian relief.'
+objectives:
+- Identify which satellites and sensors can be used for agricultural applications
+- Understand the limitations of remote sensing and modeled data for agriculture and food security
+- Acquire specific remote sensing data products that are appropriate for their work
+- Apply remote sensing techniques to crop monitoring, drought, and humanitarian relief.
+audience:
+- This training is designed for local, state, federal, private, and non-governmental organizations involved
+  in agricultural monitoring, agricultural policy, food security, agricultural insurance, and humanitarian
+  relief.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- agriculture
+- drought
+- water-resources
+satellites:
+- landsat-8
+- landsat-9
+- smap
+sessions:
+- part: 1
+  title: Overview of Agricultural Remote Sensing
+  date: '2020-04-14'
+  videos:
+  - youtube: pdR4GbMcRiM
+    title: 'NASA ARSET: Overview of Agricultural Remote Sensing, Part 1/4'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: NASA HARVEST
+    url: https://nasaharvest.org/
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Ag_Training_Part1_FINAL.pdf?VersionId=zWJP0ZsjjZ5NMtQu9AXa_JC0gxPMX63E
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Ag_Training_Q&A_1.pdf?VersionId=lnCs9C_uq1KBTqTwxD5RwFgNHmNn0WLl
+  - type: homework
+    title: Homework 1
+    url: https://docs.google.com/forms/d/e/1FAIpQLSerj6Eyi1eoctRSouSfy7EErB6aRllFlDWoqE_-H_JFELoaSQ/viewform?usp=sf_link
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Ag_Training_Part1_Span.pdf?VersionId=iM754zxo7vjIQo1eQffMa0gXyEfAj_6V
+  - type: other
+    title: Tarea 1
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfKlBiTJ9KM1e5CSyrgi9ftLhXssM3KoErEUPBnroDGDYr2bQ/viewform?usp=sf_link
+- part: 2
+  title: Soil Moisture for Agricultural Applications
+  date: '2020-04-21'
+  videos:
+  - youtube: psYiwSxTfx0
+    title: 'NASA ARSET: Soil Moisture for Agricultural Applications, Part 2/4'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: SMAP
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/smap
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Ag_Training_Part2_Final.pdf?VersionId=vtR5GF4rDPxkNUnaT_0b8WyS_w_UnQyh
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Ag_Training_Q&A_2.pdf?VersionId=PjtrasaXqkUPErkDOWP68Mc73yVMaqxx
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Ag_Training_Part2_Spanish.pdf?VersionId=X.lewGhzTCc0p4LqeFujv9dY_G5cHygY
+- part: 3
+  title: Earth Observations for Agricultural Monitoring
+  date: '2020-04-28'
+  videos:
+  - youtube: Q2L-iF_GKFI
+    title: 'NASA ARSET: Earth Observations for Agricultural Monitoring, Part 3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Ag_Training_Part3_Final.pdf?VersionId=D6hhtMe.yICNkPqUC3cZ03TYa6pnjBaP
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Ag_Training_Q&A_3.pdf?VersionId=UdqUGbiaU51C1rosgL.w_a0dBBPwi9cg
+  - type: homework
+    title: Homework 2
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfNjmJpWjx_FBH9Ht4rRiLt8NHn-MROrsZsLT_nYiETBx2N1A/viewform?usp=sf_link
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Ag_Training_Part3_Span_Final.pdf?VersionId=7QNxzm6HZeuJqZ1RFbqYgVnDVzr1qQQG
+  - type: other
+    title: Tarea 2
+    url: https://docs.google.com/forms/d/e/1FAIpQLSeGQ9ALuQ4RGPL0gLrziBit8hdBfo91SlRp8Nl3cS_yAs9e6g/viewform?usp=sf_link
+- part: 4
+  title: Evapotranspiration (ET) and Evaporative Stress Index (ESI) for Agricultural Applications
+  date: '2020-05-05'
+  videos:
+  - youtube: YUrQGwTryk4
+    title: 'NASA ARSET: Evapotranspiration & Evaporative Stress Index for Agricultural Applications, Part
+      4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Ag_Training_Part4_v2.pdf?VersionId=ZiSK2LJaU98cnLJhs6LH98g0ysWEgyJB
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Q&A%20Doc%20Session%204.pdf?VersionId=GhqwqOlnVs369XD1M0hBK4UykZksS5w4
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 4
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Ag_Training_Part4_Span_Final.pdf?VersionId=kBU1i.1BVR5tshN96d6JGQXnP1hf.EH4

@@ -1,0 +1,150 @@
+id: introduction-thermal-remote-sensing-applications-urban-heat-island-mapping
+title: Introduction to Thermal Remote Sensing and Applications in Urban Heat Island Mapping
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-thermal-remote-sensing-applications-urban-heat-island-mapping
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2026-05-26'
+end_date: '2026-06-02'
+published: '2026-03-31'
+last_updated: '2026-06-29'
+summary: This ARSET training explores the fundamentals of thermal infrared remote sensing and some applications
+  using ECOSTRESS data to analyze urban heat.
+description: 'Extreme heat events are defined as prolonged periods of excessively high temperatures for
+  multiple consecutive days. According to the World Health Organization (WHO), heat stress is the leading
+  cause of weather-related deaths and can exacerbate accidents, underlying illnesses, and the transmission
+  of some infectious diseases. This intermediate-level training equipped participants with the foundational
+  theory and practical skills to leverage thermal infrared (TIR) remote sensing to quantify these risks.
+
+
+  The course began by establishing the physical principles of TIR, including emissivity and blackbody
+  radiation. While these fundamentals are broadly applicable to numerous applications, this training specifically
+  focused on using data from NASA’s Ecosystem Spaceborne Thermal Radiometer Experiment on Space Station
+  (ECOSTRESS) to identify heat-vulnerable communities and quantify urban heat island (UHI) effects.
+
+
+  In the hands-on component, participants processed ECOSTRESS Land Surface Temperature (LST) data in R
+  – including quality filtering and time-of-day subsetting – and apply the interactive ECOSTRESS LST Downscaling
+  Tool in Google Earth Engine. This tool uses a random forest model to enhance spatial resolution from
+  70 m to 10 m, translating satellite observations into street-scale thermal maps suitable for urban planning,
+  strategic greenspace placement, and extreme heat early warning systems.
+
+
+  No prior programming experience was required.'
+objectives:
+- Identify the fundamental concepts and physical principles of thermal infrared remote sensing;
+- Define the role of emissivity retrievals in ensuring the accuracy of satellite-derived land surface
+  temperature products;
+- Distinguish key differences between thermal and optical remote sensing approaches, including emission
+  versus reflection, day/night capability, and atmospheric window considerations;
+- Identify applications of thermal remote sensing data for ecosystems stewardship, agricultural management,
+  climate adaptation, and urban planning;
+- Compare the characteristics of current and upcoming thermal missions in context of their suitability
+  to different application uses;
+- Filter and visualize ECOSTRESS Land Surface Temperature (LST) data using provided R-based data processing
+  workflows;
+- Downscale native 70 m ECOSTRESS LST data to a fine 10 m spatial resolution using a Random Forest machine
+  learning model implemented on an interactive Google Earth Engine (GEE) interface to analyze neighborhood-level
+  urban heat patterns.
+audience:
+- Urban planners, climate adaptation practitioners, and climate researchers who work with satellite data
+  and have applied remote sensing knowledge. Participants should be comfortable with intermediate-level
+  data analysis and have some experience with Python or the willingness to follow along with code examples.
+- Graduate students in environmental science, geography, or related fields; government personnel working
+  on forest monitoring, urban heat mapping, or climate adaptation; and NGO staff involved in conservation
+  and climate resilience projects.
+prerequisites:
+- fundamentals-remote-sensing-0
+applications:
+- agriculture
+- climate-resilience
+- ecological-conservation
+satellites:
+- iss
+tools:
+- appeears
+- google-earth-engine
+- qgis
+instructors:
+- savannah-cooley
+- glynn-hulley
+sessions:
+- part: 1
+  title: Foundational Concepts
+  date: '2026-05-26'
+  agenda:
+  - Introduction
+  - Thermal Infrared Fundamentals
+  - Emissivity
+  - Current and Future Thermal Missions and Applications
+  - Summary
+  - Q&A
+  videos:
+  - youtube: dmSxjSpZetY
+    title: 'NASA ARSET: Foundational Concepts Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2026-05/ARSET-Thermal2026-part1-slides.pdf?VersionId=o8cqVTBMK_3ClfM3xZ4ZOwE1j3minny7
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/Thermal%20RS%20Q&A%20Part%201.pdf
+- part: 2
+  title: Applications in Urban Heat Island Mapping
+  date: '2026-06-02'
+  agenda:
+  - Urban Heat Island Theory
+  - Land Surface Temperature Data Overview
+  - 'Hands-on Exercise 1: Land Surface Temperature in Los Angeles County'
+  - 'Hands-on Exercise 2: ECOSTRESS LST Downscaling Tool'
+  - Summary
+  - Q&A
+  - You will need to make a free account to access AppEEARS if you do not have one already.
+  - You will need to make a free account to access GEE if you do not have one already.
+  videos:
+  - youtube: k4ub-CNo6Pg
+    title: 'NASA ARSET: Applications in Urban Heat Island Mapping Part 2/2'
+    channel: NASA Video
+  - youtube: kSnNc7j7jvI
+    title: 06 – Downloading from AppEEARS – ECOSTRESS Tutorials
+    channel: JPLraw
+  - youtube: 2YR3ORXlVoI
+    title: 07 – Downloading from Earthdata Search – Mac – ECOSTRESS Tutorials
+    channel: JPLraw
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/Thermal2026-trainingslides_part2_v1.4_SC_IntroOutro_recorded%20(1).pdf
+  - type: other
+    title: GEE EcoSharp Tutorial
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/GEE_EcoSharp_Tutorial_v2.docx.pdf
+  - type: other
+    title: QGIS ECOSTRESS Tutorial
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/QGIS_ECOSTRESS_Tutorial_v2.docx.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/Thermal%20RS%20Q&A%20Part%202.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-06/ARSET-Thermal2026-HomeworkPDF.pdf
+  - type: other
+    title: ECOSTRESS Tutorials Youtube Channel
+    url: https://youtube.com/playlist?list=PLKWlaxzCh8uJbyBX-pZS0Ge4OnJhNS5yC&si=cP-JoWIRlgG9JrBx
+  - type: other
+    title: QGIS
+    url: https://qgis.org/
+  - type: other
+    title: ARSET tutorial
+    url: https://arset.unhosting.site/course/view.php?id=29
+  - type: notebook
+    title: GitHub
+    url: https://github.com/savcooley/2026_thermalRS_urban_heat_demo
+  - type: other
+    title: AppEEARS
+    url: https://appeears.earthdatacloud.nasa.gov/
+  - type: other
+    title: Google Earth Engine
+    url: https://earthengine.google.com/

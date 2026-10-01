@@ -1,0 +1,108 @@
+id: using-earth-observations-pre-post-fire-monitoring
+title: Using Earth Observations for Pre- and Post-Fire Monitoring
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/using-earth-observations-pre-post-fire-monitoring
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2022-01-18'
+end_date: '2022-01-20'
+published: '2022-01-18'
+last_updated: '2026-07-15'
+summary: This ARSET training reviews pre-fire risk assessment and post-fire mapping using open-source
+  tools like Google Earth Engine.
+description: 'Record-breaking fire seasons, like those we saw in California in 2020, demonstrate how climate
+  change influences the risk and severity of fires on a global scale. Climate change impacts can increase
+  fire frequency, disrupt historical fire regimes, and contribute to increases in fire intensity and burn
+  severity. Therefore, assessments of fire risk and post-fire mapping and monitoring are vital for effective
+  management and decision-making.
+
+
+  This Applied Remote Sensing Training Program (ARSET) training consists of two sessions with hands-on
+  exercises and “lab time,” where participants complete exercises with instructors online to answer questions
+  as they come up. During the first session, we review pre-fire risk assessment by investigating land
+  surface variables (e.g., vegetation type and height, fuel regimes, fuel moisture, and topography) and
+  climate variables (e.g., temperature and precipitation). In the second session, we conduct post-fire
+  mapping of burned area and burn severity using vegetation indices such as the Normalized Burn Ratio
+  (NBR). Methods include the use of open-source tools such as Google Earth Engine and NASA-supported platforms
+  such as the SERVIR Global Service Catalog to analyze imagery.
+
+
+  Before attending this training, we highly recommend you create a Google Earth Engine (GEE) account so
+  you can be fully engaged with the exercises and demonstrations. Please note that our instructors may
+  not be able to troubleshoot your individual code.'
+objectives:
+- Identify land cover and climate variables related to wildfire risk
+- Access and display geospatial wildfire risk data layers
+- Create a burn severity map using satellite imagery
+- Calculate burned area using satellite imagery
+audience:
+- Local, regional, state, federal, and non-governmental organizations involved in land management, fire
+  risk assessment, and post-fire landscape evaluation; applied scientists and Geographic Information Systems
+  (GIS) professionals interested in learning how to complete fire-related assessments independently.
+prerequisites:
+- fundamentals-remote-sensing
+- arset-satellite-observations-tools-fire-risk-detection-analysis
+applications:
+- climate-resilience
+- ecological-conservation
+- water-resources
+- wildland-fires
+tools:
+- google-earth-engine
+instructors:
+- amber-jean-mccullum
+- juan-l-torres-perez
+sessions:
+- part: 1
+  title: Pre-Fire Mapping
+  date: '2022-01-18'
+  agenda:
+  - Review of pre-fire biophysical and climatic conditions
+  - Highlights of pre-fire data and tools such as LANDFIRE, NASA’s Global Fire Weather Database, The Global
+    Wildfire Information System (GWIS), and the Global SERVIR Service Catalog
+  - 'Hands-on exercise: Monitoring Pre-fire conditions'
+  - Q&A
+  - Lab Time
+  videos:
+  - youtube: yQY41ViDPKU
+    title: 'NASA ARSET: Pre-Fire Mapping, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-PrePostFire2022-part1-slides.pdf
+  - type: exercise
+    title: Exercise 1
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-PrePostFire2022-part1-exercise1.pdf
+  - type: exercise
+    title: Exercise 2
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-PrePostFire2022-part1-exercise2.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-PrePostFire2022-part1-qa.pdf
+- part: 2
+  title: Post-Fire Mapping
+  agenda:
+  - Review of fire intensity, burn severity, the Normalized Burn Ratio (NBR), and the Differenced Normalized
+    Burn Ratio (dNBR)
+  - Highlights of post-fire data and tools such as LANDFIRE, GWIS, and Monitoring Trends in Burn Severity
+    (MTBS)
+  - 'Hands-on exercise: Mapping Post-fire conditions in Google Earth Engine'
+  - Q&A
+  - Lab Time
+  videos:
+  - youtube: poWjCS3bxb0
+    title: 'NASA ARSET: Post-Fire Mapping, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-PrePostFire2022-part2-slides.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-08/ARSET-PrePostFire2022-part2-qa.pdf
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-PrePostFire2022-HomeworkPDF.pdf

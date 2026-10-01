@@ -1,0 +1,90 @@
+id: accuracy-assessment-land-cover-classification
+title: Accuracy Assessment of a Land Cover Classification
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/accuracy-assessment-land-cover-classification
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2018-02-13'
+end_date: '2018-02-20'
+published: '2018-02-13'
+last_updated: '2026-01-28'
+summary: This ARSET training covers how to conduct an accuracy assessment on a land cover map and identify
+  which classes might be misrepresented.
+description: Building on a previous training led by NASA's Applied Remote Sensing Training program (ARSET)
+  titled " Land Cover Classification with Satellite Imagery," this series equips attendees with the skills
+  necessary to conduct an accuracy assessment on a land cover map and identify which classes might be
+  misrepresented.
+objectives:
+- Conduct an accuracy assessment on a land cover map
+- Understand how to create and use reference data
+- Become familiar with sample designs for accuracy assessment
+- Develop and interpret an error matrix
+audience:
+- This training is primarily intended for local, regional, state, federal, and international organizations
+  interested in assessing vegetation condition using satellite imagery.
+prerequisites:
+- fundamentals-remote-sensing
+- land-cover-classification-satellite-imagery
+applications:
+- ecological-conservation
+sessions:
+- part: 1
+  title: Introduction to Accuracy Assessments
+  date: '2018-02-13'
+  videos:
+  - youtube: jxeUy2JZYB8
+    title: 'NASA ARSET: Introduction to Accuracy Assessments, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/s1-final_0.pdf?VersionId=1y2SXWKyFIDwI8lARu75hd9_VKHZFkvI
+  - type: exercise
+    title: 'Part 1 Exercise: Accuracy Assessment'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/e1-final.pdf?VersionId=uP7b7uVbaSbAh7VoKbJsf5RDV9fuNS.q
+  - type: exercise
+    title: Part 1 Data Download
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Exercise1_Data-20180212T160750Z-001.zip?VersionId=D0Qrso1_8qW08LFC4EEoKERbwyq7O5kg
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Advanced%20Webinar_%20Accuracy%20Assessment%20of%20a%20Land%20Cover%20Classification%20Session%201.docx.pdf?VersionId=gGr2kvgSOPeJ.QKZoF79ySjGxWF3r1TG
+  - type: other
+    title: Diapositivas de la Presentación de Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/s1-span-final.pdf?VersionId=_71JQnAMxKZq_pDQ6qS2HBPG7gJDBrPQ
+  - type: other
+    title: 'Ejercicio de Parte 1: La Evaluación de la Precisión'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/e1-span-final.pdf?VersionId=kFKDfoVtTrCNAd5FYI8ojkLGL1NrKf_0
+- part: 2
+  title: Conducting Unsupervised and Supervised Land Cover Classifications
+  date: '2018-02-20'
+  videos:
+  - youtube: LtM4X5J4OuI
+    title: 'NASA ARSET: Conducting Unsupervised and Supervised Land Cover Classifications, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/s2-final.pdf?VersionId=yt605qy9xBezFTHG8_h6wDggxZEeYy.y
+  - type: exercise
+    title: 'Part 2 Exercise: Unbiased Error Estimation'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/e2-final.pdf?VersionId=zq3QXzlIDKjZaBsu8HAmEXKhPr6py6XW
+  - type: exercise
+    title: Part 2 Error Matrix Template
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Exercise2_Error_Matrix_Template.xlsx?VersionId=TiQZ_77B6W8tSuk.HswJAzXOZKAbpe9A
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Q&A%20Transcript%20Session%202%20-%20Accuracy%20Assessmentn.pdf?VersionId=v2SpzPo.TCwq94ZQZIP8Chgj0X_ruuou
+  - type: homework
+    title: Homework Assignment
+    url: https://goo.gl/forms/UTa6MnlW3edlhOm12
+  - type: other
+    title: Diapositivas de la Presentación de Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/s2-span-final.pdf?VersionId=kb7Rgm.yqbMQtIdEhHWPaYzX7TO8BtS7
+  - type: other
+    title: 'Ejercicio de Parte 2: La Estimación del Error Sin Sesgo'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/e2-span-final.docx.pdf?VersionId=egENLIeHpTZ9NhceCHc5H6Ie3aUki8np
+  - type: other
+    title: Tarea
+    url: https://goo.gl/forms/sVThn5xOpTv0m5Qt1

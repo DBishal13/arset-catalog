@@ -1,0 +1,121 @@
+id: using-earth-observations-monitor-water-budgets-river-basin-management-ii
+title: Using Earth Observations to Monitor Water Budgets for River Basin Management II
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/using-earth-observations-monitor-water-budgets-river-basin-management-ii
+level: advanced
+format: online-instructor-led
+languages:
+- en
+start_date: '2020-07-21'
+end_date: '2020-08-04'
+published: '2020-07-21'
+last_updated: '2026-02-12'
+summary: This ARSET training teaches how to use earth observations to estimate water budgets for a given
+  river basin.
+description: 'Rivers are a major source of freshwater. They support aquatic and terrestrial ecosystems,
+  provide transportation, generate hydropower, and when treated, provide drinking and agricultural water.
+  Estimating and monitoring water budgets within a river basin is required for sustainable management
+  of water resources and flooding within watersheds.
+
+
+  This advanced-level training series, led by NASA''s Applied Remote Sensing Training program (ARSET),
+  focuses on the use of NASA Earth observations and Earth system-modeled data for estimating water budgets
+  in river basins.
+
+
+  Past ARSET trainings on monitoring water budgets for river basins focused on data sources relevant for
+  river basin monitoring and management, and provided case studies for estimating the water budget of
+  a watershed using remote sensing products. This advanced webinar includes lectures and hands-on exercises
+  for participants to estimate water budgets for a given river basin.'
+objectives:
+- Identify and access remote sensing and Earth system-modeled data for estimating water budgets in a river
+  basin
+- Explain the uncertainties involved in estimating water budgets for river basins
+- Replicate the steps for estimating water budgets for a river basin and sub-watersheds using remote sensing
+  products and geographic information systems
+audience:
+- The content of this training was developed for local, regional, state, federal, and international organizations
+  engaged in the management of water resources, river basins, floods, droughts, land development, river
+  transportation, hydroelectric power, and reservoirs.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- agriculture
+- disasters
+- ecological-conservation
+- water-resources
+satellites:
+- aqua
+- grace
+- terra
+datasets:
+- gpm-imerg
+sessions:
+- part: 1
+  title: Review and Access of Earth Observations and Earth System-Modeled Data for River Basin Monitoring
+    and Management
+  videos:
+  - youtube: FguKFg-Y1zc
+    title: 'NASA ARSET: Access of Earth Observations and Modeled Data for River Basin Monitoring, Part
+      1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/RBWB_Week1_Final.pdf?VersionId=nS4tHVmL5MA4ngCYfcOI8nhqr.EJbGzC
+  - type: exercise
+    title: Part 1 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/RBWB_Exercise-1_Final.pdf?VersionId=d3.By4fgPulZaQdK7c6NTE1RMFyIpeOW
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/RBWB%20Q&A%20Doc%20Part%201.pdf?VersionId=wJxqtVMsmJrKGgO1PlVmDGdvcxUdWLnu
+  - type: homework
+    title: Part 1 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLScCcIe3i--P6TgCe-6OUch1TdvHWMJydjJpA4NojRJNvHQfLg/viewform
+- part: 2
+  title: Water Budget Estimation Using Remote Sensing Observations
+  videos:
+  - youtube: rcR-s3DbmjI
+    title: 'NASA ARSET: Water Budget Estimation using Remote Sensing Observations,   Part 2/3'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: GRACE
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/grace-grace-fo
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/RBWB_Week2_Final.pdf?VersionId=ANEh4N1cY8zeZgHMWyHw4c1VDdlGPDXa
+  - type: exercise
+    title: Part 2 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Exercise-2_Final.pdf?VersionId=s3cTNbLDnT2nFXf58cx59YQDGWC25DG3
+  - type: data
+    title: 'Part 2 Data: Limpopo River Basin Shapefile w/ Sub-Basins'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Limpopo_Shapefile_w_SubBasins_2.zip?VersionId=KEiGj.4wtiS_u4XuYAdL5R3hiO8wJ5ep
+  - type: exercise
+    title: 'Part 2 Data: MODIS ET, IMERG Precipitation, and GRACE'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Data-For%20Exercise-2-20200727T160111Z-001.zip?VersionId=u0dYs.LC7ERPwVZj7TJ.xcld_JWrYlHC
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/RBWB%20Q&A%20Doc%20Part%202.pdf?VersionId=LPWDTmA_PsL2EwXFDnKk3KF53ySmAy4_
+- part: 3
+  title: Water Budget Estimation Using Global Land Data Assimilation Model
+  videos:
+  - youtube: ez1TuzdAO0s
+    title: 'NASA ARSET: Water Budget Estimation using Global Land Data Assimilation Model, Part 3/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/RBWB_Week3_Final.pdf?VersionId=LF3t43N85lVgVNBPvU6vU9KF9ElS.4a6
+  - type: exercise
+    title: Part 3 Exercise
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/Exercise3-GLDAS.pdf?VersionId=j_kxSPQpGlrcPZ2Mt04I3QHkTUtBMRVb
+  - type: data
+    title: 'Part 3 Data: GLDAS'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/GLDAS%20Data-20200803T155555Z-001.zip?VersionId=gHhChBxuiKsugrakI.onQhMVrN_XP3a_
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/RBWB%20Q&A%20Doc%20Part%203.pdf?VersionId=o.WlwdsHi5GzX8ANrRHp2RBC5h8IY3yw
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSc-uqE4b36SEBVHOYlLfB8P31qL0f7hX8S6QRgPxlRAADkj-Q/viewform?usp=sf_link

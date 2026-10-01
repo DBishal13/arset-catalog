@@ -1,0 +1,28 @@
+id: nasa-air-quality-focused-remote-sensing-epa-applications
+title: NASA Air Quality-Focused Remote Sensing for EPA Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/nasa-air-quality-focused-remote-sensing-epa-applications
+level: advanced
+format: in-person
+languages:
+- en
+start_date: '2023-03-21'
+end_date: '2023-03-23'
+published: '2023-03-21'
+last_updated: '2026-02-23'
+summary: This ARSET training will highlight data tools and products related to air quality for modeling
+  efforts.
+description: This training covered the applications of Earth observations for decision-making activities.
+  Lectures and exercises highlighted applications related to air quality monitoring, forecasting, smoke,
+  fire, PM2.5 monitoring, image interpretation, and data access for modeling efforts. To conclude the
+  training, participants completed a case study that incorporated all data portals, tools, and relevant
+  data. Participants applied this to properly identify, track, and measure air quality events of their
+  choosing. This allowed them to assess the strengths and weaknesses of these data products. This training
+  was hosted by the U.S. EPA in partnership with NASA's Applied Remote Sensing Training Program (ARSET).
+applications:
+- health-air-quality
+instructors:
+- melanie-follette-cook
+- pawan-gupta
+- carl-malings
+- sarah-strode

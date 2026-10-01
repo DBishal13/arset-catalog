@@ -1,0 +1,45 @@
+id: satellite-remote-sensing-air-quality
+title: Satellite Remote Sensing of Air Quality
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/satellite-remote-sensing-air-quality
+level: advanced
+format: in-person
+languages:
+- en
+start_date: '2018-11-18'
+end_date: '2018-11-19'
+published: '2018-11-18'
+last_updated: '2026-02-09'
+summary: This ARSET training covers the access and use of NASA resources for decision-making activities
+  related to air quality.
+description: 'The 2018 Environmental Performance Index ranked India''s air quality as 178th out of 180
+  countries. NASA satellite data can be used for air quality forecasting, smoke and fire detection, PM2.5
+  monitoring, and modeling. This training, led by NASA''s Applied Remote Sensing Training program (ARSET),
+  covered the access and use of NASA resources for decision-making activities related to air quality.
+  It was offered as a pre-conference event for the International Society for Photogrammetry and Remote
+  Sensing (ISPRS) Technical Commission V Symposium on "Education & Outreach – Geospatial technology –
+  Pixel to People."
+
+
+  A presentation on relevant data products, as well as the online tools used to acquire and visualize
+  aerosol and trace gas data was followed by an air quality case study. Participants had the opportunity
+  to use available data portals and visualization tools to identify, track, and measure air quality events
+  of their choosing.'
+objectives:
+- Become familiar with specific data products, including data from the Moderate Resolution Imaging Spectroradiometer
+  (MODIS), Multi-Angle Imaging SpectroRadiometer (MISR), Ozone Monitoring Instrument (OMI), Visible Infrared
+  Imaging Radiometer Suite (VIIRS), and the Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation
+  (CALIPSO) satellite, and online tools such as Worldview and Giovanni
+- Conduct a case study incorporating data portals, visualization tools, and satellite data to identify,
+  track and measure an air quality event
+- Understand the strengths and weaknesses of the data products discussed.
+applications:
+- health-air-quality
+satellites:
+- aqua
+- noaa-20
+- suomi-npp
+- terra
+tools:
+- giovanni
+- worldview

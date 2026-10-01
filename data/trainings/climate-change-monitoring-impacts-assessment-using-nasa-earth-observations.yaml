@@ -1,0 +1,42 @@
+id: climate-change-monitoring-impacts-assessment-using-nasa-earth-observations
+title: Climate Change Monitoring and Impacts Assessment using NASA Earth Observations
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/climate-change-monitoring-impacts-assessment-using-nasa-earth-observations
+level: introductory
+format: in-person
+languages:
+- en
+start_date: '2022-10-24'
+end_date: '2022-10-24'
+published: '2022-10-24'
+last_updated: '2026-02-26'
+summary: This ARSET workshop provides an overview of NASA resources for monitoring climate impacts on
+  extreme weather, water, food, and health.
+description: 'Addressing our changing climate is a complex and multi-dimensional issue facing the global
+  population. Climate data records provide evidence of climate change through changes in key indicators
+  such as global land and ocean temperature, sea levels, polar and glacial ice extent; frequency and severity
+  of extreme weather such as hurricanes, heatwaves, wildfires, droughts, floods, and precipitation; and
+  cloud and vegetation cover. This information coupled with theoretical models and scenarios of future
+  emissions form a fundamental basis for climate mitigation, adaptation, and risk management planning
+  in all parts of the world and across many elements of society and ecosystems.
+
+
+  This four-hour workshop, hosted by NASA''s Applied Remote Sensing Training (ARSET) Program, provided
+  an overview of NASA resources for monitoring climate change and its impacts on various sectors such
+  as extreme weather, water, food, and health. We define the terminology and the role of Earth observations
+  in climate change assessment and provide an overview of NASA climate models suitable for emissions policy,
+  impacts, risk, and resilience applications.
+
+
+  The workshop provided hands-on examples using open source tools to visualize and access information
+  and data relevant to understanding and planning for climate change. The workshop also previewed NASA’s
+  Earth System Observatory, a set of Earth-focused missions to provide key information to guide efforts
+  related to climate change, disaster mitigation, wildfires, and improve real-time agricultural processes.'
+applications:
+- agriculture
+- climate-resilience
+- disasters
+- drought
+- ecological-conservation
+- water-resources
+- wildland-fires

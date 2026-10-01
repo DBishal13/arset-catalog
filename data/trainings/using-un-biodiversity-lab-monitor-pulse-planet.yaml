@@ -1,0 +1,148 @@
+id: using-un-biodiversity-lab-monitor-pulse-planet
+title: Using the UN Biodiversity Lab to Monitor the Pulse of the Planet
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/using-un-biodiversity-lab-monitor-pulse-planet
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+- es
+- fr
+start_date: '2022-04-14'
+end_date: '2022-05-04'
+published: '2022-04-14'
+last_updated: '2026-02-17'
+summary: This ARSET training shares how to apply UN Biodiversity Lab remote sensing/geospatial data for
+  conservation and sustainable development priorities.
+description: 'This training focuses on using remote sensing and geospatial data within the NASA-supported
+  UN Biodiversity Lab (UNBL) to take action on national conservation and sustainable development priorities.
+  With over 400 of the world’s best global data layers on biodiversity, ecosystem services, and sustainable
+  development, UNBL enables decision-makers and policymakers to access essential global data, upload national
+  datasets, and calculate dynamic indicators for any area of interest - all without any background in
+  remote sensing and Geographic Information systems (GIS).
+
+
+  Fully redesigned in 2021 to improve functionality and better meet user needs, UNBL will be a key offering
+  to support parties and other stakeholders to implement, monitor, and report on the CBD’s Post-2020 Global
+  Biodiversity Framework (GBF).
+
+
+  This Applied Remote Sensing Training program (ARSET) training offers three complementary courses — an
+  intermediate lecture series (Parts 1-3) and two advanced labs — that participants can select among to
+  choose the learning experience that best meets their needs. Our intermediate course integrates lectures
+  and Q&A to provide learners with an understanding of the power of spatial data to address key international
+  commitments and a training on how to use all key functionalities of UNBL.
+
+
+  Our advanced lab on the UNBL public platform combines homework and live exercises to build participants’
+  confidence in their ability to use all features of UNBL, and our advanced lab on UNBL workspaces combines
+  homework and live exercises to equip participants with the needed skills to take full advantage of workspace
+  functionalities. Speakers include NASA scientists, UN policy specialists and data experts, and national
+  policymakers.
+
+
+  Looking to engage on spatial planning after the course has closed? Join our Spatial Planning Group on
+  Learning for Nature.'
+objectives:
+- Understand key global biodiversity and sustainable development policy instruments as they relate to
+  conservation efforts.
+- Utilize examples from inspiring countries using spatial data to take action for people and planet as
+  a basis for your work.
+- Summarize the types of data available on UNBL, and be able to identify specific datasets related to
+  these themes.
+- Explore how different combinations of data available in UNBL collections can generate insight and inform
+  action related to key policy questions.
+- Apply UNBL public platform features to search and visualize data, calculate dynamic metrics, create
+  maps, and download data on the UNBL public platform.
+- Use UNBL secure workspace features to add users and assign privileges, upload places, upload and style
+  data layers, calculate dynamic metrics for your area of interest.
+audience:
+- National policymakers involved in conservation and sustainable development commitments to the Convention
+  on Biological Diversity, UN Framework Convention on Climate Change, and the 2030 Agenda for Sustainable
+  Development.
+- UN system staff supporting projects and programs aligned with the UN Common Approach on Biodiversity
+  and 2030 Agenda.
+- Researchers and civil society stakeholders interested in using spatial data to implement, monitor, and
+  report on projects operating at the intersection of biodiversity, climate change, and sustainable development.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- ecological-conservation
+sessions:
+- part: 1
+  title: Using UN Biodiversity Lab to Support Country-Led Action on Biodiversity and Sustainable Development
+  agenda:
+  - Identify different types of satellites and sensors that provide free, open source data to the global
+    community.
+  - Understand key global biodiversity and sustainable development policy instruments as they relate to
+    conservation efforts.
+  - Know the vision of UNBL and understand its basic functionalities.
+  - Learn from inspiring countries using spatial data to take action for people and planet.
+  videos:
+  - youtube: PnkJPMstgco
+    title: 'NASA ARSET: Using UN Biodiversity Lab to Support Biodiversity & Sustainable Development, Part
+      1/3'
+    channel: NASA Video
+  - youtube: Wo3-f_3cr-4
+    title: UNBL 2 Part 1 animated GIFS
+    channel: NASA ARSET
+  - youtube: p9oiDDJn0HE
+    title: UN Biodiversity Lab Trailer
+    channel: NBSAP Forum
+  - youtube: OihhEfPRi6I
+    title: Mapping Nature for People and Planet (ELSA) Trailer
+    channel: NBSAP Forum
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-UNBL-2022-Part1-slides.pdf?VersionId=WZrp.3oW4MWMbAMOJ6Fr6nKpXKPhjseT
+- part: 2
+  title: 'Technical Training: Exploring the UN Biodiversity Lab Public Platform'
+  agenda:
+  - Understand the types of data available on UNBL, and be able to identify specific datasets related
+    to these themes.
+  - Explore how different combinations of data available in UNBL collections can generate insight and
+    inform action related to key policy questions.
+  - Learn how to search and visualize data, calculate dynamic metrics, create maps, and download data
+    on the UNBL public platform.
+  videos:
+  - youtube: hTdiwiLgCGc
+    title: 'NASA ARSET: Technical Training: Exploring the UN Biodiversity Lab Public Platform, Part 2/3'
+    channel: NASA Video
+  - youtube: zcVN1BKKZ_o
+    title: Animated GIFS UNBL 2 Part 2 Slides 48 81
+    channel: NASA ARSET
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-UNBL-2022-Part2-slides.pdf?VersionId=kVqOlkcyHZco_1A7NT3XC0HgWNhEKhHX
+- part: 3
+  title: 'Technical Training: Exploring UN Biodiversity Lab Secure Workspaces'
+  agenda:
+  - Understand the key functionalities of UNBL secure workspaces.
+  - Explore how to add users and assign privileges, upload places, upload and style data layers, and calculate
+    dynamic metrics for your area of interest.
+  - Be aware of upcoming functionalities to map Essential Life Support Areas and how they can support
+    national planning for biodiversity, climate, and sustainable development.
+  videos:
+  - youtube: _FnVu_Wxc3o
+    title: 'NASA ARSET: Technical Training: Exploring UN Biodiversity Lab Secure Workspaces, Part 3/3'
+    channel: NASA Video
+  - youtube: cg6h9jdJE5I
+    title: Animated GIFS UNBL 2 Part 3 (Slides 24-50)
+    channel: NASA ARSET
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-09/ARSET-UNBL-2022-Part3-slides.pdf?VersionId=glDaj6gxIr3GYLolQ8T0YGzGuJmDAwA4
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfwNja4JhhDjXYsSkDfjeUWV5vD3mJVJflfKkr7tuJBtwJEnw/viewform?usp=sf_link
+videos:
+- youtube: snrAjX_OydQ
+  title: 'NASA ARSET: Advanced Lab 1: Mastering the UNBL Public Platform'
+  channel: NASA Video
+- youtube: NMlyeVdzzjc
+  title: 'NASA ARSET: Advanced Lab 2: Mastering UNBL Secure Workspaces'
+  channel: NASA Video

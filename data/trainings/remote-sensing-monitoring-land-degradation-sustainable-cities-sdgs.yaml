@@ -1,0 +1,119 @@
+id: remote-sensing-monitoring-land-degradation-sustainable-cities-sdgs
+title: Remote Sensing for Monitoring Land Degradation and Sustainable Cities SDGs
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/remote-sensing-monitoring-land-degradation-sustainable-cities-sdgs
+level: advanced
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2019-07-09'
+end_date: '2019-07-23'
+published: '2019-07-09'
+last_updated: '2026-01-30'
+summary: This ARSET training highlights a tool that uses earth observations to track land degradation
+  and urban development that meet SDG targets.
+description: 'The Sustainable Development Goals (SDGs) are an urgent call for action by countries to preserve
+  our oceans and forests, reduce inequality, and spur economic growth. The land management SDGs call for
+  consistent tracking of land cover metrics. These metrics include productivity, land cover, soil carbon,
+  urban expansion, and more. This training series led by NASA''s Applied Remote Sensing Training program
+  (ARSET) highlights a tool that uses NASA Earth Observations to track land degradation and urban development
+  that meet the appropriate SDG targets.
+
+
+  SDGs 11 and 15 relate to sustainable urbanization and land use and land cover change. SDG 11 aims to
+  "make cities and human settlements inclusive, safe, resilient, and sustainable." SDG 15 aims to "combat
+  desertification, drought, and floods, and strive to achieve a land degradation neutral world." To assess
+  progress towards these goals, indicators have been established, many of which can be monitored using
+  remote sensing.
+
+
+  In this training, attendees learn to use a freely-available QGIS plugin, Trends.Earth, created by Conservation
+  International (CI), and includes special guest speakers from the United Nations Convention to Combat
+  Desertification (UNCCD) and UN Habitat. Trends.Earth allows users to plot time series of key land change
+  indicators. Attendees can learn to produce maps and figures to support monitoring and reporting on land
+  degradation, improvement, and urbanization for SDG indicators 15.3.1 and 11.3.1. Each part of the training
+  series features a presentation, hands-on exercise, and time for the speaker to answer live questions.'
+objectives:
+- Become familiar with SDG Indicators 15.3.1 and 11.3.1
+- 'Understand the basics on how to compute sub indicators of SDG 15.3.1 such as: productivity, land cover,
+  and soil carbon'
+- Understand how to use the Trends.Earth Urban Mapper web interface
+- 'Learn the basics of the Trends.Earth toolkit including: Plotting time series Downloading data Using
+  default or custom data for productivity, land cover, and soil organic carbon Calculating a SDG 15.3.1
+  spatial layers and summary table Calculating urban change metrics Creating urban change summary tables'
+- Plotting time series
+- Downloading data
+- Using default or custom data for productivity, land cover, and soil organic carbon
+- Calculating a SDG 15.3.1 spatial layers and summary table
+- Calculating urban change metrics
+- Creating urban change summary tables
+audience:
+- This training will be appropriate for local, regional, state, federal, and international organizations
+  interested in generating data used for SDG reporting with satellite imagery.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- disasters
+- drought
+- ecological-conservation
+tools:
+- qgis
+sessions:
+- part: 1
+  title: Part 1
+  date: '2019-07-09'
+  videos:
+  - youtube: b_2tfsVE2mY
+    title: 'NASA ARSET: Introduction to SDG Framework and Trends.Earth, Part 1/3'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/Land%20Degradation%20part%201%20-%20Spanish.pdf
+  - type: exercise
+    title: 'Part 1 Exercise: Subindicators'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/Trends.Earth_Computing_Indicators_Session1.pdf
+  - type: exercise
+    title: 'Part 1 Exercise: Downloading Results'
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/Trends.Earth_Downloading_Results_Spanish_Session1.pdf
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/LandDeg_Q&A1.pdf
+- part: 2
+  title: Part 2
+  date: '2019-07-16'
+  videos:
+  - youtube: tG4vxF1IP6w
+    title: 'NASA ARSET: Using Remote Sensing Data & Trends.Earth for Monitoring SDG 15'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/TrendsEarth_Session2_final.pdf
+  - type: exercise
+    title: 'Part 2 Exercise: Land Cover'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/Trends.Earth_Tutorial05_Using_Custom_Land_Cover.pdf
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/Q&A%20Doc%20Part%202.pdf
+- part: 3
+  title: Part 3
+  date: '2019-07-23'
+  videos:
+  - youtube: 1eXzBn6vNmc
+    title: 'NASA ARSET: Urban Mapping Using Trends.Earth for Computing SDG Indicator 11.3.1'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/TrendsEarth_Session3_final.pdf
+  - type: exercise
+    title: 'Part 3 Exercise: Urban Change SDG'
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/Trends.Earth_Urban_Change_SDG_Indicator_Session3_0.pdf
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://www.earthdata.nasa.gov/s3fs-public/2025-12/LandDeg_Q&A3.pdf
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfOHA-RVfR4ItySb21p59fNsgtA9xWyfTJr-1EeEJ_pMwOdbQ/viewform?usp=sf_link

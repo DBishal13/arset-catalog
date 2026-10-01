@@ -1,0 +1,1035 @@
+{
+ "-6YsozJoNLk": [
+  "lidar-profiling-satellite-observations-air-quality-applications"
+ ],
+ "-BwqcjgHh6A": [
+  "using-google-earth-engine-land-monitoring-applications"
+ ],
+ "-IOiwRJPtlY": [],
+ "-Mq5A9aXIuc": [
+  "mapping-crops-biophysical-characteristics-polarimetric-sar-optical-remote-sensing"
+ ],
+ "-PFWqSiUyKQ": [
+  "nasa-earth-observations-reservoir-water-utility-management"
+ ],
+ "-aZatae_3ew": [
+  "harnessing-nisar-next-generation-radar-observations-earth-applications"
+ ],
+ "-qkgNKxJAts": [],
+ "-uxGCX8l1gI": [
+  "measuring-atmospheric-carbon-dioxide-from-space-support-climate-related-studies"
+ ],
+ "-wVpoYszRCs": [
+  "mapping-monitoring-lakes-reservoirs-satellite-observations"
+ ],
+ "-xU4oE66pgY": [],
+ "-yOInEUJTYM": [],
+ "0B_Zp9z-grw": [],
+ "0RR37KuohEk": [
+  "introduction-lightning-observations-applications"
+ ],
+ "0Su5VRQxFCg": [],
+ "0XvWJZdgxYs": [],
+ "0pt2SxQJGNM": [
+  "introduction-nasa-resources-climate-change-applications"
+ ],
+ "0sdBiVcLFIE": [],
+ "0yeolxXCpFU": [],
+ "1QbpVlIuHsU": [
+  "monitoring-predicting-floods-using-earth-observations-planning-preparedness"
+ ],
+ "1TBtJ8pTANQ": [],
+ "1WAtjat365o": [
+  "remote-sensing-climate-sensitive-infectious-diseases"
+ ],
+ "1bi6Q3oiWAM": [],
+ "1eXQw8_Wy8k": [
+  "remote-sensing-mangroves-support-un-sustainable-development-goals"
+ ],
+ "1eXzBn6vNmc": [],
+ "1imvsVTM90E": [],
+ "1nEZWfSStH8": [],
+ "1zrpkH7s18I": [
+  "connecting-citizen-science-remote-sensing"
+ ],
+ "2-c0tIZCOj4": [],
+ "2551aFGyleY": [
+  "measuring-atmospheric-carbon-dioxide-from-space-support-climate-related-studies"
+ ],
+ "2CKxV_mTuxk": [
+  "sar-detecting-monitoring-floods-sea-ice-subsidence-from-groundwater-extraction"
+ ],
+ "2GZfn6Z6v4Y": [
+  "spaceborne-lidar-monitoring-vegetation-structure-biomass-using-gedi"
+ ],
+ "2JscvT0ubts": [
+  "introduction-population-grids-integration-remote-sensing-data-sustainable"
+ ],
+ "2SGP30TGHXM": [],
+ "2Us91BGL3Q4": [
+  "introduction-nasa-earth-observations-tools-wildfire-monitoring-management"
+ ],
+ "2ZILcjYB9Fk": [
+  "measuring-atmospheric-carbon-dioxide-from-space-support-climate-related-studies"
+ ],
+ "2bukmnvg5OA": [
+  "airborne-data-applications-invasive-species-mapping"
+ ],
+ "2in7i2qiIpw": [
+  "visualizing-land-cover-land-use-change-nasa-satellite-imagery"
+ ],
+ "2pfoEFnsyEQ": [
+  "remote-sensing-coastal-ecosystems"
+ ],
+ "2xt47dCqwlE": [
+  "introduction-nasa-earth-observations-tools-wildfire-monitoring-management"
+ ],
+ "3-tXyG09zYM": [],
+ "30x6XE6U4CU": [
+  "mapping-crops-biophysical-characteristics-polarimetric-sar-optical-remote-sensing"
+ ],
+ "3UPjH_tSJ_M": [
+  "humanitarian-applications-using-nasa-earth-observations"
+ ],
+ "3WuW69A2uDc": [],
+ "3jQoJYAlwvs": [
+  "estimating-biomass-change-gedi-obiwan-api"
+ ],
+ "3qfXlMonG0s": [
+  "nasa-atmospheric-composition-ground-networks-supporting-air-quality-climate"
+ ],
+ "3rZAUeOMBLo": [],
+ "3x76e2rsjIY": [],
+ "3yEelQADHxc": [
+  "humanitarian-applications-using-nasa-earth-observations"
+ ],
+ "3zlqrftGU7c": [
+  "geostationary-remote-sensing-trace-gases-air-quality-applications-north-america"
+ ],
+ "42RYoqfvXYU": [],
+ "47lS2FupWjM": [],
+ "4H-OANBWxfg": [
+  "introduction-using-vic-hydrologic-model-nasa-earth-observations"
+ ],
+ "4QKY-IxalyI": [
+  "building-climate-risk-assessments-from-local-vulnerability-exposure"
+ ],
+ "4Y2giuRPCuc": [],
+ "4eFiIf-92Zs": [],
+ "4tAmf3dBUxU": [
+  "connecting-citizen-science-remote-sensing"
+ ],
+ "51bB7frovtg": [
+  "introduction-using-vic-hydrologic-model-nasa-earth-observations"
+ ],
+ "5BZvjVUfBG0": [
+  "investigating-time-series-satellite-imagery"
+ ],
+ "5RIoU9ImnH0": [],
+ "5Venmt7t6BI": [
+  "remote-sensing-mangroves-support-un-sustainable-development-goals"
+ ],
+ "5WZf1bBAqzg": [
+  "drought-monitoring-prediction-projection-using-nasa-earth-system-data"
+ ],
+ "5W_w5ZKX_BI": [
+  "application-nasa-sport-land-information-system-sport-lis-soil-moisture-data-drought"
+ ],
+ "5n7y8wYNYwo": [
+  "landslide-monitoring-risk-assessment-using-nasa-earth-system-data"
+ ],
+ "608MDvi0BRQ": [],
+ "62-3V0nXfY0": [],
+ "6AOyvADNOPk": [
+  "satellite-observations-tools-fire-risk-detection-analysis"
+ ],
+ "6B9WFCXaYuI": [],
+ "6P2C4_35wRI": [],
+ "6Tv3QxGpMro": [
+  "land-cover-classification-satellite-imagery"
+ ],
+ "6_XKD3wrJ1g": [
+  "solar-induced-fluorescence-sif-observations-assessing-vegetation-changes-related"
+ ],
+ "6_bytSnJCc8": [],
+ "6iN_-obEBJ0": [],
+ "6nlZeWZgHXs": [
+  "agricultural-flash-drought-detection-using-solar-induced-fluorescence-sif-soil"
+ ],
+ "6sbuIKunCGU": [],
+ "70Zkm4Pg_ZE": [],
+ "74NKtluFQ1M": [
+  "monitoring-aquatic-vegetation-remote-sensing"
+ ],
+ "75FT7hIegxI": [],
+ "76lzLPUjH7M": [],
+ "7A_SHnPbAGY": [],
+ "7Gn1rvDe-UI": [
+  "estimating-biomass-change-gedi-obiwan-api"
+ ],
+ "80LSZgqbqbI": [],
+ "8gU_XE9mGb0": [],
+ "8rLiHMb4OBw": [],
+ "8tg_TYkt2gU": [],
+ "9A1d7Wcpqeg": [],
+ "9PbFbHqRufQ": [],
+ "9QhzXrYIfNo": [],
+ "9T1lBnta9P0": [],
+ "9afQmM6ph5Q": [],
+ "9bDbXVdd0Kk": [
+  "advanced-nasa-earth-observations-tools-active-fire-smoke-post-fire-monitoring"
+ ],
+ "9pjNfRAz7TA": [
+  "monitoring-global-terrestrial-surface-water-height-using-remote-sensing"
+ ],
+ "9qDmLOI1GoI": [],
+ "A-EoWxAmCco": [
+  "monitoring-groundwater-changes-water-resources-management"
+ ],
+ "AUIUpFHgVx0": [
+  "introduction-synthetic-aperture-radar-sar-its-applications"
+ ],
+ "AYehqG1j508": [
+  "satellite-observations-tools-fire-risk-detection-analysis"
+ ],
+ "AeBy7lFKbgE": [
+  "applications-carbon-dioxide-measurements-climate-related-studies"
+ ],
+ "AftRWxzN99c": [],
+ "AgXL2c45FPg": [],
+ "AohkvVi0otA": [
+  "creating-using-normalized-difference-vegetation-index-ndvi-from-satellite-imagery"
+ ],
+ "AqCFBOunSs8": [],
+ "B-Y1uz02Ccg": [],
+ "B1HPbpfg4oI": [
+  "harnessing-nisar-next-generation-radar-observations-earth-applications"
+ ],
+ "B3_IGZLjCo8": [
+  "calculating-spectral-indices-land-aquatic-applications-using-qgis"
+ ],
+ "BNcJuB-TRuU": [],
+ "BlMnNNcCmrw": [],
+ "BrOsXIWNu88": [
+  "transforming-earth-observation-data-building-infrastructure-data-sets-disaster-risk"
+ ],
+ "C2Mdeuiqi-U": [],
+ "C7HHhHpOxgg": [
+  "earth-observations-blue-carbon-ecosystems"
+ ],
+ "C8t1isFGWrM": [
+  "spaceborne-lidar-monitoring-vegetation-structure-biomass-using-gedi"
+ ],
+ "CKIqVpWu3c0": [
+  "applications-remote-sensing-soil-moisture-evapotranspiration"
+ ],
+ "CirebnPK9KE": [
+  "introduction-satellite-remote-sensing-air-quality-applications"
+ ],
+ "CkhOoYoPzSA": [],
+ "Cko2J9SJWzA": [],
+ "CoqJUeyXgAA": [
+  "introduction-plankton-aerosol-cloud-ocean-ecosystem-pace-hyperspectral-observations"
+ ],
+ "Cr6xtc_ITf4": [
+  "tools-analyzing-nasa-air-quality-model-output"
+ ],
+ "D91KznnXFkY": [],
+ "DFjJbc6VBBs": [
+  "applications-remote-sensing-soil-moisture-evapotranspiration"
+ ],
+ "DRhzDYvnWXM": [
+  "biodiversity-applications-airborne-imaging-systems"
+ ],
+ "DTAMcKsdncc": [],
+ "DTQ1FPyCm_w": [
+  "applications-remote-sensing-soil-moisture-evapotranspiration"
+ ],
+ "Dldm9YfA85w": [],
+ "Dw9XFtDrgtA": [],
+ "E9CiSZKZxC8": [
+  "overview-global-disaster-alert-coordination-system-gdacs"
+ ],
+ "EGxUoCKbrFs": [
+  "invasive-species-monitoring-remote-sensing"
+ ],
+ "ELgJ3hvaBUI": [
+  "mapping-monitoring-lakes-reservoirs-satellite-observations"
+ ],
+ "EjJ0QTqi0ss": [],
+ "EvhCt0nan0A": [
+  "landslide-monitoring-risk-assessment-using-nasa-earth-system-data"
+ ],
+ "FEEI6yNx4Us": [
+  "introduction-satellite-remote-sensing-air-quality-applications"
+ ],
+ "FguKFg-Y1zc": [
+  "using-earth-observations-monitor-water-budgets-river-basin-management-ii"
+ ],
+ "FjKVptgr3uU": [
+  "hyperspectral-data-land-coastal-systems"
+ ],
+ "FoOSm5VQ0lc": [
+  "nasa-satellite-laser-altimetry-coastal-near-shore-bathymetry"
+ ],
+ "FwhvAPoWq4Y": [],
+ "GJXDEy3gNyI": [],
+ "GbmrMWHkaWg": [
+  "satellite-remote-sensing-urban-heat-islands"
+ ],
+ "Gd005hKVrPs": [
+  "techniques-wildfire-detection-monitoring"
+ ],
+ "GgfqEiVw_mM": [
+  "satellite-remote-sensing-measuring-urban-heat-islands-constructing-heat"
+ ],
+ "Gi2PYyTk4QA": [
+  "biodiversity-applications-airborne-imaging-systems"
+ ],
+ "Gok9zsA_RFk": [],
+ "GswAJ_fsF4Y": [],
+ "Gtopm6VLr_4": [],
+ "GyARWKzzJJw": [],
+ "GzsTvqS1ofM": [],
+ "H3Q1pI-NFL8": [
+  "assessing-impacts-fires-watershed-health"
+ ],
+ "HDXwk1r-QI0": [
+  "tools-analyzing-nasa-air-quality-model-output"
+ ],
+ "HFq_a4VEHfo": [
+  "sea-level-change-tools-planning-decision-support"
+ ],
+ "HO4B3n4qWOI": [],
+ "Hfi9OaYtygU": [],
+ "I5_d5Rpzy18": [],
+ "IDxBgK1VY_4": [],
+ "IJeiaE8L2wo": [],
+ "IJh13kRCFqA": [
+  "introduction-access-global-air-quality-forecasting-data-tools"
+ ],
+ "IPJ7GM5YVP0": [
+  "introduction-remote-sensing-coastal-ocean-applications"
+ ],
+ "IQXtWowwkAs": [
+  "mapping-crops-biophysical-characteristics-polarimetric-sar-optical-remote-sensing"
+ ],
+ "IaOGhf9NYDk": [
+  "monitoring-groundwater-changes-water-resources-management"
+ ],
+ "IqiYndJxyrg": [
+  "introduction-nasa-snow-ice-data-products-applications-water-resources-management"
+ ],
+ "Iw6kTO5KTn8": [],
+ "Ixmu1gsus6o": [],
+ "J5RPibJ8my4": [],
+ "JFvxudueT_k": [
+  "using-google-earth-engine-land-monitoring-applications"
+ ],
+ "JHi3Fa2esR0": [],
+ "JRjo46oRisM": [],
+ "JXYUUkGQu9I": [
+  "earth-observations-humanitarian-applications"
+ ],
+ "Je5VWe8PVkM": [],
+ "JfxKz-J30Hc": [],
+ "JhJGyzcEung": [
+  "species-distribution-modeling-google-earth-engine"
+ ],
+ "Ji7edL2ogUM": [],
+ "JnYJ2AFMKQo": [
+  "satellite-observations-tools-fire-risk-detection-analysis"
+ ],
+ "JxPZyXLsdTg": [
+  "humanitarian-applications-using-nasa-earth-observations"
+ ],
+ "KJTyMDyvBik": [
+  "investigating-time-series-satellite-imagery"
+ ],
+ "KPMen6cRnbY": [],
+ "KPkzGr7ulIU": [
+  "earth-observations-blue-carbon-ecosystems"
+ ],
+ "KSxlhBLOAc4": [
+  "introduction-nasas-black-marble-night-lights-data"
+ ],
+ "KYV2j3kwj2A": [
+  "satellite-remote-sensing-urban-heat-islands"
+ ],
+ "KdaQgFGIxvI": [
+  "sar-detecting-monitoring-floods-sea-ice-subsidence-from-groundwater-extraction"
+ ],
+ "KhZ1Gk9eQFI": [
+  "species-distribution-modeling-remote-sensing"
+ ],
+ "KitbOq7ARNQ": [],
+ "KlYIAvKii8M": [
+  "monitoring-groundwater-changes-water-resources-management"
+ ],
+ "L4sGAgQB0a4": [
+  "hyperspectral-data-land-coastal-systems"
+ ],
+ "L8XwNyXcpHQ": [
+  "satellite-observations-analyzing-natural-hazards-small-island-nations"
+ ],
+ "L9UTzIeIhKs": [
+  "assessing-extreme-weather-statistics-using-nasa-earth-exchange-global-daily"
+ ],
+ "LGKLIM7maVQ": [],
+ "LJXFd3fthlA": [
+  "sea-level-change-tools-planning-decision-support"
+ ],
+ "LtM4X5J4OuI": [
+  "accuracy-assessment-land-cover-classification"
+ ],
+ "M369bW8FJpQ": [
+  "fundamentals-machine-learning-earth-science"
+ ],
+ "M4oTCKS5mWg": [
+  "introduction-integration-animal-tracking-remote-sensing"
+ ],
+ "MISLC--HNxo": [],
+ "MVMydmwWDOQ": [],
+ "MhU1e5PqS2M": [
+  "introduction-nasa-snow-ice-data-products-applications-water-resources-management"
+ ],
+ "MkIb1WAoYQc": [],
+ "MuJZn6PqNvo": [],
+ "MuoYz3I2XLc": [],
+ "Mw3hg2w3xNg": [
+  "monitoring-coastal-estuarine-water-quality-transitioning-from-modis-viirs"
+ ],
+ "Mx2SNZaKlfA": [],
+ "MxBg5ZMH2nM": [],
+ "MxtrW14o1-k": [
+  "satellite-observations-analyzing-natural-hazards-small-island-nations"
+ ],
+ "NMlyeVdzzjc": [
+  "using-un-biodiversity-lab-monitor-pulse-planet"
+ ],
+ "NeRydm9OUsc": [],
+ "O1Ec11eXyvo": [],
+ "OJWMN3CSJWc": [],
+ "OLLQXfaW3Cc": [
+  "remote-sensing-climate-sensitive-infectious-diseases"
+ ],
+ "OS-0GYDniqM": [],
+ "OftJ_bJduoo": [],
+ "OgWJtSx-sr0": [
+  "introduction-access-global-air-quality-forecasting-data-tools"
+ ],
+ "OwrLh7pjHRQ": [],
+ "P09XKLdhtrM": [],
+ "P7i2cWpM9yc": [
+  "satellite-remote-sensing-measuring-urban-heat-islands-constructing-heat"
+ ],
+ "P8lQ7pjkRlw": [],
+ "PBlUiaW5r2s": [
+  "introduction-using-vic-hydrologic-model-nasa-earth-observations"
+ ],
+ "PN8g0Pv450g": [],
+ "PQ141_Xy6aw": [],
+ "PU1PaHliBK8": [
+  "solar-induced-fluorescence-sif-observations-assessing-vegetation-changes-related"
+ ],
+ "PWna23H0oa8": [],
+ "PkiFhbsmD40": [],
+ "PnkJPMstgco": [
+  "using-un-biodiversity-lab-monitor-pulse-planet"
+ ],
+ "Q2L-iF_GKFI": [],
+ "Q2MDct5CoTQ": [
+  "remote-sensing-coastal-ecosystems"
+ ],
+ "QHqWrO2HMco": [
+  "applications-remote-sensing-based-evapotranspiration-data-products-agricultural"
+ ],
+ "QHqtJFfx4F8": [
+  "applications-remote-sensing-based-evapotranspiration-data-products-agricultural"
+ ],
+ "QKrG5jYZe10": [],
+ "QP4VPaBovBk": [],
+ "Qb8PMcZGs6w": [
+  "earth-observations-humanitarian-applications"
+ ],
+ "QdKkTQ7fWH0": [],
+ "Qj35zb5W-gk": [],
+ "Quaz4x0RcLA": [],
+ "R5JdP8msTbE": [],
+ "R5Pbrd9a6gk": [
+  "humanitarian-applications-using-nasa-earth-observations"
+ ],
+ "R68RjNovVJI": [],
+ "RBSmMTkVvzc": [
+  "transforming-earth-observation-data-building-infrastructure-data-sets-disaster-risk"
+ ],
+ "RROJ_4Ud78g": [],
+ "RbiYboadlLc": [
+  "monitoring-groundwater-changes-water-resources-management"
+ ],
+ "RqVselZ5hKM": [
+  "using-google-earth-engine-land-monitoring-applications"
+ ],
+ "RsVEv0PboPI": [
+  "remote-sensing-land-indicators-sustainable-development-goal-15"
+ ],
+ "RuV6vCcNk9A": [],
+ "RvgDLPlFr9s": [
+  "drought-monitoring-prediction-projection-using-nasa-earth-system-data"
+ ],
+ "SIsXlfq8kcA": [
+  "species-distribution-modeling-google-earth-engine"
+ ],
+ "SRSh1N_VC30": [],
+ "S_A4switNdU": [
+  "introduction-nasa-earth-observations-tools-wildfire-monitoring-management"
+ ],
+ "S_EFDxuQRiI": [],
+ "Sc20HX1zSZs": [
+  "invasive-species-monitoring-remote-sensing"
+ ],
+ "SdQaSM_DScU": [],
+ "SlISriULDzQ": [],
+ "SnnIz2C5Ny4": [
+  "introduction-nasa-resources-climate-change-applications"
+ ],
+ "SxSA76J9NvI": [
+  "assessing-extreme-weather-statistics-using-nasa-earth-exchange-global-daily"
+ ],
+ "T1wLWzpgOVI": [],
+ "TH7y0YzPNSM": [
+  "introduction-remote-sensing-harmful-algal-blooms"
+ ],
+ "TL5ER46ebnk": [],
+ "TfFDzBYtCvk": [],
+ "U-uJGnhD-zg": [
+  "fundamentals-machine-learning-earth-science"
+ ],
+ "U9w9vZbdrNM": [
+  "tools-analyzing-nasa-air-quality-model-output"
+ ],
+ "UFDEllzDxE4": [
+  "introduction-remote-sensing-harmful-algal-blooms"
+ ],
+ "UJOwwMwqvWA": [
+  "introduction-nasa-earth-observations-tools-wildfire-monitoring-management"
+ ],
+ "UMLlhO8y9CI": [],
+ "UV1Th-dYVak": [
+  "disaster-assessment-using-synthetic-aperture-radar"
+ ],
+ "U_U2bh_1m7Q": [],
+ "UaDybXuIW1c": [
+  "monitoring-water-quality-inland-lakes-using-remote-sensing"
+ ],
+ "Uz44ppuT8xw": [
+  "disaster-assessment-using-synthetic-aperture-radar"
+ ],
+ "V0pwwG8YOUg": [
+  "monitoring-coastal-estuarine-water-quality-using-remote-sensing-situ-data"
+ ],
+ "V1jgEc6wqm4": [],
+ "VCMenqi2R6Q": [],
+ "VWAHDPSQosw": [
+  "assessing-extreme-weather-statistics-using-nasa-earth-exchange-global-daily"
+ ],
+ "VYOCWnU5WWc": [],
+ "VZ0HBPPIo5A": [
+  "data-analysis-tools-high-resolution-air-quality-satellite-datasets"
+ ],
+ "VZmI14fGK4k": [],
+ "V_XfiGzA9dA": [
+  "monitoring-aquatic-vegetation-remote-sensing"
+ ],
+ "VdukOyMswzI": [
+  "application-earth-observations-assessing-waterborne-disease-risk"
+ ],
+ "VfXg3UsnufU": [
+  "species-distribution-modeling-remote-sensing"
+ ],
+ "VpUzhXs8TX8": [],
+ "VrdNiNcM-iw": [],
+ "VvZi5xIye-8": [
+  "use-solar-induced-fluorescence-lidar-assess-vegetation-change-vulnerability"
+ ],
+ "VxtD9Op--tM": [],
+ "W-7gzSeHxS8": [
+  "use-solar-induced-fluorescence-lidar-assess-vegetation-change-vulnerability"
+ ],
+ "WOlEqkTqvpM": [],
+ "WRd5BIciw5c": [],
+ "WjPq6gGI9Ig": [
+  "measuring-atmospheric-carbon-dioxide-from-space-support-climate-related-studies"
+ ],
+ "WjR6O7cpo1Y": [],
+ "Wmagqj7_c8w": [],
+ "Wo3-f_3cr-4": [],
+ "X3YJNLyWM6c": [],
+ "XGN_uFU1Vtw": [],
+ "XHyYvsjN6bQ": [],
+ "XLhi-pUMQi0": [],
+ "XOXyxSf4P_k": [],
+ "XUERBFMVvzc": [],
+ "XVFfi-wI0Yc": [],
+ "Xemo2ZpduHA": [],
+ "Xk3_U1FJbq8": [
+  "nasa-earth-observations-reservoir-water-utility-management"
+ ],
+ "Xlt3v99nNyY": [
+  "monitoring-water-quality-lakes-coastal-regions-using-stream"
+ ],
+ "XlzA_0FxRG4": [],
+ "Xq8t-J3xpe0": [
+  "monitoring-predicting-floods-using-earth-observations-planning-preparedness"
+ ],
+ "Y3L9PkUNbII": [],
+ "YD-CHY0s5pU": [],
+ "YE3DeQmd_IQ": [
+  "sar-detecting-monitoring-floods-sea-ice-subsidence-from-groundwater-extraction"
+ ],
+ "YUrQGwTryk4": [],
+ "YWe_uhEV-NM": [],
+ "YZ0AzIfahGs": [],
+ "YahCfZZyNDs": [
+  "using-nasa-remote-sensing-disaster-management"
+ ],
+ "YaxoMzOjGWY": [],
+ "Yc8QDt2f4hs": [
+  "applications-remote-sensing-based-evapotranspiration-data-products-agricultural"
+ ],
+ "Yid3uAhKkiU": [],
+ "YijXxj5FUUI": [],
+ "Z8qx2Dg11y0": [],
+ "ZMJ-bTXtqHw": [
+  "species-distribution-modeling-remote-sensing"
+ ],
+ "ZMQZBUs6n0g": [
+  "agricultural-flash-drought-detection-using-solar-induced-fluorescence-sif-soil"
+ ],
+ "ZkCcPGMWlLQ": [
+  "accessing-analyzing-air-quality-data-from-geostationary-satellites"
+ ],
+ "ZtSlipKIH8E": [
+  "land-cover-classification-satellite-imagery"
+ ],
+ "Zweyg3fZLjk": [],
+ "_1Fyyl4xDmY": [
+  "introduction-satellite-remote-sensing-air-quality-applications"
+ ],
+ "_802zNWrRBw": [
+  "earth-observations-humanitarian-applications"
+ ],
+ "_FnVu_Wxc3o": [
+  "using-un-biodiversity-lab-monitor-pulse-planet"
+ ],
+ "_LXgg2yzYH8": [
+  "application-earth-observations-assessing-waterborne-disease-risk"
+ ],
+ "_MPQgDQJxYw": [
+  "applications-remote-sensing-soil-moisture-evapotranspiration"
+ ],
+ "_MYEleEIXbQ": [
+  "spectral-indices-land-aquatic-applications"
+ ],
+ "_X9HiOj8yMo": [],
+ "_cZidf9taJ8": [],
+ "_jtKJbDcjoU": [
+  "accessing-analyzing-air-quality-data-from-geostationary-satellites"
+ ],
+ "_oOKZOL-hbQ": [],
+ "_wZjndrYmQI": [],
+ "a3jZqyMtJrg": [],
+ "aOBk75nE8b4": [
+  "visualizing-land-cover-land-use-change-nasa-satellite-imagery"
+ ],
+ "aWAqge0E1cM": [],
+ "aXiKibOJWKg": [
+  "monitoring-coastal-estuarine-water-quality-using-remote-sensing-situ-data"
+ ],
+ "aYcz80Ycir0": [
+  "atmospheric-co2-ch4-budgets-support-global-stocktake"
+ ],
+ "arfqOCOuf9E": [],
+ "bRnU7i4Ya9Q": [],
+ "bSEYGSGVugU": [
+  "remote-sensing-land-indicators-sustainable-development-goal-15"
+ ],
+ "bZftCf-wZ0w": [],
+ "b_2tfsVE2mY": [],
+ "biqoDH9VsiA": [],
+ "c79bm_fBeRw": [],
+ "c84N22jegU4": [],
+ "cFCinjBP5FQ": [
+  "methane-observations-large-emission-event-detection-monitoring"
+ ],
+ "cQTiDZ5AgF8": [],
+ "cg6h9jdJE5I": [],
+ "clJ1xjm_5Uc": [],
+ "cueh9WfAhIU": [],
+ "d1JePrWHUK4": [],
+ "d6vC6_H_0iI": [
+  "introduction-nasa-resources-climate-change-applications"
+ ],
+ "dGaaxzcBQfc": [],
+ "dUNZevw8Dcs": [],
+ "df4LzwVtYXA": [
+  "monitoring-coastal-estuarine-water-quality-transitioning-from-modis-viirs"
+ ],
+ "djhoE5NoSCA": [
+  "invasive-species-monitoring-remote-sensing"
+ ],
+ "dk4TWK0aOUI": [
+  "advanced-nasa-earth-observations-tools-active-fire-smoke-post-fire-monitoring"
+ ],
+ "dmSxjSpZetY": [
+  "introduction-thermal-remote-sensing-applications-urban-heat-island-mapping"
+ ],
+ "du0fPyiZrpk": [],
+ "dvxloblhpUs": [],
+ "dxsGsrvYGzU": [
+  "atmospheric-co2-ch4-budgets-support-global-stocktake"
+ ],
+ "dyXtQ0uiscA": [
+  "drought-monitoring-prediction-projection-using-nasa-earth-system-data"
+ ],
+ "eFQz6qmbsok": [],
+ "eFn00Q77HDY": [
+  "remote-sensing-mangroves-support-un-sustainable-development-goals"
+ ],
+ "eYyWTuWthyY": [
+  "data-analysis-tools-high-resolution-air-quality-satellite-datasets"
+ ],
+ "ef6AVyDsdmU": [
+  "introduction-plankton-aerosol-cloud-ocean-ecosystem-pace-hyperspectral-observations"
+ ],
+ "egP0aoGXHDs": [
+  "introduction-synthetic-aperture-radar-sar-its-applications"
+ ],
+ "elPbB8k2Sxg": [
+  "creating-using-normalized-difference-vegetation-index-ndvi-from-satellite-imagery"
+ ],
+ "ez1TuzdAO0s": [
+  "using-earth-observations-monitor-water-budgets-river-basin-management-ii"
+ ],
+ "f3RHfO1LNLg": [],
+ "f681DNstmPg": [],
+ "fIQJx3_xlEQ": [
+  "satellite-remote-sensing-urban-heat-islands"
+ ],
+ "fc04R93GnD4": [],
+ "ffJ8-Pa7PuQ": [
+  "introduction-remote-sensing-harmful-algal-blooms"
+ ],
+ "fzf_usG5dfE": [],
+ "gEMrQsNr9rw": [],
+ "gK50CZVi6K8": [],
+ "gLjcfxX-2OQ": [],
+ "gMRMagEo4xY": [],
+ "gQAm3IwinNI": [
+  "satellite-observations-tools-fire-risk-detection-analysis"
+ ],
+ "hJBrbbK5Nyk": [
+  "remote-sensing-coastal-ecosystems"
+ ],
+ "hRCODTemQlg": [],
+ "hS0jzXIxBJQ": [
+  "introduction-access-global-air-quality-forecasting-data-tools"
+ ],
+ "hSCqJ0BrqFY": [
+  "earth-observations-toolkit-sustainable-cities-human-settlements"
+ ],
+ "hTdiwiLgCGc": [
+  "using-un-biodiversity-lab-monitor-pulse-planet"
+ ],
+ "hga94lkmtqM": [
+  "spectral-indices-land-aquatic-applications"
+ ],
+ "huw-ML5deg0": [
+  "monitoring-aquatic-vegetation-remote-sensing"
+ ],
+ "hx-m1XMJlfc": [
+  "satellite-observations-tools-fire-risk-detection-analysis"
+ ],
+ "hyJ_ZG3qrPY": [],
+ "i94fHhsKoR0": [],
+ "iDaptvYbsPU": [],
+ "iKN3IAsCwHo": [],
+ "iNWlKhZSykU": [
+  "advanced-nasa-earth-observations-tools-active-fire-smoke-post-fire-monitoring"
+ ],
+ "irctKtTt0eE": [
+  "satellite-observations-analyzing-natural-hazards-small-island-nations"
+ ],
+ "iuTm1jJy2XY": [
+  "use-solar-induced-fluorescence-lidar-assess-vegetation-change-vulnerability"
+ ],
+ "iyHPQa2VGOI": [
+  "disaster-assessment-using-synthetic-aperture-radar"
+ ],
+ "j41xwb9Y_o8": [],
+ "j8gBwQCkP1I": [],
+ "jJqXYQuvs5M": [],
+ "jVWsT91mhQk": [],
+ "jf5WSrx17iU": [],
+ "jhtV90jmOxQ": [],
+ "js_ka3O2RVM": [],
+ "jwsymP9_PrE": [
+  "use-solar-induced-fluorescence-lidar-assess-vegetation-change-vulnerability"
+ ],
+ "jxeUy2JZYB8": [
+  "accuracy-assessment-land-cover-classification"
+ ],
+ "jzZ_5bS4FWY": [],
+ "k4ub-CNo6Pg": [
+  "introduction-thermal-remote-sensing-applications-urban-heat-island-mapping"
+ ],
+ "kFLDFxfsJ1A": [
+  "building-climate-risk-assessments-from-local-vulnerability-exposure"
+ ],
+ "kSVQxj_e4as": [],
+ "kWpIjfr3AMg": [],
+ "ke2gPRRdXZY": [
+  "introduction-lightning-observations-applications"
+ ],
+ "ks4R3L981bA": [
+  "introduction-remote-sensing-coastal-ocean-applications"
+ ],
+ "kyfPIj27MR8": [
+  "introduction-remote-sensing-coastal-ocean-applications"
+ ],
+ "kzriIDd3Y84": [],
+ "lAHM05jeQq0": [],
+ "lB_Eq8amD84": [
+  "methane-observations-large-emission-event-detection-monitoring"
+ ],
+ "lIDXtxFJi6M": [
+  "harnessing-nisar-next-generation-radar-observations-earth-applications"
+ ],
+ "lPb0wb_lZd8": [
+  "accessing-analyzing-air-quality-data-from-geostationary-satellites"
+ ],
+ "llRk4mILEFA": [
+  "biodiversity-applications-airborne-imaging-systems"
+ ],
+ "lpfYd2TKq-c": [],
+ "mLayrVh9BUo": [],
+ "mbbHWBRJCno": [],
+ "mfasgPCMJmg": [],
+ "mhWoriX0qlU": [],
+ "mu6K4KopEyA": [
+  "modis-viirs-transition-air-quality-applications"
+ ],
+ "myCgQ_EzCEA": [
+  "application-nasa-sport-land-information-system-sport-lis-soil-moisture-data-drought"
+ ],
+ "myygnUpDQF4": [],
+ "n1kU1bBU2tQ": [
+  "creating-using-normalized-difference-vegetation-index-ndvi-from-satellite-imagery"
+ ],
+ "n3UCO2BoALg": [
+  "techniques-wildfire-detection-monitoring"
+ ],
+ "nARwVopZB1I": [],
+ "nELx8r1iy1Q": [
+  "introduction-remote-sensing-coastal-ocean-applications"
+ ],
+ "n_Dv8c92OPc": [
+  "applications-carbon-dioxide-measurements-climate-related-studies"
+ ],
+ "nbtrJa50Bfo": [],
+ "neDs0QZbytU": [
+  "monitoring-predicting-floods-using-earth-observations-planning-preparedness"
+ ],
+ "nfFKkz_LlFI": [],
+ "nm3EGcR-dC0": [
+  "introduction-lightning-observations-applications"
+ ],
+ "nnynQKUdEhQ": [],
+ "o-NBWXiyC3k": [],
+ "o83KNj85AJw": [],
+ "oFlb2K8WHP0": [],
+ "oG-pNayqaEo": [
+  "satellite-observations-tools-fire-risk-detection-analysis"
+ ],
+ "oGwupIMKvdw": [],
+ "oYfgAmntdcw": [],
+ "ovIAQF6bn40": [],
+ "p0syKhg_IME": [],
+ "p85oa4mHPVM": [],
+ "pDQ0XTDexHA": [],
+ "pdR4GbMcRiM": [],
+ "phHKEcliRz0": [],
+ "pi1arBgclfI": [
+  "monitoring-global-terrestrial-surface-water-height-using-remote-sensing"
+ ],
+ "poWjCS3bxb0": [
+  "using-earth-observations-pre-post-fire-monitoring"
+ ],
+ "psYiwSxTfx0": [],
+ "pviEsA7Hj8o": [],
+ "pw4XRDK-gTw": [],
+ "q4sePXswtn0": [],
+ "qbyhCSQklqI": [],
+ "qeMZa6BiQ2g": [
+  "nasa-atmospheric-composition-ground-networks-supporting-air-quality-climate"
+ ],
+ "qiqUAlJK4vI": [],
+ "qmE7FTyw6H8": [
+  "biodiversity-applications-airborne-imaging-systems"
+ ],
+ "qrrcxPLL41c": [],
+ "r48ajiqguvE": [
+  "creating-using-normalized-difference-vegetation-index-ndvi-from-satellite-imagery"
+ ],
+ "rBC2JGD7pRQ": [],
+ "rBG1INvr57U": [],
+ "rH3oCnsDDCM": [],
+ "rVWfZH2eQY0": [
+  "introduction-satellite-remote-sensing-air-quality-applications"
+ ],
+ "raXA3gnb94Q": [],
+ "rcR-s3DbmjI": [
+  "using-earth-observations-monitor-water-budgets-river-basin-management-ii"
+ ],
+ "rkyu9BWr28I": [],
+ "rnBxGWjRiXw": [
+  "drought-monitoring-prediction-projection-using-nasa-earth-system-data"
+ ],
+ "ro2UBNgjOh4": [],
+ "rvSjD-vGI4k": [],
+ "rwQND_tau58": [],
+ "s83phm5lXGo": [],
+ "sAZ1Ng9aVzo": [],
+ "sEe9Oq9BUTU": [],
+ "sG9vWZ0tSJM": [],
+ "sliQ_o-P1wM": [
+  "mapping-monitoring-lakes-reservoirs-satellite-observations"
+ ],
+ "snrAjX_OydQ": [
+  "using-un-biodiversity-lab-monitor-pulse-planet"
+ ],
+ "t09kon01dq8": [],
+ "t5NY081aK-w": [],
+ "t88PpJEKteQ": [
+  "satellite-remote-sensing-measuring-urban-heat-islands-constructing-heat"
+ ],
+ "t8SwzYmC1-U": [],
+ "tG4vxF1IP6w": [],
+ "tUrophmxrd4": [
+  "advanced-nasa-earth-observations-tools-active-fire-smoke-post-fire-monitoring"
+ ],
+ "tVf4ltA8SbI": [
+  "applications-remote-sensing-soil-moisture-evapotranspiration"
+ ],
+ "tetTo4i_Etg": [
+  "monitoring-water-quality-inland-lakes-using-remote-sensing"
+ ],
+ "tjs9MnE-hBA": [],
+ "tkvwzdyV0xQ": [
+  "remote-sensing-land-indicators-sustainable-development-goal-15"
+ ],
+ "truE3iCaGt8": [],
+ "uIdK0_xOPNU": [],
+ "ubqCAd424W4": [],
+ "ugppiig6Dbc": [
+  "nasa-earth-observations-reservoir-water-utility-management"
+ ],
+ "urhraw2ikw4": [],
+ "uv3H-FgNAV0": [],
+ "ux-EFNbHRDg": [],
+ "v-g1-gua5jg": [
+  "geostationary-remote-sensing-trace-gases-air-quality-applications-north-america"
+ ],
+ "v2j8M8ailm0": [],
+ "v4cgBz_8JvY": [],
+ "v5NsOoXWdjo": [
+  "satellite-remote-sensing-measuring-urban-heat-islands-constructing-heat"
+ ],
+ "vAtm_rkKrlM": [
+  "spectral-indices-land-aquatic-applications"
+ ],
+ "vDBTMGN777M": [],
+ "vGU4UqhHhAA": [
+  "introduction-satellite-remote-sensing-air-quality-applications"
+ ],
+ "vJV50ThHc-U": [
+  "lidar-profiling-satellite-observations-air-quality-applications"
+ ],
+ "vKpo01HrMBk": [],
+ "vL07GMG9auM": [],
+ "vLcK5-QnlOY": [
+  "nasa-satellite-laser-altimetry-coastal-near-shore-bathymetry"
+ ],
+ "vS7r50EbFQY": [],
+ "vaBEHALn-js": [],
+ "vayPiCzhSBE": [],
+ "vfT4VG7x0AY": [
+  "connecting-citizen-science-remote-sensing"
+ ],
+ "vpHREZBTuF8": [
+  "large-scale-applications-machine-learning-using-remote-sensing-building-agriculture"
+ ],
+ "vq5l3rfrMbU": [
+  "landslide-monitoring-risk-assessment-using-nasa-earth-system-data"
+ ],
+ "w-zRfsTZBFY": [
+  "large-scale-applications-machine-learning-using-remote-sensing-building-agriculture"
+ ],
+ "w2MmBY3lhYE": [
+  "assessing-impacts-fires-watershed-health"
+ ],
+ "w7yYkF8pbvg": [
+  "introduction-remote-sensing-harmful-algal-blooms"
+ ],
+ "wIXFw9W1M4E": [
+  "data-analysis-tools-high-resolution-air-quality-satellite-datasets"
+ ],
+ "wSCFtOjQw0o": [
+  "nasa-atmospheric-composition-ground-networks-supporting-air-quality-climate"
+ ],
+ "wVBmHLJBEDo": [],
+ "wgTmTB3GlTI": [
+  "mapping-crops-biophysical-characteristics-polarimetric-sar-optical-remote-sensing"
+ ],
+ "wt6j4qP2bn8": [],
+ "wwhb14hDhEQ": [
+  "large-scale-applications-machine-learning-using-remote-sensing-building-agriculture"
+ ],
+ "x-qshtt7A_Y": [],
+ "x0Gg8COznJ8": [
+  "nasa-atmospheric-composition-ground-networks-supporting-air-quality-climate"
+ ],
+ "x6FuOkc8sbQ": [],
+ "x7l6n7njVPo": [
+  "hyperspectral-data-land-coastal-systems"
+ ],
+ "x9BwaazUumc": [],
+ "xVFU4qHtvW8": [
+  "introduction-integration-animal-tracking-remote-sensing"
+ ],
+ "y9ZCf9Dt2Z4": [
+  "atmospheric-co2-ch4-budgets-support-global-stocktake"
+ ],
+ "yA7gX95oOBU": [
+  "application-nasa-sport-land-information-system-sport-lis-soil-moisture-data-drought"
+ ],
+ "yCNMu1qRczw": [],
+ "yCl5p94-Nog": [],
+ "yJQyIOsT_ws": [
+  "earth-observations-toolkit-sustainable-cities-human-settlements"
+ ],
+ "yN2zu_qYsE4": [],
+ "yQY41ViDPKU": [
+  "using-earth-observations-pre-post-fire-monitoring"
+ ],
+ "yS0Ck29lCrc": [
+  "introduction-population-grids-integration-remote-sensing-data-sustainable"
+ ],
+ "y_N47fiHyl4": [],
+ "ygdK8uMxi8A": [
+  "solar-induced-fluorescence-sif-observations-assessing-vegetation-changes-related"
+ ],
+ "yoEu2P1i5xE": [],
+ "zS3T-4Pnde8": [],
+ "zcVN1BKKZ_o": []
+}

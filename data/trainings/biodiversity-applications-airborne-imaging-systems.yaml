@@ -1,0 +1,122 @@
+id: biodiversity-applications-airborne-imaging-systems
+title: Biodiversity Applications for Airborne Imaging Systems
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/biodiversity-applications-airborne-imaging-systems
+level: intermediate
+format: online-instructor-led
+languages:
+- en
+start_date: '2023-03-27'
+end_date: '2023-04-05'
+published: '2023-03-27'
+last_updated: '2025-12-29'
+summary: This ARSET training highlights the use of hyperspectral data for measuring and monitoring terrestrial
+  and aquatic biodiversity.
+description: 'Effective monitoring and management of critically important and biodiverse ecosystems requires
+  a comprehensive suite of data and analysis tools. The use of NASA Earth Observations (EO), in particular
+  the combination of multispectral and hyperspectral optical imagery, thermal infrared data, and laser
+  altimeter (LiDAR) data, can provide an increased understanding of ecosystem function.
+
+
+  This training series highlights the use of hyperspectral Visible to Shortwave Infrared (VSWIR) imaging
+  spectroscopy data, for example from Airborne Visible InfraRed Imaging Spectrometer - Next Generation
+  (AVIRIS-NG) and Portable Remote Imaging SpectroMeter (PRISM) instruments, for measuring and monitoring
+  terrestrial and aquatic biodiversity (e.g., mapping plant or phytoplankton functional types). The series
+  focuses on using thermal and LiDAR data for characterizing the structure and function of ecosystems
+  using airborne campaigns including the Hyperspectral Thermal Emission Spectrometer (HyTES) and NASA''s
+  Land, Vegetation, and Ice Sensor (LVIS). This training also prepares participants to use data from upcoming
+  NASA satellite missions and airborne campaigns such as the much-anticipated Surface Biology and Geology
+  (SBG) mission and the NASA Biodiversity field campaign in the Greater Cape Floristic Region of South
+  Africa (BioSCape).'
+prerequisites:
+- fundamentals-remote-sensing-0
+- hyperspectral-data-land-coastal-systems
+applications:
+- ecological-conservation
+- health-air-quality
+satellites:
+- iss
+- pace
+sessions:
+- part: 1
+  title: Part 1
+  agenda:
+  - Overview of hyperspectral visible to Shortwave Infrared (VSWIR) imaging spectroscopy data
+  - Highlight of hyperspectral instruments for measuring and monitoring terrestrial and aquatic biodiversity,
+    such as AVIRIS-NG and PRISM
+  - Highlight upcoming mission development such as the Surface Geology and Biology (SBG) mission and the
+    Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) mission
+  - Q&A Session
+  videos:
+  - youtube: Gi2PYyTk4QA
+    title: 'NASA ARSET: Biodiversity Applications for Airborne Imaging Systems, Part 1/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Airborne2023-part1-slides.pdf?VersionId=UH2WC4WwCs9ngYRRjpMb1uqWerb05Z77
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Airborne2023-part1-qa.pdf?VersionId=ZeoTWPSxP9A7RDmqvkTK0Y5Pp869ayU_
+- part: 2
+  title: Part 2
+  agenda:
+  - Thermal and LiDAR data for characterizing the structure and function of ecosystems using airborne
+    campaigns
+  - Highlight thermal and LiDAR missions such as the Hyperspectral Thermal Emission Spectrometer (HyTES)
+    and NASA's Land, Vegetation, and Ice Sensor (LVIS)
+  - Highlight the upcoming NASA Biodiversity field campaign in the Greater Cape Floristic Region of South
+    Africa (BioSCape)
+  - Q&A Session
+  videos:
+  - youtube: DRhzDYvnWXM
+    title: 'NASA ARSET: Biodiversity Applications for Airborne Imaging Systems, Part 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Airborne2023-part2-slides.pdf?VersionId=ciEPARBtpACTsJOFVi05FnM4PG57pE4S
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Airborne2023-part2-qa.pdf?VersionId=VgbqVkMXXSmFUV2kTrbGqXx0A7cdxoi9
+- part: 3
+  title: Part 3
+  agenda:
+  - Capturing the structural component of wetland biodiversity with airborne LiDAR with Atticus Stovall
+  - Assessing biodiversity with plant functional traits using hyperspectral visible to Shortwave Infrared
+    (VSWIR) imaging spectroscopy data and LiDAR data
+  - Q&A Session
+  videos:
+  - youtube: qmE7FTyw6H8
+    title: 'NASA ARSET: Biodiversity Applications for Airborne Imaging Systems, Part 3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Airborne2023-part3-slides.pdf?VersionId=Oq4PTu4.zSznmYyaangG7i3qm9hj3dC4
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Airborne2023-part3-qa.pdf?VersionId=WyuqLqQ676Qny7H7Ub2seRpcgMGGCK8d
+- part: 4
+  title: Part 4
+  agenda:
+  - Highlight of HyTES and AVIRIS-NG data and analogous satellite data from ECOSTRESS and EMIT
+  - Overview of how spatial scale influences diversity metrics to inform how we can go from big data to
+    manageable data
+  - Highlight of PRISM applications
+  - Highlight of PACE preparatory data
+  - Q&A Session
+  videos:
+  - youtube: llRk4mILEFA
+    title: 'NASA ARSET: Biodiversity Applications for Airborne Imaging Systems, Part 4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Airborne2023-part4-slides.pdf?VersionId=QMGOUpK1JAzV30mT2W6EsDt1p1aaFTt_
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-07/ARSET-Airborne2023-part4-qa.pdf?VersionId=AF15iuyuH5gU1YZziBPlTt_udGHBYBRN
+  - type: homework
+    title: Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSfQVjgLed5GVpNpNu4Nn46t0AGwKD1N0VRRZ-vwgBVIi3Y2DA/viewform?usp=sf_link

@@ -1,0 +1,138 @@
+id: introduction-remote-sensing-scenario-based-ecoforecasting
+title: Introduction to Remote Sensing for Scenario-Based Ecoforecasting
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/introduction-remote-sensing-scenario-based-ecoforecasting
+level: introductory
+format: online-instructor-led
+languages:
+- en
+start_date: '2017-09-07'
+end_date: '2017-09-28'
+published: '2017-09-07'
+last_updated: '2026-02-09'
+summary: This ARSET training provides an overview of remote sensing products, tools, and applications
+  for ecological modeling.
+description: 'As climates shift and change, ecosystems respond in a variety of ways. Assessing the ecological
+  impacts of a changing climate is crucial for natural resource management decision-making. NASA''s Earth
+  observations can be used to help make these decisions.
+
+
+  Led by NASA''s Applied Remote Sensing Training program (ARSET), this four-week training series, in collaboration
+  with the USGS North Central Climate Center, includes an overview of the satellites, sensors, and tools
+  relevant to ecological forecasting; available climate products and data for ecological modeling; scenario
+  planning; and the application of modeling for species distribution and state-and-transition simulations.'
+objectives:
+- Understand what ecoforecasting is and its applications
+- Understand how climate data supports future projections of management targets
+- Articulate how scenario planning can be utilized for decision-making with multiple sources of uncertainty
+- Integrate qualitative and quantitative tools to support resource management decision-making in situations
+  with high uncertainty
+audience:
+- This training is for local, regional, state, federal, and international organizations charged with maintaining
+  healthy ecosystems and interested in ecological forecasting using satellite imagery and climate data.
+prerequisites:
+- fundamentals-remote-sensing
+applications:
+- climate-resilience
+- ecological-conservation
+satellites:
+- aqua
+- noaa-20
+- suomi-npp
+- terra
+datasets:
+- modis-vegetation-indices
+tools:
+- appeears
+sessions:
+- part: 1
+  title: Overview of Ecological Forecasting
+  date: '2017-09-07'
+  videos:
+  - youtube: arfqOCOuf9E
+    title: 'NASA ARSET: Overview of Ecological Forecasting, Session 1/4'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: MODIS
+    url: https://www.earthdata.nasa.gov/data/instruments/modis
+  - type: other
+    title: NDVI
+    url: https://www.earthdata.nasa.gov/topics/land-surface/normalized-difference-vegetation-index-ndvi
+  - type: other
+    title: VIIRS
+    url: https://www.earthdata.nasa.gov/data/instruments/viirs
+  - type: other
+    title: AppEEARS
+    url: https://www.earthdata.nasa.gov/data/tools/appeears
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ScenarioBasedEco_Part1.pdf?VersionId=u5BlMX8BH6uESXANSJdVKQyZXES5pu85
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ScenarioBasedEco_Q&A1.pdf?VersionId=lmI4KNVGD0JOMUY1hIX8c6q6RHdgHmCH
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 1
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ScenarioBasedEco_Part1_Spanish.pdf?VersionId=Qba8HzstcEhcOUgoDLDWx.OfvNMLEgIU
+- part: 2
+  title: Overview of Climate Science and Data
+  videos:
+  - youtube: 76lzLPUjH7M
+    title: 'NASA ARSET: Overview of Climate Science and Data, Session 2/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ScenarioBasedEco_Part2.pdf?VersionId=LbuA2DaYltqa5nIx9L84X4mnrtnLFPpy
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ScenarioBasedEco_Q&A2.pdf?VersionId=tNdjbwdc.3Ksuncs5aPdhbpC4asPXbDP
+  - type: homework
+    title: Part 2 Homework
+    url: https://goo.gl/forms/6xj1UZk3wpalWWLR2
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 2
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ScenarioBasedEco_Part2_Spanish.pdf?VersionId=rsMlGOUtzV8zguTcv5knzbZkDhTM7Hmq
+  - type: other
+    title: Tarea de la Parte 2
+    url: https://goo.gl/forms/KPFLGzaTEPvzOqqU2
+- part: 3
+  title: Overview of Scenario Planning
+  date: '2017-09-21'
+  videos:
+  - youtube: Hfi9OaYtygU
+    title: 'NASA ARSET: Overview of Scenario Planning, Session 3/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 3 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ScenarioBasedEco_Part3.pdf?VersionId=zveM91NQD6PgAwwInioOxYtQh4EjTymB
+  - type: transcript
+    title: Part 3 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ScenarioBasedEco_Q&A3.pdf?VersionId=kmzIzPdu1mIzVD7DVCk3pe2POjNT6lzJ
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 3
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ScenarioBasedEco_Part3_Spanish.pdf?VersionId=a9LDMR3Zi58TO.BJORkMIYasZi5PwNvQ
+- part: 4
+  title: Overview of Species Distribution and State-And-Transition
+  date: '2017-09-28'
+  videos:
+  - youtube: jJqXYQuvs5M
+    title: 'NASA ARSET: Species Distribution and Simulation Modeling, Session 4/4'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 4 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ScenarioBasedEco_Part4.pdf?VersionId=.UOu4gsW7H27R0LAwptnzJVKh2yamNs4
+  - type: transcript
+    title: Part 4 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ScenarioBasedEco_Q&A4.pdf?VersionId=LaK33gIfSwow8LPTWb3mCCsTaGsa45DP
+  - type: homework
+    title: Part 4 Homework
+    url: https://docs.google.com/forms/d/e/1FAIpQLSekE8n5DIqtIbbWU0LDd98Pci9CXYCo6OGwywdckzoO_RW4tQ/viewform?usp=sf_link
+  - type: other
+    title: Diapositivas de la Presentación de la Parte 4
+    url: https://earthdata.nasa.gov/s3fs-public/2025-12/ScenarioBasedEco_Part4_Spanish.pdf?VersionId=nNdQ6w2XsUAm6BfKap8CZ3lhknCmi_jG
+  - type: other
+    title: Tarea de la Parte 4
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdTEaJcgQjMBXE1tjDiIY2VF0pTfKdhxfKYHOncYWS8I13tLw/viewform?usp=sf_link

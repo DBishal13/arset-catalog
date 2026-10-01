@@ -1,0 +1,73 @@
+id: sar-landcover-applications
+title: SAR for Landcover Applications
+status: draft
+source_url: https://www.earthdata.nasa.gov/learn/trainings/sar-landcover-applications
+level: advanced
+format: online-instructor-led
+languages:
+- en
+- es
+start_date: '2019-08-28'
+end_date: '2019-09-04'
+published: '2019-08-28'
+last_updated: '2026-07-23'
+summary: This ARSET training focuses on agriculture and flood applications of synthetic aperture radar
+  (SAR) data.
+description: This webinar series, led by NASA's Applied Remote Sensing Training (ARSET) program, builds
+  on the knowledge and skills previously developed in ARSET synthetic aperture radar (SAR) trainings.
+  Presentations and demonstrations focus on agriculture and flood applications. Participants can learn
+  to characterize floods with Google Earth Engine and learn to analyze SAR data for agricultural applications,
+  including retrieving soil moisture and identifying crop types.
+objectives:
+- Analyze SAR data in Google Earth Engine
+- Generate soil moisture analyses
+- Identify different types of crops.
+audience:
+- The target audiences for this training are local, regional, state, federal, and international organizations
+  interested in using satellite imagery for agricultural and flood related applications.
+prerequisites:
+- introduction-synthetic-aperture-radar
+- radar-remote-sensing-land-water-disaster-applications
+applications:
+- agriculture
+- disasters
+- water-resources
+satellites:
+- sentinel-1
+tools:
+- google-earth-engine
+sessions:
+- part: 1
+  title: Monitoring Flood Extent With Google Earth Engine
+  date: '2019-08-28'
+  videos:
+  - youtube: J5RPibJ8my4
+    title: 'NASA ARSET: Monitoring Flood Extent with Google Earth Engine, Part 1/2'
+    channel: NASA Video
+  materials:
+  - type: other
+    title: Sentinel-1
+    url: https://www.earthdata.nasa.gov/data/platforms/space-based-platforms/sentinel-1
+  - type: slides
+    title: Part 1 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-SARlandcover2019-part1-slides.pdf?VersionId=yHFwiHu7_W5ihtzeOnmK47aAYyHN.NeN
+  - type: transcript
+    title: Part 1 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-SARlandcover2019-part1-qa.pdf?VersionId=dnI1GPmeh5Uev1Pfhk2yN7O6RMZyergt
+- part: 2
+  title: Exploiting SAR to Monitor Agriculture
+  date: '2019-09-04'
+  videos:
+  - youtube: vS7r50EbFQY
+    title: 'NASA ARSET: Exploiting SAR to Monitor Agriculture, Part 2/2'
+    channel: NASA Video
+  materials:
+  - type: slides
+    title: Part 2 Presentation Slides
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-SARlandcover2019-part2-slides.pdf?VersionId=KULrG9xbKch7J36TuZliwre.1lNusk_K
+  - type: transcript
+    title: Part 2 Q&A Transcript
+    url: https://earthdata.nasa.gov/s3fs-public/2025-11/ARSET-SARlandcover2019-part2-qa.pdf?VersionId=Teonf6EA349C_2Z8QtTGMvXRjc16.41p
+  - type: homework
+    title: Homework
+    url: https://www.earthdata.nasa.gov/s3fs-public/2026-07/ARSET-SARLandcover2019-HomeworkPDF.pdf
