@@ -35,7 +35,8 @@ class Report:
     updated: dict[str, list[str]] = field(default_factory=dict)
     new_videos: list[dict] = field(default_factory=list)
     skipped: list[str] = field(default_factory=list)
-    errors: list[str] = field(default_factory=list)
+    errors: list[str] = field(default_factory=list)  # Earthdata failures: the main source
+    warnings: list[str] = field(default_factory=list)  # YouTube feed failures: a backup source
 
     @property
     def empty(self) -> bool:
@@ -66,6 +67,8 @@ class Report:
             out.append("")
         if self.errors:
             out += ["## Errors", ""] + [f"- {e}" for e in self.errors] + [""]
+        if self.warnings:
+            out += ["## Warnings", ""] + [f"- {w}" for w in self.warnings] + [""]
         return "\n".join(out)
 
 
@@ -145,7 +148,7 @@ def run(cat: Catalog, refresh_all: bool = False, dry_run: bool = False) -> Repor
         try:
             feed = youtube.channel_feed(channel_id)
         except (requests.RequestException, ValueError) as e:
-            report.errors.append(f"YouTube feed {channel}: {e}")
+            report.warnings.append(f"YouTube feed {channel}: {e}")
             continue
         for video in feed:
             vid = video["youtube"]

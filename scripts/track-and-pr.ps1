@@ -48,7 +48,8 @@ git pull -q --ff-only
 if ($LASTEXITCODE -ne 0) { Log "failed: could not fast-forward main"; exit 1 }
 
 Log "running tracker"
-& $Python -m arset track *>> $log
+# Out-File with an explicit encoding: in Windows PowerShell 5.1, *>> would write UTF-16.
+& $Python -m arset track 2>&1 | Out-File -FilePath $log -Append -Encoding utf8
 $trackExit = $LASTEXITCODE
 
 $found = git status --porcelain -- data inbox/videos.yaml
@@ -59,7 +60,7 @@ if (-not $found) {
     exit 0
 }
 
-& $Python -m arset validate *>> $log
+& $Python -m arset validate 2>&1 | Out-File -FilePath $log -Append -Encoding utf8
 $branch = "tracker/{0:yyyy-MM-dd-HHmm}" -f (Get-Date)
 git checkout -q -b $branch
 git add data inbox state
